@@ -1,0 +1,2643 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Portfolio | AB Colors</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <!--styles -->
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/jquery.owl.carousel.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animate.css">
+
+  <!-- tailwind -->
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!--  -->
+
+  <style>
+    .item img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .pt {
+      font-size: 25px;
+      background-color: white;
+      transition: all 0.3s ease;
+    }
+
+    .pt.is-fixed {
+      position: fixed;
+      top: 100px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      z-index: 99;
+      margin-top: 0;
+    }
+
+    @media (max-width:945px){
+      .portfolio-filter{
+        display: none !important;
+      }
+    }
+
+    /* Custom Portfolio Lightbox Modal */
+    .portfolio-lightbox {
+      display: none;
+      position: fixed;
+      z-index: 99999;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.92);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+    }
+    .portfolio-lightbox.active {
+      display: flex;
+    }
+    .lightbox-content {
+      position: relative;
+      max-width: 85%;
+      max-height: 85%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      animation: zoomIn 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    @keyframes zoomIn {
+      from { transform: scale(0.92); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+    .lightbox-content img {
+      max-width: 100%;
+      max-height: 78vh;
+      object-fit: contain;
+      border-radius: 12px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      transition: opacity 0.15s ease-in-out;
+      background-color: rgba(255, 255, 255, 0.02);
+    }
+    .lightbox-caption {
+      margin-top: 20px;
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 700;
+      text-align: center;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+      font-family: 'Montserrat', 'Inter', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .lightbox-close {
+      position: absolute;
+      top: 30px;
+      right: 40px;
+      color: rgba(255, 255, 255, 0.65);
+      font-size: 55px;
+      font-weight: 200;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      z-index: 100000;
+      line-height: 1;
+    }
+    .lightbox-close:hover {
+      color: #ff4a81;
+      transform: rotate(90deg) scale(1.1);
+    }
+    .lightbox-prev, .lightbox-next {
+      position: absolute;
+      top: 50%;
+      width: 60px;
+      height: 60px;
+      background-color: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      color: #ffffff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 32px;
+      transform: translateY(-50%);
+      transition: all 0.25s ease;
+      z-index: 100000;
+    }
+    .lightbox-prev {
+      left: 40px;
+    }
+    .lightbox-next {
+      right: 40px;
+    }
+    .lightbox-prev:hover, .lightbox-next:hover {
+      background-color: #ff4a81;
+      border-color: #ff4a81;
+      color: #ffffff;
+      box-shadow: 0 0 15px rgba(255, 74, 129, 0.4);
+    }
+    .lightbox-prev:hover {
+      transform: translateY(-50%) translateX(-4px);
+    }
+    .lightbox-next:hover {
+      transform: translateY(-50%) translateX(4px);
+    }
+    .lightbox-prev i, .lightbox-next i {
+      line-height: 1;
+    }
+    @media (max-width: 768px) {
+      .lightbox-prev, .lightbox-next {
+        width: 48px;
+        height: 48px;
+        font-size: 24px;
+      }
+      .lightbox-prev { left: 15px; }
+      .lightbox-next { right: 15px; }
+      .lightbox-prev:hover { transform: translateY(-50%); }
+      .lightbox-next:hover { transform: translateY(-50%); }
+      .lightbox-close {
+        top: 20px;
+        right: 25px;
+        font-size: 45px;
+      }
+      .lightbox-caption {
+        font-size: 18px;
+        letter-spacing: 1px;
+      }
+      .lightbox-content img {
+        max-height: 70vh;
+      }
+    }
+  </style>
+
+  <!--styles -->
+  <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+</head>
+
+<body class="portfolio-columns four pc">
+  <!-- page header -->
+  <header>
+    <div class="stick-wrapper">
+      <div class="sticky clear">
+        <div class="grid-row">
+          <img class="splash" src="img/splash.png" alt="">
+          <div class="logo">
+            <a href="index.html"><img src="img/logo.webp" style="height: 90px;" alt=""></a>
+          </div>
+          <nav class="nav">
+            <a href="#" class="switcher">
+              <i class="fa fa-bars"></i>
+            </a>
+            <ul class="clear">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="aboutus.html">About Us</a></li>
+              <li><a href="service.html">Services</a></li>
+              <li>
+                <a href="gallery.html">Gallery</a>
+
+              </li>
+              <!-- <li>
+                <a href="signage.html">Signage</a>
+
+              </li> -->
+              <!-- <li><a href="branding.html">Branding</a></li> -->
+
+              <li class="last"><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--/ page header -->
+  <div class="top-bg  ">
+
+
+    <div class="bg-[color:var(--primary-color)] text-white p-4 rounded page-title zoomIn animated dotred">Our Gallery</div>
+  </div>
+  <!-- page content -->
+  <section id="portfolio" class="portfolio">
+    <div class="grid-row pf">
+      <div class="portfolio-filter clear">
+        <div class="title pt">
+          <a href="#" class="all-iso-item active" data-filter=".item">ALL</a>
+          <span class="main-title">Gallery</span>
+          <span class="slash-icon">/</span>
+          <a href="#" data-filter=".Sandwich">Acrylic Sandwich</a>
+          <a href="#" data-filter=".Signage">Acrylic Signage</a>
+          <a href="#" data-filter=".Branding">Branding</a>
+          <a href="#" data-filter=".CNC">CNC</a>
+          <a href="#" data-filter=".Fabric">Fabric</a>
+          <a href="#" data-filter=".GSB">GSB</a>
+          <a href="#" data-filter=".Inshop"> Inshop Branding </a>
+          <a href="#" data-filter=".LED">LED</a>
+          <a href="#" data-filter=".Standies">Standies</a>
+          <a href="#" data-filter=".Wallpaper">Wallpaper</a>
+          <a href="#" data-filter=".Digital">Digital Printing</a>
+           <a href="#" data-filter=".Flatbed">Flatbed Direct UV Printing</a>
+            <a href="#" data-filter=".Promo">Promotional Products</a>
+             <a href="#" data-filter=".Cor">Corporate Gifting</a>
+          
+        </div>
+      </div>
+    </div>
+    <div class="grid-row">
+      <div class="grid-col-row">
+        <div class="isotope">
+             <div class="item Flatbed">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Flatbed Direct UV Printing</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/flat/1.jpeg" alt>
+          </div>
+
+          <!-- Digital Printing -->
+
+          <!-- 1 -->
+
+           <div class="item Digital">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Digital Printing</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/digi/1.jpeg" alt>
+          </div>
+
+           <div class="item Promo">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Promotional Products</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/promo/5.jpg" alt>
+          </div>
+
+           <div class="item Cor">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Corporate Gifting</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/corprate/2.jpeg" alt>
+          </div>
+          
+           <div class="item Digital">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Digital Printing</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/digi/2.jpeg" alt>
+          </div>
+
+          
+           <div class="item Digital">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Digital Printing</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/digi/3.jpeg" alt>
+          </div>
+
+          
+           <div class="item Digital">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Digital Printing</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/digi/4.jpeg" alt>
+          </div>
+
+          
+           <div class="item Digital">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Digital Printing</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/digi/5.jpeg" alt>
+          </div>
+
+          
+           <div class="item Digital">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Digital Printing</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/digi/6.jpeg" alt>
+          </div>
+
+          
+           <div class="item Digital">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Digital Printing</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/digi/7.jpeg" alt>
+          </div>
+
+           <div class="item Digital">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Digital Printing</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/digi/8.jpeg" alt>
+          </div>
+
+           <div class="item Digital">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Digital Printing</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/digi/9.jpeg" alt>
+          </div>
+
+          <!-- Acrylic Sandwich -->
+          <div class="item Sandwich">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Acrylic Sandwich</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Acrylic Sandwich-1.jpg" alt>
+          </div>
+
+          <!-- 2 -->
+          <div class="item Sandwich">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Acrylic Sandwich</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Acrylic Sandwich-2.jpg" alt>
+          </div>
+
+          <!-- 3 -->
+          <div class="item Sandwich">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Acrylic Sandwich</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Acrylic Sandwich-3.jpg" alt>
+          </div>
+          <!-- 4 -->
+
+          <div class="item Sandwich">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Acrylic Sandwich</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Acrylic Sandwich-4.jpg" alt>
+          </div>
+
+          <!-- 5 -->
+
+          <div class="item Sandwich">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Acrylic Sandwich</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Acrylic Sandwich-5.jpg" alt>
+          </div>
+
+          <!-- 6 -->
+
+          <div class="item Sandwich">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Acrylic Sandwich</div>
+                </a>
+                <!-- <div class="portfolio-divider"></div>
+                <div class="portfolio-description">Business, Art</div> -->
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Acrylic Sandwich-6.jpg" alt>
+          </div>
+
+          <!-- 7 -->
+          <div class="item Sandwich">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Acrylic Sandwich</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Acrylic Sandwich-7.jpg" alt>
+          </div>
+
+          <!-- 8 -->
+
+          <div class="item Sandwich">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Acrylic Sandwich</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Acrylic Sandwich-8.jpg" alt>
+          </div>
+
+          <!-- Acrylic Signage -->
+          <!-- 1 -->
+          <div class="item Signage ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Acrylic Signage</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Acrylic Signage-1.jpg" alt>
+          </div>
+
+          <!-- 2 -->
+
+          <div class="item Signage ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Acrylic Signage</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Acrylic Signage-2.jpg" alt>
+          </div>
+
+
+          <!-- Branding -->
+          <!-- 1 -->
+
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/brand/1.jpeg" alt>
+          </div>
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/brand/2.png" alt>
+          </div>
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/brand/3.jpeg" alt>
+          </div>
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/brand/4.jpeg" alt>
+          </div>
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/brand/5.jpeg" alt>
+          </div>
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/brand/6.jpeg" alt>
+          </div>
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/brand/7.jpeg" alt>
+          </div>
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/brand/8.jpeg" alt>
+          </div>
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/brand/9.jpeg" alt>
+          </div>
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/brand/10.jpeg" alt>
+          </div>
+         
+
+
+          <!--  -->
+
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Branding-1.jpg" alt>
+          </div>
+
+          <!-- 2 -->
+
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Branding-2.jpg" alt>
+          </div>
+
+          <!-- 3 -->
+
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Branding-3.jpg" alt>
+          </div>
+
+          <!-- 4 -->
+
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Branding-4.jpg" alt>
+          </div>
+
+          <!-- 5 -->
+
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Branding-5.jpg" alt>
+          </div>
+
+          <!-- 6 -->
+
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Branding-6.jpg" alt>
+          </div>
+
+          <!-- 7 -->
+
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Branding-7.jpg" alt>
+          </div>
+
+          <!-- 8 -->
+
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Branding-8.jpg" alt>
+          </div>
+
+
+          <!-- 9 -->
+
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Branding-9.jpg" alt>
+          </div>
+
+          <!-- 10 -->
+
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Branding-10.jpg" alt>
+          </div>
+
+          <!-- 11 -->
+
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Branding-11.jpg" alt>
+          </div>
+
+          <!-- 12 -->
+
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Branding-12.jpg" alt>
+          </div>
+
+          <!-- 13 -->
+
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Branding-13.jpg" alt>
+          </div>
+
+          <!-- 14 -->
+
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Branding-14.jpg" alt>
+          </div>
+
+          <!-- 15 -->
+
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Branding15.jpg" alt>
+          </div>
+
+          <!-- 16 -->
+
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Branding-16.jpg" alt>
+          </div>
+
+          <!-- 17 -->
+
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Branding-17.jpg" alt>
+          </div>
+
+          <!-- 18 -->
+
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Branding-18.png" alt>
+          </div>
+
+          <!-- 19 -->
+
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Branding-19.png" alt>
+          </div>
+
+          <!-- 20 -->
+
+          <div class="item Branding ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Branding-20.png" alt>
+          </div>
+
+          <!-- CNC -->
+
+          <!-- 1 -->
+
+          <div class="item CNC ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">CNC</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/CNC-1.jpg" alt>
+          </div>
+
+          <!-- 2 -->
+
+          <div class="item CNC ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">CNC</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/CNC-2.jpg" alt>
+          </div>
+
+          <!-- 3 -->
+
+          <div class="item CNC ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">CNC</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/CNC-3.jpg" alt>
+          </div>
+
+
+          <!-- 4 -->
+
+          <div class="item CNC ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">CNC</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/CNC-4.jpg" alt>
+          </div>
+
+          <!-- 5 -->
+
+          <div class="item CNC ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">CNC</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/CNC-5.png" alt>
+          </div>
+
+
+          <!-- Fabric -->
+
+          <!-- 1 -->
+
+          <div class="item Fabric ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Fabric</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Fabric-1.jpg" alt>
+          </div>
+
+          <!-- 2 -->
+
+          <div class="item Fabric ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Fabric</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Fabric-2.jpg" alt>
+          </div>
+
+          <!-- 3 -->
+
+          <div class="item Fabric ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Fabric</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Fabric-3.jpg" alt>
+          </div>
+
+          <!-- 4 -->
+
+          <div class="item Fabric ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Fabric</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Fabric-4.jpg" alt>
+          </div>
+
+          <!-- GSB -->
+
+          <!-- 1 -->
+
+          <div class="item GSB ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">GSB </div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/GSB-1.jpg" alt>
+          </div>
+
+          <!-- 2 -->
+
+          <div class="item GSB ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">GSB </div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/GSB-2.jpg" alt>
+          </div>
+
+          <!-- 3 -->
+
+          <div class="item GSB ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">GSB </div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/GSB-3.jpg" alt>
+          </div>
+
+          <!-- 4 -->
+
+          <div class="item GSB ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">GSB </div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/GSB-4.jpg" alt>
+          </div>
+          <!-- 5 -->
+
+          <div class="item GSB ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">GSB </div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/GSB-5.jpg" alt>
+          </div>
+
+          <!-- 6 -->
+
+          <div class="item GSB ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">GSB </div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/GSB-6.jpg" alt>
+          </div>
+
+          <!-- 7 -->
+
+          <div class="item GSB ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">GSB </div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/GSB-7.jpg" alt>
+          </div>
+
+          <!-- 8 -->
+
+          <div class="item GSB ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">GSB </div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/GSB-8.jpg" alt>
+          </div>
+
+          <!-- 9 -->
+
+          <div class="item GSB ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">GSB </div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/GSB-9.png" alt>
+          </div>
+
+
+          <!--  Inshop Branding  -->
+
+          <!-- 1 -->
+
+          <div class="item Inshop ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Inshop Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Inshop Branding-1.jpg" alt>
+          </div>
+
+          <!-- 2 -->
+
+          <div class="item Inshop ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Inshop Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Inshop Branding-2.jpg" alt>
+          </div>
+
+
+          <!-- 3 -->
+
+          <div class="item Inshop ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Inshop Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Inshop Branding-3.jpg" alt>
+          </div>
+
+
+          <!-- 4 -->
+
+          <div class="item Inshop ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Inshop Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Inshop Branding-4.jpg" alt>
+          </div>
+
+
+          <!-- 5 -->
+
+          <div class="item Inshop ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Inshop Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Inshop Branding-5.jpg" alt>
+          </div>
+
+
+          <!-- 6 -->
+
+          <div class="item Inshop ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Inshop Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Inshop Branding-6.jpg" alt>
+          </div>
+
+
+          <!-- 7 -->
+
+          <div class="item Inshop ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Inshop Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Inshop Branding-7.jpg" alt>
+          </div>
+
+
+          <!-- 8 -->
+
+          <div class="item Inshop ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Inshop Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Inshop Branding-8.jpg" alt>
+          </div>
+
+
+          <!-- 9 -->
+
+          <div class="item Inshop ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Inshop Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Inshop Branding-9.jpg" alt>
+          </div>
+
+
+          <!-- 10 -->
+
+          <div class="item Inshop ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Inshop Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Inshop Branding-10.jpg" alt>
+          </div>
+
+
+          <!-- 11 -->
+
+          <div class="item Inshop ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Inshop Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Inshop Branding-11.jpg" alt>
+          </div>
+
+
+          <!-- 12 -->
+
+          <div class="item Inshop ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Inshop Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Inshop Branding-12.jpg" alt>
+          </div>
+
+
+          <!-- 13 -->
+
+          <div class="item Inshop ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Inshop Branding</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Inshop Branding-13.jpg" alt>
+          </div>
+
+
+          <!-- LED -->
+
+          <!-- 1 -->
+
+            <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/signage/1.png" alt>
+          </div>
+
+            <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/signage/2.jpeg" alt>
+          </div>
+
+            <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/signage/3.jpeg" alt>
+          </div>
+
+            <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/signage/4.jpg" alt>
+          </div>
+
+            <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/signage/5.jpg" alt>
+          </div>
+
+            <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/signage/6.jpg" alt>
+          </div>
+
+            <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/signage/7.jpeg" alt>
+          </div>
+
+            <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/signage/8.jpg" alt>
+          </div>
+
+            <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/signage/9.jpeg" alt>
+          </div>
+
+            <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/signage/10.jpeg" alt>
+          </div>
+
+            <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/signage/11.jpg" alt>
+          </div>
+
+            <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/signage/12.jpeg" alt>
+          </div>
+
+            <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/signage/13.jpeg" alt>
+          </div>
+
+            <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/signage/14.jpeg" alt>
+          </div>
+
+            <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/signage/15.jpeg" alt>
+          </div>
+
+            <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/signage/16.jpeg" alt>
+          </div>
+
+         
+
+
+          <!--  -->
+
+          <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/LED-1.jpg" alt>
+          </div>
+
+          <!-- 2 -->
+
+          <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/LED-2.jpg" alt>
+          </div>
+
+          <!-- 3 -->
+
+
+          <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/LED-3.jpg" alt>
+          </div>
+
+          <!-- 4 -->
+
+          <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/LED-4.png" alt>
+          </div>
+
+          <!-- 5 -->
+
+          <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/LED-5.jpg" alt>
+          </div>
+
+          <!-- 6 -->
+
+          <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/LED-6.jpg" alt>
+          </div>
+
+          <!-- 7 -->
+
+          <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/LED-7.jpg" alt>
+          </div>
+
+          <!-- 8 -->
+
+          <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/LED-8.jpg" alt>
+          </div>
+
+          <!-- 9 -->
+
+          <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/LED-9.jpg" alt>
+          </div>
+
+          <!-- 10 -->
+
+          <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/LED-10.jpg" alt>
+          </div>
+
+          <!-- 11 -->
+
+          <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/LED-11.jpg" alt>
+          </div>
+
+          <!-- 12 -->
+
+          <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/LED-12.jpg" alt>
+          </div>
+
+          <!-- 13 -->
+
+          <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/LED-13.jpg" alt>
+          </div>
+
+          <!-- 14 -->
+
+          <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/LED-14.jpg" alt>
+          </div>
+
+          <!-- 15 -->
+
+          <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/LED-15.jpg" alt>
+          </div>
+
+          <!-- 16 -->
+
+          <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/LED-16.jpg" alt>
+          </div>
+
+          <!-- 17 -->
+
+          <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED </div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/LED-17.jpg" alt>
+          </div>
+
+
+          <!-- 18 -->
+
+          <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/LED-18.jpg" alt>
+          </div>
+
+
+          <!-- 19 -->
+
+          <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/LED-19.jpg" alt>
+          </div>
+
+          <!-- 20 -->
+
+          <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/LED-20.png" alt>
+          </div>
+
+          <!-- 21 -->
+
+          <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/LED-21.png" alt>
+          </div>
+
+          <!-- 22 -->
+
+          <div class="item LED ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">LED</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/LED-22.jpg" alt>
+          </div>
+
+          <!-- Standies -->
+
+          <!-- 1 -->
+
+          <div class="item Standies ">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Standies</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Standies-1.jpg" alt>
+          </div>
+
+          <!-- 2 -->
+
+          <div class="item Standies">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Standies</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Standies-2.jpg" alt>
+          </div>
+
+          <!-- 3 -->
+
+          <div class="item Standies">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Standies</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Standies-3.jpg" alt>
+          </div>
+
+          <!-- 4 -->
+
+          <div class="item Standies">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Standies</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Standies-4.jpg" alt>
+          </div>
+
+          <!-- 5 -->
+
+          <div class="item Standies">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Standies</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Standies-5.jpg" alt>
+          </div>
+
+          <!-- 6 -->
+
+          <div class="item Standies">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Standies</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Standies-6.jpg" alt>
+          </div>
+
+          <!-- 7 -->
+
+          <div class="item Standies">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Standies</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Standies-7.png" alt>
+          </div>
+
+
+          <!-- Wallpaper -->
+
+          <!-- 1 -->
+          <div class="item Wallpaper">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Wallpaper</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Wallpaper-1.jpg" alt>
+          </div>
+
+          <!-- 2 -->
+
+          <div class="item Wallpaper">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Wallpaper</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Wallpaper-2.jpg" alt>
+          </div>
+
+          <!-- 3 -->
+
+          <div class="item Wallpaper">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Wallpaper</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Wallpaper-3.jpg" alt>
+          </div>
+
+          <!-- 4 -->
+
+          <div class="item Wallpaper">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Wallpaper</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Wallpaper-4.jpg" alt>
+          </div>
+
+          <!-- 5 -->
+
+          <div class="item Wallpaper">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Wallpaper</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Wallpaper-5.jpg" alt>
+          </div>
+
+          <!-- 6 -->
+
+          <div class="item Wallpaper">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Wallpaper</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Wallpaper-6.jpg" alt>
+          </div>
+
+          <!-- 7 -->
+
+          <div class="item Wallpaper">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Wallpaper</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/portfolio/Wallpaper-7.jpg" alt>
+          </div>
+
+          <!-- Flatbed Direct UV Printing -->
+
+        
+
+                   <div class="item Flatbed">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Flatbed Direct UV Printing</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/flat/2.jpg" alt>
+          </div>
+
+                     <div class="item Flatbed">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Flatbed Direct UV Printing</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/flat/3.jpeg" alt>
+          </div>
+
+                 <div class="item Flatbed">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Flatbed Direct UV Printing</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/flat/6.png" alt>
+          </div>
+
+                <div class="item Flatbed">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Flatbed Direct UV Printing</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/flat/4.png" alt>
+          </div>
+
+               <div class="item Flatbed">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Flatbed Direct UV Printing</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/flat/5.png" alt>
+          </div>
+
+          <!-- promotional product -->
+          <div class="item Promo">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Promotional Products</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/promo/1.jpeg" alt>
+          </div>
+
+            <div class="item Promo">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Promotional Products</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/promo/2.jpeg" alt>
+          </div>
+
+            <div class="item Promo">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Promotional Products</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/promo/3.jpeg" alt>
+          </div>
+
+            <div class="item Promo">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Promotional Products</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/promo/4.jpeg" alt>
+          </div>
+
+           
+
+              <div class="item Promo">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Promotional Products</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/promo/6.jpeg" alt>
+          </div>
+
+          <!-- Corporate Gifting -->
+             <div class="item Cor">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Corporate Gifting</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/corprate/1.jpg" alt>
+          </div>
+          
+           <div class="item Cor">
+            <div class="portfolio-hover">
+              <div class="portfolio-info">
+               <a href="javascript:void(0)">
+                  <div class="portfolio-title">Corporate Gifting</div>
+                </a>
+                <div class="portfolio-divider"></div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/corprate/3.jpeg" alt>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ page content -->
+  <!-- subscribe -->
+  <section class="fun-facts parallaxed">
+    <div class="parallax-image" data-parallax-left="0.5" data-parallax-top="1.5" data-parallax-scroll-speed="0.5">
+      <img loading="lazy" src="images/team/parallax-4.jpg" alt="">
+    </div>
+    <div class="grid-row wow fadeIn">
+      <div class="parallax-content-third">
+        <div class="clear table">
+          <div class="grid-col-3 title-innovation">
+            <div class="innovation-header">Fun<br />facts
+              <div class="slash-line"></div>
+            </div>
+          </div>
+          <div class="grid-col grid-col-3">
+            <div class="counter-block">
+              <div class="counter" data-count="2000"></div>
+              <div class="counter-name">Creative Work</div>
+            </div>
+          </div>
+          <div class="grid-col grid-col-3">
+            <div class="counter-block">
+              <div class="counter" data-count=" 1560"></div>
+              <div class="counter-name">Satisfied Clients</div>
+            </div>
+          </div>
+          <div class="grid-col grid-col-3">
+            <div class="counter-block last">
+              <div class="counter" data-count=" 1560"></div>
+              <div class="counter-name">Cups Of Coffe</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="them-mask background-color"></div>
+  </section>
+  <!--/ subscribe -->
+  <!-- page footer -->
+ <footer id="footer" class="bg-gray-900 border-t border-red-600/20 text-gray-300 pt-6 pb-6 text-sm">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<div class="grid grid-cols-1 md:grid-cols-12 gap-12 mb-6">
+
+
+				<div class="col-span-12 md:col-span-6 lg:col-span-3 flex flex-col space-y-4">
+					<a href="index.html" class="inline-block mb-4">
+						<img src="img/logo.webp" class="h-20 w-auto bg-white p-2 rounded mr-auto" alt="AB Colors Logo">
+					</a>
+					<p class="text-gray-400 leading-relaxed max-w-sm">We provide high-quality branding, signage, and
+						printing solutions to help your business stand out in a competitive market.</p>
+
+
+					<div class="flex space-x-4 mt-6">
+						<a href="https://www.facebook.com/p/AB-Colors-100088263742383/"
+							class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-[#d72a2f] hover:text-white transition-all duration-300"
+							target="_blank"><i class="fa fa-facebook"></i></a>
+						<a href="javascrip:void(0)"
+							class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-[#d72a2f] hover:text-white transition-all duration-300"><i
+								class="fa fa-twitter"></i></a>
+						<!-- <a href="javascrip:void(0)"
+							class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-[#d72a2f] hover:text-white transition-all duration-300"><i
+								class="fa fa-linkedin"></i></a> -->
+						<a href="https://www.instagram.com/signage_abcolors?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
+							target="_blank"
+							class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-[#d72a2f] hover:text-white transition-all duration-300"><i
+								class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+
+
+				<div class="col-span-12 md:col-span-6 lg:col-span-2">
+					<h3
+						class="text-white text-lg font-bold mb-6 relative inline-block after:content-[''] after:absolute after:w-1/2 after:h-1 after:bg-[#d72a2f] after:-bottom-2 after:left-0">
+						Quick Links</h3>
+					<ul class="space-y-4">
+						<li><a href="index.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Home</a></li>
+						<li><a href="aboutus.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>About Us</a></li>
+						<li><a href="gallery.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Gallery</a></li>
+						<li><a href="contact.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Contact us</a></li>
+					</ul>
+				</div>
+
+
+				<div class="col-span-12 md:col-span-6 lg:col-span-3">
+					<h3
+						class="text-white text-lg font-bold mb-6 relative inline-block after:content-[''] after:absolute after:w-1/2 after:h-1 after:bg-[#d72a2f] after:-bottom-2 after:left-0">
+						Our Services</h3>
+					<ul class="space-y-4">
+						<li><a href="signage.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Signages</a></li>
+						<li><a href="branding.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Branding</a></li>
+						<li><a href="service.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Direct UV Printing</a></li>
+						<li><a href="service.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Promotional Materials</a></li>
+									<li><a href="service.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Corporate Gifting</a></li>
+									<li><a href="service.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Digital Printing</a></li>
+					</ul>
+				</div>
+
+
+				<div class="col-span-12 md:col-span-6 lg:col-span-4">
+					<h3
+						class="text-white text-lg font-bold mb-6 relative inline-block after:content-[''] after:absolute after:w-1/2 after:h-1 after:bg-[#d72a2f] after:-bottom-2 after:left-0">
+						Contact Info</h3>
+					<ul class="space-y-5">
+						<li class="flex items-start">
+							<i class="fa fa-map-marker text-[#d72a2f] mt-1 mr-4 text-lg"></i>
+							<span class="text-gray-400">4th Floor, Pearls Tower, 26, <br> Karur Bypass Rd, <br>opp.
+								Kalaignar Arivalayam, <br>Adjacent to Taj Marriage Hall, Kela Chinthamani,
+								Tiruchirappalli, <br>Tamil Nadu 620002</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fa fa-phone text-[#d72a2f] mr-4 text-lg"></i>
+							<a href="tel:+919842275299" class="text-gray-400 hover:text-white transition-colors">+91
+								98422 75299</a>
+						</li>
+						<li class="flex items-center">
+							<i class="fa fa-envelope text-[#d72a2f] mr-4 text-lg"></i>
+							<a href="mailto:bala@abcolors.in"
+								class="text-gray-400 hover:text-white transition-colors">bala@abcolors.in</a>
+						</li>
+						<li class="flex items-center">
+							<i class="fa fa-clock-o text-[#d72a2f] mr-4 text-lg"></i>
+							<span class="text-gray-400">Mon - Sat: 10:00 AM - 7:30 PM</span>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+
+
+			<div class=" border-t border-gray-800 flex flex-col md:flex-row justify-between items-center text-gray-500">
+				<p>&copy; 2026 AB Colors. All Rights Reserved.</p>
+
+			</div>
+		</div>
+	</footer>
+  <!--/ page footer -->
+  <a href="javascript:void(0)" id="scroll-top" class="scroll-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- scripts -->
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.isotope.min.js"></script>
+  <script src="js/jquery.owl.carousel.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/retina.min.js"></script>
+  <!--/ scripts -->
+
+  <!-- Sticky Portfolio Filter JS -->
+  <script>
+    $(window).on('load resize', function () {
+      var pt = $('.portfolio-filter .pt');
+      if (pt.length) {
+        // Clean up classes briefly to measure its natural layout exactly
+        var wasFixed = pt.hasClass('is-fixed');
+        if (wasFixed) pt.removeClass('is-fixed').css({ width: '', left: '' });
+
+        var ptWidth = pt.width();
+        var ptLeft = pt.offset().left;
+        var ptOuterHeight = pt.outerHeight(true); // capture exact spacing including margins
+
+        if ($('.pt-wrapper').length === 0) {
+          pt.wrap('<div class="pt-wrapper"></div>');
+        }
+
+        $('.pt-wrapper').css('min-height', ptOuterHeight + 'px');
+        var ptTop = $('.pt-wrapper').offset().top;
+
+        // Restore if it was fixed
+        if (wasFixed) pt.addClass('is-fixed').css({ width: ptWidth + 'px', left: ptLeft + 'px' });
+
+        $(window).off('scroll.stickyPt').on('scroll.stickyPt', function () {
+          if ($(window).scrollTop() >= ptTop - 100) {
+            if (!pt.hasClass('is-fixed')) {
+              // Ensure we freeze its EXACT normal width and horizontal placement
+              pt.addClass('is-fixed').css({ width: ptWidth + 'px', left: ptLeft + 'px' });
+            }
+          } else {
+            pt.removeClass('is-fixed').css({ width: '', left: '' });
+          }
+        });
+
+        // Fire initially
+        $(window).trigger('scroll.stickyPt');
+
+        // Scroll to top of portfolio section when a filter is clicked
+        $('.portfolio-filter .pt a').on('click', function (e) {
+          if ($(window).scrollTop() > ptTop - 100) {
+            $('html, body').animate({
+              scrollTop: ptTop - 100
+            }, 500);
+          }
+        });
+      }
+    });
+  </script>
+
+  <!-- Custom Portfolio Lightbox JS -->
+  <script>
+    $(document).ready(function() {
+      // Create and append the lightbox HTML if it doesn't exist
+      if ($('#portfolio-lightbox').length === 0) {
+        $('body').append(
+          '<div id="portfolio-lightbox" class="portfolio-lightbox">' +
+            '<span class="lightbox-close">&times;</span>' +
+            '<div class="lightbox-prev"><i class="fa fa-angle-left"></i></div>' +
+            '<div class="lightbox-next"><i class="fa fa-angle-right"></i></div>' +
+            '<div class="lightbox-content">' +
+              '<img id="lightbox-img" src="" alt="">' +
+              '<div id="lightbox-caption" class="lightbox-caption"></div>' +
+            '</div>' +
+          '</div>'
+        );
+      }
+
+      var $lightbox = $('#portfolio-lightbox');
+      var $lightboxImg = $('#lightbox-img');
+      var $lightboxCaption = $('#lightbox-caption');
+      var currentIndex = 0;
+      var $visibleItems = $();
+
+      // Function to show image at index
+      function showImage(index) {
+        if (index < 0 || index >= $visibleItems.length) return;
+        currentIndex = index;
+        
+        var $currentItem = $visibleItems.eq(currentIndex);
+        var imgSrc = $currentItem.find('img').attr('src');
+        var imgTitle = $currentItem.find('.portfolio-title').text();
+        
+        // Add a fade out/in effect for smoother transitions
+        $lightboxImg.css('opacity', '0');
+        setTimeout(function() {
+          $lightboxImg.attr('src', imgSrc);
+          $lightboxCaption.text(imgTitle);
+          $lightboxImg.css('opacity', '1');
+        }, 150);
+      }
+
+      // Open Lightbox
+      $(document).on('click', '.isotope .item', function(e) {
+        e.preventDefault();
+        
+        // Get the active filter to know which items are currently visible
+        var activeFilter = $('.portfolio-filter a.active').attr('data-filter') || '*';
+        
+        // If the active filter is ".item" or "*"
+        if (activeFilter === '.item' || activeFilter === '*') {
+          $visibleItems = $('.isotope .item');
+        } else {
+          $visibleItems = $('.isotope .item').filter(activeFilter);
+        }
+        
+        var $clickedItem = $(this);
+        var clickedIndex = $visibleItems.index($clickedItem);
+        
+        if (clickedIndex !== -1) {
+          showImage(clickedIndex);
+          $lightbox.addClass('active');
+          $('body').css('overflow', 'hidden'); // prevent page scroll
+        }
+      });
+
+      // Close Lightbox
+      function closeLightbox() {
+        $lightbox.removeClass('active');
+        $('body').css('overflow', '');
+      }
+
+      $lightbox.on('click', function(e) {
+        // Close only if click is on the background overlay or close button
+        if ($(e.target).hasClass('portfolio-lightbox') || $(e.target).hasClass('lightbox-close')) {
+          closeLightbox();
+        }
+      });
+
+      $('.lightbox-close').on('click', function() {
+        closeLightbox();
+      });
+
+      // Next/Prev Buttons click
+      $(document).on('click', '.lightbox-next', function(e) {
+        e.stopPropagation();
+        var nextIndex = currentIndex + 1;
+        if (nextIndex >= $visibleItems.length) {
+          nextIndex = 0; // Loop back to start
+        }
+        showImage(nextIndex);
+      });
+
+      $(document).on('click', '.lightbox-prev', function(e) {
+        e.stopPropagation();
+        var prevIndex = currentIndex - 1;
+        if (prevIndex < 0) {
+          prevIndex = $visibleItems.length - 1; // Loop to end
+        }
+        showImage(prevIndex);
+      });
+
+      // Keyboard navigation
+      $(document).on('keydown', function(e) {
+        if (!$lightbox.hasClass('active')) return;
+        
+        if (e.keyCode === 37) { // Left arrow
+          $('.lightbox-prev').trigger('click');
+        } else if (e.keyCode === 39) { // Right arrow
+          $('.lightbox-next').trigger('click');
+        } else if (e.keyCode === 27) { // Escape key
+          closeLightbox();
+        }
+      });
+    });
+  </script>
+	<!-- Floating WhatsApp Button -->
+	<a href="https://wa.me/919842275299" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+		<i class="fa fa-whatsapp"></i>
+	</a>
+</body>
+
+</html>

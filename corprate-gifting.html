@@ -1,0 +1,657 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Corporate Gifting Portfolio | Joining Kits & Mementos - AB Colors</title>
+	<meta name="description" content="Discover our custom corporate gifts, customized trophies, joining welcome kits, and luxury executive giveaways designed to boost business relationships.">
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <!--styles -->
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/jquery.owl.carousel.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animate.css">
+
+  <!-- tailwind -->
+  
+  <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18413505746"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-18413505746');
+    </script>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!--  -->
+
+  <style>
+    .item img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .pt {
+      font-size: 25px;
+      background-color: white;
+      transition: all 0.3s ease;
+    }
+
+    .pt.is-fixed {
+      position: fixed;
+      top: 100px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      z-index: 99;
+      margin-top: 0;
+    }
+
+    @media (max-width:945px){
+      .portfolio-filter{
+        display: none !important;
+      }
+    }
+
+    /* Custom Portfolio Lightbox Modal */
+    .portfolio-lightbox {
+      display: none;
+      position: fixed;
+      z-index: 99999;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.92);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+    }
+    .portfolio-lightbox.active {
+      display: flex;
+    }
+    .lightbox-content {
+      position: relative;
+      max-width: 85%;
+      max-height: 85%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      animation: zoomIn 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    @keyframes zoomIn {
+      from { transform: scale(0.92); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+    .lightbox-content img {
+      max-width: 100%;
+      max-height: 78vh;
+      object-fit: contain;
+      border-radius: 12px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      transition: opacity 0.15s ease-in-out;
+      background-color: rgba(255, 255, 255, 0.02);
+    }
+    .lightbox-caption {
+      margin-top: 20px;
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 700;
+      text-align: center;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+      font-family: 'Montserrat', 'Inter', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .lightbox-close {
+      position: absolute;
+      top: 30px;
+      right: 40px;
+      color: rgba(255, 255, 255, 0.65);
+      font-size: 55px;
+      font-weight: 200;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      z-index: 100000;
+      line-height: 1;
+    }
+    .lightbox-close:hover {
+      color: #ff4a81;
+      transform: rotate(90deg) scale(1.1);
+    }
+    .lightbox-prev, .lightbox-next {
+      position: absolute;
+      top: 50%;
+      width: 60px;
+      height: 60px;
+      background-color: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      color: #ffffff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 32px;
+      transform: translateY(-50%);
+      transition: all 0.25s ease;
+      z-index: 100000;
+    }
+    .lightbox-prev {
+      left: 40px;
+    }
+    .lightbox-next {
+      right: 40px;
+    }
+    .lightbox-prev:hover, .lightbox-next:hover {
+      background-color: #ff4a81;
+      border-color: #ff4a81;
+      color: #ffffff;
+      box-shadow: 0 0 15px rgba(255, 74, 129, 0.4);
+    }
+    .lightbox-prev:hover {
+      transform: translateY(-50%) translateX(-4px);
+    }
+    .lightbox-next:hover {
+      transform: translateY(-50%) translateX(4px);
+    }
+    .lightbox-prev i, .lightbox-next i {
+      line-height: 1;
+    }
+    @media (max-width: 768px) {
+      .lightbox-prev, .lightbox-next {
+        width: 48px;
+        height: 48px;
+        font-size: 24px;
+      }
+      .lightbox-prev { left: 15px; }
+      .lightbox-next { right: 15px; }
+      .lightbox-prev:hover { transform: translateY(-50%); }
+      .lightbox-next:hover { transform: translateY(-50%); }
+      .lightbox-close {
+        top: 20px;
+        right: 25px;
+        font-size: 45px;
+      }
+      .lightbox-caption {
+        font-size: 18px;
+        letter-spacing: 1px;
+      }
+      .lightbox-content img {
+        max-height: 70vh;
+      }
+    }
+  </style>
+
+  <!--styles -->
+  <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+</head>
+
+<body class="portfolio-columns four pc">
+  <!-- page header -->
+  <header>
+    <div class="stick-wrapper">
+      <div class="sticky clear">
+        <div class="grid-row">
+          <img class="splash" src="img/splash.png" alt="">
+          <div class="logo">
+            <a href="index.html"><img src="img/logo.webp" style="height: 90px;" alt=""></a>
+          </div>
+          <nav class="nav">
+            <a href="#" class="switcher">
+              <i class="fa fa-bars"></i>
+            </a>
+            <ul class="clear">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="aboutus.html">About Us</a></li>
+              <li><a href="service.html">Services</a></li>
+              <li>
+                <a href="gallery.html">Gallery</a>
+
+              </li>
+              <!-- <li>
+                <a href="signage.html">Signage</a>
+
+              </li> -->
+              <!-- <li><a href="branding.html">Branding</a></li> -->
+
+              <li class="last"><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--/ page header -->
+  <div class="top-bg">
+    <div class="bg-[color:var(--primary-color)] text-white p-4 rounded page-title zoomIn animated dotred">Corporate Gifting & Mementos</div>
+  </div>
+
+  <!-- Top Back Button -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6 flex justify-end">
+    <a href="gallery.html" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-bold bg-white text-gray-700 border border-gray-200 hover:border-[#d72a2f] hover:text-[#d72a2f] hover:bg-gray-50 transition-all duration-300 shadow-sm">
+      <i class="fa fa-arrow-left"></i> Back to Gallery
+    </a>
+  </div>
+
+  <!-- Filter Buttons -->
+  <div class="max-w-6xl mx-auto px-4 mt-12 mb-8">
+    <div class="flex flex-wrap justify-center gap-4">
+      <button data-filter="all" class="filter-btn px-6 py-2.5 rounded-full text-sm font-bold border transition-all duration-300 shadow-sm bg-[#d72a2f] text-white border-[#d72a2f]">All</button>
+      <button data-filter="corporate" class="filter-btn px-6 py-2.5 rounded-full text-sm font-bold border border-gray-200 bg-white text-gray-700 hover:border-[#d72a2f] hover:text-[black] transition-all duration-300 shadow-sm">Corporate Gifting</button>
+      <button data-filter="memento" class="filter-btn px-6 py-2.5 rounded-full text-sm font-bold border border-gray-200 bg-white text-gray-700 hover:border-[red] hover:text-[black] transition-all duration-300 shadow-sm">Memento & Trophy</button>
+    </div>
+  </div>
+
+  <!-- Gallery Grid -->
+  <section class="py-6 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" id="gifting-grid">
+        
+        <!-- Corporate Gifting Items -->
+
+           <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="memento" data-src="img/Corporate Gifting/Memento & Trophy/Center Emblem Memento.jpeg" data-title="Center Emblem Memento">
+          <img loading="lazy" src="img/Corporate Gifting/Memento & Trophy/Center Emblem Memento.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Center Emblem Memento">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Center Emblem Memento</p>
+          </div>
+        </div>
+
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="corporate" data-src="img/Corporate Gifting/Card Holder with Branding.jpeg" data-title="Card Holder with Branding">
+          <img loading="lazy" src="img/Corporate Gifting/Card Holder with Branding.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Card Holder with Branding">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Card Holder with Branding</p>
+          </div>
+        </div>
+
+       
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="memento" data-src="img/Corporate Gifting/Memento & Trophy/Memento.jpeg" data-title="Memento">
+          <img loading="lazy" src="img/Corporate Gifting/Memento & Trophy/Memento.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Memento">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Memento</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="corporate" data-src="img/Corporate Gifting/Diary with company name.jpeg" data-title="Diary with Company Name">
+          <img loading="lazy" src="img/Corporate Gifting/Diary with company name.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Diary with Company Name">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Diary with Company Name</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="corporate" data-src="img/Corporate Gifting/Direct Print in Wooden Log.jpg" data-title="Direct Print in Wooden Log">
+          <img loading="lazy" src="img/Corporate Gifting/Direct Print in Wooden Log.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Direct Print in Wooden Log">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Direct Print in Wooden Log</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="corporate" data-src="img/Corporate Gifting/Embossed Stone Print.jpg" data-title="Embossed Stone Print">
+          <img loading="lazy" src="img/Corporate Gifting/Embossed Stone Print.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Embossed Stone Print">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Embossed Stone Print</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="corporate" data-src="img/Corporate Gifting/Gift Cover.jpeg" data-title="Gift Cover">
+          <img loading="lazy" src="img/Corporate Gifting/Gift Cover.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Gift Cover">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Gift Cover</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="corporate" data-src="img/Corporate Gifting/Joining Kit with Branding.jpg" data-title="Joining Kit with Branding">
+          <img loading="lazy" src="img/Corporate Gifting/Joining Kit with Branding.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Joining Kit with Branding">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Joining Kit with Branding</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="corporate" data-src="img/Corporate Gifting/Lanyard Keychain.jpg" data-title="Lanyard Keychain">
+          <img loading="lazy" src="img/Corporate Gifting/Lanyard Keychain.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Lanyard Keychain">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Lanyard Keychain</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="corporate" data-src="img/Corporate Gifting/Stone Printing.jpg" data-title="Stone Printing">
+          <img loading="lazy" src="img/Corporate Gifting/Stone Printing.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Stone Printing">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Stone Printing</p>
+          </div>
+        </div>
+
+        <!-- Memento & Trophy Items -->
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="memento" data-src="img/Corporate Gifting/Memento & Trophy/Acrylic Direct Print with lasser Cutting.jpeg" data-title="Acrylic Direct Print with Laser Cutting">
+          <img loading="lazy" src="img/Corporate Gifting/Memento & Trophy/Acrylic Direct Print with lasser Cutting.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Acrylic Direct Print with Laser Cutting">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Acrylic Direct Print with Laser Cutting</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="memento" data-src="img/Corporate Gifting/Memento & Trophy/Acrylic Momento.jpeg" data-title="Acrylic Memento">
+          <img loading="lazy" src="img/Corporate Gifting/Memento & Trophy/Acrylic Momento.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Acrylic Memento">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Acrylic Memento</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="memento" data-src="img/Corporate Gifting/Acrylic Momento.jpeg" data-title="Acrylic Memento (Corporate)">
+          <img loading="lazy" src="img/Corporate Gifting/Acrylic Momento.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Acrylic Memento (Corporate)">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Acrylic Memento (Corporate)</p>
+          </div>
+        </div>
+
+      
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="memento" data-src="img/Corporate Gifting/Memento & Trophy/Premimum Acrylic Momento.jpeg" data-title="Premium Acrylic Memento">
+          <img loading="lazy" src="img/Corporate Gifting/Memento & Trophy/Premimum Acrylic Momento.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Premium Acrylic Memento">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Premium Acrylic Memento</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Bottom Back Button -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6 mb-12 flex justify-end">
+    <a href="gallery.html" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-bold bg-white text-gray-700 border border-gray-200 hover:border-[#d72a2f] hover:text-[#d72a2f] hover:bg-gray-50 transition-all duration-300 shadow-sm">
+      <i class="fa fa-arrow-left"></i> Back to Gallery
+    </a>
+  </div>
+
+  
+  <!-- page footer -->
+<footer id="footer" class="bg-gray-900 border-t border-red-600/20 text-gray-300 pt-6 pb-6 text-sm">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<div class="grid grid-cols-1 md:grid-cols-12 gap-12 mb-6">
+
+
+				<div class="col-span-12 md:col-span-6 lg:col-span-3 flex flex-col space-y-4">
+					<a href="index.html" class="inline-block mb-4">
+						<img src="img/logo.webp" class="h-20 w-auto bg-white p-2 rounded mr-auto" alt="AB Colors Logo">
+					</a>
+					<p class="text-gray-400 leading-relaxed max-w-sm">We provide high-quality branding, signage, and
+						printing solutions to help your business stand out in a competitive market.</p>
+
+
+					<div class="flex space-x-4 mt-6">
+						<a href="https://www.facebook.com/p/AB-Colors-100088263742383/"
+							class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-[#d72a2f] hover:text-white transition-all duration-300"
+							target="_blank"><i class="fa fa-facebook"></i></a>
+						<a href="javascrip:void(0)"
+							class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-[#d72a2f] hover:text-white transition-all duration-300"><i
+								class="fa fa-twitter"></i></a>
+						<!-- <a href="javascrip:void(0)"
+							class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-[#d72a2f] hover:text-white transition-all duration-300"><i
+								class="fa fa-linkedin"></i></a> -->
+						<a href="https://www.instagram.com/signage_abcolors?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
+							target="_blank"
+							class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-[#d72a2f] hover:text-white transition-all duration-300"><i
+								class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+
+
+				<div class="col-span-12 md:col-span-6 lg:col-span-2">
+					<h3
+						class="text-white text-lg font-bold mb-6 relative inline-block after:content-[''] after:absolute after:w-1/2 after:h-1 after:bg-[#d72a2f] after:-bottom-2 after:left-0">
+						Quick Links</h3>
+					<ul class="space-y-4">
+						<li><a href="index.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Home</a></li>
+						<li><a href="aboutus.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>About Us</a></li>
+									<li><a href="service.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Services</a></li>
+						<li><a href="gallery.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Gallery</a></li>
+						<li><a href="contact.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Contact us</a></li>
+					</ul>
+				</div>
+
+
+				<div class="col-span-12 md:col-span-6 lg:col-span-3">
+					<h3
+						class="text-white text-lg font-bold mb-6 relative inline-block after:content-[''] after:absolute after:w-1/2 after:h-1 after:bg-[#d72a2f] after:-bottom-2 after:left-0">
+						Our Works</h3>
+					<ul class="space-y-4">
+						<li><a href="signage.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Signages</a></li>
+						<li><a href="branding.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Branding</a></li>
+						<li><a href="promotional.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Promotional Materials</a></li>
+									<li><a href="corprate-gifting.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Corporate Gifting</a></li>
+									<li><a href="digital.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Digital Printing</a></li>
+					</ul>
+				</div>
+
+
+				<div class="col-span-12 md:col-span-6 lg:col-span-4">
+					<h3
+						class="text-white text-lg font-bold mb-6 relative inline-block after:content-[''] after:absolute after:w-1/2 after:h-1 after:bg-[#d72a2f] after:-bottom-2 after:left-0">
+						Contact Info</h3>
+					<ul class="space-y-5">
+						<li class="flex items-start">
+							<i class="fa fa-map-marker text-[#d72a2f] mt-1 mr-4 text-lg"></i>
+							<span class="text-gray-400">4th Floor, Pearls Tower, 26, Karur Bypass Rd, <br>opp.
+								Kalaignar Arivalayam, <br>Adjacent to Taj Marriage Hall, Kela Chinthamani,
+								Tiruchirappalli, <br>Tamil Nadu 620002</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fa fa-phone text-[#d72a2f] mr-4 text-lg"></i>
+							<a href="tel:+919842275299" class="text-gray-400 hover:text-white transition-colors">+91
+								98422 75299</a>
+						</li>
+						<li class="flex items-center">
+							<i class="fa fa-envelope text-[#d72a2f] mr-4 text-lg"></i>
+							<a href="mailto:bala@abcolors.in"
+								class="text-gray-400 hover:text-white transition-colors">bala@abcolors.in</a>
+						</li>
+						<li class="flex items-center">
+							<i class="fa fa-clock-o text-[#d72a2f] mr-4 text-lg"></i>
+							<span class="text-gray-400">Mon - Sat: 10:00 AM - 7:30 PM</span>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+
+
+			<div class=" border-t border-gray-800 flex flex-col md:flex-row justify-between items-center text-gray-500">
+				<p>&copy; 2026 AB Colors. All Rights Reserved.</p>
+				<p>Powerd By <a href="https://560degree.com/" target="_blank">560 degree Solutions</a></p>
+			</div>
+		</div>
+	</footer>
+  <!--/ page footer -->
+  <a href="javascript:void(0)" id="scroll-top" class="scroll-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- scripts -->
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.isotope.min.js"></script>
+  <script src="js/jquery.owl.carousel.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/retina.min.js"></script>
+  <!--/ scripts -->
+
+  <!-- Corporate Gifting Filter & Lightbox JS -->
+  <script>
+    $(document).ready(function() {
+      // 1. Filter logic
+      $('.filter-btn').on('click', function() {
+        // Reset classes for all buttons
+        $('.filter-btn').removeClass('bg-[#d72a2f] text-white border-[#d72a2f]').addClass('bg-white text-gray-700 border-gray-200');
+        // Add active classes to clicked button
+        $(this).removeClass('bg-white text-gray-700 border-gray-200').addClass('bg-[#d72a2f] text-white border-[#d72a2f]');
+        
+        var filter = $(this).attr('data-filter');
+        
+        if (filter === 'all') {
+          $('.gallery-item').fadeIn(350);
+        } else {
+          $('.gallery-item').hide();
+          $('.gallery-item[data-category="' + filter + '"]').fadeIn(350);
+        }
+      });
+
+      // 2. Lightbox logic
+      // Create and append the lightbox HTML if it doesn't exist
+      if ($('#portfolio-lightbox').length === 0) {
+        $('body').append(
+          '<div id="portfolio-lightbox" class="portfolio-lightbox">' +
+            '<span class="lightbox-close">&times;</span>' +
+            '<div class="lightbox-prev"><i class="fa fa-angle-left"></i></div>' +
+            '<div class="lightbox-next"><i class="fa fa-angle-right"></i></div>' +
+            '<div class="lightbox-content">' +
+              '<img id="lightbox-img" src="" alt="">' +
+              '<div id="lightbox-caption" class="lightbox-caption"></div>' +
+            '</div>' +
+          '</div>'
+        );
+      }
+
+      var $lightbox = $('#portfolio-lightbox');
+      var $lightboxImg = $('#lightbox-img');
+      var $lightboxCaption = $('#lightbox-caption');
+      var currentIndex = 0;
+      var $visibleItems = $();
+
+      function showLightboxImage(index) {
+        if (index < 0 || index >= $visibleItems.length) return;
+        currentIndex = index;
+        
+        var $currentItem = $visibleItems.eq(currentIndex);
+        var imgSrc = $currentItem.attr('data-src');
+        var imgTitle = $currentItem.attr('data-title');
+        
+        $lightboxImg.css('opacity', '0');
+        setTimeout(function() {
+          $lightboxImg.attr('src', imgSrc);
+          $lightboxCaption.text(imgTitle);
+          $lightboxImg.css('opacity', '1');
+        }, 150);
+      }
+
+      // Open Lightbox
+      $(document).on('click', '.gallery-item', function(e) {
+        e.preventDefault();
+        
+        // Find visible items under the current filter
+        var activeFilter = $('.filter-btn.bg-\\[\\#d72a2f\\]').attr('data-filter') || 'all';
+        if (activeFilter === 'all') {
+          $visibleItems = $('.gallery-item');
+        } else {
+          $visibleItems = $('.gallery-item').filter('[data-category="' + activeFilter + '"]');
+        }
+        
+        var $clickedItem = $(this);
+        var clickedIndex = $visibleItems.index($clickedItem);
+        
+        if (clickedIndex !== -1) {
+          showLightboxImage(clickedIndex);
+          $lightbox.addClass('active');
+          $('body').css('overflow', 'hidden'); // Prevent page scroll
+        }
+      });
+
+      // Close Lightbox
+      function closeLightbox() {
+        $lightbox.removeClass('active');
+        $('body').css('overflow', '');
+      }
+
+      $lightbox.on('click', function(e) {
+        if ($(e.target).hasClass('portfolio-lightbox') || $(e.target).hasClass('lightbox-close')) {
+          closeLightbox();
+        }
+      });
+
+      $('.lightbox-close').on('click', function() {
+        closeLightbox();
+      });
+
+      // Next / Prev clicks
+      $(document).on('click', '.lightbox-next', function(e) {
+        e.stopPropagation();
+        var nextIndex = currentIndex + 1;
+        if (nextIndex >= $visibleItems.length) {
+          nextIndex = 0; // Loop back to start
+        }
+        showLightboxImage(nextIndex);
+      });
+
+      $(document).on('click', '.lightbox-prev', function(e) {
+        e.stopPropagation();
+        var prevIndex = currentIndex - 1;
+        if (prevIndex < 0) {
+          prevIndex = $visibleItems.length - 1; // Loop to end
+        }
+        showLightboxImage(prevIndex);
+      });
+
+      // Keyboard support
+      $(document).on('keydown', function(e) {
+        if (!$lightbox.hasClass('active')) return;
+        if (e.keyCode === 37) {
+          $('.lightbox-prev').trigger('click');
+        } else if (e.keyCode === 39) {
+          $('.lightbox-next').trigger('click');
+        } else if (e.keyCode === 27) {
+          closeLightbox();
+        }
+      });
+    });
+  </script>
+	<!-- Floating WhatsApp Button -->
+	<a href="https://wa.me/919842275299" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+		<i class="fa fa-whatsapp"></i>
+	</a>
+</body>
+
+</html>

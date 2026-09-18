@@ -1,0 +1,1101 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Branding Portfolio | Glass, Vehicle & Inshop Acrylic - AB Colors</title>
+	<meta name="description" content="Explore our premium branding projects including glass frostings, canvas art walls, vehicle wraps, stretch ceilings, and inshop acrylic branding solutions.">
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <!--styles -->
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/jquery.owl.carousel.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animate.css">
+
+  <!-- tailwind -->
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!--  -->
+<!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18413505746"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-18413505746');
+    </script>
+  <style>
+    .item img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .pt {
+      font-size: 25px;
+      background-color: white;
+      transition: all 0.3s ease;
+    }
+
+    .pt.is-fixed {
+      position: fixed;
+      top: 100px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      z-index: 99;
+      margin-top: 0;
+    }
+
+    @media (max-width:945px){
+      .portfolio-filter{
+        display: none !important;
+      }
+    }
+
+    /* Custom Portfolio Lightbox Modal */
+    .portfolio-lightbox {
+      display: none;
+      position: fixed;
+      z-index: 99999;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.92);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+    }
+    .portfolio-lightbox.active {
+      display: flex;
+    }
+    .lightbox-content {
+      position: relative;
+      max-width: 85%;
+      max-height: 85%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      animation: zoomIn 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    @keyframes zoomIn {
+      from { transform: scale(0.92); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+    .lightbox-content img {
+      max-width: 100%;
+      max-height: 78vh;
+      object-fit: contain;
+      border-radius: 12px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      transition: opacity 0.15s ease-in-out;
+      background-color: rgba(255, 255, 255, 0.02);
+    }
+    .lightbox-caption {
+      margin-top: 20px;
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 700;
+      text-align: center;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+      font-family: 'Montserrat', 'Inter', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .lightbox-close {
+      position: absolute;
+      top: 30px;
+      right: 40px;
+      color: rgba(255, 255, 255, 0.65);
+      font-size: 55px;
+      font-weight: 200;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      z-index: 100000;
+      line-height: 1;
+    }
+    .lightbox-close:hover {
+      color: #ff4a81;
+      transform: rotate(90deg) scale(1.1);
+    }
+    .lightbox-prev, .lightbox-next {
+      position: absolute;
+      top: 50%;
+      width: 60px;
+      height: 60px;
+      background-color: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      color: #ffffff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 32px;
+      transform: translateY(-50%);
+      transition: all 0.25s ease;
+      z-index: 100000;
+    }
+    .lightbox-prev {
+      left: 40px;
+    }
+    .lightbox-next {
+      right: 40px;
+    }
+    .lightbox-prev:hover, .lightbox-next:hover {
+      background-color: #ff4a81;
+      border-color: #ff4a81;
+      color: #ffffff;
+      box-shadow: 0 0 15px rgba(255, 74, 129, 0.4);
+    }
+    .lightbox-prev:hover {
+      transform: translateY(-50%) translateX(-4px);
+    }
+    .lightbox-next:hover {
+      transform: translateY(-50%) translateX(4px);
+    }
+    .lightbox-prev i, .lightbox-next i {
+      line-height: 1;
+    }
+    @media (max-width: 768px) {
+      .lightbox-prev, .lightbox-next {
+        width: 48px;
+        height: 48px;
+        font-size: 24px;
+      }
+      .lightbox-prev { left: 15px; }
+      .lightbox-next { right: 15px; }
+      .lightbox-prev:hover { transform: translateY(-50%); }
+      .lightbox-next:hover { transform: translateY(-50%); }
+      .lightbox-close {
+        top: 20px;
+        right: 25px;
+        font-size: 45px;
+      }
+      .lightbox-caption {
+        font-size: 18px;
+        letter-spacing: 1px;
+      }
+      .lightbox-content img {
+        max-height: 70vh;
+      }
+    }
+  </style>
+
+  <!--styles -->
+  <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+</head>
+
+<body class="portfolio-columns four pc">
+  <!-- page header -->
+  <header>
+    <div class="stick-wrapper">
+      <div class="sticky clear">
+        <div class="grid-row">
+          <img class="splash" src="img/splash.png" alt="">
+          <div class="logo">
+            <a href="index.html"><img src="img/logo.webp" style="height: 90px;" alt=""></a>
+          </div>
+          <nav class="nav">
+            <a href="#" class="switcher">
+              <i class="fa fa-bars"></i>
+            </a>
+            <ul class="clear">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="aboutus.html">About Us</a></li>
+              <li><a href="service.html">Services</a></li>
+              <li>
+                <a href="gallery.html">Gallery</a>
+
+              </li>
+              <!-- <li>
+                <a href="signage.html">Signage</a>
+
+              </li> -->
+              <!-- <li><a href="branding.html">Branding</a></li> -->
+
+              <li class="last"><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--/ page header -->
+      <div class="top-bg">
+    <div class="bg-[color:var(--primary-color)] text-white p-4 rounded page-title zoomIn animated dotred">Branding</div>
+  </div>
+
+  <!-- Top Back Button -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6 flex justify-end">
+    <a href="gallery.html" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-bold bg-white text-gray-700 border border-gray-200 hover:border-[#d72a2f] hover:text-[#d72a2f] hover:bg-gray-50 transition-all duration-300 shadow-sm">
+      <i class="fa fa-arrow-left"></i> Back to Gallery
+    </a>
+  </div>
+
+  <!-- Filter Buttons -->
+  <div class="max-w-6xl mx-auto px-4 mt-12 mb-8">
+    <div class="flex flex-wrap justify-center gap-3">
+      <button data-filter="all" class="filter-btn px-5 py-2.5 rounded-full text-sm font-bold border transition-all duration-300 shadow-sm bg-[#d72a2f] text-white border-[#d72a2f]">All</button>
+      <button data-filter="canvas-wall-art" class="filter-btn px-5 py-2.5 rounded-full text-sm font-bold border border-gray-200 bg-white text-gray-700 hover:border-[#d72a2f] hover:text-[#d72a2f] transition-all duration-300 shadow-sm">Canvas Wall Art</button>
+      <button data-filter="clip-on-board" class="filter-btn px-5 py-2.5 rounded-full text-sm font-bold border border-gray-200 bg-white text-gray-700 hover:border-[#d72a2f] hover:text-[#d72a2f] transition-all duration-300 shadow-sm">Clip on Board</button>
+      <button data-filter="embossed-art-frame" class="filter-btn px-5 py-2.5 rounded-full text-sm font-bold border border-gray-200 bg-white text-gray-700 hover:border-[#d72a2f] hover:text-[#d72a2f] transition-all duration-300 shadow-sm">Embossed Art Frame</button>
+      <button data-filter="fabric-wall-covering" class="filter-btn px-5 py-2.5 rounded-full text-sm font-bold border border-gray-200 bg-white text-gray-700 hover:border-[#d72a2f] hover:text-[#d72a2f] transition-all duration-300 shadow-sm">Fabric Wall Covering</button>
+      <button data-filter="glass-branding" class="filter-btn px-5 py-2.5 rounded-full text-sm font-bold border border-gray-200 bg-white text-gray-700 hover:border-[#d72a2f] hover:text-[#d72a2f] transition-all duration-300 shadow-sm">Glass Branding</button>
+      <button data-filter="inshop-acrylic-branding" class="filter-btn px-5 py-2.5 rounded-full text-sm font-bold border border-gray-200 bg-white text-gray-700 hover:border-[#d72a2f] hover:text-[#d72a2f] transition-all duration-300 shadow-sm">Inshop acrylic branding</button>
+      <button data-filter="stretch-ceiling" class="filter-btn px-5 py-2.5 rounded-full text-sm font-bold border border-gray-200 bg-white text-gray-700 hover:border-[#d72a2f] hover:text-[#d72a2f] transition-all duration-300 shadow-sm">Stretch Ceiling</button>
+      <button data-filter="trade-expo-backdrop" class="filter-btn px-5 py-2.5 rounded-full text-sm font-bold border border-gray-200 bg-white text-gray-700 hover:border-[#d72a2f] hover:text-[#d72a2f] transition-all duration-300 shadow-sm">Trade Expo Backdrop</button>
+      <button data-filter="vehicle-branding" class="filter-btn px-5 py-2.5 rounded-full text-sm font-bold border border-gray-200 bg-white text-gray-700 hover:border-[#d72a2f] hover:text-[#d72a2f] transition-all duration-300 shadow-sm">Vehicle Branding</button>
+      <button data-filter="vinyl-foam-branding" class="filter-btn px-5 py-2.5 rounded-full text-sm font-bold border border-gray-200 bg-white text-gray-700 hover:border-[#d72a2f] hover:text-[#d72a2f] transition-all duration-300 shadow-sm">Vinyl & Foam Branding</button>
+    </div>
+  </div>
+
+  <!-- Gallery Grid -->
+  <section class="py-6 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" id="branding-grid">
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="canvas-wall-art" data-src="img/Branding/Canvas%20Wall%20Art/Art%20Canvas%20%201.png" data-title="Art Canvas ">
+          <img loading="lazy" src="img/Branding/Canvas%20Wall%20Art/Art%20Canvas%20%201.png" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Art Canvas 1">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Art Canvas </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="canvas-wall-art" data-src="img/Branding/Canvas%20Wall%20Art/Art%20Canvas%20Change..png" data-title="Art Canvas Change.">
+          <img loading="lazy" src="img/Branding/Canvas%20Wall%20Art/Art%20Canvas%20Change..png" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Art Canvas Change.">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Art Canvas Change.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="canvas-wall-art" data-src="img/Branding/Canvas%20Wall%20Art/Art%20Canvas.png" data-title="Art Canvas">
+          <img loading="lazy" src="img/Branding/Canvas%20Wall%20Art/Art%20Canvas.png" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Art Canvas">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Art Canvas</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="clip-on-board" data-src="img/Branding/Clip%20on%20Board/Clip%20On%20Board%201.png" data-title="Clip On Board ">
+          <img loading="lazy" src="img/Branding/Clip%20on%20Board/Clip%20On%20Board%201.png" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Clip On Board 1">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Clip On Board </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="clip-on-board" data-src="img/Branding/Clip%20on%20Board/Clip%20on%20Board.jpg" data-title="Clip On Board">
+          <img loading="lazy" src="img/Branding/Clip%20on%20Board/Clip%20on%20Board.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Clip On Board">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Clip On Board</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="clip-on-board" data-src="img/Branding/Clip%20on%20Board/Clipon%20sign.jpg" data-title="Clipon Sign">
+          <img loading="lazy" src="img/Branding/Clip%20on%20Board/Clipon%20sign.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Clipon Sign">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Clipon Sign</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="clip-on-board" data-src="img/Branding/Clip%20on%20Board/crystal%20led.jpeg" data-title="Crystal Led">
+          <img loading="lazy" src="img/Branding/Clip%20on%20Board/crystal%20led.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Crystal Led">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Crystal Led</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="clip-on-board" data-src="img/Branding/Clip%20on%20Board/Slim%20LED%20Board.jpeg" data-title="Slim Led Board">
+          <img loading="lazy" src="img/Branding/Clip%20on%20Board/Slim%20LED%20Board.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Slim Led Board">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Slim Led Board</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="embossed-art-frame" data-src="img/Branding/Embossed%20Art%20Frame/Embossed%20Art%20Frame%201.jpg" data-title="Embossed Art Frame ">
+          <img loading="lazy" src="img/Branding/Embossed%20Art%20Frame/Embossed%20Art%20Frame%201.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Embossed Art Frame 1">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Embossed Art Frame </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="embossed-art-frame" data-src="img/Branding/Embossed%20Art%20Frame/Embossed%20Art%20Frame%202.jpg" data-title="Embossed Art Frame ">
+          <img loading="lazy" src="img/Branding/Embossed%20Art%20Frame/Embossed%20Art%20Frame%202.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Embossed Art Frame 2">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Embossed Art Frame </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="embossed-art-frame" data-src="img/Branding/Embossed%20Art%20Frame/Embossed%20Art%20Frame%203.jpg" data-title="Embossed Art Frame ">
+          <img loading="lazy" src="img/Branding/Embossed%20Art%20Frame/Embossed%20Art%20Frame%203.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Embossed Art Frame 3">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Embossed Art Frame </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%20(3).jpg" data-title="Fabric Wall Covering">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%20(3).jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%201.JPG" data-title="Fabric Wall Covering ">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%201.JPG" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering 1">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%2010.jpeg" data-title="Fabric Wall Covering ">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%2010.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering 10">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%2012.jpeg" data-title="Fabric Wall Covering ">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%2012.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering 12">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%2014.jpeg" data-title="Fabric Wall Covering ">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%2014.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering 14">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%2015.jpeg" data-title="Fabric Wall Covering ">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%2015.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering 15">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%2016.jpeg" data-title="Fabric Wall Covering ">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%2016.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering 16">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%2017.jpeg" data-title="Fabric Wall Covering ">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%2017.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering 17">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%202.JPG" data-title="Fabric Wall Covering ">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%202.JPG" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering 2">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%2020.JPG" data-title="Fabric Wall Covering ">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%2020.JPG" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering 20">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%2021.JPG" data-title="Fabric Wall Covering ">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%2021.JPG" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering 21">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%2022.JPG" data-title="Fabric Wall Covering ">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%2022.JPG" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering 22">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%2023.JPG" data-title="Fabric Wall Covering ">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%2023.JPG" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering 23">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%2024.jpeg" data-title="Fabric Wall Covering ">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%2024.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering 24">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%2025.JPG" data-title="Fabric Wall Covering ">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%2025.JPG" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering 25">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%204.JPG" data-title="Fabric Wall Covering ">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%204.JPG" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering 4">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%205.JPG" data-title="Fabric Wall Covering ">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%205.JPG" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering 5">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%206.JPG" data-title="Fabric Wall Covering ">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%206.JPG" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering 6">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%207.JPG" data-title="Fabric Wall Covering ">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%207.JPG" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering 7">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%208.JPG" data-title="Fabric Wall Covering ">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%208.JPG" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering 8">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%209.JPG" data-title="Fabric Wall Covering ">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering%209.JPG" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering 9">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering.JPG" data-title="Fabric Wall Covering">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering.JPG" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering13.jpeg" data-title="Fabric Wall Covering">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering13.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering13">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering18.JPG" data-title="Fabric Wall Covering">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering18.JPG" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering18">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering19.JPG" data-title="Fabric Wall Covering">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wall%20Covering19.JPG" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wall Covering19">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wall Covering</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="fabric-wall-covering" data-src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wallcovering.jpeg" data-title="Fabric Wallcovering">
+          <img loading="lazy" src="img/Branding/Fabric%20Wall%20Covering/Fabric%20Wallcovering.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Wallcovering">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Wallcovering</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="glass-branding" data-src="img/Branding/Glass%20Branding/Direct%20Print%20on%20Glass.jpeg" data-title="Direct Print On Glass">
+          <img loading="lazy" src="img/Branding/Glass%20Branding/Direct%20Print%20on%20Glass.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Direct Print On Glass">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Direct Print On Glass</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="glass-branding" data-src="img/Branding/Glass%20Branding/Frosted%20Sticker%20for%20Glass%20Door.JPG" data-title="Frosted Sticker For Glass Door">
+          <img loading="lazy" src="img/Branding/Glass%20Branding/Frosted%20Sticker%20for%20Glass%20Door.JPG" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Frosted Sticker For Glass Door">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Frosted Sticker For Glass Door</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="glass-branding" data-src="img/Branding/Glass%20Branding/Frosted%20Sticker%20with%20Etching%20on%20Glass.jpeg" data-title="Frosted Sticker With Etching On Glass">
+          <img loading="lazy" src="img/Branding/Glass%20Branding/Frosted%20Sticker%20with%20Etching%20on%20Glass.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Frosted Sticker With Etching On Glass">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Frosted Sticker With Etching On Glass</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="glass-branding" data-src="img/Branding/Glass%20Branding/Plain%20Frosted%20Sticker.jpeg" data-title="Plain Frosted Sticker">
+          <img loading="lazy" src="img/Branding/Glass%20Branding/Plain%20Frosted%20Sticker.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Plain Frosted Sticker">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Plain Frosted Sticker</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="glass-branding" data-src="img/Branding/Glass%20Branding/Printed%20Clear%20vinyl%20on%20glass.jpeg" data-title="Printed Clear Vinyl On Glass">
+          <img loading="lazy" src="img/Branding/Glass%20Branding/Printed%20Clear%20vinyl%20on%20glass.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Printed Clear Vinyl On Glass">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Printed Clear Vinyl On Glass</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="glass-branding" data-src="img/Branding/Glass%20Branding/Printed%20Frosted%20Sticker.jpg" data-title="Printed Frosted Sticker">
+          <img loading="lazy" src="img/Branding/Glass%20Branding/Printed%20Frosted%20Sticker.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Printed Frosted Sticker">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Printed Frosted Sticker</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="glass-branding" data-src="img/Branding/Glass%20Branding/Sunfilm%20in%20glass.jpg" data-title="Sunfilm In Glass">
+          <img loading="lazy" src="img/Branding/Glass%20Branding/Sunfilm%20in%20glass.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Sunfilm In Glass">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Sunfilm In Glass</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="glass-branding" data-src="img/Branding/Glass%20Branding/Vinyl%20pasted%20from%20Inside%20glass.jpeg" data-title="Vinyl Pasted From Inside Glass">
+          <img loading="lazy" src="img/Branding/Glass%20Branding/Vinyl%20pasted%20from%20Inside%20glass.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Vinyl Pasted From Inside Glass">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Vinyl Pasted From Inside Glass</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="inshop-acrylic-branding" data-src="img/Branding/Inshop%20acrylic%20branding/Acrylic%20Cut%20letter.jpg" data-title="Acrylic Cut Letter">
+          <img loading="lazy" src="img/Branding/Inshop%20acrylic%20branding/Acrylic%20Cut%20letter.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Acrylic Cut Letter">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Acrylic Cut Letter</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="inshop-acrylic-branding" data-src="img/Branding/Inshop%20acrylic%20branding/Acrylic%20Cutting%20&%20Pasting.jpg" data-title="Acrylic Cutting & Pasting">
+          <img loading="lazy" src="img/Branding/Inshop%20acrylic%20branding/Acrylic%20Cutting%20&%20Pasting.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Acrylic Cutting & Pasting">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Acrylic Cutting & Pasting</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="inshop-acrylic-branding" data-src="img/Branding/Inshop%20acrylic%20branding/Direct%20Acrylic%20print%20with%20Glossy%20lamination.jpg" data-title="Direct Acrylic Print With Glossy Lamination">
+          <img loading="lazy" src="img/Branding/Inshop%20acrylic%20branding/Direct%20Acrylic%20print%20with%20Glossy%20lamination.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Direct Acrylic Print With Glossy Lamination">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Direct Acrylic Print With Glossy Lamination</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="inshop-acrylic-branding" data-src="img/Branding/Inshop%20acrylic%20branding/Reception%20Acrylic%20sign.jpg" data-title="Reception Acrylic Sign">
+          <img loading="lazy" src="img/Branding/Inshop%20acrylic%20branding/Reception%20Acrylic%20sign.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Reception Acrylic Sign">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Reception Acrylic Sign</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="inshop-acrylic-branding" data-src="img/Branding/Inshop%20acrylic%20branding/Solid%20acrylic%20cut%20letter.jpg" data-title="Solid Acrylic Cut Letter">
+          <img loading="lazy" src="img/Branding/Inshop%20acrylic%20branding/Solid%20acrylic%20cut%20letter.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Solid Acrylic Cut Letter">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Solid Acrylic Cut Letter</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="stretch-ceiling" data-src="img/Branding/Stretch%20Ceiling/Fabric%20Stretch%20Ceiling.jfif" data-title="Fabric Stretch Ceiling">
+          <img loading="lazy" src="img/Branding/Stretch%20Ceiling/Fabric%20Stretch%20Ceiling.jfif" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Stretch Ceiling">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Stretch Ceiling</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="stretch-ceiling" data-src="img/Branding/Stretch%20Ceiling/Stretch%20Ceiling.JPG" data-title="Stretch Ceiling">
+          <img loading="lazy" src="img/Branding/Stretch%20Ceiling/Stretch%20Ceiling.JPG" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Stretch Ceiling">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Stretch Ceiling</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="trade-expo-backdrop" data-src="img/Branding/Trade%20Expo%20Backdrop/fabric%20hanging%200.jpg" data-title="Fabric Hanging ">
+          <img loading="lazy" src="img/Branding/Trade%20Expo%20Backdrop/fabric%20hanging%200.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Hanging 0">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Hanging </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="trade-expo-backdrop" data-src="img/Branding/Trade%20Expo%20Backdrop/fabric%20hanging.jpg" data-title="Fabric Hanging">
+          <img loading="lazy" src="img/Branding/Trade%20Expo%20Backdrop/fabric%20hanging.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Fabric Hanging">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Fabric Hanging</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="vehicle-branding" data-src="img/Branding/Vehicle%20Branding/Bus%20branding.png" data-title="Bus Branding">
+          <img loading="lazy" src="img/Branding/Vehicle%20Branding/Bus%20branding.png" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Bus Branding">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Bus Branding</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="vehicle-branding" data-src="img/Branding/Vehicle%20Branding/vehicle%20branding%201.JPG" data-title="Vehicle Branding ">
+          <img loading="lazy" src="img/Branding/Vehicle%20Branding/vehicle%20branding%201.JPG" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Vehicle Branding 1">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Vehicle Branding </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="vehicle-branding" data-src="img/Branding/Vehicle%20Branding/vehicle%20branding%205.JPG" data-title="Vehicle Branding ">
+          <img loading="lazy" src="img/Branding/Vehicle%20Branding/vehicle%20branding%205.JPG" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Vehicle Branding 5">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Vehicle Branding </p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="vehicle-branding" data-src="img/Branding/Vehicle%20Branding/Vehicle%20Branding.jpg" data-title="Vehicle Branding">
+          <img loading="lazy" src="img/Branding/Vehicle%20Branding/Vehicle%20Branding.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Vehicle Branding">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Vehicle Branding</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="vinyl-foam-branding" data-src="img/Branding/Vinyl%20&%20Foam%20Branding/Foam%20board%20branding.jpg" data-title="Foam Board Branding">
+          <img loading="lazy" src="img/Branding/Vinyl%20&%20Foam%20Branding/Foam%20board%20branding.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Foam Board Branding">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Foam Board Branding</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="vinyl-foam-branding" data-src="img/Branding/Vinyl%20&%20Foam%20Branding/Foam%20board%20Cutout.jfif" data-title="Foam Board Cutout">
+          <img loading="lazy" src="img/Branding/Vinyl%20&%20Foam%20Branding/Foam%20board%20Cutout.jfif" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Foam Board Cutout">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Foam Board Cutout</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="vinyl-foam-branding" data-src="img/Branding/Vinyl%20&%20Foam%20Branding/foam%20name%20board.jpeg" data-title="Foam Name Board">
+          <img loading="lazy" src="img/Branding/Vinyl%20&%20Foam%20Branding/foam%20name%20board.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Foam Name Board">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Foam Name Board</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="vinyl-foam-branding" data-src="img/Branding/Vinyl%20&%20Foam%20Branding/Inhouse%20Branding%20logo%20removed.jpg.jpeg" data-title="Inhouse Branding ">
+          <img loading="lazy" src="img/Branding/Vinyl%20&%20Foam%20Branding/Inhouse%20Branding%20logo%20removed.jpg.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Inhouse Branding Logo Removed.Jpg">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Inhouse Branding</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="vinyl-foam-branding" data-src="img/Branding/Vinyl%20&%20Foam%20Branding/Lift%20Branding.jpeg" data-title="Lift Branding">
+          <img loading="lazy" src="img/Branding/Vinyl%20&%20Foam%20Branding/Lift%20Branding.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Lift Branding">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Lift Branding</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="vinyl-foam-branding" data-src="img/Branding/Vinyl%20&%20Foam%20Branding/One%20Way%20Vision.jpeg" data-title="One Way Vision">
+          <img loading="lazy" src="img/Branding/Vinyl%20&%20Foam%20Branding/One%20Way%20Vision.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="One Way Vision">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">One Way Vision</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="vinyl-foam-branding" data-src="img/Branding/Vinyl%20&%20Foam%20Branding/Vinyl%20Branding%20in%20Cooler.jpeg" data-title="Vinyl Branding In Cooler">
+          <img loading="lazy" src="img/Branding/Vinyl%20&%20Foam%20Branding/Vinyl%20Branding%20in%20Cooler.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Vinyl Branding In Cooler">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Vinyl Branding In Cooler</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="vinyl-foam-branding" data-src="img/Branding/Vinyl%20&%20Foam%20Branding/Vinyl%20Branding%20in%20door.jpeg" data-title="Vinyl Branding In Door">
+          <img loading="lazy" src="img/Branding/Vinyl%20&%20Foam%20Branding/Vinyl%20Branding%20in%20door.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Vinyl Branding In Door">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Vinyl Branding In Door</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="vinyl-foam-branding" data-src="img/Branding/Vinyl%20&%20Foam%20Branding/Vinyl%20branding%20in%20foam%20board.jpeg" data-title="Vinyl Branding In Foam Board">
+          <img loading="lazy" src="img/Branding/Vinyl%20&%20Foam%20Branding/Vinyl%20branding%20in%20foam%20board.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Vinyl Branding In Foam Board">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Vinyl Branding In Foam Board</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="vinyl-foam-branding" data-src="img/Branding/Vinyl%20&%20Foam%20Branding/Vinyl%20Branding%20Inside%20Glass.jpeg" data-title="Vinyl Branding Inside Glass">
+          <img loading="lazy" src="img/Branding/Vinyl%20&%20Foam%20Branding/Vinyl%20Branding%20Inside%20Glass.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Vinyl Branding Inside Glass">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Vinyl Branding Inside Glass</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="vinyl-foam-branding" data-src="img/Branding/Vinyl%20&%20Foam%20Branding/Vinyl%20Branding%20on%20wall.jpeg" data-title="Vinyl Branding On Wall">
+          <img loading="lazy" src="img/Branding/Vinyl%20&%20Foam%20Branding/Vinyl%20Branding%20on%20wall.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Vinyl Branding On Wall">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Vinyl Branding On Wall</p>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square" data-category="vinyl-foam-branding" data-src="img/Branding/Vinyl%20&%20Foam%20Branding/Vinyl%20Branding.jpeg" data-title="Vinyl Branding">
+          <img loading="lazy" src="img/Branding/Vinyl%20&%20Foam%20Branding/Vinyl%20Branding.jpeg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Vinyl Branding">
+          <!-- Hover Overlay -->
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+            <p class="text-white font-bold text-base text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Vinyl Branding</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bottom Back Button -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6 mb-12 flex justify-end">
+    <a href="gallery.html" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-bold bg-white text-gray-700 border border-gray-200 hover:border-[#d72a2f] hover:text-[#d72a2f] hover:bg-gray-50 transition-all duration-300 shadow-sm">
+      <i class="fa fa-arrow-left"></i> Back to Gallery
+    </a>
+  </div>
+
+
+  <!-- page footer -->
+<footer id="footer" class="bg-gray-900 border-t border-red-600/20 text-gray-300 pt-6 pb-6 text-sm">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<div class="grid grid-cols-1 md:grid-cols-12 gap-12 mb-6">
+
+
+				<div class="col-span-12 md:col-span-6 lg:col-span-3 flex flex-col space-y-4">
+					<a href="index.html" class="inline-block mb-4">
+						<img src="img/logo.webp" class="h-20 w-auto bg-white p-2 rounded mr-auto" alt="AB Colors Logo">
+					</a>
+					<p class="text-gray-400 leading-relaxed max-w-sm">We provide high-quality branding, signage, and
+						printing solutions to help your business stand out in a competitive market.</p>
+
+
+					<div class="flex space-x-4 mt-6">
+						<a href="https://www.facebook.com/p/AB-Colors-100088263742383/"
+							class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-[#d72a2f] hover:text-white transition-all duration-300"
+							target="_blank"><i class="fa fa-facebook"></i></a>
+						<a href="javascrip:void(0)"
+							class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-[#d72a2f] hover:text-white transition-all duration-300"><i
+								class="fa fa-twitter"></i></a>
+						<!-- <a href="javascrip:void(0)"
+							class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-[#d72a2f] hover:text-white transition-all duration-300"><i
+								class="fa fa-linkedin"></i></a> -->
+						<a href="https://www.instagram.com/signage_abcolors?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
+							target="_blank"
+							class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-[#d72a2f] hover:text-white transition-all duration-300"><i
+								class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+
+
+				<div class="col-span-12 md:col-span-6 lg:col-span-2">
+					<h3
+						class="text-white text-lg font-bold mb-6 relative inline-block after:content-[''] after:absolute after:w-1/2 after:h-1 after:bg-[#d72a2f] after:-bottom-2 after:left-0">
+						Quick Links</h3>
+					<ul class="space-y-4">
+						<li><a href="index.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Home</a></li>
+						<li><a href="aboutus.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>About Us</a></li>
+									<li><a href="service.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Services</a></li>
+						<li><a href="gallery.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Gallery</a></li>
+						<li><a href="contact.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Contact us</a></li>
+					</ul>
+				</div>
+
+
+				<div class="col-span-12 md:col-span-6 lg:col-span-3">
+					<h3
+						class="text-white text-lg font-bold mb-6 relative inline-block after:content-[''] after:absolute after:w-1/2 after:h-1 after:bg-[#d72a2f] after:-bottom-2 after:left-0">
+						Our Works</h3>
+					<ul class="space-y-4">
+						<li><a href="signage.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Signages</a></li>
+						<li><a href="branding.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Branding</a></li>
+						<li><a href="promotional.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Promotional Materials</a></li>
+									<li><a href="corprate-gifting.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Corporate Gifting</a></li>
+									<li><a href="digital.html"
+								class="text-gray-400 hover:text-white hover:translate-x-2 transition-transform inline-block"><i
+									class="fa fa-angle-right mr-2 text-[#d72a2f]"></i>Digital Printing</a></li>
+					</ul>
+				</div>
+
+
+				<div class="col-span-12 md:col-span-6 lg:col-span-4">
+					<h3
+						class="text-white text-lg font-bold mb-6 relative inline-block after:content-[''] after:absolute after:w-1/2 after:h-1 after:bg-[#d72a2f] after:-bottom-2 after:left-0">
+						Contact Info</h3>
+					<ul class="space-y-5">
+						<li class="flex items-start">
+							<i class="fa fa-map-marker text-[#d72a2f] mt-1 mr-4 text-lg"></i>
+							<span class="text-gray-400">4th Floor, Pearls Tower, 26, Karur Bypass Rd, <br>opp.
+								Kalaignar Arivalayam, <br>Adjacent to Taj Marriage Hall, Kela Chinthamani,
+								Tiruchirappalli, <br>Tamil Nadu 620002</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fa fa-phone text-[#d72a2f] mr-4 text-lg"></i>
+							<a href="tel:+919842275299" class="text-gray-400 hover:text-white transition-colors">+91
+								98422 75299</a>
+						</li>
+						<li class="flex items-center">
+							<i class="fa fa-envelope text-[#d72a2f] mr-4 text-lg"></i>
+							<a href="mailto:bala@abcolors.in"
+								class="text-gray-400 hover:text-white transition-colors">bala@abcolors.in</a>
+						</li>
+						<li class="flex items-center">
+							<i class="fa fa-clock-o text-[#d72a2f] mr-4 text-lg"></i>
+							<span class="text-gray-400">Mon - Sat: 10:00 AM - 7:30 PM</span>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+
+
+			<div class=" border-t border-gray-800 flex flex-col md:flex-row justify-between items-center text-gray-500">
+				<p>&copy; 2026 AB Colors. All Rights Reserved.</p>
+				<p>Powerd By <a href="https://560degree.com/" target="_blank">560 degree Solutions</a></p>
+			</div>
+		</div>
+	</footer>
+  <!--/ page footer -->
+  <a href="javascript:void(0)" id="scroll-top" class="scroll-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- scripts -->
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.isotope.min.js"></script>
+  <script src="js/jquery.owl.carousel.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/retina.min.js"></script>
+  <!--/ scripts -->
+
+  <!-- Corporate Gifting Filter & Lightbox JS -->
+  <script>
+    $(document).ready(function() {
+      // 1. Filter logic
+      $('.filter-btn').on('click', function() {
+        // Reset classes for all buttons
+        $('.filter-btn').removeClass('bg-[#d72a2f] text-white border-[#d72a2f]').addClass('bg-white text-gray-700 border-gray-200');
+        // Add active classes to clicked button
+        $(this).removeClass('bg-white text-gray-700 border-gray-200').addClass('bg-[#d72a2f] text-white border-[#d72a2f]');
+        
+        var filter = $(this).attr('data-filter');
+        
+        if (filter === 'all') {
+          $('.gallery-item').fadeIn(350);
+        } else {
+          $('.gallery-item').hide();
+          $('.gallery-item[data-category="' + filter + '"]').fadeIn(350);
+        }
+      });
+
+      // 2. Lightbox logic
+      // Create and append the lightbox HTML if it doesn't exist
+      if ($('#portfolio-lightbox').length === 0) {
+        $('body').append(
+          '<div id="portfolio-lightbox" class="portfolio-lightbox">' +
+            '<span class="lightbox-close">&times;</span>' +
+            '<div class="lightbox-prev"><i class="fa fa-angle-left"></i></div>' +
+            '<div class="lightbox-next"><i class="fa fa-angle-right"></i></div>' +
+            '<div class="lightbox-content">' +
+              '<img id="lightbox-img" src="" alt="">' +
+              '<div id="lightbox-caption" class="lightbox-caption"></div>' +
+            '</div>' +
+          '</div>'
+        );
+      }
+
+      var $lightbox = $('#portfolio-lightbox');
+      var $lightboxImg = $('#lightbox-img');
+      var $lightboxCaption = $('#lightbox-caption');
+      var currentIndex = 0;
+      var $visibleItems = $();
+
+      function showLightboxImage(index) {
+        if (index < 0 || index >= $visibleItems.length) return;
+        currentIndex = index;
+        
+        var $currentItem = $visibleItems.eq(currentIndex);
+        var imgSrc = $currentItem.attr('data-src');
+        var imgTitle = $currentItem.attr('data-title');
+        
+        $lightboxImg.css('opacity', '0');
+        setTimeout(function() {
+          $lightboxImg.attr('src', imgSrc);
+          $lightboxCaption.text(imgTitle);
+          $lightboxImg.css('opacity', '1');
+        }, 150);
+      }
+
+      // Open Lightbox
+      $(document).on('click', '.gallery-item', function(e) {
+        e.preventDefault();
+        
+        // Find visible items under the current filter
+        var activeFilter = $('.filter-btn.bg-\\[\\#d72a2f\\]').attr('data-filter') || 'all';
+        if (activeFilter === 'all') {
+          $visibleItems = $('.gallery-item');
+        } else {
+          $visibleItems = $('.gallery-item').filter('[data-category="' + activeFilter + '"]');
+        }
+        
+        var $clickedItem = $(this);
+        var clickedIndex = $visibleItems.index($clickedItem);
+        
+        if (clickedIndex !== -1) {
+          showLightboxImage(clickedIndex);
+          $lightbox.addClass('active');
+          $('body').css('overflow', 'hidden'); // Prevent page scroll
+        }
+      });
+
+      // Close Lightbox
+      function closeLightbox() {
+        $lightbox.removeClass('active');
+        $('body').css('overflow', '');
+      }
+
+      $lightbox.on('click', function(e) {
+        if ($(e.target).hasClass('portfolio-lightbox') || $(e.target).hasClass('lightbox-close')) {
+          closeLightbox();
+        }
+      });
+
+      $('.lightbox-close').on('click', function() {
+        closeLightbox();
+      });
+
+      // Next / Prev clicks
+      $(document).on('click', '.lightbox-next', function(e) {
+        e.stopPropagation();
+        var nextIndex = currentIndex + 1;
+        if (nextIndex >= $visibleItems.length) {
+          nextIndex = 0; // Loop back to start
+        }
+        showLightboxImage(nextIndex);
+      });
+
+      $(document).on('click', '.lightbox-prev', function(e) {
+        e.stopPropagation();
+        var prevIndex = currentIndex - 1;
+        if (prevIndex < 0) {
+          prevIndex = $visibleItems.length - 1; // Loop to end
+        }
+        showLightboxImage(prevIndex);
+      });
+
+      // Keyboard support
+      $(document).on('keydown', function(e) {
+        if (!$lightbox.hasClass('active')) return;
+        if (e.keyCode === 37) {
+          $('.lightbox-prev').trigger('click');
+        } else if (e.keyCode === 39) {
+          $('.lightbox-next').trigger('click');
+        } else if (e.keyCode === 27) {
+          closeLightbox();
+        }
+      });
+    });
+  </script>
+	<!-- Floating WhatsApp Button -->
+	<a href="https://wa.me/919842275299" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+		<i class="fa fa-whatsapp"></i>
+	</a>
+</body>
+
+</html>
