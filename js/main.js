@@ -1137,7 +1137,7 @@ $(function(){
   /* scroll down */
   /**/
   $('.scroll-down-button').on( "click", function() {
-    $('html, body').animate({scrollTop: $('#home').offset().top},{duration: 1500, easing: "easeInOutExpo"});
+    $('html, body').animate({scrollTop: ($('#about').length ? $('#about').offset().top - 80 : 600)},{duration: 1500, easing: "easeInOutExpo"});
     return false;
   });
 

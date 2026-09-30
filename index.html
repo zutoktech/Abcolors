@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="css/jquery.owl.carousel.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+	<link rel="stylesheet" href="css/modern-navbar.css">
 	<link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
 	<script src="https://cdn.tailwindcss.com"></script>
 	
@@ -136,7 +137,17 @@
 			background-color: #ffffff !important;
 		}
 		#home{
-			padding-top: 100px;
+			padding-top: 0px !important;
+		}
+		.main-page .sticky {
+			position: fixed !important;
+			top: 0 !important;
+			left: 0;
+			right: 0;
+			width: 100%;
+			background-color: #ffffff !important;
+			box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08) !important;
+			z-index: 99999 !important;
 		}
 		#about{
 			margin-top: 0px;
@@ -146,7 +157,35 @@
 
 </head>
 
-<body class="main-page pc">
+<body class="main-page pc">
+	<!-- page header -->
+	<header id="home">
+		<!-- sticky menu -->
+		<div class="stick-wrapper">
+			<div class="sticky clear">
+				<div class="grid-row">
+					<div class="logo">
+						<a href="index.html"><img src="img/logo.webp" alt="logo" style="height: 90px;"></a>
+					</div>
+					<nav class="nav">
+						<a href="javascript:void(0)" class="switcher">
+							<i class="fa fa-bars"></i>
+						</a>
+						<ul class="clear">
+							<li><a href="index.html" class="active-link">Home</a></li>
+							<li><a href="aboutus.html">About Us</a></li>
+							<li><a href="service.html">Services</a></li>
+							<li><a href="gallery.html">Gallery</a></li>
+							<li class="last"><a href="contact.html">Contact Us</a></li>
+							<li class="nav-cta-item"><a href="tel:+919842275299"><i class="fa fa-phone"></i> +91 98422 75299</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<!--/ sticky menu -->
+	</header>
+	<!--/ page header -->
 	<div class="tp-banner-container">
 		<div class="tp-banner">
 			<ul>
@@ -167,8 +206,8 @@
 			</div>
 		</div>
 	</div>
-	<!-- page header -->
-	<header id="home">
+	<div style="display:none !important;" aria-hidden="true">
+
 		<!-- sticky menu -->
 		<div class="stick-wrapper">
 			<div class="sticky clear">
@@ -205,8 +244,8 @@
 			</div>
 		</div>
 		<!--/ sticky menu -->
-	</header>
-	<!--/ pade header -->
+	</div><!--/ old header hidden -->
+
 	<!-- page content -->
 	<section id="about" class="about-us padding-section ">
 		<div class="grid-row">
@@ -263,7 +302,7 @@
 							<h3 class="text-xl font-bold text-gray-800 text-center mb-2">LED Signages</h3>
 							<div class="w-10 h-0.5 bg-[#d72a2f] mx-auto mb-4"></div>
 							<p class="text-gray-600 text-sm text-center leading-relaxed">Turn Light Into Branding. LED
-								Signages That Attract Every Eye.</p>
+								Signages That Attract Every Eye.</p><a href="service-led-signage.html" class="mt-4 block text-center text-xs font-bold text-[#d72a2f] hover:text-[#b52024] uppercase tracking-wider">Explore Service <i class="fa fa-arrow-right text-[10px] ml-1"></i></a>
 						</div>
 					</div>
 				</div>
@@ -279,7 +318,7 @@
 							<h3 class="text-xl font-bold text-gray-800 text-center mb-2">Promotional products</h3>
 							<div class="w-10 h-0.5 bg-[#d72a2f] mx-auto mb-4"></div>
 							<p class="text-gray-600 text-sm text-center leading-relaxed">Promote Your Brand Everywhere.
-								Products That Speak For Your Business.</p>
+								Products That Speak For Your Business.</p><a href="service-promotional-products.html" class="mt-4 block text-center text-xs font-bold text-[#d72a2f] hover:text-[#b52024] uppercase tracking-wider">Explore Service <i class="fa fa-arrow-right text-[10px] ml-1"></i></a>
 						</div>
 					</div>
 				</div>
@@ -295,7 +334,7 @@
 							<h3 class="text-xl font-bold text-gray-800 text-center mb-2">Branding</h3>
 							<div class="w-10 h-0.5 bg-[#d72a2f] mx-auto mb-4"></div>
 							<p class="text-gray-600 text-sm text-center leading-relaxed">Build Your Brand Identity.
-								Stand Out From The Competition.</p>
+								Stand Out From The Competition.</p><a href="service-branding.html" class="mt-4 block text-center text-xs font-bold text-[#d72a2f] hover:text-[#b52024] uppercase tracking-wider">Explore Service <i class="fa fa-arrow-right text-[10px] ml-1"></i></a>
 						</div>
 					</div>
 				</div>
@@ -311,7 +350,7 @@
 							<h3 class="text-xl font-bold text-gray-800 text-center mb-2">Flatbed Direct UV Printing</h3>
 							<div class="w-10 h-0.5 bg-[#d72a2f] mx-auto mb-4"></div>
 							<p class="text-gray-600 text-sm text-center leading-relaxed">Print Direct. Print Perfect.
-								High-Quality UV Printing On Any Surface.</p>
+								High-Quality UV Printing On Any Surface.</p><a href="service-flatbed-uv-printing.html" class="mt-4 block text-center text-xs font-bold text-[#d72a2f] hover:text-[#b52024] uppercase tracking-wider">Explore Service <i class="fa fa-arrow-right text-[10px] ml-1"></i></a>
 						</div>
 					</div>
 				</div>
@@ -825,7 +864,15 @@
 	<footer id="footer">
 		<div class="grid-row clear">
 			<div class="footer">
-				<div id="copyright">Copyright<span> AB Colors</span> 2026-All Rights Reserved</div>
+				<div id="copyright">
+					<div>Copyright<span> AB Colors</span> 2026-All Rights Reserved</div>
+					<div style="margin-top: 6px;">
+						<a href="https://www.zutok.in" target="_blank" rel="noopener noreferrer" style="color: #000000; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; font-size: 13px;">
+							<span>Powerd By <strong>Zutok Softwares</strong></span>
+							<img src="img/logo.PNG" alt="Zutok Softwares Logo" style="height: 18px; width: auto; vertical-align: middle;">
+						</a>
+					</div>
+				</div>
 				<a href="index.html" class="footer-logo"><img src="img/logo.webp" style="height: 80px;" alt=""></a>
 				<div class="social">
 					<a href="javascript:void(0)">
