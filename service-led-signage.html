@@ -40,7 +40,17 @@
             <ul class="clear">
               <li><a href="index.html">Home</a></li>
               <li><a href="aboutus.html">About Us</a></li>
-              <li><a href="service.html" class="active-link">Services</a></li>
+              <li class="has-dropdown">
+                <a href="service.html" class="active-link">Services <i class="fa fa-chevron-down dropdown-arrow"></i></a>
+                <ul class="dropdown-menu">
+                  <li><a href="service-led-signage.html">LED Signages</a></li>
+                  <li><a href="service-promotional-products.html">Promotional Products</a></li>
+                  <li><a href="service-branding.html">Branding Solutions</a></li>
+                  <li><a href="service-flatbed-uv-printing.html">Flatbed UV Printing</a></li>
+                  <li><a href="service-corporate-gifting.html">Corporate Gifting</a></li>
+                  <li><a href="service-digital-printing.html">Digital Printing</a></li>
+                </ul>
+              </li>
               <li><a href="gallery.html">Gallery</a></li>
               <li><a href="contact.html">Contact Us</a></li>
               <li class="nav-cta-item"><a href="tel:+919842275299"><i class="fa fa-phone"></i> +91 98422 75299</a></li>
@@ -54,46 +64,7 @@
   <!-- Main Content Container -->
   <main class="sd-container">
 
-    <!-- SECTION 1: TOP 2-COLUMN SHOWCASE (Left: Image | Right: Description) -->
-    <div class="sd-showcase-card">
-      <!-- Left Column: Image -->
-      <div class="sd-showcase-left">
-        <div class="sd-main-image-wrap">
-          <img id="mainLedImg" src="img/Signages/LED Signage/LED-Signage.jpg" alt="LED Signage by AB Colors">
-          <span class="sd-image-badge">Illuminated Signage</span>
-        </div>
-        <div class="sd-thumb-strip">
-          <img src="img/Signages/LED Signage/LED-Signage.jpg" onclick="document.getElementById('mainLedImg').src=this.src" alt="LED Sign">
-          <img src="img/SS Lip Letter Signage/1.jpg" onclick="document.getElementById('mainLedImg').src=this.src" alt="SS Lip Letter">
-          <img src="img/Titanium Signage/1.jpg" onclick="document.getElementById('mainLedImg').src=this.src" alt="Titanium Letter">
-          <img src="img/Totem Pylon/1.jpg" onclick="document.getElementById('mainLedImg').src=this.src" alt="Totem Pylon">
-        </div>
-      </div>
-
-      <!-- Right Column: Description -->
-      <div class="sd-showcase-right">
-        <span class="sd-desc-tag">Signage Manufacturing</span>
-        <h1 class="sd-desc-title">LED Signages & 3D Glow Signs</h1>
-        <p class="sd-desc-text">
-          <b>AB Colors</b> is a leading manufacturer of architectural and commercial <b>LED Sign Boards</b> in Trichy and across Tamil Nadu. We specialize in 3D Acrylic Letters, Stainless Steel (SS 304) Lip Letters, Titanium Gold Letters, and Router Cut ACP Cladding Boards.
-        </p>
-        <p class="sd-desc-text">
-          Powered by high-efficiency IP67 waterproof LED modules, our illuminated signs guarantee vibrant illumination with low power consumption and long operational lifespan. From retail shops to corporate headquarters, we deliver complete turnkey fabrication and installation.
-        </p>
-        <ul class="sd-features-list">
-          <li><i class="fa fa-check-circle"></i> Waterproof IP67 LED Modules</li>
-          <li><i class="fa fa-check-circle"></i> SS 304 & Titanium Finishes</li>
-          <li><i class="fa fa-check-circle"></i> CNC Router Cut ACP Cladding</li>
-          <li><i class="fa fa-check-circle"></i> Complete On-Site Installation</li>
-        </ul>
-        <div class="sd-quick-actions">
-          <a href="tel:+919842275299" class="sd-btn-call"><i class="fa fa-phone"></i> Call: +91 98422 75299</a>
-          <a href="https://wa.me/919842275299?text=Hi%20AB%20Colors,%20I%20am%20interested%20in%20LED%20Signage%20services." target="_blank" class="sd-btn-whatsapp"><i class="fa fa-whatsapp"></i> WhatsApp Enquiry</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- SECTION 2: NICHE JUST YE FORM (Lead / Enquiry Form) -->
+    <!-- SECTION 1: ENQUIRY FORM (Top Priority - Right below navbar) -->
     <div class="sd-form-card" id="enquiry-form">
       <div class="sd-form-header">
         <span class="sd-form-badge">Instant Quote</span>
@@ -161,6 +132,47 @@
         </button>
       </form>
     </div>
+
+    <!-- SECTION 2: 2-COLUMN SHOWCASE (Left: Image | Right: Description) -->
+    <div class="sd-showcase-card">
+      <!-- Left Column: Image -->
+      <div class="sd-showcase-left">
+        <div class="sd-main-image-wrap">
+          <img id="mainLedImg" src="img/Signages/LED Signage/LED-Signage.jpg" alt="LED Signage by AB Colors">
+          <span class="sd-image-badge">Illuminated Signage</span>
+        </div>
+        <div class="sd-thumb-strip">
+          <img src="img/Signages/LED Signage/LED-Signage.jpg" onclick="document.getElementById('mainLedImg').src=this.src" alt="LED Sign">
+          <img src="img/SS Lip Letter Signage/1.jpg" onclick="document.getElementById('mainLedImg').src=this.src" alt="SS Lip Letter">
+          <img src="img/Titanium Signage/1.jpg" onclick="document.getElementById('mainLedImg').src=this.src" alt="Titanium Letter">
+          <img src="img/Totem Pylon/1.jpg" onclick="document.getElementById('mainLedImg').src=this.src" alt="Totem Pylon">
+        </div>
+      </div>
+
+      <!-- Right Column: Description -->
+      <div class="sd-showcase-right">
+        <span class="sd-desc-tag">Signage Manufacturing</span>
+        <h1 class="sd-desc-title">LED Signages & 3D Glow Signs</h1>
+        <p class="sd-desc-text">
+          <b>AB Colors</b> is a leading manufacturer of architectural and commercial <b>LED Sign Boards</b> in Trichy and across Tamil Nadu. We specialize in 3D Acrylic Letters, Stainless Steel (SS 304) Lip Letters, Titanium Gold Letters, and Router Cut ACP Cladding Boards.
+        </p>
+        <p class="sd-desc-text">
+          Powered by high-efficiency IP67 waterproof LED modules, our illuminated signs guarantee vibrant illumination with low power consumption and long operational lifespan. From retail shops to corporate headquarters, we deliver complete turnkey fabrication and installation.
+        </p>
+        <ul class="sd-features-list">
+          <li><i class="fa fa-check-circle"></i> Waterproof IP67 LED Modules</li>
+          <li><i class="fa fa-check-circle"></i> SS 304 & Titanium Finishes</li>
+          <li><i class="fa fa-check-circle"></i> CNC Router Cut ACP Cladding</li>
+          <li><i class="fa fa-check-circle"></i> Complete On-Site Installation</li>
+        </ul>
+        <div class="sd-quick-actions">
+          <a href="tel:+919842275299" class="sd-btn-call"><i class="fa fa-phone"></i> Call: +91 98422 75299</a>
+          <a href="https://wa.me/919842275299?text=Hi%20AB%20Colors,%20I%20am%20interested%20in%20LED%20Signage%20services." target="_blank" class="sd-btn-whatsapp"><i class="fa fa-whatsapp"></i> WhatsApp Enquiry</a>
+        </div>
+      </div>
+    </div>
+
+
 
     <!-- SECTION 3: RECENT WORK GALLERY -->
     <div class="sd-gallery-section">

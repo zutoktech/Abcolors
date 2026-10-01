@@ -1,0 +1,351 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <title>Thank You | AB Colors - Your Enquiry Has Been Received</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta name="description" content="Thank you for your enquiry. AB Colors team will contact you shortly.">
+  <meta name="robots" content="noindex, nofollow">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/modern-navbar.css">
+  <link rel="stylesheet" href="css/service-detail.css">
+  <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18413505746"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-18413505746');
+  </script>
+
+  <!-- ============================================================
+       GOOGLE ADS CONVERSION TRACKING
+       ============================================================
+       Replace 'AW-XXXXXXXXX/XXXXXXXXXXXX' with your actual 
+       Google Ads Conversion ID and Label.
+       
+       To get these values:
+       1. Go to Google Ads → Tools & Settings → Conversions
+       2. Create a new conversion action (Website → Submit lead form)
+       3. Choose "Use a tag" → copy the conversion ID and label
+       4. Paste them below
+       ============================================================ -->
+  <script>
+    // Fire conversion event on page load (this page only loads after form submit)
+    gtag('event', 'conversion', {
+      'send_to': 'AW-18413505746/REPLACE_WITH_YOUR_CONVERSION_LABEL',
+      'value': 1.0,
+      'currency': 'INR'
+    });
+  </script>
+
+  <style>
+    .thankyou-page {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #fef2f2 0%, #ffffff 50%, #f0fdf4 100%);
+      display: flex;
+      flex-direction: column;
+    }
+    .thankyou-container {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+    .thankyou-card {
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.08), 0 1px 3px rgba(0,0,0,0.05);
+      max-width: 600px;
+      width: 100%;
+      padding: 50px 40px;
+      text-align: center;
+      animation: fadeInUp 0.6s ease-out;
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .thankyou-icon {
+      width: 90px;
+      height: 90px;
+      background: linear-gradient(135deg, #22c55e, #16a34a);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 24px;
+      box-shadow: 0 8px 25px rgba(34, 197, 94, 0.3);
+      animation: scaleIn 0.5s ease-out 0.2s both;
+    }
+    @keyframes scaleIn {
+      from { transform: scale(0); }
+      to { transform: scale(1); }
+    }
+    .thankyou-icon i {
+      font-size: 42px;
+      color: #ffffff;
+    }
+    .thankyou-card h1 {
+      font-size: 28px;
+      font-weight: 800;
+      color: #111827;
+      margin-bottom: 12px;
+    }
+    .thankyou-card .subtitle {
+      font-size: 16px;
+      color: #6b7280;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+    .thankyou-card .subtitle strong {
+      color: #d72a2f;
+    }
+    .thankyou-info {
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 30px;
+      text-align: left;
+    }
+    .thankyou-info h4 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #374151;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .thankyou-info ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .thankyou-info ul li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 8px 0;
+      font-size: 14px;
+      color: #4b5563;
+      line-height: 1.5;
+    }
+    .thankyou-info ul li i {
+      color: #22c55e;
+      font-size: 16px;
+      margin-top: 2px;
+      flex-shrink: 0;
+    }
+    .thankyou-actions {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .thankyou-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 24px;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      cursor: pointer;
+      border: none;
+    }
+    .thankyou-btn-whatsapp {
+      background: #25d366;
+      color: #ffffff;
+    }
+    .thankyou-btn-whatsapp:hover {
+      background: #1da851;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+    }
+    .thankyou-btn-home {
+      background: #111827;
+      color: #ffffff;
+    }
+    .thankyou-btn-home:hover {
+      background: #d72a2f;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 15px rgba(215, 42, 47, 0.3);
+    }
+    .thankyou-btn-services {
+      background: #ffffff;
+      color: #374151;
+      border: 2px solid #e5e7eb;
+    }
+    .thankyou-btn-services:hover {
+      border-color: #d72a2f;
+      color: #d72a2f;
+      transform: translateY(-2px);
+    }
+    @media (max-width: 600px) {
+      .thankyou-card {
+        padding: 30px 20px;
+      }
+      .thankyou-card h1 {
+        font-size: 22px;
+      }
+      .thankyou-actions {
+        flex-direction: column;
+      }
+      .thankyou-btn {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+
+<body class="service-detail-body thankyou-page">
+  <!-- Sticky Header -->
+  <header id="home">
+    <div class="stick-wrapper">
+      <div class="sticky clear">
+        <div class="grid-row">
+          <div class="logo">
+            <a href="index.html"><img src="img/logo.webp" alt="AB Colors Logo"></a>
+          </div>
+          <nav class="nav">
+            <a href="javascript:void(0)" class="switcher">
+              <i class="fa fa-bars"></i>
+            </a>
+            <ul class="clear">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="aboutus.html">About Us</a></li>
+              <li class="has-dropdown">
+                <a href="service.html">Services <i class="fa fa-chevron-down dropdown-arrow"></i></a>
+                <ul class="dropdown-menu">
+                  <li><a href="service-led-signage.html">LED Signages</a></li>
+                  <li><a href="service-promotional-products.html">Promotional Products</a></li>
+                  <li><a href="service-branding.html">Branding Solutions</a></li>
+                  <li><a href="service-flatbed-uv-printing.html">Flatbed UV Printing</a></li>
+                  <li><a href="service-corporate-gifting.html">Corporate Gifting</a></li>
+                  <li><a href="service-digital-printing.html">Digital Printing</a></li>
+                </ul>
+              </li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li class="nav-cta-item"><a href="tel:+919842275299"><i class="fa fa-phone"></i> +91 98422 75299</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Thank You Content -->
+  <div class="thankyou-container">
+    <div class="thankyou-card">
+      <div class="thankyou-icon">
+        <i class="fa fa-check"></i>
+      </div>
+      <h1>Thank You!</h1>
+      <p class="subtitle">
+        Your enquiry has been successfully submitted. Our team at <strong>AB Colors</strong> will review your requirement and get in touch with you within <strong>2-4 hours</strong>.
+      </p>
+
+      <div class="thankyou-info">
+        <h4>What Happens Next?</h4>
+        <ul>
+          <li><i class="fa fa-check-circle"></i> Our team will review your requirements</li>
+          <li><i class="fa fa-check-circle"></i> We will prepare a customized quotation for you</li>
+          <li><i class="fa fa-check-circle"></i> You'll receive a call/WhatsApp within 2-4 hours</li>
+          <li><i class="fa fa-check-circle"></i> We offer free site visits for projects in Trichy</li>
+        </ul>
+      </div>
+
+      <div class="thankyou-actions">
+        <a href="https://wa.me/919842275299?text=Hi%20AB%20Colors,%20I%20just%20submitted%20an%20enquiry%20on%20your%20website.%20Please%20connect%20with%20me." target="_blank" class="thankyou-btn thankyou-btn-whatsapp">
+          <i class="fa fa-whatsapp"></i> WhatsApp Us Now
+        </a>
+        <a href="index.html" class="thankyou-btn thankyou-btn-home">
+          <i class="fa fa-home"></i> Back to Home
+        </a>
+        <a href="service.html" class="thankyou-btn thankyou-btn-services">
+          <i class="fa fa-th-large"></i> View Services
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="sd-footer">
+    <div class="sd-container">
+      <div class="sd-footer-grid">
+        <div class="sd-footer-col">
+          <h4>AB Colors</h4>
+          <p>Tamil Nadu's premier digital printing, LED signage, and corporate branding production house delivering world-class visual solutions.</p>
+          <p style="font-size: 12px; color: #6b7280;">GST Registered | In-House Manufacturing Facility</p>
+        </div>
+        <div class="sd-footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="service.html">All Services</a></li>
+            <li><a href="gallery.html">Project Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="sd-footer-col">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="service-led-signage.html">LED Signages</a></li>
+            <li><a href="service-promotional-products.html">Promotional Products</a></li>
+            <li><a href="service-branding.html">Branding Solutions</a></li>
+            <li><a href="service-flatbed-uv-printing.html">Flatbed UV Printing</a></li>
+            <li><a href="service-corporate-gifting.html">Corporate Gifting</a></li>
+            <li><a href="service-digital-printing.html">Digital Printing</a></li>
+          </ul>
+        </div>
+        <div class="sd-footer-col">
+          <h4>Contact Us</h4>
+          <ul class="sd-footer-contact">
+            <li>
+              <i class="fa fa-map-marker"></i>
+              <span>4th Floor, Pearls Tower, 26, Karur Bypass Rd, opp. Kalaignar Arivalayam, Trichy, Tamil Nadu 620002</span>
+            </li>
+            <li>
+              <i class="fa fa-phone"></i>
+              <a href="tel:+919842275299">+91 98422 75299</a>
+            </li>
+            <li>
+              <i class="fa fa-envelope"></i>
+              <a href="mailto:bala@abcolors.in">bala@abcolors.in</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sd-footer-bottom">
+        <span>&copy; 2026 AB Colors. All Rights Reserved.</span>
+        <span>
+          <a href="https://www.zutok.in" target="_blank" rel="noopener noreferrer" style="background: #ffffff; color: #000000; font-weight: bold; padding: 4px 10px; border-radius: 6px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; font-size: 13px;">
+            <span>Powerd By <strong>Zutok Softwares</strong></span>
+            <img src="img/logo.PNG" alt="Zutok Softwares Logo" style="height: 18px; width: auto; vertical-align: middle;">
+          </a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/919842275299" target="_blank" class="sd-whatsapp-float" aria-label="Chat on WhatsApp">
+    <i class="fa fa-whatsapp"></i>
+  </a>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

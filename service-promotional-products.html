@@ -40,7 +40,17 @@
             <ul class="clear">
               <li><a href="index.html">Home</a></li>
               <li><a href="aboutus.html">About Us</a></li>
-              <li><a href="service.html" class="active-link">Services</a></li>
+              <li class="has-dropdown">
+                <a href="service.html" class="active-link">Services <i class="fa fa-chevron-down dropdown-arrow"></i></a>
+                <ul class="dropdown-menu">
+                  <li><a href="service-led-signage.html">LED Signages</a></li>
+                  <li><a href="service-promotional-products.html">Promotional Products</a></li>
+                  <li><a href="service-branding.html">Branding Solutions</a></li>
+                  <li><a href="service-flatbed-uv-printing.html">Flatbed UV Printing</a></li>
+                  <li><a href="service-corporate-gifting.html">Corporate Gifting</a></li>
+                  <li><a href="service-digital-printing.html">Digital Printing</a></li>
+                </ul>
+              </li>
               <li><a href="gallery.html">Gallery</a></li>
               <li><a href="contact.html">Contact Us</a></li>
               <li class="nav-cta-item"><a href="tel:+919842275299"><i class="fa fa-phone"></i> +91 98422 75299</a></li>
@@ -54,46 +64,7 @@
   <!-- Main Content Container -->
   <main class="sd-container">
 
-    <!-- SECTION 1: TOP 2-COLUMN SHOWCASE (Left: Image | Right: Description) -->
-    <div class="sd-showcase-card">
-      <!-- Left Column: Image -->
-      <div class="sd-showcase-left">
-        <div class="sd-main-image-wrap">
-          <img id="mainPromoImg" src="img/promo/promi.png" alt="Promotional Products by AB Colors">
-          <span class="sd-image-badge">Portable Displays</span>
-        </div>
-        <div class="sd-thumb-strip">
-          <img src="img/promo/promi.png" onclick="document.getElementById('mainPromoImg').src=this.src" alt="Promotional Display">
-          <img src="img/Promotional Products/Canopy.jpg" onclick="document.getElementById('mainPromoImg').src=this.src" alt="Canopy Tent">
-          <img src="img/Promotional Products/Feather Flag 1.jpg" onclick="document.getElementById('mainPromoImg').src=this.src" alt="Feather Flag">
-          <img src="img/Standee.jpeg" onclick="document.getElementById('mainPromoImg').src=this.src" alt="Roll-up Standee">
-        </div>
-      </div>
-
-      <!-- Right Column: Description -->
-      <div class="sd-showcase-right">
-        <span class="sd-desc-tag">Event & Trade Displays</span>
-        <h1 class="sd-desc-title">Promotional Products & Event Displays</h1>
-        <p class="sd-desc-text">
-          Whether participating in an expo, launching a store, or setting up a corporate exhibition booth, <b>AB Colors</b> provides an extensive selection of portable, lightweight, and durable promotional display products.
-        </p>
-        <p class="sd-desc-text">
-          We manufacture and supply custom Roll-Up Standees, Sandwich Acrylic Boards, Branded Event Canopies, Teardrop & Feather Flags, and Promotional Banners printed using 1440 DPI high-resolution technology for razor-sharp clarity and rich colors.
-        </p>
-        <ul class="sd-features-list">
-          <li><i class="fa fa-check-circle"></i> Quick 2-Minute Tool-Free Setup</li>
-          <li><i class="fa fa-check-circle"></i> Heavy-Duty Aluminium Hardware</li>
-          <li><i class="fa fa-check-circle"></i> 1440 DPI High-Resolution Graphics</li>
-          <li><i class="fa fa-check-circle"></i> Bulk Corporate & Campaign Rates</li>
-        </ul>
-        <div class="sd-quick-actions">
-          <a href="tel:+919842275299" class="sd-btn-call"><i class="fa fa-phone"></i> Call: +91 98422 75299</a>
-          <a href="https://wa.me/919842275299?text=Hi%20AB%20Colors,%20I%20am%20interested%20in%20Promotional%20Products." target="_blank" class="sd-btn-whatsapp"><i class="fa fa-whatsapp"></i> WhatsApp Enquiry</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- SECTION 2: NICHE JUST YE FORM (Lead / Enquiry Form) -->
+    <!-- SECTION 1: ENQUIRY FORM (Top Priority - Right below navbar) -->
     <div class="sd-form-card" id="enquiry-form">
       <div class="sd-form-header">
         <span class="sd-form-badge">Instant Quote</span>
@@ -160,6 +131,45 @@
           <i class="fa fa-paper-plane"></i>
         </button>
       </form>
+    </div>
+
+    <!-- SECTION 2: 2-COLUMN SHOWCASE (Left: Image | Right: Description) -->
+    <div class="sd-showcase-card">
+      <!-- Left Column: Image -->
+      <div class="sd-showcase-left">
+        <div class="sd-main-image-wrap">
+          <img id="mainPromoImg" src="img/promo/promi.png" alt="Promotional Products by AB Colors">
+          <span class="sd-image-badge">Portable Displays</span>
+        </div>
+        <div class="sd-thumb-strip">
+          <img src="img/promo/promi.png" onclick="document.getElementById('mainPromoImg').src=this.src" alt="Promotional Display">
+          <img src="img/Promotional Products/Canopy.jpg" onclick="document.getElementById('mainPromoImg').src=this.src" alt="Canopy Tent">
+          <img src="img/Promotional Products/Feather Flag 1.jpg" onclick="document.getElementById('mainPromoImg').src=this.src" alt="Feather Flag">
+          <img src="img/Standee.jpeg" onclick="document.getElementById('mainPromoImg').src=this.src" alt="Roll-up Standee">
+        </div>
+      </div>
+
+      <!-- Right Column: Description -->
+      <div class="sd-showcase-right">
+        <span class="sd-desc-tag">Event & Trade Displays</span>
+        <h1 class="sd-desc-title">Promotional Products & Event Displays</h1>
+        <p class="sd-desc-text">
+          Whether participating in an expo, launching a store, or setting up a corporate exhibition booth, <b>AB Colors</b> provides an extensive selection of portable, lightweight, and durable promotional display products.
+        </p>
+        <p class="sd-desc-text">
+          We manufacture and supply custom Roll-Up Standees, Sandwich Acrylic Boards, Branded Event Canopies, Teardrop & Feather Flags, and Promotional Banners printed using 1440 DPI high-resolution technology for razor-sharp clarity and rich colors.
+        </p>
+        <ul class="sd-features-list">
+          <li><i class="fa fa-check-circle"></i> Quick 2-Minute Tool-Free Setup</li>
+          <li><i class="fa fa-check-circle"></i> Heavy-Duty Aluminium Hardware</li>
+          <li><i class="fa fa-check-circle"></i> 1440 DPI High-Resolution Graphics</li>
+          <li><i class="fa fa-check-circle"></i> Bulk Corporate & Campaign Rates</li>
+        </ul>
+        <div class="sd-quick-actions">
+          <a href="tel:+919842275299" class="sd-btn-call"><i class="fa fa-phone"></i> Call: +91 98422 75299</a>
+          <a href="https://wa.me/919842275299?text=Hi%20AB%20Colors,%20I%20am%20interested%20in%20Promotional%20Products." target="_blank" class="sd-btn-whatsapp"><i class="fa fa-whatsapp"></i> WhatsApp Enquiry</a>
+        </div>
+      </div>
     </div>
 
     <!-- SECTION 3: RECENT WORK GALLERY -->

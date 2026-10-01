@@ -40,7 +40,17 @@
             <ul class="clear">
               <li><a href="index.html">Home</a></li>
               <li><a href="aboutus.html">About Us</a></li>
-              <li><a href="service.html" class="active-link">Services</a></li>
+              <li class="has-dropdown">
+                <a href="service.html" class="active-link">Services <i class="fa fa-chevron-down dropdown-arrow"></i></a>
+                <ul class="dropdown-menu">
+                  <li><a href="service-led-signage.html">LED Signages</a></li>
+                  <li><a href="service-promotional-products.html">Promotional Products</a></li>
+                  <li><a href="service-branding.html">Branding Solutions</a></li>
+                  <li><a href="service-flatbed-uv-printing.html">Flatbed UV Printing</a></li>
+                  <li><a href="service-corporate-gifting.html">Corporate Gifting</a></li>
+                  <li><a href="service-digital-printing.html">Digital Printing</a></li>
+                </ul>
+              </li>
               <li><a href="gallery.html">Gallery</a></li>
               <li><a href="contact.html">Contact Us</a></li>
               <li class="nav-cta-item"><a href="tel:+919842275299"><i class="fa fa-phone"></i> +91 98422 75299</a></li>
@@ -54,46 +64,7 @@
   <!-- Main Content Container -->
   <main class="sd-container">
 
-    <!-- SECTION 1: TOP 2-COLUMN SHOWCASE (Left: Image | Right: Description) -->
-    <div class="sd-showcase-card">
-      <!-- Left Column: Image -->
-      <div class="sd-showcase-left">
-        <div class="sd-main-image-wrap">
-          <img id="mainPrintImg" src="img/Digital Printing/premium business card.png" alt="Digital Printing by AB Colors">
-          <span class="sd-image-badge">Luxury Print Finishes</span>
-        </div>
-        <div class="sd-thumb-strip">
-          <img src="img/Digital Printing/premium business card.png" onclick="document.getElementById('mainPrintImg').src=this.src" alt="Visiting Card">
-          <img src="img/Digital Printing/Gold Foil Business Card.jpg" onclick="document.getElementById('mainPrintImg').src=this.src" alt="Gold Foil Card">
-          <img src="img/Digital Printing/Brochure (2).jpg" onclick="document.getElementById('mainPrintImg').src=this.src" alt="Brochure">
-          <img src="img/Digital Printing/Product Sticker.jpg" onclick="document.getElementById('mainPrintImg').src=this.src" alt="Product Sticker">
-        </div>
-      </div>
-
-      <!-- Right Column: Description -->
-      <div class="sd-showcase-right">
-        <span class="sd-desc-tag">High-Definition Commercial Printing</span>
-        <h1 class="sd-desc-title">Commercial & Luxury Digital Printing</h1>
-        <p class="sd-desc-text">
-          <b>AB Colors</b> delivers top-tier digital and offset printing for commercial marketing and executive identity. From luxury visiting cards with metallic gold foil stamping and spot UV to tri-fold brochures, product stickers, and company letterheads.
-        </p>
-        <p class="sd-desc-text">
-          Using Japanese production digital presses and precision die-cutting equipment, we guarantee calibrated color consistency, crisp typography, and swift turnaround times for single prototypes and high-volume corporate rollouts.
-        </p>
-        <ul class="sd-features-list">
-          <li><i class="fa fa-check-circle"></i> Gold, Silver & Rose Gold Foil Stamping</li>
-          <li><i class="fa fa-check-circle"></i> Spot UV & Velvet Soft-Touch Finishes</li>
-          <li><i class="fa fa-check-circle"></i> Waterproof Custom Die-Cut Stickers</li>
-          <li><i class="fa fa-check-circle"></i> Same-Day & Express Dispatch Options</li>
-        </ul>
-        <div class="sd-quick-actions">
-          <a href="tel:+919842275299" class="sd-btn-call"><i class="fa fa-phone"></i> Call: +91 98422 75299</a>
-          <a href="https://wa.me/919842275299?text=Hi%20AB%20Colors,%20I%20am%20interested%20in%20Digital%20Printing." target="_blank" class="sd-btn-whatsapp"><i class="fa fa-whatsapp"></i> WhatsApp Enquiry</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- SECTION 2: NICHE JUST YE FORM (Lead / Enquiry Form) -->
+    <!-- SECTION 1: ENQUIRY FORM (Top Priority - Right below navbar) -->
     <div class="sd-form-card" id="enquiry-form">
       <div class="sd-form-header">
         <span class="sd-form-badge">Instant Quote</span>
@@ -160,6 +131,45 @@
           <i class="fa fa-paper-plane"></i>
         </button>
       </form>
+    </div>
+
+    <!-- SECTION 2: 2-COLUMN SHOWCASE (Left: Image | Right: Description) -->
+    <div class="sd-showcase-card">
+      <!-- Left Column: Image -->
+      <div class="sd-showcase-left">
+        <div class="sd-main-image-wrap">
+          <img id="mainPrintImg" src="img/Digital Printing/premium business card.png" alt="Digital Printing by AB Colors">
+          <span class="sd-image-badge">Luxury Print Finishes</span>
+        </div>
+        <div class="sd-thumb-strip">
+          <img src="img/Digital Printing/premium business card.png" onclick="document.getElementById('mainPrintImg').src=this.src" alt="Visiting Card">
+          <img src="img/Digital Printing/Gold Foil Business Card.jpg" onclick="document.getElementById('mainPrintImg').src=this.src" alt="Gold Foil Card">
+          <img src="img/Digital Printing/Brochure (2).jpg" onclick="document.getElementById('mainPrintImg').src=this.src" alt="Brochure">
+          <img src="img/Digital Printing/Product Sticker.jpg" onclick="document.getElementById('mainPrintImg').src=this.src" alt="Product Sticker">
+        </div>
+      </div>
+
+      <!-- Right Column: Description -->
+      <div class="sd-showcase-right">
+        <span class="sd-desc-tag">High-Definition Commercial Printing</span>
+        <h1 class="sd-desc-title">Commercial & Luxury Digital Printing</h1>
+        <p class="sd-desc-text">
+          <b>AB Colors</b> delivers top-tier digital and offset printing for commercial marketing and executive identity. From luxury visiting cards with metallic gold foil stamping and spot UV to tri-fold brochures, product stickers, and company letterheads.
+        </p>
+        <p class="sd-desc-text">
+          Using Japanese production digital presses and precision die-cutting equipment, we guarantee calibrated color consistency, crisp typography, and swift turnaround times for single prototypes and high-volume corporate rollouts.
+        </p>
+        <ul class="sd-features-list">
+          <li><i class="fa fa-check-circle"></i> Gold, Silver & Rose Gold Foil Stamping</li>
+          <li><i class="fa fa-check-circle"></i> Spot UV & Velvet Soft-Touch Finishes</li>
+          <li><i class="fa fa-check-circle"></i> Waterproof Custom Die-Cut Stickers</li>
+          <li><i class="fa fa-check-circle"></i> Same-Day & Express Dispatch Options</li>
+        </ul>
+        <div class="sd-quick-actions">
+          <a href="tel:+919842275299" class="sd-btn-call"><i class="fa fa-phone"></i> Call: +91 98422 75299</a>
+          <a href="https://wa.me/919842275299?text=Hi%20AB%20Colors,%20I%20am%20interested%20in%20Digital%20Printing." target="_blank" class="sd-btn-whatsapp"><i class="fa fa-whatsapp"></i> WhatsApp Enquiry</a>
+        </div>
+      </div>
     </div>
 
     <!-- SECTION 3: RECENT WORK GALLERY -->

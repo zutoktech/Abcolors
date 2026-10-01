@@ -174,7 +174,17 @@
 						<ul class="clear">
 							<li><a href="index.html" class="active-link">Home</a></li>
 							<li><a href="aboutus.html">About Us</a></li>
-							<li><a href="service.html">Services</a></li>
+							<li class="has-dropdown">
+							<a href="service.html">Services <i class="fa fa-chevron-down dropdown-arrow"></i></a>
+							<ul class="dropdown-menu">
+								<li><a href="service-led-signage.html">LED Signages</a></li>
+								<li><a href="service-promotional-products.html">Promotional Products</a></li>
+								<li><a href="service-branding.html">Branding Solutions</a></li>
+								<li><a href="service-flatbed-uv-printing.html">Flatbed UV Printing</a></li>
+								<li><a href="service-corporate-gifting.html">Corporate Gifting</a></li>
+								<li><a href="service-digital-printing.html">Digital Printing</a></li>
+							</ul>
+						</li>
 							<li><a href="gallery.html">Gallery</a></li>
 							<li class="last"><a href="contact.html">Contact Us</a></li>
 							<li class="nav-cta-item"><a href="tel:+919842275299"><i class="fa fa-phone"></i> +91 98422 75299</a></li>
@@ -206,6 +216,74 @@
 			</div>
 		</div>
 	</div>
+	<!-- Quick Lead / Enquiry Form Strip -->
+	<section id="quick-enquiry" class="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 py-10 px-4 sm:px-6 lg:px-8 border-b-4 border-[#d72a2f] relative z-10 shadow-xl">
+		<div class="max-w-6xl mx-auto">
+			<div class="text-center mb-6">
+				<span class="inline-block px-3 py-1 bg-red-600/20 text-red-400 text-xs font-bold uppercase tracking-wider rounded-full mb-2">⚡ Instant Enquiry</span>
+				<h2 class="text-2xl sm:text-3xl font-extrabold text-white">Get a Free Instant Quote for Your Business</h2>
+				<p class="text-gray-300 text-sm mt-1">LED Signages • 3D Letters • Retail Branding • Direct UV Printing • Corporate Gifting</p>
+			</div>
+
+			<form id="home-quick-form" class="bg-white/10 backdrop-blur-md p-6 rounded-2xl border border-white/20 shadow-2xl">
+				<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
+					<div>
+						<label class="block text-xs font-semibold text-gray-200 mb-1">Your Name <span class="text-red-400">*</span></label>
+						<div class="relative">
+							<i class="fa fa-user absolute left-3 top-3 text-gray-400 text-sm"></i>
+							<input type="text" name="name" required placeholder="e.g. Ramesh Kumar" class="w-full pl-9 pr-3 py-2.5 bg-white text-gray-800 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-[#d72a2f]">
+						</div>
+					</div>
+					<div>
+						<label class="block text-xs font-semibold text-gray-200 mb-1">Phone Number <span class="text-red-400">*</span></label>
+						<div class="relative">
+							<i class="fa fa-phone absolute left-3 top-3 text-gray-400 text-sm"></i>
+							<input type="tel" name="phone" required placeholder="e.g. 98422 75299" class="w-full pl-9 pr-3 py-2.5 bg-white text-gray-800 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-[#d72a2f]">
+						</div>
+					</div>
+					<div>
+						<label class="block text-xs font-semibold text-gray-200 mb-1">Select Service <span class="text-red-400">*</span></label>
+						<div class="relative">
+							<i class="fa fa-list absolute left-3 top-3 text-gray-400 text-sm"></i>
+							<select name="service" required class="w-full pl-9 pr-3 py-2.5 bg-white text-gray-800 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-[#d72a2f]">
+								<option value="">Select Service...</option>
+								<option value="LED Signages">LED Signages & 3D Letters</option>
+								<option value="Promotional Products">Promotional Display Products</option>
+								<option value="Branding Solutions">Branding Solutions</option>
+								<option value="Flatbed UV Printing">Flatbed Direct UV Printing</option>
+								<option value="Corporate Gifting">Corporate Gifting</option>
+								<option value="Digital Printing">Large Format Digital Printing</option>
+							</select>
+						</div>
+					</div>
+					<div>
+						<label class="block text-xs font-semibold text-gray-200 mb-1">City / Location</label>
+						<div class="relative">
+							<i class="fa fa-map-marker absolute left-3 top-3 text-gray-400 text-sm"></i>
+							<input type="text" name="city" placeholder="e.g. Trichy, Thanjavur" class="w-full pl-9 pr-3 py-2.5 bg-white text-gray-800 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-[#d72a2f]">
+						</div>
+					</div>
+				</div>
+
+				<div class="grid grid-cols-1 lg:grid-cols-4 gap-4 items-end">
+					<div class="lg:col-span-3">
+						<label class="block text-xs font-semibold text-gray-200 mb-1">Requirement Details <span class="text-red-400">*</span></label>
+						<div class="relative">
+							<i class="fa fa-pencil absolute left-3 top-3 text-gray-400 text-sm"></i>
+							<input type="text" name="requirement" required placeholder="Size, material, board type or specific requirement..." class="w-full pl-9 pr-3 py-2.5 bg-white text-gray-800 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-[#d72a2f]">
+						</div>
+					</div>
+					<div>
+						<button type="submit" class="w-full py-2.5 px-4 bg-[#d72a2f] hover:bg-[#b52024] text-white font-bold rounded-lg text-sm shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-2 transform hover:-translate-y-0.5 cursor-pointer">
+							<span>Get Free Quote</span>
+							<i class="fa fa-paper-plane text-xs"></i>
+						</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>
+
 	<div style="display:none !important;" aria-hidden="true">
 
 		<!-- sticky menu -->
@@ -918,7 +996,8 @@
 	<script src="js/jquery.owl.carousel.js"></script>
 	<script src="js/jquery.fancybox.pack.js"></script>
 	<script src="js/jquery.fancybox-media.js"></script>
-	<script src="js/retina.min.js"></script>
+	<script src="js/retina.min.js"></script>
+	<script src="js/form-handler.js"></script>
 	<!--/ scripts -->
 	<!-- Floating WhatsApp Button -->
 	<a href="https://wa.me/919842275299" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">

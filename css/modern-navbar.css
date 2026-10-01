@@ -155,6 +155,82 @@
   color: #ffffff;
 }
 
+/* ============================================================
+   Services Dropdown Submenu
+   ============================================================ */
+.has-dropdown {
+  position: relative !important;
+}
+
+.has-dropdown > a .dropdown-arrow {
+  font-size: 10px !important;
+  margin-left: 2px;
+  transition: transform 0.2s ease;
+}
+
+.has-dropdown:hover > a .dropdown-arrow {
+  transform: rotate(180deg);
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute !important;
+  top: 100% !important;
+  left: 0 !important;
+  background: #ffffff !important;
+  border: 1px solid #e5e7eb !important;
+  border-radius: 12px !important;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12), 0 2px 6px rgba(0, 0, 0, 0.04) !important;
+  min-width: 240px !important;
+  padding: 8px 0 !important;
+  margin: 0 !important;
+  list-style: none !important;
+  z-index: 100000 !important;
+  flex-direction: column !important;
+  gap: 0 !important;
+  animation: dropdownFadeIn 0.2s ease-out;
+}
+
+@keyframes dropdownFadeIn {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.has-dropdown:hover > .dropdown-menu {
+  display: flex !important;
+}
+
+.dropdown-menu > li {
+  float: none !important;
+  margin: 0 !important;
+  width: 100% !important;
+}
+
+.dropdown-menu > li > a {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  padding: 10px 20px !important;
+  font-size: 13.5px !important;
+  font-weight: 500 !important;
+  color: #374151 !important;
+  text-decoration: none !important;
+  border-radius: 0 !important;
+  transition: all 0.15s ease !important;
+  white-space: nowrap !important;
+}
+
+.dropdown-menu > li > a:hover {
+  background: #fef2f2 !important;
+  color: #d72a2f !important;
+  padding-left: 24px !important;
+}
+
+.dropdown-menu > li > a:after {
+  display: none !important;
+  content: "" !important;
+}
+
 /* Responsive adjustments */
 @media screen and (max-width: 900px) {
   .sticky .grid-row {
@@ -178,5 +254,19 @@
     padding: 6px 14px;
     border-radius: 6px;
     font-size: 13px;
+  }
+  /* Mobile: show dropdown inline */
+  .dropdown-menu {
+    position: static !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    min-width: auto !important;
+    padding: 0 0 0 20px !important;
+    background: #f9fafb !important;
+  }
+  .has-dropdown:hover > .dropdown-menu,
+  .has-dropdown.open > .dropdown-menu {
+    display: flex !important;
   }
 }

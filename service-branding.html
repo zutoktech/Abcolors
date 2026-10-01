@@ -40,7 +40,17 @@
             <ul class="clear">
               <li><a href="index.html">Home</a></li>
               <li><a href="aboutus.html">About Us</a></li>
-              <li><a href="service.html" class="active-link">Services</a></li>
+              <li class="has-dropdown">
+                <a href="service.html" class="active-link">Services <i class="fa fa-chevron-down dropdown-arrow"></i></a>
+                <ul class="dropdown-menu">
+                  <li><a href="service-led-signage.html">LED Signages</a></li>
+                  <li><a href="service-promotional-products.html">Promotional Products</a></li>
+                  <li><a href="service-branding.html">Branding Solutions</a></li>
+                  <li><a href="service-flatbed-uv-printing.html">Flatbed UV Printing</a></li>
+                  <li><a href="service-corporate-gifting.html">Corporate Gifting</a></li>
+                  <li><a href="service-digital-printing.html">Digital Printing</a></li>
+                </ul>
+              </li>
               <li><a href="gallery.html">Gallery</a></li>
               <li><a href="contact.html">Contact Us</a></li>
               <li class="nav-cta-item"><a href="tel:+919842275299"><i class="fa fa-phone"></i> +91 98422 75299</a></li>
@@ -54,46 +64,7 @@
   <!-- Main Content Container -->
   <main class="sd-container">
 
-    <!-- SECTION 1: TOP 2-COLUMN SHOWCASE (Left: Image | Right: Description) -->
-    <div class="sd-showcase-card">
-      <!-- Left Column: Image -->
-      <div class="sd-showcase-left">
-        <div class="sd-main-image-wrap">
-          <img id="mainBrandImg" src="img/brand.jpeg" alt="Branding Solutions by AB Colors">
-          <span class="sd-image-badge">Workspace & Retail</span>
-        </div>
-        <div class="sd-thumb-strip">
-          <img src="img/brand.jpeg" onclick="document.getElementById('mainBrandImg').src=this.src" alt="Office Branding">
-          <img src="img/Branding/Inshop acrylic branding/Acrylic with Sandwich Board.jpg" onclick="document.getElementById('mainBrandImg').src=this.src" alt="Acrylic Branding">
-          <img src="img/Branding/Glass Branding/Frosted Sticker for Glass Door.JPG" onclick="document.getElementById('mainBrandImg').src=this.src" alt="Glass Frosting">
-          <img src="img/Branding/Vehicle Branding/Vehicle Branding.jpg" onclick="document.getElementById('mainBrandImg').src=this.src" alt="Vehicle Branding">
-        </div>
-      </div>
-
-      <!-- Right Column: Description -->
-      <div class="sd-showcase-right">
-        <span class="sd-desc-tag">Visual Brand Transformation</span>
-        <h1 class="sd-desc-title">Corporate & Retail Branding Solutions</h1>
-        <p class="sd-desc-text">
-          <b>AB Colors</b> offers complete corporate and retail branding solutions that turn ordinary spaces into captivating brand experiences. We design, fabricate, and install custom in-shop acrylic displays, 3D reception logos, branded partition glass films, and fleet graphics.
-        </p>
-        <p class="sd-desc-text">
-          From multi-story corporate towers to retail chain outlets across Tamil Nadu, our team ensures precise color matching, architectural-grade materials, and spotless installation that reinforces your brand credibility.
-        </p>
-        <ul class="sd-features-list">
-          <li><i class="fa fa-check-circle"></i> In-Shop Acrylic & Sandwich Displays</li>
-          <li><i class="fa fa-check-circle"></i> Frosted & Etched Glass Privacy Films</li>
-          <li><i class="fa fa-check-circle"></i> Commercial Fleet & Transit Wraps</li>
-          <li><i class="fa fa-check-circle"></i> Custom Fabric Wall Murals</li>
-        </ul>
-        <div class="sd-quick-actions">
-          <a href="tel:+919842275299" class="sd-btn-call"><i class="fa fa-phone"></i> Call: +91 98422 75299</a>
-          <a href="https://wa.me/919842275299?text=Hi%20AB%20Colors,%20I%20am%20interested%20in%20Branding%20solutions." target="_blank" class="sd-btn-whatsapp"><i class="fa fa-whatsapp"></i> WhatsApp Enquiry</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- SECTION 2: NICHE JUST YE FORM (Lead / Enquiry Form) -->
+    <!-- SECTION 1: ENQUIRY FORM (Top Priority - Right below navbar) -->
     <div class="sd-form-card" id="enquiry-form">
       <div class="sd-form-header">
         <span class="sd-form-badge">Instant Quote</span>
@@ -160,6 +131,45 @@
           <i class="fa fa-paper-plane"></i>
         </button>
       </form>
+    </div>
+
+    <!-- SECTION 2: 2-COLUMN SHOWCASE (Left: Image | Right: Description) -->
+    <div class="sd-showcase-card">
+      <!-- Left Column: Image -->
+      <div class="sd-showcase-left">
+        <div class="sd-main-image-wrap">
+          <img id="mainBrandImg" src="img/brand.jpeg" alt="Branding Solutions by AB Colors">
+          <span class="sd-image-badge">Workspace & Retail</span>
+        </div>
+        <div class="sd-thumb-strip">
+          <img src="img/brand.jpeg" onclick="document.getElementById('mainBrandImg').src=this.src" alt="Office Branding">
+          <img src="img/Branding/Inshop acrylic branding/Acrylic with Sandwich Board.jpg" onclick="document.getElementById('mainBrandImg').src=this.src" alt="Acrylic Branding">
+          <img src="img/Branding/Glass Branding/Frosted Sticker for Glass Door.JPG" onclick="document.getElementById('mainBrandImg').src=this.src" alt="Glass Frosting">
+          <img src="img/Branding/Vehicle Branding/Vehicle Branding.jpg" onclick="document.getElementById('mainBrandImg').src=this.src" alt="Vehicle Branding">
+        </div>
+      </div>
+
+      <!-- Right Column: Description -->
+      <div class="sd-showcase-right">
+        <span class="sd-desc-tag">Visual Brand Transformation</span>
+        <h1 class="sd-desc-title">Corporate & Retail Branding Solutions</h1>
+        <p class="sd-desc-text">
+          <b>AB Colors</b> offers complete corporate and retail branding solutions that turn ordinary spaces into captivating brand experiences. We design, fabricate, and install custom in-shop acrylic displays, 3D reception logos, branded partition glass films, and fleet graphics.
+        </p>
+        <p class="sd-desc-text">
+          From multi-story corporate towers to retail chain outlets across Tamil Nadu, our team ensures precise color matching, architectural-grade materials, and spotless installation that reinforces your brand credibility.
+        </p>
+        <ul class="sd-features-list">
+          <li><i class="fa fa-check-circle"></i> In-Shop Acrylic & Sandwich Displays</li>
+          <li><i class="fa fa-check-circle"></i> Frosted & Etched Glass Privacy Films</li>
+          <li><i class="fa fa-check-circle"></i> Commercial Fleet & Transit Wraps</li>
+          <li><i class="fa fa-check-circle"></i> Custom Fabric Wall Murals</li>
+        </ul>
+        <div class="sd-quick-actions">
+          <a href="tel:+919842275299" class="sd-btn-call"><i class="fa fa-phone"></i> Call: +91 98422 75299</a>
+          <a href="https://wa.me/919842275299?text=Hi%20AB%20Colors,%20I%20am%20interested%20in%20Branding%20solutions." target="_blank" class="sd-btn-whatsapp"><i class="fa fa-whatsapp"></i> WhatsApp Enquiry</a>
+        </div>
+      </div>
     </div>
 
     <!-- SECTION 3: RECENT WORK GALLERY -->

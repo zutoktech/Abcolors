@@ -80,62 +80,24 @@ function initServiceEnquiryForm(formId, serviceName) {
       postBody.append(key, formData[key]);
     }
 
+    // Post to Google Sheet and redirect to Thank You page
     fetch(GOOGLE_SCRIPT_WEB_APP_URL, {
       method: "POST",
-      mode: "no-cors", // Prevents CORS errors with Google Apps Script 302 redirects
+      mode: "no-cors",
       headers: {
         "Content-Type": "application/x-www-form-urlencoded"
       },
       body: postBody.toString()
     })
     .then(function() {
-      // With no-cors mode, the request is dispatched successfully
-      showSuccessState(formData);
+      // Redirect to Thank You page for conversion tracking
+      window.location.href = "thank-you.html";
     })
     .catch(function(error) {
       console.error("Submission error:", error);
-      // Even if network blips, the lead is backed up
-      showSuccessState(formData);
+      // Even if network fails, lead is backed up in localStorage — still redirect
+      window.location.href = "thank-you.html";
     });
-
-    function showSuccessState(data) {
-      if (submitBtn) {
-        submitBtn.disabled = false;
-        submitBtn.innerHTML = '<i class="fa fa-check mr-2"></i> Submitted Successfully!';
-        submitBtn.classList.remove("bg-[#d72a2f]", "hover:bg-[#b52024]");
-        submitBtn.classList.add("bg-green-600");
-      }
-
-      const successHtml = `
-        <div class="bg-green-50 border border-green-300 text-green-800 p-4 rounded-xl mt-4 flex items-start gap-3 animate-fadeIn">
-          <i class="fa fa-check-circle text-2xl text-green-600 mt-0.5"></i>
-          <div>
-            <h4 class="font-bold text-base">Inquiry Submitted Successfully!</h4>
-            <p class="text-sm mt-1 text-green-700">Thank you <b>${data.name}</b>. Our team at AB Colors will review your <b>${serviceName}</b> requirement and get in touch with you shortly.</p>
-            <div class="mt-3 flex flex-wrap gap-2">
-              <a href="https://wa.me/919842275299?text=${encodeURIComponent('Hi AB Colors, I just submitted an enquiry for ' + serviceName + ' on your website. My name is ' + data.name + ' (' + data.phone + ').')}" target="_blank" class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-green-600 hover:bg-green-700 text-white rounded-lg text-xs font-semibold shadow-sm transition-all">
-                <i class="fa fa-whatsapp text-sm"></i> WhatsApp Us Now
-              </a>
-            </div>
-          </div>
-        </div>
-      `;
-
-      if (statusBox) {
-        statusBox.innerHTML = successHtml;
-      }
-
-      form.reset();
-
-      setTimeout(function() {
-        if (submitBtn) {
-          submitBtn.disabled = false;
-          submitBtn.innerHTML = originalBtnHtml;
-          submitBtn.classList.remove("bg-green-600");
-          submitBtn.classList.add("bg-[#d72a2f]", "hover:bg-[#b52024]");
-        }
-      }, 7000);
-    }
 
     function showStatus(message, type) {
       if (!statusBox) return;
@@ -154,3 +116,153 @@ function initServiceEnquiryForm(formId, serviceName) {
     }
   });
 }
+
+/**
+ * Initializes the contact page feedback form if present
+ */
+function initContactForm() {
+  const form = document.getElementById("feedback-form");
+  if (!form) return;
+
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    e.stopImmediatePropagation();
+
+    const name = form.querySelector('[name="name"]')?.value.trim() || "";
+    const email = form.querySelector('[name="email"]')?.value.trim() || "";
+    const phone = (form.querySelector('[name="website"]')?.value || form.querySelector('[name="phone"]')?.value || "").trim();
+    const message = form.querySelector('[name="message"]')?.value.trim() || "";
+    const submitBtn = form.querySelector('#submit') || form.querySelector('[type="submit"]');
+
+    if (!name || !phone) {
+      alert("Please fill in your Name and Mobile Number.");
+      return;
+    }
+
+    if (submitBtn) {
+      submitBtn.disabled = true;
+      if (submitBtn.tagName === "INPUT") {
+        submitBtn.value = "Sending...";
+      } else {
+        submitBtn.innerHTML = '<i class="fa fa-spinner fa-spin mr-2"></i> Sending...';
+      }
+    }
+
+    const formData = {
+      timestamp: new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" }),
+      service: "Contact Us Page Enquiry",
+      name: name,
+      email: email || "Not Provided",
+      phone: phone,
+      city: "Trichy (Direct Contact)",
+      requirement: message || "General Enquiry"
+    };
+
+    try {
+      const stored = JSON.parse(localStorage.getItem("ab_colors_leads") || "[]");
+      stored.unshift(formData);
+      localStorage.setItem("ab_colors_leads", JSON.stringify(stored.slice(0, 50)));
+    } catch (err) {}
+
+    const postBody = new URLSearchParams();
+    for (const key in formData) {
+      postBody.append(key, formData[key]);
+    }
+
+    fetch(GOOGLE_SCRIPT_WEB_APP_URL, {
+      method: "POST",
+      mode: "no-cors",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: postBody.toString()
+    })
+    .then(function() {
+      window.location.href = "thank-you.html";
+    })
+    .catch(function(error) {
+      console.error("Submission error:", error);
+      window.location.href = "thank-you.html";
+    });
+  }, true);
+}
+
+/**
+ * Initializes the home page quick enquiry form if present
+ */
+function initHomeQuickForm() {
+  const form = document.getElementById("home-quick-form");
+  if (!form) return;
+
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const name = form.querySelector('[name="name"]')?.value.trim();
+    const phone = form.querySelector('[name="phone"]')?.value.trim();
+    const service = form.querySelector('[name="service"]')?.value || "General Requirement";
+    const city = form.querySelector('[name="city"]')?.value.trim();
+    const requirement = form.querySelector('[name="requirement"]')?.value.trim();
+    const submitBtn = form.querySelector('button[type="submit"]');
+
+    if (!name || !phone || !requirement) {
+      alert("Please fill in Name, Phone Number, and Requirement.");
+      return;
+    }
+
+    const cleanPhone = phone.replace(/[^0-9]/g, "");
+    if (cleanPhone.length < 10) {
+      alert("Please enter a valid 10-digit mobile number.");
+      return;
+    }
+
+    if (submitBtn) {
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = '<i class="fa fa-spinner fa-spin mr-2"></i> Submitting...';
+    }
+
+    const formData = {
+      timestamp: new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" }),
+      service: service,
+      name: name,
+      email: "Not Provided (Home Quick Form)",
+      phone: phone,
+      city: city || "Trichy / Tamil Nadu",
+      requirement: requirement
+    };
+
+    try {
+      const stored = JSON.parse(localStorage.getItem("ab_colors_leads") || "[]");
+      stored.unshift(formData);
+      localStorage.setItem("ab_colors_leads", JSON.stringify(stored.slice(0, 50)));
+    } catch (err) {}
+
+    const postBody = new URLSearchParams();
+    for (const key in formData) {
+      postBody.append(key, formData[key]);
+    }
+
+    fetch(GOOGLE_SCRIPT_WEB_APP_URL, {
+      method: "POST",
+      mode: "no-cors",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: postBody.toString()
+    })
+    .then(function() {
+      window.location.href = "thank-you.html";
+    })
+    .catch(function(error) {
+      console.error("Submission error:", error);
+      window.location.href = "thank-you.html";
+    });
+  });
+}
+
+// Auto-run on DOMContentLoaded
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", function() {
+    initContactForm();
+    initHomeQuickForm();
+  });
+} else {
+  initContactForm();
+  initHomeQuickForm();
+}
+

@@ -40,7 +40,17 @@
             <ul class="clear">
               <li><a href="index.html">Home</a></li>
               <li><a href="aboutus.html">About Us</a></li>
-              <li><a href="service.html" class="active-link">Services</a></li>
+              <li class="has-dropdown">
+                <a href="service.html" class="active-link">Services <i class="fa fa-chevron-down dropdown-arrow"></i></a>
+                <ul class="dropdown-menu">
+                  <li><a href="service-led-signage.html">LED Signages</a></li>
+                  <li><a href="service-promotional-products.html">Promotional Products</a></li>
+                  <li><a href="service-branding.html">Branding Solutions</a></li>
+                  <li><a href="service-flatbed-uv-printing.html">Flatbed UV Printing</a></li>
+                  <li><a href="service-corporate-gifting.html">Corporate Gifting</a></li>
+                  <li><a href="service-digital-printing.html">Digital Printing</a></li>
+                </ul>
+              </li>
               <li><a href="gallery.html">Gallery</a></li>
               <li><a href="contact.html">Contact Us</a></li>
               <li class="nav-cta-item"><a href="tel:+919842275299"><i class="fa fa-phone"></i> +91 98422 75299</a></li>
@@ -54,46 +64,7 @@
   <!-- Main Content Container -->
   <main class="sd-container">
 
-    <!-- SECTION 1: TOP 2-COLUMN SHOWCASE (Left: Image | Right: Description) -->
-    <div class="sd-showcase-card">
-      <!-- Left Column: Image -->
-      <div class="sd-showcase-left">
-        <div class="sd-main-image-wrap">
-          <img id="mainGiftImg" src="img/gift.jpeg" alt="Corporate Gifting by AB Colors">
-          <span class="sd-image-badge">Executive Merchandise</span>
-        </div>
-        <div class="sd-thumb-strip">
-          <img src="img/gift.jpeg" onclick="document.getElementById('mainGiftImg').src=this.src" alt="Gift Hamper">
-          <img src="img/Corporate Gifting/Joining Kit with Branding.jpg" onclick="document.getElementById('mainGiftImg').src=this.src" alt="Joining Kit">
-          <img src="img/Corporate Gifting/Card Holder with Branding.jpeg" onclick="document.getElementById('mainGiftImg').src=this.src" alt="Card Holder">
-          <img src="img/Corporate Gifting/Acrylic Momento.jpeg" onclick="document.getElementById('mainGiftImg').src=this.src" alt="Acrylic Memento">
-        </div>
-      </div>
-
-      <!-- Right Column: Description -->
-      <div class="sd-showcase-right">
-        <span class="sd-desc-tag">Business Gifting & Awards</span>
-        <h1 class="sd-desc-title">Corporate Gifting & Custom Merchandise</h1>
-        <p class="sd-desc-text">
-          <b>AB Colors</b> provides turnkey Corporate Gifting solutions designed to leave a lasting impression on your clients, partners, and employees. We offer bespoke onboarding kits, executive diaries, drinkware, laser-engraved pens, and recognition trophies.
-        </p>
-        <p class="sd-desc-text">
-          Whether you need 50 pieces for annual awards or 5,000 customized joining hampers for nationwide employees, our in-house UV printing, laser engraving, and foil stamping capabilities guarantee flawless brand presentation.
-        </p>
-        <ul class="sd-features-list">
-          <li><i class="fa fa-check-circle"></i> Complete Employee Onboarding Kits</li>
-          <li><i class="fa fa-check-circle"></i> Laser-Engraved Metal Pens & Holders</li>
-          <li><i class="fa fa-check-circle"></i> Embossed Executive Diaries & Planners</li>
-          <li><i class="fa fa-check-circle"></i> Custom Acrylic & Wooden Trophies</li>
-        </ul>
-        <div class="sd-quick-actions">
-          <a href="tel:+919842275299" class="sd-btn-call"><i class="fa fa-phone"></i> Call: +91 98422 75299</a>
-          <a href="https://wa.me/919842275299?text=Hi%20AB%20Colors,%20I%20am%20interested%20in%20Corporate%20Gifting." target="_blank" class="sd-btn-whatsapp"><i class="fa fa-whatsapp"></i> WhatsApp Enquiry</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- SECTION 2: NICHE JUST YE FORM (Lead / Enquiry Form) -->
+    <!-- SECTION 1: ENQUIRY FORM (Top Priority - Right below navbar) -->
     <div class="sd-form-card" id="enquiry-form">
       <div class="sd-form-header">
         <span class="sd-form-badge">Instant Quote</span>
@@ -160,6 +131,45 @@
           <i class="fa fa-paper-plane"></i>
         </button>
       </form>
+    </div>
+
+    <!-- SECTION 2: 2-COLUMN SHOWCASE (Left: Image | Right: Description) -->
+    <div class="sd-showcase-card">
+      <!-- Left Column: Image -->
+      <div class="sd-showcase-left">
+        <div class="sd-main-image-wrap">
+          <img id="mainGiftImg" src="img/gift.jpeg" alt="Corporate Gifting by AB Colors">
+          <span class="sd-image-badge">Executive Merchandise</span>
+        </div>
+        <div class="sd-thumb-strip">
+          <img src="img/gift.jpeg" onclick="document.getElementById('mainGiftImg').src=this.src" alt="Gift Hamper">
+          <img src="img/Corporate Gifting/Joining Kit with Branding.jpg" onclick="document.getElementById('mainGiftImg').src=this.src" alt="Joining Kit">
+          <img src="img/Corporate Gifting/Card Holder with Branding.jpeg" onclick="document.getElementById('mainGiftImg').src=this.src" alt="Card Holder">
+          <img src="img/Corporate Gifting/Acrylic Momento.jpeg" onclick="document.getElementById('mainGiftImg').src=this.src" alt="Acrylic Memento">
+        </div>
+      </div>
+
+      <!-- Right Column: Description -->
+      <div class="sd-showcase-right">
+        <span class="sd-desc-tag">Business Gifting & Awards</span>
+        <h1 class="sd-desc-title">Corporate Gifting & Custom Merchandise</h1>
+        <p class="sd-desc-text">
+          <b>AB Colors</b> provides turnkey Corporate Gifting solutions designed to leave a lasting impression on your clients, partners, and employees. We offer bespoke onboarding kits, executive diaries, drinkware, laser-engraved pens, and recognition trophies.
+        </p>
+        <p class="sd-desc-text">
+          Whether you need 50 pieces for annual awards or 5,000 customized joining hampers for nationwide employees, our in-house UV printing, laser engraving, and foil stamping capabilities guarantee flawless brand presentation.
+        </p>
+        <ul class="sd-features-list">
+          <li><i class="fa fa-check-circle"></i> Complete Employee Onboarding Kits</li>
+          <li><i class="fa fa-check-circle"></i> Laser-Engraved Metal Pens & Holders</li>
+          <li><i class="fa fa-check-circle"></i> Embossed Executive Diaries & Planners</li>
+          <li><i class="fa fa-check-circle"></i> Custom Acrylic & Wooden Trophies</li>
+        </ul>
+        <div class="sd-quick-actions">
+          <a href="tel:+919842275299" class="sd-btn-call"><i class="fa fa-phone"></i> Call: +91 98422 75299</a>
+          <a href="https://wa.me/919842275299?text=Hi%20AB%20Colors,%20I%20am%20interested%20in%20Corporate%20Gifting." target="_blank" class="sd-btn-whatsapp"><i class="fa fa-whatsapp"></i> WhatsApp Enquiry</a>
+        </div>
+      </div>
     </div>
 
     <!-- SECTION 3: RECENT WORK GALLERY -->
