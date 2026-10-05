@@ -492,8 +492,8 @@ img {
 }
 .pc .sticky .nav ul ul a:hover,
 .pc .sticky .nav ul ul li:hover>a{
-	color: white !important;
-	background-color: #d72a2f;
+	color: #d72a2f !important;
+	background-color: #fef2f2 !important;
 }
 .pc .sticky .nav ul ul li:last-child{
 	border-bottom: 0;

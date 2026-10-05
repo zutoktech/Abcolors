@@ -61,76 +61,94 @@
     </div>
   </header>
 
+  <!-- Service Name Header Banner -->
+  <div class="sd-service-header">
+    <h1><i class="fa fa-file-image-o"></i> Digital Printing</h1>
+  </div>
+
   <!-- Main Content Container -->
   <main class="sd-container">
 
-    <!-- SECTION 1: ENQUIRY FORM (Top Priority - Right below navbar) -->
-    <div class="sd-form-card" id="enquiry-form">
-      <div class="sd-form-header">
-        <span class="sd-form-badge">Instant Quote</span>
-        <h3>Enquire About Digital Printing</h3>
-        <p>Submit your printing specifications and quantity below. Our team will promptly provide rates and paper sample choices.</p>
+    <!-- TOP SPLIT: Photo (Left) + Form (Right) -->
+    <div class="sd-top-split">
+      <!-- Left: Service Photo -->
+      <div class="sd-top-split-left">
+        <div class="sd-split-image-wrap">
+          <img src="img/digi/digi.png" alt="Digital Printing by AB Colors">
+          <span class="sd-split-image-badge"><i class="fa fa-star"></i> Luxury Print Finishes</span>
+        </div>
       </div>
 
-      <form id="digital-printing-form" class="sd-form">
-        <input type="hidden" name="service" value="Digital Printing">
-
-        <div class="sd-form-grid">
-          <!-- Name -->
-          <div class="sd-form-group">
-            <label class="sd-form-label">Your Name <span class="req">*</span></label>
-            <div class="sd-input-wrapper">
-              <i class="fa fa-user sd-input-icon"></i>
-              <input type="text" name="name" required placeholder="e.g. Anand Raj" class="sd-form-input">
-            </div>
+      <!-- Right: Enquiry Form -->
+      <div class="sd-top-split-right">
+        <div class="sd-form-card" id="enquiry-form">
+          <div class="sd-form-header">
+            <span class="sd-form-badge">Instant Quote</span>
+            <h3>Enquire About Digital Printing</h3>
+            <p>Submit your printing specifications and quantity below. Our team will promptly provide rates and paper sample choices.</p>
           </div>
 
-          <!-- Phone Number -->
-          <div class="sd-form-group">
-            <label class="sd-form-label">Phone Number <span class="req">*</span></label>
-            <div class="sd-input-wrapper">
-              <i class="fa fa-phone sd-input-icon"></i>
-              <input type="tel" name="phone" required placeholder="e.g. 98422 75299" class="sd-form-input">
-            </div>
-          </div>
+          <form id="digital-printing-form" class="sd-form">
+            <input type="hidden" name="service" value="Digital Printing">
 
-          <!-- Email -->
-          <div class="sd-form-group">
-            <label class="sd-form-label">Email Address</label>
-            <div class="sd-input-wrapper">
-              <i class="fa fa-envelope sd-input-icon"></i>
-              <input type="email" name="email" placeholder="e.g. anand@company.com" class="sd-form-input">
-            </div>
-          </div>
+            <div class="sd-form-grid">
+              <!-- Name -->
+              <div class="sd-form-group">
+                <label class="sd-form-label">Your Name <span class="req">*</span></label>
+                <div class="sd-input-wrapper">
+                  <i class="fa fa-user sd-input-icon"></i>
+                  <input type="text" name="name" required placeholder="e.g. Anand Raj" class="sd-form-input">
+                </div>
+              </div>
 
-          <!-- City -->
-          <div class="sd-form-group">
-            <label class="sd-form-label">Your City / Location <span class="req">*</span></label>
-            <div class="sd-input-wrapper">
-              <i class="fa fa-map-marker sd-input-icon"></i>
-              <input type="text" name="city" required placeholder="e.g. Trichy, Karur, Madurai" class="sd-form-input">
+              <!-- Phone Number -->
+              <div class="sd-form-group">
+                <label class="sd-form-label">Phone Number <span class="req">*</span></label>
+                <div class="sd-input-wrapper">
+                  <i class="fa fa-phone sd-input-icon"></i>
+                  <input type="tel" name="phone" required placeholder="e.g. 98422 75299" class="sd-form-input">
+                </div>
+              </div>
+
+              <!-- Email -->
+              <div class="sd-form-group">
+                <label class="sd-form-label">Email Address</label>
+                <div class="sd-input-wrapper">
+                  <i class="fa fa-envelope sd-input-icon"></i>
+                  <input type="email" name="email" placeholder="e.g. anand@company.com" class="sd-form-input">
+                </div>
+              </div>
+
+              <!-- City -->
+              <div class="sd-form-group">
+                <label class="sd-form-label">Your City / Location <span class="req">*</span></label>
+                <div class="sd-input-wrapper">
+                  <i class="fa fa-map-marker sd-input-icon"></i>
+                  <input type="text" name="city" required placeholder="e.g. Trichy, Karur, Madurai" class="sd-form-input">
+                </div>
+              </div>
             </div>
-          </div>
+
+            <!-- Requirement -->
+            <div class="sd-form-group full-width">
+              <label class="sd-form-label">Requirement Details <span class="req">*</span></label>
+              <div class="sd-input-wrapper">
+                <i class="fa fa-pencil sd-textarea-icon"></i>
+                <textarea name="requirement" rows="3" required placeholder="Print product (Visiting cards, brochures, stickers, tent cards), finish (Gold foil, Spot UV, Matte), quantity (e.g. 1000 cards)..." class="sd-form-textarea"></textarea>
+              </div>
+            </div>
+
+            <!-- Status Container -->
+            <div id="digital-printing-form-status"></div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="sd-submit-btn">
+              <span>Submit Requirement</span>
+              <i class="fa fa-paper-plane"></i>
+            </button>
+          </form>
         </div>
-
-        <!-- Requirement -->
-        <div class="sd-form-group full-width">
-          <label class="sd-form-label">Requirement Details <span class="req">*</span></label>
-          <div class="sd-input-wrapper">
-            <i class="fa fa-pencil sd-textarea-icon"></i>
-            <textarea name="requirement" rows="3" required placeholder="Print product (Visiting cards, brochures, stickers, tent cards), finish (Gold foil, Spot UV, Matte), quantity (e.g. 1000 cards)..." class="sd-form-textarea"></textarea>
-          </div>
-        </div>
-
-        <!-- Status Container -->
-        <div id="digital-printing-form-status"></div>
-
-        <!-- Submit Button -->
-        <button type="submit" class="sd-submit-btn">
-          <span>Submit Requirement</span>
-          <i class="fa fa-paper-plane"></i>
-        </button>
-      </form>
+      </div>
     </div>
 
     <!-- SECTION 2: 2-COLUMN SHOWCASE (Left: Image | Right: Description) -->

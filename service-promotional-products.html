@@ -61,76 +61,94 @@
     </div>
   </header>
 
+  <!-- Service Name Header Banner -->
+  <div class="sd-service-header">
+    <h1><i class="fa fa-bullhorn"></i> Promotional Products</h1>
+  </div>
+
   <!-- Main Content Container -->
   <main class="sd-container">
 
-    <!-- SECTION 1: ENQUIRY FORM (Top Priority - Right below navbar) -->
-    <div class="sd-form-card" id="enquiry-form">
-      <div class="sd-form-header">
-        <span class="sd-form-badge">Instant Quote</span>
-        <h3>Enquire About Promotional Products</h3>
-        <p>Submit your requirement details below and our team will get back to you with pricing, options, and samples.</p>
+    <!-- TOP SPLIT: Photo (Left) + Form (Right) -->
+    <div class="sd-top-split">
+      <!-- Left: Service Photo -->
+      <div class="sd-top-split-left">
+        <div class="sd-split-image-wrap">
+          <img src="img/promo/promi.png" alt="Promotional Products by AB Colors">
+          <span class="sd-split-image-badge"><i class="fa fa-star"></i> Promotional Displays</span>
+        </div>
       </div>
 
-      <form id="promo-products-form" class="sd-form">
-        <input type="hidden" name="service" value="Promotional Products">
-
-        <div class="sd-form-grid">
-          <!-- Name -->
-          <div class="sd-form-group">
-            <label class="sd-form-label">Your Name <span class="req">*</span></label>
-            <div class="sd-input-wrapper">
-              <i class="fa fa-user sd-input-icon"></i>
-              <input type="text" name="name" required placeholder="e.g. Anand Raj" class="sd-form-input">
-            </div>
+      <!-- Right: Enquiry Form -->
+      <div class="sd-top-split-right">
+        <div class="sd-form-card" id="enquiry-form">
+          <div class="sd-form-header">
+            <span class="sd-form-badge">Instant Quote</span>
+            <h3>Enquire About Promotional Products</h3>
+            <p>Submit your requirement details below and our team will get back to you with pricing, options, and samples.</p>
           </div>
 
-          <!-- Phone Number -->
-          <div class="sd-form-group">
-            <label class="sd-form-label">Phone Number <span class="req">*</span></label>
-            <div class="sd-input-wrapper">
-              <i class="fa fa-phone sd-input-icon"></i>
-              <input type="tel" name="phone" required placeholder="e.g. 98422 75299" class="sd-form-input">
-            </div>
-          </div>
+          <form id="promo-products-form" class="sd-form">
+            <input type="hidden" name="service" value="Promotional Products">
 
-          <!-- Email -->
-          <div class="sd-form-group">
-            <label class="sd-form-label">Email Address</label>
-            <div class="sd-input-wrapper">
-              <i class="fa fa-envelope sd-input-icon"></i>
-              <input type="email" name="email" placeholder="e.g. anand@company.com" class="sd-form-input">
-            </div>
-          </div>
+            <div class="sd-form-grid">
+              <!-- Name -->
+              <div class="sd-form-group">
+                <label class="sd-form-label">Your Name <span class="req">*</span></label>
+                <div class="sd-input-wrapper">
+                  <i class="fa fa-user sd-input-icon"></i>
+                  <input type="text" name="name" required placeholder="e.g. Anand Raj" class="sd-form-input">
+                </div>
+              </div>
 
-          <!-- City -->
-          <div class="sd-form-group">
-            <label class="sd-form-label">Your City / Location <span class="req">*</span></label>
-            <div class="sd-input-wrapper">
-              <i class="fa fa-map-marker sd-input-icon"></i>
-              <input type="text" name="city" required placeholder="e.g. Trichy, Coimbatore, Chennai" class="sd-form-input">
+              <!-- Phone Number -->
+              <div class="sd-form-group">
+                <label class="sd-form-label">Phone Number <span class="req">*</span></label>
+                <div class="sd-input-wrapper">
+                  <i class="fa fa-phone sd-input-icon"></i>
+                  <input type="tel" name="phone" required placeholder="e.g. 98422 75299" class="sd-form-input">
+                </div>
+              </div>
+
+              <!-- Email -->
+              <div class="sd-form-group">
+                <label class="sd-form-label">Email Address</label>
+                <div class="sd-input-wrapper">
+                  <i class="fa fa-envelope sd-input-icon"></i>
+                  <input type="email" name="email" placeholder="e.g. anand@company.com" class="sd-form-input">
+                </div>
+              </div>
+
+              <!-- City -->
+              <div class="sd-form-group">
+                <label class="sd-form-label">Your City / Location <span class="req">*</span></label>
+                <div class="sd-input-wrapper">
+                  <i class="fa fa-map-marker sd-input-icon"></i>
+                  <input type="text" name="city" required placeholder="e.g. Trichy, Coimbatore, Chennai" class="sd-form-input">
+                </div>
+              </div>
             </div>
-          </div>
+
+            <!-- Requirement -->
+            <div class="sd-form-group full-width">
+              <label class="sd-form-label">Requirement Details <span class="req">*</span></label>
+              <div class="sd-input-wrapper">
+                <i class="fa fa-pencil sd-textarea-icon"></i>
+                <textarea name="requirement" rows="3" required placeholder="Quantity (e.g. 5 standees, 2 canopies), event date, size requirement..." class="sd-form-textarea"></textarea>
+              </div>
+            </div>
+
+            <!-- Status Container -->
+            <div id="promo-products-form-status"></div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="sd-submit-btn">
+              <span>Submit Requirement</span>
+              <i class="fa fa-paper-plane"></i>
+            </button>
+          </form>
         </div>
-
-        <!-- Requirement -->
-        <div class="sd-form-group full-width">
-          <label class="sd-form-label">Requirement Details <span class="req">*</span></label>
-          <div class="sd-input-wrapper">
-            <i class="fa fa-pencil sd-textarea-icon"></i>
-            <textarea name="requirement" rows="3" required placeholder="Quantity (e.g. 5 standees, 2 canopies), event date, size requirement..." class="sd-form-textarea"></textarea>
-          </div>
-        </div>
-
-        <!-- Status Container -->
-        <div id="promo-products-form-status"></div>
-
-        <!-- Submit Button -->
-        <button type="submit" class="sd-submit-btn">
-          <span>Submit Requirement</span>
-          <i class="fa fa-paper-plane"></i>
-        </button>
-      </form>
+      </div>
     </div>
 
     <!-- SECTION 2: 2-COLUMN SHOWCASE (Left: Image | Right: Description) -->

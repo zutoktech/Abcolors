@@ -123,36 +123,40 @@
   font-weight: 700 !important;
 }
 
-/* Navbar Contact CTA Button */
+/* Navbar Contact CTA Button - Light Mode for Visibility */
 .nav-cta-item a {
-  background: #111827 !important;
-  color: #ffffff !important;
+  background: #ffffff !important;
+  color: #1f2937 !important;
   padding: 8px 18px !important;
   font-size: 13px !important;
   font-weight: 700 !important;
   border-radius: 8px !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12) !important;
+  border: 2px solid #d72a2f !important;
+  box-shadow: 0 2px 8px rgba(215, 42, 47, 0.12) !important;
   display: inline-flex !important;
   align-items: center !important;
   gap: 6px !important;
   margin-left: 6px;
   transition: all 0.2s ease !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
 }
 
 .nav-cta-item a:hover {
-  background: #d72a2f !important;
-  color: #ffffff !important;
+  background: #fef2f2 !important;
+  color: #d72a2f !important;
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(215, 42, 47, 0.3) !important;
+  box-shadow: 0 4px 12px rgba(215, 42, 47, 0.2) !important;
+  border-color: #b91c21 !important;
 }
 
 .nav-cta-item a i {
-  color: #d72a2f;
+  color: #d72a2f !important;
   transition: color 0.2s ease;
 }
 
 .nav-cta-item a:hover i {
-  color: #ffffff;
+  color: #b91c21 !important;
 }
 
 /* ============================================================
@@ -220,10 +224,27 @@
   white-space: nowrap !important;
 }
 
-.dropdown-menu > li > a:hover {
+.pc .sticky .nav ul ul a:hover,
+.pc .sticky .nav ul ul li:hover > a,
+.pc .sticky .nav .dropdown-menu > li > a:hover,
+.pc .sticky .nav .dropdown-menu > li:hover > a,
+.sticky .nav .dropdown-menu > li > a:hover,
+.sticky .nav .dropdown-menu > li:hover > a,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li:hover > a,
+.dropdown-menu > li > a:focus {
   background: #fef2f2 !important;
+  background-color: #fef2f2 !important;
   color: #d72a2f !important;
+  font-weight: 600 !important;
   padding-left: 24px !important;
+}
+
+.dropdown-menu > li > a.active,
+.dropdown-menu > li > a.active-link {
+  background: #fee2e2 !important;
+  color: #d72a2f !important;
+  font-weight: 700 !important;
 }
 
 .dropdown-menu > li > a:after {
@@ -268,5 +289,10 @@
   .has-dropdown:hover > .dropdown-menu,
   .has-dropdown.open > .dropdown-menu {
     display: flex !important;
+  }
+  .mobile .sticky .nav .dropdown-menu > li:hover > a,
+  .mobile .sticky .nav .dropdown-menu > li > a:hover {
+    background: #fef2f2 !important;
+    color: #d72a2f !important;
   }
 }

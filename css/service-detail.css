@@ -93,6 +93,115 @@ body.service-detail-body {
 }
 
 /* ========================================================
+   SERVICE NAME HEADER BANNER
+   Displays prominent service name right below navbar
+   ======================================================== */
+.sd-service-header {
+  background: linear-gradient(135deg, #111827 0%, #1e293b 50%, #991b1b 100%);
+  padding: 28px 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.sd-service-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 80% 50%, rgba(215, 42, 47, 0.15) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.sd-service-header h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  position: relative;
+  z-index: 1;
+}
+
+.sd-service-header h1 i {
+  margin-right: 10px;
+  color: var(--primary-color);
+  font-size: 24px;
+}
+
+/* ========================================================
+   TOP SPLIT SECTION: Photo (Left) + Form (Right)
+   ======================================================== */
+.sd-top-split {
+  display: flex;
+  gap: 28px;
+  align-items: stretch;
+  margin-bottom: 30px;
+}
+
+/* Left side: service photo */
+.sd-top-split-left {
+  flex: 0 0 48%;
+  max-width: 48%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sd-split-image-wrap {
+  width: 100%;
+  height: 100%;
+  min-height: 420px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  position: relative;
+  background: #f3f4f6;
+}
+
+.sd-split-image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.sd-split-image-wrap:hover img {
+  transform: scale(1.03);
+}
+
+.sd-split-image-badge {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 8px 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sd-split-image-badge i {
+  color: var(--primary-color);
+}
+
+/* Right side: form */
+.sd-top-split-right {
+  flex: 0 0 calc(52% - 28px);
+  max-width: calc(52% - 28px);
+  display: flex;
+  flex-direction: column;
+}
+
+/* ========================================================
    SECTION 1: TOP 2-COLUMN SHOWCASE
    Left Side: Image | Right Side: Description
    ======================================================== */
@@ -290,16 +399,19 @@ body.service-detail-body {
 
 /* ========================================================
    SECTION 2: NICHE JUST YE FORM (LEAD / ENQUIRY FORM)
-   Placed cleanly right below the 2-column showcase
+   Now placed in the right column of the top split section
    ======================================================== */
 .sd-form-card {
   background: #ffffff;
   border-radius: 12px;
   border: 2px solid #fed7d7;
   box-shadow: 0 6px 20px rgba(215, 42, 47, 0.07);
-  padding: 30px 35px;
-  margin-bottom: 35px;
+  padding: 28px 28px;
+  margin-bottom: 0;
   box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .sd-form-header {
@@ -336,7 +448,12 @@ body.service-detail-body {
 /* Form Layout */
 .sd-form {
   max-width: 900px;
+  width: 100%;
+  box-sizing: border-box;
   margin: 0 auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .sd-form-grid {
@@ -351,7 +468,8 @@ body.service-detail-body {
   flex-direction: column;
 }
 
-.sd-form-group.full-width {
+.sd-form-group.full-width,
+.sd-form-group.sd-form-full {
   grid-column: span 2;
   margin-bottom: 16px;
 }
@@ -535,6 +653,18 @@ body.service-detail-body {
 
 /* Responsive Breakpoints */
 @media (max-width: 900px) {
+  .sd-top-split {
+    flex-direction: column;
+  }
+  .sd-top-split-left,
+  .sd-top-split-right {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .sd-split-image-wrap {
+    min-height: 280px;
+    height: 280px;
+  }
   .sd-showcase-card {
     flex-direction: column;
     padding: 20px;
@@ -556,6 +686,9 @@ body.service-detail-body {
   body.service-detail-body {
     padding-top: 80px;
   }
+  .sd-service-header h1 {
+    font-size: 22px;
+  }
   .sd-hero-title {
     font-size: 24px;
   }
@@ -565,7 +698,8 @@ body.service-detail-body {
   .sd-form-grid {
     grid-template-columns: 1fr;
   }
-  .sd-form-group.full-width {
+  .sd-form-group.full-width,
+  .sd-form-group.sd-form-full {
     grid-column: span 1;
   }
   .sd-features-list {
