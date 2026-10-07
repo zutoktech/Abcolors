@@ -9,7 +9,7 @@
  */
 
 // Paste the Web App URL from Apps Script (Deploy > Manage deployments) here. It ends with /exec.
-var GOOGLE_SCRIPT_WEB_APP_URL = "https://script.googleusercontent.com/macros/echo?user_content_key=AUkAhnR8jhB78nVgkK1BZrbKY4d1I8jDdrRnmWWP5XNIkTFbXitna0utmDR6QfP_PAjvD8GwIxkVKMDRz49lpNI1xageseJM69W_9q6bPjt62Af1XWgyo2zQ9YfrvX5Ovb7ICRgjM6xaeGbXhOmuhMxHIGznPnY39imodgLyE9SM87dSOLHImwm4NJ5SkH1UqEk9LnNmgJB_B64SPqYq3aDH1ncnixJT1j7YiUmlk83sRAGME7y5Y2SLF2WcNR8DfiVrcVKa7lBYRWY9ioBfM4w&lib=MgEboFjMfrOXQi0gtEonjJ49bwceSkcbF";
+var GOOGLE_SCRIPT_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxcTtmo4g86eLsFnWkMtQ1ZFBIBdlUMS9kNX1DqKK2HqfC3IFpUg8Y7GvjSGzDcPzs/exec";
 
 var AB_WHATSAPP_NUMBER = "919842275299";
 var AB_PHONE_LINK = "+919842275299";
