@@ -61,5 +61,11 @@ The script prints the generated files and a ready-to-paste `<img>` tag (always f
 
 ## Enquiry forms (Google Sheets)
 
-`js/form-handler.js` posts every enquiry to the Google Apps Script Web App URL in `GOOGLE_SCRIPT_WEB_APP_URL`.
-Follow `GOOGLE_SHEET_SETUP_GUIDE.md` to deploy `google-apps-script.js` and paste the real `/exec` URL there.
+`js/form-handler.js` posts every enquiry to the Google Apps Script Web App URL in `GOOGLE_SCRIPT_WEB_APP_URL`
+(top of the file). Follow `GOOGLE_SHEET_SETUP_GUIDE.md` to deploy `google-apps-script.js` and paste the real
+`/exec` URL there.
+
+- The visitor is sent to `thank-you.html` (which records the Google Ads conversion) only after the Apps Script
+  answers `{"result":"success"}`.
+- If the URL is empty or saving fails, the form shows "Send on WhatsApp" / "Call" buttons with the enquiry
+  already filled in, so the lead still reaches you.

@@ -868,3 +868,49 @@ body.lightbox-open {
   font-size: 14px;
   line-height: 1.4;
 }
+
+/* Shown when an enquiry could not be saved: WhatsApp / call buttons with the details pre-filled */
+.form-fallback {
+  display: block;
+  text-align: left;
+}
+
+.form-fallback p {
+  margin: 0 0 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #7f1d1d;
+}
+
+.form-fallback strong {
+  color: #7f1d1d;
+}
+
+.form-fallback-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.form-fallback-actions a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 40px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.form-fallback-whatsapp {
+  background: #15803d;
+  color: #ffffff !important;
+}
+
+.form-fallback-call {
+  background: #111827;
+  color: #ffffff !important;
+}

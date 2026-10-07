@@ -34,85 +34,7 @@ Aapki Google Sheet **Private & Secure** rahegi, sirf aap dekh payenge!
 ### Step 2: Code Paste Karein
 
 1. Apps Script editor me jo pehle se code likha ho (jaise `function myFunction() {}`), use delete kar dein.
-2. `google-apps-script.js` file ka sara code copy karke wahan paste kar dein:
-
-```javascript
-function doPost(e) {
-  var lock = LockService.getScriptLock();
-  lock.tryLock(10000);
-
-  try {
-    var ss = SpreadsheetApp.getActiveSpreadsheet();
-    var sheet = ss.getActiveSheet();
-
-    if (sheet.getLastRow() === 0) {
-      sheet.appendRow([
-        "Timestamp",
-        "Service",
-        "Name",
-        "Email",
-        "Phone Number",
-        "City",
-        "Requirement"
-      ]);
-      var headerRange = sheet.getRange(1, 1, 1, 7);
-      headerRange.setBackground("#d72a2f");
-      headerRange.setFontColor("#ffffff");
-      headerRange.setFontWeight("bold");
-      headerRange.setHorizontalAlignment("center");
-      sheet.setFrozenRows(1);
-    }
-
-    var params = (e && e.parameter) ? e.parameter : {};
-
-    if (!params.name && e && e.postData && e.postData.contents) {
-      try {
-        var json = JSON.parse(e.postData.contents);
-        params = json;
-      } catch (jsonErr) {}
-    }
-
-    var timestamp = params.timestamp || new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" });
-    var service = params.service || "General Inquiry";
-    var name = params.name || "";
-    var email = params.email || "";
-    var phone = params.phone || "";
-    var city = params.city || "";
-    var requirement = params.requirement || "";
-
-    sheet.appendRow([
-      timestamp,
-      service,
-      name,
-      email,
-      "'" + phone,
-      city,
-      requirement
-    ]);
-
-    for (var col = 1; col <= 7; col++) {
-      sheet.autoResizeColumn(col);
-    }
-
-    return ContentService
-      .createTextOutput(JSON.stringify({ result: "success" }))
-      .setMimeType(ContentService.MimeType.JSON);
-
-  } catch (error) {
-    return ContentService
-      .createTextOutput(JSON.stringify({ result: "error", error: error.toString() }))
-      .setMimeType(ContentService.MimeType.JSON);
-  } finally {
-    lock.releaseLock();
-  }
-}
-
-function doGet(e) {
-  return ContentService
-    .createTextOutput("AB Colors Lead Automation Web App is Active & Ready.")
-    .setMimeType(ContentService.MimeType.TEXT);
-}
-```
+2. Project ki `google-apps-script.js` file ka **pura** code copy karke wahan paste kar dein (woh file hi latest code hai - usme formula-injection se bachav aur fast save shamil hai).
 
 3. Upar bane **Save** (💾 icon) par click karein ya `Ctrl + S` dabayein.
 
@@ -139,9 +61,20 @@ function doGet(e) {
 
 1. Deploy hote hi screen par ek **Web app URL** dikhega (jo `https://script.google.com/macros/s/.../exec` jaisa hoga).
 2. Use **Copy** kar lijiye.
-3. Apne project me `js/form-handler.js` file kholein aur line 9 par apna Web App URL paste kar dein:
+3. Apne project me `js/form-handler.js` file kholein aur sabse upar wali line me apna Web App URL paste kar dein:
    ```javascript
-   let GOOGLE_SCRIPT_WEB_APP_URL = "AAPKA_COPY_KIYA_HUA_URL_YAHAN_PASTE_KAREIN";
+   var GOOGLE_SCRIPT_WEB_APP_URL = "AAPKA_COPY_KIYA_HUA_URL_YAHAN_PASTE_KAREIN";
    ```
+4. Commit + push karein taaki live website par bhi naya URL pahunch jaye.
 
-**Bas kaam ho gaya!** Ab jab bhi koi user kisi bhi service page par form bharega, instant data aapki Google Sheet me new row bankar save ho jayega.
+---
+
+### Step 5: Test Karein
+
+1. Web App URL ko browser me kholein - "AB Colors Lead Automation Web App is Active & Ready." dikhna chahiye.
+2. Website par koi bhi form bharein. Thank-you page tabhi khulega jab Google Sheet row save hone ki confirmation de.
+3. Agar save fail hota hai (galat URL, deployment band, internet issue) to form ke neeche **WhatsApp / Call** buttons
+   dikhenge jisme visitor ki details pehle se bhari hongi - lead kabhi chupchap gayab nahi hogi.
+
+> **Note:** Baad me Apps Script code badlein to **Deploy -> Manage deployments -> Edit (pencil) -> Version: New version -> Deploy**
+> karein. "New deployment" karne se naya URL banta hai, aur tab `js/form-handler.js` me URL dobara badalna padega.
