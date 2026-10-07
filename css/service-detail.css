@@ -390,7 +390,8 @@ body.service-detail-body {
 }
 
 .sd-btn-whatsapp {
-  background: #25D366;
+  /* darker WhatsApp green so the white text stays readable (WCAG AA contrast) */
+  background: #15803d;
   color: #ffffff;
   padding: 10px 18px;
   font-size: 13px;
@@ -404,7 +405,7 @@ body.service-detail-body {
 }
 
 .sd-btn-whatsapp:hover {
-  background: #1eb956;
+  background: #166534;
 }
 
 /* ========================================================
