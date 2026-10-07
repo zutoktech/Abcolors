@@ -1,0 +1,5 @@
+/led_sign_board/company /service-led-signage 301
+/led_sign_board/company/ /service-led-signage 301
+/led_sign_board /service-led-signage 301
+/led_sign_board/* /service-led-signage 301
+/led-sign-board/* /service-led-signage 301
