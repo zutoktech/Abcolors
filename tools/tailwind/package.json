@@ -1,0 +1,12 @@
+{
+  "name": "abcolors-tailwind-build",
+  "private": true,
+  "description": "Builds css/tailwind.css from the Tailwind classes used in the site's HTML (replaces the Tailwind Play CDN).",
+  "scripts": {
+    "build": "tailwindcss -c tailwind.config.js -i input.css -o ../../css/tailwind.css --minify",
+    "watch": "tailwindcss -c tailwind.config.js -i input.css -o ../../css/tailwind.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  }
+}

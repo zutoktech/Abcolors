@@ -1,0 +1,870 @@
+/*
+   AB Colors - shared site styles
+   Loaded on every page after main.css / modern-navbar.css.
+   Covers: accessibility helpers, responsive fixes for the legacy template, home page
+   hero / tabs / testimonials (replacing Revolution Slider + Owl Carousel), FAQ,
+   breadcrumbs and the portfolio lightbox.
+*/
+
+:root {
+  --brand: #d72a2f;
+  --brand-dark: #b91c21;
+  --ink: #111827;
+}
+
+/* ------------------------------------------------------------
+   Accessibility helpers
+   ------------------------------------------------------------ */
+.skip-link {
+  position: fixed;
+  left: 12px;
+  top: -80px;
+  z-index: 100001;
+  padding: 10px 16px;
+  border-radius: 8px;
+  background: var(--ink);
+  color: #ffffff;
+  font-weight: 700;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 12px;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid #2563eb !important;
+  outline-offset: 2px;
+}
+
+main:focus {
+  outline: none;
+}
+
+/* Body copy that used to be stray <dd> elements */
+.body-copy {
+  margin-top: 20px;
+  margin-left: 12px;
+  color: #000000;
+}
+
+.title .title-sub {
+  color: #8a8a8a;
+}
+
+/* Inner page title banner: show immediately (it used to appear only after every
+   image had loaded, which shifted the whole page). */
+.page-title {
+  display: block;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes zoomIn {
+  from { opacity: 0; transform: scale3d(0.3, 0.3, 0.3); }
+  50% { opacity: 1; }
+}
+
+.zoomIn {
+  animation-name: zoomIn;
+}
+
+h1.page-title {
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* Back-to-top button */
+.scroll-top {
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.scroll-top.is-visible {
+  display: block;
+}
+
+/* Floating WhatsApp button: keep clear of the back-to-top button */
+.whatsapp-float,
+.sd-whatsapp-float {
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ------------------------------------------------------------
+   Breadcrumbs (inner pages)
+   ------------------------------------------------------------ */
+.breadcrumbs {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 12px 20px 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #4b5563;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumbs li {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.breadcrumbs li + li::before {
+  content: "/";
+  margin: 0 6px 0 2px;
+  color: var(--brand);
+}
+
+.breadcrumbs a {
+  color: #374151;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.breadcrumbs a:hover {
+  color: var(--brand-dark);
+}
+
+.breadcrumbs [aria-current="page"] {
+  color: #111827;
+  font-weight: 600;
+}
+
+/* ------------------------------------------------------------
+   Home page hero slider (replaces Revolution Slider)
+   ------------------------------------------------------------ */
+.hero-slider {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1400 / 680;
+  max-height: 680px;
+  overflow: hidden;
+  background: #f3efe9;
+}
+
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.9s ease, visibility 0s linear 0.9s;
+}
+
+.hero-slide.is-active {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.9s ease;
+}
+
+.hero-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  margin-top: -23px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.35);
+  color: #ffffff;
+  font-size: 26px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s ease, background-color 0.2s ease;
+}
+
+.hero-arrow:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hero-slider:hover .hero-arrow,
+.hero-arrow:focus-visible {
+  opacity: 1;
+}
+
+.hero-prev { left: 20px; }
+.hero-next { right: 20px; }
+
+.hero-dots {
+  position: absolute;
+  left: 50%;
+  bottom: 14px;
+  z-index: 5;
+  display: flex;
+  gap: 4px;
+  transform: translateX(-50%);
+}
+
+.hero-dots button {
+  width: 24px;
+  height: 24px;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.hero-dots button::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.hero-dots button[aria-current="true"]::before {
+  background: var(--brand);
+  border-color: var(--brand);
+}
+
+.hero-slider .scroll-down-button {
+  bottom: 70px;
+  display: block;
+  width: 30px;
+}
+
+@media (hover: none) {
+  .hero-arrow { opacity: 0.85; }
+}
+
+@media (max-width: 767px) {
+  .hero-arrow { width: 36px; height: 36px; margin-top: -18px; font-size: 20px; }
+  .hero-prev { left: 8px; }
+  .hero-next { right: 8px; }
+  .hero-slider .scroll-down-button { display: none; }
+  .hero-dots { bottom: 4px; }
+}
+
+/* ------------------------------------------------------------
+   Home page sections - responsive fixes
+   ------------------------------------------------------------ */
+.about-us .title,
+.our-team .title {
+  margin-bottom: 4px;
+}
+
+h1.title,
+h2.title {
+  margin-top: 0;
+  text-transform: none;
+}
+
+/* Parallax sections become static cover images (no scroll-jank, works on phones) */
+.parallaxed .parallax-image {
+  transform: none !important;
+  left: 0 !important;
+  right: 0;
+  height: 100%;
+}
+
+.parallaxed .parallax-image img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+}
+
+.service-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.service-tabs .team-item {
+  margin: 0;
+}
+
+.service-tab {
+  display: block;
+  width: 100%;
+  padding: 0 0 100% !important;
+  border: 1px solid #e5e5e5;
+  cursor: pointer;
+  font: inherit;
+}
+
+/* Phone / email links in contact blocks: comfortable tap targets */
+.grid-contact p a {
+  display: inline-block;
+  min-height: 24px;
+  padding: 2px 0;
+}
+
+.contact-page .contacts a {
+  display: block;
+}
+
+.contact-page .contacts a p {
+  min-height: 24px;
+  padding: 2px 0;
+}
+
+.service-tab[aria-pressed="true"] {
+  border-color: var(--brand);
+  box-shadow: 0 0 0 2px rgba(215, 42, 47, 0.25);
+}
+
+.service-tabs .window-tabs {
+  display: block;
+  overflow: hidden;
+}
+
+.service-tabs .window-tabs img {
+  width: 100%;
+  height: 100% !important;
+  object-fit: cover;
+}
+
+.service-tabs h3 {
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.big-window-tab .choose-team > div > img.ri {
+  width: 100%;
+  height: 100% !important;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.our-team {
+  overflow: hidden;
+}
+
+.our-team .item-name {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+@media (max-width: 767px) {
+  .content-img > #splash-2 {
+    left: 10%;
+    width: 90%;
+  }
+
+  .service-tabs {
+    gap: 10px;
+  }
+
+  .service-tabs h3 {
+    font-size: 12px;
+  }
+
+  .grid-contact {
+    width: 50%;
+    margin-bottom: 24px;
+  }
+
+  .counter-block .counter {
+    font-size: 44px;
+    line-height: 1.1;
+  }
+
+  .counter-block .counter-name {
+    font-size: 16px;
+  }
+
+  .counter-block i {
+    font-size: 34px;
+  }
+
+  .parallax-content-second {
+    padding: 40px 0 16px !important;
+  }
+
+  .parallax-content-second .grid-col-row {
+    margin: 0 !important;
+  }
+
+  .parallax-content-second .grid-col.grid-col-3 {
+    float: left;
+    width: 50%;
+    margin: 0 0 24px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 479px) {
+  .grid-contact {
+    width: 100%;
+  }
+}
+
+/* ------------------------------------------------------------
+   Testimonials slider (replaces Owl Carousel)
+   ------------------------------------------------------------ */
+.testimonials {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.testimonials .testimonial-title {
+  margin-bottom: 20px;
+}
+
+.testimonial-slide {
+  display: none;
+}
+
+.testimonial-slide.is-active {
+  display: block;
+  animation: fadeInTestimonial 0.6s ease;
+}
+
+@keyframes fadeInTestimonial {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.testimonial-quote {
+  margin: 0;
+}
+
+.testimonial-stars {
+  text-align: center;
+  color: #facc15;
+  font-size: 20px;
+}
+
+.testimonial-dots {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  margin-top: 20px;
+}
+
+.testimonial-dots button {
+  width: 24px;
+  height: 24px;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.testimonial-dots button::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 7px;
+  border: 1px solid #e5e5e5;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.testimonial-dots button[aria-current="true"]::before {
+  background: #ff4a81;
+}
+
+.testimonials .sl-controll > button {
+  display: inline-block;
+  padding: 0;
+  color: #ffffff;
+  font: inherit;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.5s;
+}
+
+.testimonials .sl-controll > button:hover,
+.testimonials .sl-controll > button:focus-visible {
+  opacity: 1;
+}
+
+.testimonial-author {
+  display: block;
+}
+
+.testimonial-stars {
+  margin: 0 0 12px;
+  letter-spacing: 4px;
+  line-height: 1.4;
+}
+
+@media (max-width: 767px) {
+  .testimonial-text {
+    font-size: 19px !important;
+  }
+
+  .testimonial-title {
+    font-size: 24px !important;
+  }
+
+  .parallax-content-third .sl-controll {
+    display: none;
+  }
+}
+
+/* ------------------------------------------------------------
+   FAQ (home + service pages)
+   ------------------------------------------------------------ */
+.faq-section {
+  padding: 50px 0;
+  background: #f9fafb;
+}
+
+.faq-section .faq-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.faq-section h2 {
+  margin: 0 0 8px;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.25;
+  text-transform: none;
+  color: #111827;
+}
+
+.faq-section .faq-intro {
+  margin: 0 0 24px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #4b5563;
+}
+
+.faq-item {
+  margin-bottom: 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.faq-item summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 20px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.45;
+  color: #111827;
+}
+
+.faq-item summary::after {
+  content: "+";
+  flex: 0 0 auto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--brand);
+}
+
+.faq-item[open] summary::after {
+  content: "\2212";
+}
+
+.faq-item .faq-answer {
+  padding: 0 20px 18px;
+}
+
+.faq-item .faq-answer p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.65;
+  color: #374151;
+}
+
+.faq-item .faq-answer a {
+  color: var(--brand-dark);
+  text-decoration: underline;
+}
+
+.sd-container .faq-section {
+  margin: 0 0 40px;
+  padding: 28px 30px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.sd-container .faq-section .faq-inner {
+  padding: 0;
+}
+
+.sd-container .faq-section h2 {
+  font-size: 22px;
+}
+
+@media (max-width: 650px) {
+  .faq-section h2 { font-size: 22px; }
+  .sd-container .faq-section { padding: 20px; }
+}
+
+/* ------------------------------------------------------------
+   Portfolio pages: filters, grid fade-in and lightbox
+   ------------------------------------------------------------ */
+.gallery-item {
+  display: block;
+  padding: 0;
+  border: 0;
+  text-align: left;
+  font: inherit;
+}
+
+.gallery-item[hidden] {
+  display: none !important;
+}
+
+.gallery-item img {
+  background: #f3f4f6;
+}
+
+.portfolio-lightbox {
+  display: none;
+  position: fixed;
+  z-index: 100002;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.92);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.portfolio-lightbox.active {
+  display: flex;
+}
+
+.lightbox-content {
+  position: relative;
+  max-width: 85%;
+  max-height: 85%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: lightboxZoomIn 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes lightboxZoomIn {
+  from { transform: scale(0.92); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.lightbox-content img {
+  max-width: 100%;
+  max-height: 78vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: opacity 0.15s ease-in-out;
+}
+
+.lightbox-caption {
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.lightbox-close,
+.lightbox-prev,
+.lightbox-next {
+  position: absolute;
+  z-index: 100003;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.lightbox-close {
+  top: 24px;
+  right: 30px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  font-size: 34px;
+  line-height: 1;
+}
+
+.lightbox-close:hover {
+  background: var(--brand);
+  transform: rotate(90deg);
+}
+
+.lightbox-prev,
+.lightbox-next {
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  margin-top: -30px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.06);
+  font-size: 32px;
+}
+
+.lightbox-prev { left: 40px; }
+.lightbox-next { right: 40px; }
+
+.lightbox-prev:hover,
+.lightbox-next:hover {
+  background-color: var(--brand);
+  border-color: var(--brand);
+}
+
+@media (max-width: 768px) {
+  .lightbox-prev,
+  .lightbox-next {
+    width: 46px;
+    height: 46px;
+    margin-top: -23px;
+    font-size: 24px;
+  }
+
+  .lightbox-prev { left: 10px; }
+  .lightbox-next { right: 10px; }
+  .lightbox-close { top: 14px; right: 14px; width: 46px; height: 46px; }
+  .lightbox-caption { font-size: 16px; letter-spacing: 1px; }
+  .lightbox-content { max-width: 92%; }
+  .lightbox-content img { max-height: 70vh; }
+}
+
+body.lightbox-open {
+  overflow: hidden;
+}
+
+/* ------------------------------------------------------------
+   Inner pages: misc responsive fixes
+   ------------------------------------------------------------ */
+@media (max-width: 767px) {
+  .top-bg {
+    margin-bottom: 24px;
+  }
+
+  .page-title {
+    font-size: 28px;
+  }
+
+  .contact-page .grid-col.grid-col-6 {
+    float: none;
+    width: 100%;
+    margin: 0 0 30px;
+  }
+}
+
+/* Footer social links get a real tap target size */
+.footer .social a,
+#footer .social a {
+  display: inline-block;
+}
+
+/* Breadcrumb trail directly under the red page-title banner */
+.top-bg + .breadcrumbs {
+  margin-top: -16px;
+  margin-bottom: 24px;
+}
+
+/* About page facilities: two columns on phones instead of one huge icon per row */
+@media (max-width: 767px) {
+  .page-about .little-about {
+    margin-bottom: 24px;
+  }
+
+  .page-about .grid-col.grid-col-3 {
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding: 0 8px;
+    box-sizing: border-box;
+  }
+
+  .page-about .little-about img {
+    height: 110px !important;
+  }
+}
+
+/* Enquiry form validation message (js/form-handler.js) */
+.form-error {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  padding: 10px 12px;
+  border: 1px solid #fca5a5;
+  border-radius: 8px;
+  background: #fef2f2;
+  color: #991b1b;
+  font-size: 14px;
+  line-height: 1.4;
+}

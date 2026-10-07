@@ -1,3 +1,5 @@
 .vscode/
 Thumbs.db
 *.log
+
+node_modules/

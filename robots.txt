@@ -1,0 +1,6 @@
+# AB Colors - https://abcolors.in
+# Search engines and AI answer engines are welcome to crawl the whole site.
+User-agent: *
+Allow: /
+
+Sitemap: https://abcolors.in/sitemap.xml

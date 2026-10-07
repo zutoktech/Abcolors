@@ -1,7 +1,7 @@
 /**
  * AB Colors - Service Enquiry Form Handler
  * Connects frontend forms to Google Sheets via Google Apps Script Web App
- * Google Sheet URL: https://docs.google.com/spreadsheets/d/1sY3JgpE1BXnGwiBOrlJXNE0wBH8BU24kJz5MXInJ-Uw/edit?usp=sharing
+ * (setup steps: GOOGLE_SHEET_SETUP_GUIDE.md in the repository)
  */
 
 // User's Google Apps Script Web App URL
@@ -103,8 +103,8 @@ function initServiceEnquiryForm(formId, serviceName) {
       if (!statusBox) return;
       if (type === "error") {
         statusBox.innerHTML = `
-          <div class="bg-red-50 border border-red-300 text-red-800 p-3 rounded-lg mt-3 flex items-center gap-2 text-sm">
-            <i class="fa fa-exclamation-circle text-red-600"></i>
+          <div class="form-error">
+            <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
             <span>${message}</span>
           </div>
         `;

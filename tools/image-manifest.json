@@ -1,0 +1,8539 @@
+{
+ "ban2.webp": {
+  "base": "img/opt/ban2",
+  "width": 1400,
+  "height": 680,
+  "variants": [
+   {
+    "w": 828,
+    "h": 402,
+    "path": "img/opt/ban2-828.webp",
+    "kb": 31
+   },
+   {
+    "w": 1400,
+    "h": 680,
+    "path": "img/opt/ban2-1400.webp",
+    "kb": 56
+   }
+  ]
+ },
+ "banner3.webp": {
+  "base": "img/opt/banner3",
+  "width": 1400,
+  "height": 680,
+  "variants": [
+   {
+    "w": 828,
+    "h": 402,
+    "path": "img/opt/banner3-828.webp",
+    "kb": 35
+   },
+   {
+    "w": 1400,
+    "h": 680,
+    "path": "img/opt/banner3-1400.webp",
+    "kb": 63
+   }
+  ]
+ },
+ "bannerr.webp": {
+  "base": "img/opt/bannerr",
+  "width": 1400,
+  "height": 680,
+  "variants": [
+   {
+    "w": 828,
+    "h": 402,
+    "path": "img/opt/bannerr-828.webp",
+    "kb": 36
+   },
+   {
+    "w": 1400,
+    "h": 680,
+    "path": "img/opt/bannerr-1400.webp",
+    "kb": 66
+   }
+  ]
+ },
+ "images/background-img.png": {
+  "base": "img/opt/background-img",
+  "width": 2500,
+  "height": 105,
+  "variants": [
+   {
+    "w": 800,
+    "h": 34,
+    "path": "img/opt/background-img-800.webp",
+    "kb": 0
+   },
+   {
+    "w": 1600,
+    "h": 67,
+    "path": "img/opt/background-img-1600.webp",
+    "kb": 0
+   }
+  ]
+ },
+ "images/dotted.png": {
+  "base": "img/opt/dotted",
+  "width": 52,
+  "height": 44,
+  "variants": [
+   {
+    "w": 52,
+    "h": 44,
+    "path": "img/opt/dotted-52.webp",
+    "kb": 0
+   }
+  ]
+ },
+ "images/down-button.png": {
+  "base": "img/opt/down-button",
+  "width": 29,
+  "height": 80,
+  "variants": [
+   {
+    "w": 29,
+    "h": 80,
+    "path": "img/opt/down-button-29.webp",
+    "kb": 0
+   }
+  ]
+ },
+ "images/team/parallax-4.jpg": {
+  "base": "img/opt/team/parallax-4",
+  "width": 1920,
+  "height": 872,
+  "variants": [
+   {
+    "w": 800,
+    "h": 363,
+    "path": "img/opt/team/parallax-4-800.webp",
+    "kb": 1
+   },
+   {
+    "w": 1600,
+    "h": 727,
+    "path": "img/opt/team/parallax-4-1600.webp",
+    "kb": 2
+   }
+  ]
+ },
+ "img/About Us/arun.jpg": {
+  "base": "img/opt/about-us/arun",
+  "width": 600,
+  "height": 600,
+  "variants": [
+   {
+    "w": 600,
+    "h": 600,
+    "path": "img/opt/about-us/arun-600.webp",
+    "kb": 19
+   }
+  ]
+ },
+ "img/About Us/balaji.jpg": {
+  "base": "img/opt/about-us/balaji",
+  "width": 600,
+  "height": 600,
+  "variants": [
+   {
+    "w": 600,
+    "h": 600,
+    "path": "img/opt/about-us/balaji-600.webp",
+    "kb": 19
+   }
+  ]
+ },
+ "img/About Us/glow.png": {
+  "base": "img/opt/about-us/glow",
+  "width": 512,
+  "height": 512,
+  "variants": [
+   {
+    "w": 512,
+    "h": 512,
+    "path": "img/opt/about-us/glow-512.webp",
+    "kb": 10
+   }
+  ]
+ },
+ "img/About Us/led.png": {
+  "base": "img/opt/about-us/led",
+  "width": 512,
+  "height": 512,
+  "variants": [
+   {
+    "w": 512,
+    "h": 512,
+    "path": "img/opt/about-us/led-512.webp",
+    "kb": 7
+   }
+  ]
+ },
+ "img/About Us/offset.png": {
+  "base": "img/opt/about-us/offset",
+  "width": 512,
+  "height": 512,
+  "variants": [
+   {
+    "w": 512,
+    "h": 512,
+    "path": "img/opt/about-us/offset-512.webp",
+    "kb": 4
+   }
+  ]
+ },
+ "img/About Us/printing.png": {
+  "base": "img/opt/about-us/printing",
+  "width": 512,
+  "height": 512,
+  "variants": [
+   {
+    "w": 512,
+    "h": 512,
+    "path": "img/opt/about-us/printing-512.webp",
+    "kb": 6
+   }
+  ]
+ },
+ "img/About Us/scroll1.jpg": {
+  "base": "img/opt/about-us/scroll1",
+  "width": 1920,
+  "height": 2560,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/about-us/scroll1-800.webp",
+    "kb": 156
+   },
+   {
+    "w": 1600,
+    "h": 2133,
+    "path": "img/opt/about-us/scroll1-1600.webp",
+    "kb": 425
+   }
+  ]
+ },
+ "img/About Us/scroll2.jpg": {
+  "base": "img/opt/about-us/scroll2",
+  "width": 960,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/about-us/scroll2-800.webp",
+    "kb": 67
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "path": "img/opt/about-us/scroll2-960.webp",
+    "kb": 87
+   }
+  ]
+ },
+ "img/About Us/scroll3.jpg": {
+  "base": "img/opt/about-us/scroll3",
+  "width": 600,
+  "height": 800,
+  "variants": [
+   {
+    "w": 600,
+    "h": 800,
+    "path": "img/opt/about-us/scroll3-600.webp",
+    "kb": 36
+   }
+  ]
+ },
+ "img/Branding.jpeg": {
+  "base": "img/opt/branding",
+  "width": 900,
+  "height": 750,
+  "variants": [
+   {
+    "w": 800,
+    "h": 667,
+    "path": "img/opt/branding-800.webp",
+    "kb": 17
+   },
+   {
+    "w": 900,
+    "h": 750,
+    "path": "img/opt/branding-900.webp",
+    "kb": 21
+   }
+  ]
+ },
+ "img/Branding/Canvas Wall Art/Art Canvas  1.png": {
+  "base": "img/opt/branding/canvas-wall-art/art-canvas-1",
+  "width": 1122,
+  "height": 1402,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1000,
+    "path": "img/opt/branding/canvas-wall-art/art-canvas-1-800.webp",
+    "kb": 91
+   },
+   {
+    "w": 1122,
+    "h": 1402,
+    "path": "img/opt/branding/canvas-wall-art/art-canvas-1-1122.webp",
+    "kb": 158
+   }
+  ]
+ },
+ "img/Branding/Canvas Wall Art/Art Canvas Change..png": {
+  "base": "img/opt/branding/canvas-wall-art/art-canvas-change",
+  "width": 1085,
+  "height": 1450,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1069,
+    "path": "img/opt/branding/canvas-wall-art/art-canvas-change-800.webp",
+    "kb": 122
+   },
+   {
+    "w": 1085,
+    "h": 1450,
+    "path": "img/opt/branding/canvas-wall-art/art-canvas-change-1085.webp",
+    "kb": 194
+   }
+  ]
+ },
+ "img/Branding/Canvas Wall Art/Art Canvas.png": {
+  "base": "img/opt/branding/canvas-wall-art/art-canvas",
+  "width": 1024,
+  "height": 768,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/canvas-wall-art/art-canvas-800.webp",
+    "kb": 37
+   },
+   {
+    "w": 1024,
+    "h": 768,
+    "path": "img/opt/branding/canvas-wall-art/art-canvas-1024.webp",
+    "kb": 51
+   }
+  ]
+ },
+ "img/Branding/Clip on Board/Clip On Board 1.png": {
+  "base": "img/opt/branding/clip-on-board/clip-on-board-1",
+  "width": 1484,
+  "height": 1060,
+  "variants": [
+   {
+    "w": 800,
+    "h": 571,
+    "path": "img/opt/branding/clip-on-board/clip-on-board-1-800.webp",
+    "kb": 70
+   },
+   {
+    "w": 1484,
+    "h": 1060,
+    "path": "img/opt/branding/clip-on-board/clip-on-board-1-1484.webp",
+    "kb": 173
+   }
+  ]
+ },
+ "img/Branding/Clip on Board/Clip on Board.jpg": {
+  "base": "img/opt/branding/clip-on-board/clip-on-board",
+  "width": 1024,
+  "height": 576,
+  "variants": [
+   {
+    "w": 800,
+    "h": 450,
+    "path": "img/opt/branding/clip-on-board/clip-on-board-800.webp",
+    "kb": 42
+   },
+   {
+    "w": 1024,
+    "h": 576,
+    "path": "img/opt/branding/clip-on-board/clip-on-board-1024.webp",
+    "kb": 60
+   }
+  ]
+ },
+ "img/Branding/Clip on Board/Clipon sign.jpg": {
+  "base": "img/opt/branding/clip-on-board/clipon-sign",
+  "width": 1152,
+  "height": 864,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/clip-on-board/clipon-sign-800.webp",
+    "kb": 44
+   },
+   {
+    "w": 1152,
+    "h": 864,
+    "path": "img/opt/branding/clip-on-board/clipon-sign-1152.webp",
+    "kb": 73
+   }
+  ]
+ },
+ "img/Branding/Clip on Board/Slim LED Board.jpeg": {
+  "base": "img/opt/branding/clip-on-board/slim-led-board",
+  "width": 1024,
+  "height": 576,
+  "variants": [
+   {
+    "w": 800,
+    "h": 450,
+    "path": "img/opt/branding/clip-on-board/slim-led-board-800.webp",
+    "kb": 35
+   },
+   {
+    "w": 1024,
+    "h": 576,
+    "path": "img/opt/branding/clip-on-board/slim-led-board-1024.webp",
+    "kb": 51
+   }
+  ]
+ },
+ "img/Branding/Clip on Board/crystal led.jpeg": {
+  "base": "img/opt/branding/clip-on-board/crystal-led",
+  "width": 1448,
+  "height": 1086,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/clip-on-board/crystal-led-800.webp",
+    "kb": 64
+   },
+   {
+    "w": 1448,
+    "h": 1086,
+    "path": "img/opt/branding/clip-on-board/crystal-led-1448.webp",
+    "kb": 164
+   }
+  ]
+ },
+ "img/Branding/Embossed Art Frame/Embossed Art Frame 1.jpg": {
+  "base": "img/opt/branding/embossed-art-frame/embossed-art-frame-1",
+  "width": 461,
+  "height": 592,
+  "variants": [
+   {
+    "w": 461,
+    "h": 592,
+    "path": "img/opt/branding/embossed-art-frame/embossed-art-frame-1-461.webp",
+    "kb": 15
+   }
+  ]
+ },
+ "img/Branding/Embossed Art Frame/Embossed Art Frame 2.jpg": {
+  "base": "img/opt/branding/embossed-art-frame/embossed-art-frame-2",
+  "width": 567,
+  "height": 704,
+  "variants": [
+   {
+    "w": 567,
+    "h": 704,
+    "path": "img/opt/branding/embossed-art-frame/embossed-art-frame-2-567.webp",
+    "kb": 11
+   }
+  ]
+ },
+ "img/Branding/Embossed Art Frame/Embossed Art Frame 3.jpg": {
+  "base": "img/opt/branding/embossed-art-frame/embossed-art-frame-3",
+  "width": 461,
+  "height": 642,
+  "variants": [
+   {
+    "w": 461,
+    "h": 642,
+    "path": "img/opt/branding/embossed-art-frame/embossed-art-frame-3-461.webp",
+    "kb": 21
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering (3).jpg": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-3",
+  "width": 768,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 768,
+    "h": 1024,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-3-768.webp",
+    "kb": 86
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering 1.JPG": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-1",
+  "width": 4032,
+  "height": 3024,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-1-800.webp",
+    "kb": 65
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-1-1600.webp",
+    "kb": 159
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering 10.jpeg": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-10",
+  "width": 1152,
+  "height": 519,
+  "variants": [
+   {
+    "w": 800,
+    "h": 360,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-10-800.webp",
+    "kb": 24
+   },
+   {
+    "w": 1152,
+    "h": 519,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-10-1152.webp",
+    "kb": 39
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering 12.jpeg": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-12",
+  "width": 1152,
+  "height": 519,
+  "variants": [
+   {
+    "w": 800,
+    "h": 360,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-12-800.webp",
+    "kb": 31
+   },
+   {
+    "w": 1152,
+    "h": 519,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-12-1152.webp",
+    "kb": 49
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering 14.jpeg": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-14",
+  "width": 1152,
+  "height": 519,
+  "variants": [
+   {
+    "w": 800,
+    "h": 360,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-14-800.webp",
+    "kb": 33
+   },
+   {
+    "w": 1152,
+    "h": 519,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-14-1152.webp",
+    "kb": 51
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering 15.jpeg": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-15",
+  "width": 1152,
+  "height": 519,
+  "variants": [
+   {
+    "w": 800,
+    "h": 360,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-15-800.webp",
+    "kb": 40
+   },
+   {
+    "w": 1152,
+    "h": 519,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-15-1152.webp",
+    "kb": 64
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering 16.jpeg": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-16",
+  "width": 1152,
+  "height": 519,
+  "variants": [
+   {
+    "w": 800,
+    "h": 360,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-16-800.webp",
+    "kb": 16
+   },
+   {
+    "w": 1152,
+    "h": 519,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-16-1152.webp",
+    "kb": 25
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering 17.jpeg": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-17",
+  "width": 1152,
+  "height": 519,
+  "variants": [
+   {
+    "w": 800,
+    "h": 360,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-17-800.webp",
+    "kb": 24
+   },
+   {
+    "w": 1152,
+    "h": 519,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-17-1152.webp",
+    "kb": 39
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering 2.JPG": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-2",
+  "width": 768,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 768,
+    "h": 1024,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-2-768.webp",
+    "kb": 108
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering 20.JPG": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-20",
+  "width": 768,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 768,
+    "h": 1024,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-20-768.webp",
+    "kb": 108
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering 21.JPG": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-21",
+  "width": 1152,
+  "height": 864,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-21-800.webp",
+    "kb": 33
+   },
+   {
+    "w": 1152,
+    "h": 864,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-21-1152.webp",
+    "kb": 52
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering 22.JPG": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-22",
+  "width": 1152,
+  "height": 864,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-22-800.webp",
+    "kb": 36
+   },
+   {
+    "w": 1152,
+    "h": 864,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-22-1152.webp",
+    "kb": 55
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering 23.JPG": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-23",
+  "width": 4032,
+  "height": 3024,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-23-800.webp",
+    "kb": 70
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-23-1600.webp",
+    "kb": 188
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering 24.jpeg": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-24",
+  "width": 1280,
+  "height": 576,
+  "variants": [
+   {
+    "w": 800,
+    "h": 360,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-24-800.webp",
+    "kb": 23
+   },
+   {
+    "w": 1280,
+    "h": 576,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-24-1280.webp",
+    "kb": 49
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering 25.JPG": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-25",
+  "width": 1152,
+  "height": 864,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-25-800.webp",
+    "kb": 34
+   },
+   {
+    "w": 1152,
+    "h": 864,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-25-1152.webp",
+    "kb": 55
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering 4.JPG": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-4",
+  "width": 1152,
+  "height": 864,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-4-800.webp",
+    "kb": 33
+   },
+   {
+    "w": 1152,
+    "h": 864,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-4-1152.webp",
+    "kb": 52
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering 5.JPG": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-5",
+  "width": 1152,
+  "height": 864,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-5-800.webp",
+    "kb": 36
+   },
+   {
+    "w": 1152,
+    "h": 864,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-5-1152.webp",
+    "kb": 55
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering 6.JPG": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-6",
+  "width": 1152,
+  "height": 864,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-6-800.webp",
+    "kb": 32
+   },
+   {
+    "w": 1152,
+    "h": 864,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-6-1152.webp",
+    "kb": 51
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering 7.JPG": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-7",
+  "width": 1152,
+  "height": 519,
+  "variants": [
+   {
+    "w": 800,
+    "h": 360,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-7-800.webp",
+    "kb": 36
+   },
+   {
+    "w": 1152,
+    "h": 519,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-7-1152.webp",
+    "kb": 58
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering 8.JPG": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-8",
+  "width": 4032,
+  "height": 3024,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-8-800.webp",
+    "kb": 70
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-8-1600.webp",
+    "kb": 188
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering 9.JPG": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-9",
+  "width": 4032,
+  "height": 3024,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-9-800.webp",
+    "kb": 56
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-9-1600.webp",
+    "kb": 151
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering.JPG": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering",
+  "width": 1152,
+  "height": 864,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-800.webp",
+    "kb": 34
+   },
+   {
+    "w": 1152,
+    "h": 864,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering-1152.webp",
+    "kb": 54
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering13.jpeg": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering13",
+  "width": 1152,
+  "height": 519,
+  "variants": [
+   {
+    "w": 800,
+    "h": 360,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering13-800.webp",
+    "kb": 21
+   },
+   {
+    "w": 1152,
+    "h": 519,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering13-1152.webp",
+    "kb": 33
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering18.JPG": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering18",
+  "width": 1152,
+  "height": 864,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering18-800.webp",
+    "kb": 34
+   },
+   {
+    "w": 1152,
+    "h": 864,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering18-1152.webp",
+    "kb": 54
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wall Covering19.JPG": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wall-covering19",
+  "width": 4032,
+  "height": 3024,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering19-800.webp",
+    "kb": 65
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wall-covering19-1600.webp",
+    "kb": 159
+   }
+  ]
+ },
+ "img/Branding/Fabric Wall Covering/Fabric Wallcovering.jpeg": {
+  "base": "img/opt/branding/fabric-wall-covering/fabric-wallcovering",
+  "width": 1280,
+  "height": 593,
+  "variants": [
+   {
+    "w": 800,
+    "h": 371,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wallcovering-800.webp",
+    "kb": 20
+   },
+   {
+    "w": 1280,
+    "h": 593,
+    "path": "img/opt/branding/fabric-wall-covering/fabric-wallcovering-1280.webp",
+    "kb": 38
+   }
+  ]
+ },
+ "img/Branding/Glass Branding/Direct Print on Glass.jpeg": {
+  "base": "img/opt/branding/glass-branding/direct-print-on-glass",
+  "width": 473,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 473,
+    "h": 1024,
+    "path": "img/opt/branding/glass-branding/direct-print-on-glass-473.webp",
+    "kb": 51
+   }
+  ]
+ },
+ "img/Branding/Glass Branding/Frosted Sticker for Glass Door.JPG": {
+  "base": "img/opt/branding/glass-branding/frosted-sticker-for-glass-door",
+  "width": 1280,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/glass-branding/frosted-sticker-for-glass-door-800.webp",
+    "kb": 54
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "path": "img/opt/branding/glass-branding/frosted-sticker-for-glass-door-1280.webp",
+    "kb": 94
+   }
+  ]
+ },
+ "img/Branding/Glass Branding/Frosted Sticker with Etching on Glass.jpeg": {
+  "base": "img/opt/branding/glass-branding/frosted-sticker-with-etching-on-glass",
+  "width": 1280,
+  "height": 720,
+  "variants": [
+   {
+    "w": 800,
+    "h": 450,
+    "path": "img/opt/branding/glass-branding/frosted-sticker-with-etching-on-glass-800.webp",
+    "kb": 35
+   },
+   {
+    "w": 1280,
+    "h": 720,
+    "path": "img/opt/branding/glass-branding/frosted-sticker-with-etching-on-glass-1280.webp",
+    "kb": 67
+   }
+  ]
+ },
+ "img/Branding/Glass Branding/Plain Frosted Sticker.jpeg": {
+  "base": "img/opt/branding/glass-branding/plain-frosted-sticker",
+  "width": 1040,
+  "height": 780,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/glass-branding/plain-frosted-sticker-800.webp",
+    "kb": 20
+   },
+   {
+    "w": 1040,
+    "h": 780,
+    "path": "img/opt/branding/glass-branding/plain-frosted-sticker-1040.webp",
+    "kb": 28
+   }
+  ]
+ },
+ "img/Branding/Glass Branding/Printed Clear vinyl on glass.jpeg": {
+  "base": "img/opt/branding/glass-branding/printed-clear-vinyl-on-glass",
+  "width": 900,
+  "height": 1600,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1422,
+    "path": "img/opt/branding/glass-branding/printed-clear-vinyl-on-glass-800.webp",
+    "kb": 108
+   },
+   {
+    "w": 900,
+    "h": 1600,
+    "path": "img/opt/branding/glass-branding/printed-clear-vinyl-on-glass-900.webp",
+    "kb": 132
+   }
+  ]
+ },
+ "img/Branding/Glass Branding/Printed Frosted Sticker.jpg": {
+  "base": "img/opt/branding/glass-branding/printed-frosted-sticker",
+  "width": 1600,
+  "height": 1200,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/glass-branding/printed-frosted-sticker-800.webp",
+    "kb": 20
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/branding/glass-branding/printed-frosted-sticker-1600.webp",
+    "kb": 48
+   }
+  ]
+ },
+ "img/Branding/Glass Branding/Sunfilm in glass.jpg": {
+  "base": "img/opt/branding/glass-branding/sunfilm-in-glass",
+  "width": 1156,
+  "height": 867,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/glass-branding/sunfilm-in-glass-800.webp",
+    "kb": 21
+   },
+   {
+    "w": 1156,
+    "h": 867,
+    "path": "img/opt/branding/glass-branding/sunfilm-in-glass-1156.webp",
+    "kb": 35
+   }
+  ]
+ },
+ "img/Branding/Glass Branding/Vinyl pasted from Inside glass.jpeg": {
+  "base": "img/opt/branding/glass-branding/vinyl-pasted-from-inside-glass",
+  "width": 1024,
+  "height": 512,
+  "variants": [
+   {
+    "w": 800,
+    "h": 400,
+    "path": "img/opt/branding/glass-branding/vinyl-pasted-from-inside-glass-800.webp",
+    "kb": 31
+   },
+   {
+    "w": 1024,
+    "h": 512,
+    "path": "img/opt/branding/glass-branding/vinyl-pasted-from-inside-glass-1024.webp",
+    "kb": 45
+   }
+  ]
+ },
+ "img/Branding/Inshop acrylic branding/Acrylic Cut letter.jpg": {
+  "base": "img/opt/branding/inshop-acrylic-branding/acrylic-cut-letter",
+  "width": 1200,
+  "height": 1600,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/branding/inshop-acrylic-branding/acrylic-cut-letter-800.webp",
+    "kb": 43
+   },
+   {
+    "w": 1200,
+    "h": 1600,
+    "path": "img/opt/branding/inshop-acrylic-branding/acrylic-cut-letter-1200.webp",
+    "kb": 81
+   }
+  ]
+ },
+ "img/Branding/Inshop acrylic branding/Acrylic Cutting & Pasting.jpg": {
+  "base": "img/opt/branding/inshop-acrylic-branding/acrylic-cutting-and-pasting",
+  "width": 1024,
+  "height": 768,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/inshop-acrylic-branding/acrylic-cutting-and-pasting-800.webp",
+    "kb": 33
+   },
+   {
+    "w": 1024,
+    "h": 768,
+    "path": "img/opt/branding/inshop-acrylic-branding/acrylic-cutting-and-pasting-1024.webp",
+    "kb": 47
+   }
+  ]
+ },
+ "img/Branding/Inshop acrylic branding/Direct Acrylic print with Glossy lamination.jpg": {
+  "base": "img/opt/branding/inshop-acrylic-branding/direct-acrylic-print-with-glossy-lamination",
+  "width": 1440,
+  "height": 1080,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/inshop-acrylic-branding/direct-acrylic-print-with-glossy-lamination-800.webp",
+    "kb": 55
+   },
+   {
+    "w": 1440,
+    "h": 1080,
+    "path": "img/opt/branding/inshop-acrylic-branding/direct-acrylic-print-with-glossy-lamination-1440.webp",
+    "kb": 113
+   }
+  ]
+ },
+ "img/Branding/Inshop acrylic branding/Reception Acrylic sign.jpg": {
+  "base": "img/opt/branding/inshop-acrylic-branding/reception-acrylic-sign",
+  "width": 853,
+  "height": 540,
+  "variants": [
+   {
+    "w": 800,
+    "h": 506,
+    "path": "img/opt/branding/inshop-acrylic-branding/reception-acrylic-sign-800.webp",
+    "kb": 20
+   },
+   {
+    "w": 853,
+    "h": 540,
+    "path": "img/opt/branding/inshop-acrylic-branding/reception-acrylic-sign-853.webp",
+    "kb": 23
+   }
+  ]
+ },
+ "img/Branding/Inshop acrylic branding/Solid acrylic cut letter.jpg": {
+  "base": "img/opt/branding/inshop-acrylic-branding/solid-acrylic-cut-letter",
+  "width": 1152,
+  "height": 864,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/inshop-acrylic-branding/solid-acrylic-cut-letter-800.webp",
+    "kb": 17
+   },
+   {
+    "w": 1152,
+    "h": 864,
+    "path": "img/opt/branding/inshop-acrylic-branding/solid-acrylic-cut-letter-1152.webp",
+    "kb": 26
+   }
+  ]
+ },
+ "img/Branding/Stretch Ceiling/Fabric Stretch Ceiling.jfif": {
+  "base": "img/opt/branding/stretch-ceiling/fabric-stretch-ceiling",
+  "width": 1356,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 800,
+    "h": 604,
+    "path": "img/opt/branding/stretch-ceiling/fabric-stretch-ceiling-800.webp",
+    "kb": 22
+   },
+   {
+    "w": 1356,
+    "h": 1024,
+    "path": "img/opt/branding/stretch-ceiling/fabric-stretch-ceiling-1356.webp",
+    "kb": 48
+   }
+  ]
+ },
+ "img/Branding/Stretch Ceiling/Stretch Ceiling.JPG": {
+  "base": "img/opt/branding/stretch-ceiling/stretch-ceiling",
+  "width": 1024,
+  "height": 576,
+  "variants": [
+   {
+    "w": 800,
+    "h": 450,
+    "path": "img/opt/branding/stretch-ceiling/stretch-ceiling-800.webp",
+    "kb": 36
+   },
+   {
+    "w": 1024,
+    "h": 576,
+    "path": "img/opt/branding/stretch-ceiling/stretch-ceiling-1024.webp",
+    "kb": 55
+   }
+  ]
+ },
+ "img/Branding/Trade Expo Backdrop/fabric hanging 0.jpg": {
+  "base": "img/opt/branding/trade-expo-backdrop/fabric-hanging-0",
+  "width": 900,
+  "height": 1600,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1422,
+    "path": "img/opt/branding/trade-expo-backdrop/fabric-hanging-0-800.webp",
+    "kb": 50
+   },
+   {
+    "w": 900,
+    "h": 1600,
+    "path": "img/opt/branding/trade-expo-backdrop/fabric-hanging-0-900.webp",
+    "kb": 57
+   }
+  ]
+ },
+ "img/Branding/Trade Expo Backdrop/fabric hanging.jpg": {
+  "base": "img/opt/branding/trade-expo-backdrop/fabric-hanging",
+  "width": 900,
+  "height": 1600,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1422,
+    "path": "img/opt/branding/trade-expo-backdrop/fabric-hanging-800.webp",
+    "kb": 53
+   },
+   {
+    "w": 900,
+    "h": 1600,
+    "path": "img/opt/branding/trade-expo-backdrop/fabric-hanging-900.webp",
+    "kb": 61
+   }
+  ]
+ },
+ "img/Branding/Vehicle Branding/Bus branding.png": {
+  "base": "img/opt/branding/vehicle-branding/bus-branding",
+  "width": 1672,
+  "height": 941,
+  "variants": [
+   {
+    "w": 800,
+    "h": 450,
+    "path": "img/opt/branding/vehicle-branding/bus-branding-800.webp",
+    "kb": 53
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "path": "img/opt/branding/vehicle-branding/bus-branding-1600.webp",
+    "kb": 162
+   }
+  ]
+ },
+ "img/Branding/Vehicle Branding/Vehicle Branding.jpg": {
+  "base": "img/opt/branding/vehicle-branding/vehicle-branding",
+  "width": 1280,
+  "height": 720,
+  "variants": [
+   {
+    "w": 800,
+    "h": 450,
+    "path": "img/opt/branding/vehicle-branding/vehicle-branding-800.webp",
+    "kb": 56
+   },
+   {
+    "w": 1280,
+    "h": 720,
+    "path": "img/opt/branding/vehicle-branding/vehicle-branding-1280.webp",
+    "kb": 121
+   }
+  ]
+ },
+ "img/Branding/Vehicle Branding/vehicle branding 1.JPG": {
+  "base": "img/opt/branding/vehicle-branding/vehicle-branding-1",
+  "width": 1040,
+  "height": 585,
+  "variants": [
+   {
+    "w": 800,
+    "h": 450,
+    "path": "img/opt/branding/vehicle-branding/vehicle-branding-1-800.webp",
+    "kb": 36
+   },
+   {
+    "w": 1040,
+    "h": 585,
+    "path": "img/opt/branding/vehicle-branding/vehicle-branding-1-1040.webp",
+    "kb": 54
+   }
+  ]
+ },
+ "img/Branding/Vehicle Branding/vehicle branding 5.JPG": {
+  "base": "img/opt/branding/vehicle-branding/vehicle-branding-5",
+  "width": 1040,
+  "height": 488,
+  "variants": [
+   {
+    "w": 800,
+    "h": 375,
+    "path": "img/opt/branding/vehicle-branding/vehicle-branding-5-800.webp",
+    "kb": 23
+   },
+   {
+    "w": 1040,
+    "h": 488,
+    "path": "img/opt/branding/vehicle-branding/vehicle-branding-5-1040.webp",
+    "kb": 33
+   }
+  ]
+ },
+ "img/Branding/Vinyl & Foam Branding/Foam board Cutout.jfif": {
+  "base": "img/opt/branding/vinyl-and-foam-branding/foam-board-cutout",
+  "width": 1024,
+  "height": 497,
+  "variants": [
+   {
+    "w": 800,
+    "h": 388,
+    "path": "img/opt/branding/vinyl-and-foam-branding/foam-board-cutout-800.webp",
+    "kb": 31
+   },
+   {
+    "w": 1024,
+    "h": 497,
+    "path": "img/opt/branding/vinyl-and-foam-branding/foam-board-cutout-1024.webp",
+    "kb": 43
+   }
+  ]
+ },
+ "img/Branding/Vinyl & Foam Branding/Foam board branding.jpg": {
+  "base": "img/opt/branding/vinyl-and-foam-branding/foam-board-branding",
+  "width": 2016,
+  "height": 1512,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/vinyl-and-foam-branding/foam-board-branding-800.webp",
+    "kb": 45
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/branding/vinyl-and-foam-branding/foam-board-branding-1600.webp",
+    "kb": 113
+   }
+  ]
+ },
+ "img/Branding/Vinyl & Foam Branding/Inhouse Branding logo removed.jpg.jpeg": {
+  "base": "img/opt/branding/vinyl-and-foam-branding/inhouse-branding-logo-removed-jpg",
+  "width": 1024,
+  "height": 768,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/vinyl-and-foam-branding/inhouse-branding-logo-removed-jpg-800.webp",
+    "kb": 38
+   },
+   {
+    "w": 1024,
+    "h": 768,
+    "path": "img/opt/branding/vinyl-and-foam-branding/inhouse-branding-logo-removed-jpg-1024.webp",
+    "kb": 55
+   }
+  ]
+ },
+ "img/Branding/Vinyl & Foam Branding/Lift Branding.jpeg": {
+  "base": "img/opt/branding/vinyl-and-foam-branding/lift-branding",
+  "width": 1280,
+  "height": 640,
+  "variants": [
+   {
+    "w": 800,
+    "h": 400,
+    "path": "img/opt/branding/vinyl-and-foam-branding/lift-branding-800.webp",
+    "kb": 40
+   },
+   {
+    "w": 1280,
+    "h": 640,
+    "path": "img/opt/branding/vinyl-and-foam-branding/lift-branding-1280.webp",
+    "kb": 75
+   }
+  ]
+ },
+ "img/Branding/Vinyl & Foam Branding/One Way Vision.jpeg": {
+  "base": "img/opt/branding/vinyl-and-foam-branding/one-way-vision",
+  "width": 1280,
+  "height": 640,
+  "variants": [
+   {
+    "w": 800,
+    "h": 400,
+    "path": "img/opt/branding/vinyl-and-foam-branding/one-way-vision-800.webp",
+    "kb": 41
+   },
+   {
+    "w": 1280,
+    "h": 640,
+    "path": "img/opt/branding/vinyl-and-foam-branding/one-way-vision-1280.webp",
+    "kb": 78
+   }
+  ]
+ },
+ "img/Branding/Vinyl & Foam Branding/Vinyl Branding Inside Glass.jpeg": {
+  "base": "img/opt/branding/vinyl-and-foam-branding/vinyl-branding-inside-glass",
+  "width": 1280,
+  "height": 640,
+  "variants": [
+   {
+    "w": 800,
+    "h": 400,
+    "path": "img/opt/branding/vinyl-and-foam-branding/vinyl-branding-inside-glass-800.webp",
+    "kb": 18
+   },
+   {
+    "w": 1280,
+    "h": 640,
+    "path": "img/opt/branding/vinyl-and-foam-branding/vinyl-branding-inside-glass-1280.webp",
+    "kb": 33
+   }
+  ]
+ },
+ "img/Branding/Vinyl & Foam Branding/Vinyl Branding in Cooler.jpeg": {
+  "base": "img/opt/branding/vinyl-and-foam-branding/vinyl-branding-in-cooler",
+  "width": 945,
+  "height": 640,
+  "variants": [
+   {
+    "w": 800,
+    "h": 542,
+    "path": "img/opt/branding/vinyl-and-foam-branding/vinyl-branding-in-cooler-800.webp",
+    "kb": 31
+   },
+   {
+    "w": 945,
+    "h": 640,
+    "path": "img/opt/branding/vinyl-and-foam-branding/vinyl-branding-in-cooler-945.webp",
+    "kb": 39
+   }
+  ]
+ },
+ "img/Branding/Vinyl & Foam Branding/Vinyl Branding in door.jpeg": {
+  "base": "img/opt/branding/vinyl-and-foam-branding/vinyl-branding-in-door",
+  "width": 1280,
+  "height": 640,
+  "variants": [
+   {
+    "w": 800,
+    "h": 400,
+    "path": "img/opt/branding/vinyl-and-foam-branding/vinyl-branding-in-door-800.webp",
+    "kb": 14
+   },
+   {
+    "w": 1280,
+    "h": 640,
+    "path": "img/opt/branding/vinyl-and-foam-branding/vinyl-branding-in-door-1280.webp",
+    "kb": 24
+   }
+  ]
+ },
+ "img/Branding/Vinyl & Foam Branding/Vinyl Branding on wall.jpeg": {
+  "base": "img/opt/branding/vinyl-and-foam-branding/vinyl-branding-on-wall",
+  "width": 1280,
+  "height": 640,
+  "variants": [
+   {
+    "w": 800,
+    "h": 400,
+    "path": "img/opt/branding/vinyl-and-foam-branding/vinyl-branding-on-wall-800.webp",
+    "kb": 24
+   },
+   {
+    "w": 1280,
+    "h": 640,
+    "path": "img/opt/branding/vinyl-and-foam-branding/vinyl-branding-on-wall-1280.webp",
+    "kb": 49
+   }
+  ]
+ },
+ "img/Branding/Vinyl & Foam Branding/Vinyl Branding.jpeg": {
+  "base": "img/opt/branding/vinyl-and-foam-branding/vinyl-branding",
+  "width": 1280,
+  "height": 720,
+  "variants": [
+   {
+    "w": 800,
+    "h": 450,
+    "path": "img/opt/branding/vinyl-and-foam-branding/vinyl-branding-800.webp",
+    "kb": 24
+   },
+   {
+    "w": 1280,
+    "h": 720,
+    "path": "img/opt/branding/vinyl-and-foam-branding/vinyl-branding-1280.webp",
+    "kb": 42
+   }
+  ]
+ },
+ "img/Branding/Vinyl & Foam Branding/Vinyl branding in foam board.jpeg": {
+  "base": "img/opt/branding/vinyl-and-foam-branding/vinyl-branding-in-foam-board",
+  "width": 1280,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/vinyl-and-foam-branding/vinyl-branding-in-foam-board-800.webp",
+    "kb": 31
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "path": "img/opt/branding/vinyl-and-foam-branding/vinyl-branding-in-foam-board-1280.webp",
+    "kb": 51
+   }
+  ]
+ },
+ "img/Branding/Vinyl & Foam Branding/foam name board.jpeg": {
+  "base": "img/opt/branding/vinyl-and-foam-branding/foam-name-board",
+  "width": 1152,
+  "height": 864,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/branding/vinyl-and-foam-branding/foam-name-board-800.webp",
+    "kb": 25
+   },
+   {
+    "w": 1152,
+    "h": 864,
+    "path": "img/opt/branding/vinyl-and-foam-branding/foam-name-board-1152.webp",
+    "kb": 42
+   }
+  ]
+ },
+ "img/Corporate Gifting/Acrylic Momento.jpeg": {
+  "base": "img/opt/corporate-gifting/acrylic-momento",
+  "width": 1200,
+  "height": 1600,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/corporate-gifting/acrylic-momento-800.webp",
+    "kb": 25
+   },
+   {
+    "w": 1200,
+    "h": 1600,
+    "path": "img/opt/corporate-gifting/acrylic-momento-1200.webp",
+    "kb": 45
+   }
+  ]
+ },
+ "img/Corporate Gifting/Card Holder with Branding.jpeg": {
+  "base": "img/opt/corporate-gifting/card-holder-with-branding",
+  "width": 576,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 576,
+    "h": 1024,
+    "path": "img/opt/corporate-gifting/card-holder-with-branding-576.webp",
+    "kb": 42
+   }
+  ]
+ },
+ "img/Corporate Gifting/Diary with company name.jpeg": {
+  "base": "img/opt/corporate-gifting/diary-with-company-name",
+  "width": 576,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 576,
+    "h": 1024,
+    "path": "img/opt/corporate-gifting/diary-with-company-name-576.webp",
+    "kb": 40
+   }
+  ]
+ },
+ "img/Corporate Gifting/Direct Print in Wooden Log.jpg": {
+  "base": "img/opt/corporate-gifting/direct-print-in-wooden-log",
+  "width": 1086,
+  "height": 1448,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/corporate-gifting/direct-print-in-wooden-log-800.webp",
+    "kb": 122
+   },
+   {
+    "w": 1086,
+    "h": 1448,
+    "path": "img/opt/corporate-gifting/direct-print-in-wooden-log-1086.webp",
+    "kb": 204
+   }
+  ]
+ },
+ "img/Corporate Gifting/Embossed Stone Print.jpg": {
+  "base": "img/opt/corporate-gifting/embossed-stone-print",
+  "width": 1024,
+  "height": 770,
+  "variants": [
+   {
+    "w": 800,
+    "h": 602,
+    "path": "img/opt/corporate-gifting/embossed-stone-print-800.webp",
+    "kb": 62
+   },
+   {
+    "w": 1024,
+    "h": 770,
+    "path": "img/opt/corporate-gifting/embossed-stone-print-1024.webp",
+    "kb": 95
+   }
+  ]
+ },
+ "img/Corporate Gifting/Gift Cover.jpeg": {
+  "base": "img/opt/corporate-gifting/gift-cover",
+  "width": 7111,
+  "height": 5334,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/corporate-gifting/gift-cover-800.webp",
+    "kb": 42
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/corporate-gifting/gift-cover-1600.webp",
+    "kb": 115
+   }
+  ]
+ },
+ "img/Corporate Gifting/Joining Kit with Branding.jpg": {
+  "base": "img/opt/corporate-gifting/joining-kit-with-branding",
+  "width": 1024,
+  "height": 559,
+  "variants": [
+   {
+    "w": 800,
+    "h": 437,
+    "path": "img/opt/corporate-gifting/joining-kit-with-branding-800.webp",
+    "kb": 19
+   },
+   {
+    "w": 1024,
+    "h": 559,
+    "path": "img/opt/corporate-gifting/joining-kit-with-branding-1024.webp",
+    "kb": 29
+   }
+  ]
+ },
+ "img/Corporate Gifting/Lanyard Keychain.jpg": {
+  "base": "img/opt/corporate-gifting/lanyard-keychain",
+  "width": 1024,
+  "height": 559,
+  "variants": [
+   {
+    "w": 800,
+    "h": 437,
+    "path": "img/opt/corporate-gifting/lanyard-keychain-800.webp",
+    "kb": 55
+   },
+   {
+    "w": 1024,
+    "h": 559,
+    "path": "img/opt/corporate-gifting/lanyard-keychain-1024.webp",
+    "kb": 77
+   }
+  ]
+ },
+ "img/Corporate Gifting/Memento & Trophy/Acrylic Direct Print with lasser Cutting.jpeg": {
+  "base": "img/opt/corporate-gifting/memento-and-trophy/acrylic-direct-print-with-lasser-cutting",
+  "width": 1024,
+  "height": 559,
+  "variants": [
+   {
+    "w": 800,
+    "h": 437,
+    "path": "img/opt/corporate-gifting/memento-and-trophy/acrylic-direct-print-with-lasser-cutting-800.webp",
+    "kb": 27
+   },
+   {
+    "w": 1024,
+    "h": 559,
+    "path": "img/opt/corporate-gifting/memento-and-trophy/acrylic-direct-print-with-lasser-cutting-1024.webp",
+    "kb": 36
+   }
+  ]
+ },
+ "img/Corporate Gifting/Memento & Trophy/Acrylic Momento.jpeg": {
+  "base": "img/opt/corporate-gifting/memento-and-trophy/acrylic-momento",
+  "width": 460,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 460,
+    "h": 1024,
+    "path": "img/opt/corporate-gifting/memento-and-trophy/acrylic-momento-460.webp",
+    "kb": 36
+   }
+  ]
+ },
+ "img/Corporate Gifting/Memento & Trophy/Center Emblem Memento.jpeg": {
+  "base": "img/opt/corporate-gifting/memento-and-trophy/center-emblem-memento",
+  "width": 1024,
+  "height": 682,
+  "variants": [
+   {
+    "w": 800,
+    "h": 533,
+    "path": "img/opt/corporate-gifting/memento-and-trophy/center-emblem-memento-800.webp",
+    "kb": 31
+   },
+   {
+    "w": 1024,
+    "h": 682,
+    "path": "img/opt/corporate-gifting/memento-and-trophy/center-emblem-memento-1024.webp",
+    "kb": 45
+   }
+  ]
+ },
+ "img/Corporate Gifting/Memento & Trophy/Memento.jpeg": {
+  "base": "img/opt/corporate-gifting/memento-and-trophy/memento",
+  "width": 1024,
+  "height": 682,
+  "variants": [
+   {
+    "w": 800,
+    "h": 533,
+    "path": "img/opt/corporate-gifting/memento-and-trophy/memento-800.webp",
+    "kb": 30
+   },
+   {
+    "w": 1024,
+    "h": 682,
+    "path": "img/opt/corporate-gifting/memento-and-trophy/memento-1024.webp",
+    "kb": 44
+   }
+  ]
+ },
+ "img/Corporate Gifting/Memento & Trophy/Premimum Acrylic Momento.jpeg": {
+  "base": "img/opt/corporate-gifting/memento-and-trophy/premimum-acrylic-momento",
+  "width": 768,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 768,
+    "h": 1024,
+    "path": "img/opt/corporate-gifting/memento-and-trophy/premimum-acrylic-momento-768.webp",
+    "kb": 38
+   }
+  ]
+ },
+ "img/Corporate Gifting/Stone Printing.jpg": {
+  "base": "img/opt/corporate-gifting/stone-printing",
+  "width": 1086,
+  "height": 1448,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/corporate-gifting/stone-printing-800.webp",
+    "kb": 82
+   },
+   {
+    "w": 1086,
+    "h": 1448,
+    "path": "img/opt/corporate-gifting/stone-printing-1086.webp",
+    "kb": 131
+   }
+  ]
+ },
+ "img/Digital Printing/Brochure (2).jpg": {
+  "base": "img/opt/digital-printing/brochure-2",
+  "width": 1024,
+  "height": 847,
+  "variants": [
+   {
+    "w": 800,
+    "h": 662,
+    "path": "img/opt/digital-printing/brochure-2-800.webp",
+    "kb": 40
+   },
+   {
+    "w": 1024,
+    "h": 847,
+    "path": "img/opt/digital-printing/brochure-2-1024.webp",
+    "kb": 57
+   }
+  ]
+ },
+ "img/Digital Printing/Calander Branding.jpg": {
+  "base": "img/opt/digital-printing/calander-branding",
+  "width": 3000,
+  "height": 2000,
+  "variants": [
+   {
+    "w": 800,
+    "h": 533,
+    "path": "img/opt/digital-printing/calander-branding-800.webp",
+    "kb": 40
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "path": "img/opt/digital-printing/calander-branding-1600.webp",
+    "kb": 152
+   }
+  ]
+ },
+ "img/Digital Printing/Gold Foil B. Card (1).jpg": {
+  "base": "img/opt/digital-printing/gold-foil-b-card-1",
+  "width": 1024,
+  "height": 661,
+  "variants": [
+   {
+    "w": 800,
+    "h": 516,
+    "path": "img/opt/digital-printing/gold-foil-b-card-1-800.webp",
+    "kb": 14
+   },
+   {
+    "w": 1024,
+    "h": 661,
+    "path": "img/opt/digital-printing/gold-foil-b-card-1-1024.webp",
+    "kb": 20
+   }
+  ]
+ },
+ "img/Digital Printing/Gold Foil Business Card.jpg": {
+  "base": "img/opt/digital-printing/gold-foil-business-card",
+  "width": 1024,
+  "height": 768,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/digital-printing/gold-foil-business-card-800.webp",
+    "kb": 39
+   },
+   {
+    "w": 1024,
+    "h": 768,
+    "path": "img/opt/digital-printing/gold-foil-business-card-1024.webp",
+    "kb": 57
+   }
+  ]
+ },
+ "img/Digital Printing/Permium Bussiness Card.jpg": {
+  "base": "img/opt/digital-printing/permium-bussiness-card",
+  "width": 1024,
+  "height": 768,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/digital-printing/permium-bussiness-card-800.webp",
+    "kb": 35
+   },
+   {
+    "w": 1024,
+    "h": 768,
+    "path": "img/opt/digital-printing/permium-bussiness-card-1024.webp",
+    "kb": 50
+   }
+  ]
+ },
+ "img/Digital Printing/Product Sticker.jpg": {
+  "base": "img/opt/digital-printing/product-sticker",
+  "width": 1024,
+  "height": 850,
+  "variants": [
+   {
+    "w": 800,
+    "h": 664,
+    "path": "img/opt/digital-printing/product-sticker-800.webp",
+    "kb": 49
+   },
+   {
+    "w": 1024,
+    "h": 850,
+    "path": "img/opt/digital-printing/product-sticker-1024.webp",
+    "kb": 71
+   }
+  ]
+ },
+ "img/Digital Printing/Tent Card.jpg": {
+  "base": "img/opt/digital-printing/tent-card",
+  "width": 768,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 768,
+    "h": 1024,
+    "path": "img/opt/digital-printing/tent-card-768.webp",
+    "kb": 27
+   }
+  ]
+ },
+ "img/Digital Printing/brochure.jpg": {
+  "base": "img/opt/digital-printing/brochure",
+  "width": 768,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 768,
+    "h": 1024,
+    "path": "img/opt/digital-printing/brochure-768.webp",
+    "kb": 52
+   }
+  ]
+ },
+ "img/Digital Printing/letterhead.jpg": {
+  "base": "img/opt/digital-printing/letterhead",
+  "width": 768,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 768,
+    "h": 1024,
+    "path": "img/opt/digital-printing/letterhead-768.webp",
+    "kb": 25
+   }
+  ]
+ },
+ "img/Digital Printing/premium business card.png": {
+  "base": "img/opt/digital-printing/premium-business-card",
+  "width": 1024,
+  "height": 768,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/digital-printing/premium-business-card-800.webp",
+    "kb": 46
+   },
+   {
+    "w": 1024,
+    "h": 768,
+    "path": "img/opt/digital-printing/premium-business-card-1024.webp",
+    "kb": 67
+   }
+  ]
+ },
+ "img/Digital Printing/premium letterhead.jpg": {
+  "base": "img/opt/digital-printing/premium-letterhead",
+  "width": 768,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 768,
+    "h": 1024,
+    "path": "img/opt/digital-printing/premium-letterhead-768.webp",
+    "kb": 27
+   }
+  ]
+ },
+ "img/Digital Printing/synthetic business cards_11zon.jpg": {
+  "base": "img/opt/digital-printing/synthetic-business-cards-11zon",
+  "width": 768,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 768,
+    "h": 1024,
+    "path": "img/opt/digital-printing/synthetic-business-cards-11zon-768.webp",
+    "kb": 37
+   }
+  ]
+ },
+ "img/LED.jpeg": {
+  "base": "img/opt/led",
+  "width": 900,
+  "height": 750,
+  "variants": [
+   {
+    "w": 800,
+    "h": 667,
+    "path": "img/opt/led-800.webp",
+    "kb": 8
+   },
+   {
+    "w": 900,
+    "h": 750,
+    "path": "img/opt/led-900.webp",
+    "kb": 8
+   }
+  ]
+ },
+ "img/Products/bg.jpg": {
+  "base": "img/opt/products/bg",
+  "width": 1920,
+  "height": 1080,
+  "variants": [
+   {
+    "w": 800,
+    "h": 450,
+    "path": "img/opt/products/bg-800.webp",
+    "kb": 3
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "path": "img/opt/products/bg-1600.webp",
+    "kb": 8
+   }
+  ]
+ },
+ "img/Promotional Products/Canopy.jpg": {
+  "base": "img/opt/promotional-products/canopy",
+  "width": 1024,
+  "height": 768,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/promotional-products/canopy-800.webp",
+    "kb": 37
+   },
+   {
+    "w": 1024,
+    "h": 768,
+    "path": "img/opt/promotional-products/canopy-1024.webp",
+    "kb": 53
+   }
+  ]
+ },
+ "img/Promotional Products/Fabric Hanging Banner.jpg": {
+  "base": "img/opt/promotional-products/fabric-hanging-banner",
+  "width": 1204,
+  "height": 1600,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1063,
+    "path": "img/opt/promotional-products/fabric-hanging-banner-800.webp",
+    "kb": 43
+   },
+   {
+    "w": 1204,
+    "h": 1600,
+    "path": "img/opt/promotional-products/fabric-hanging-banner-1204.webp",
+    "kb": 67
+   }
+  ]
+ },
+ "img/Promotional Products/Fabric Table.jpg": {
+  "base": "img/opt/promotional-products/fabric-table",
+  "width": 900,
+  "height": 1600,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1422,
+    "path": "img/opt/promotional-products/fabric-table-800.webp",
+    "kb": 43
+   },
+   {
+    "w": 900,
+    "h": 1600,
+    "path": "img/opt/promotional-products/fabric-table-900.webp",
+    "kb": 49
+   }
+  ]
+ },
+ "img/Promotional Products/Feather Flag 1.jpg": {
+  "base": "img/opt/promotional-products/feather-flag-1",
+  "width": 1200,
+  "height": 1600,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/promotional-products/feather-flag-1-800.webp",
+    "kb": 99
+   },
+   {
+    "w": 1200,
+    "h": 1600,
+    "path": "img/opt/promotional-products/feather-flag-1-1200.webp",
+    "kb": 171
+   }
+  ]
+ },
+ "img/Promotional Products/Feather Flag.jpg": {
+  "base": "img/opt/promotional-products/feather-flag",
+  "width": 864,
+  "height": 1152,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/promotional-products/feather-flag-800.webp",
+    "kb": 77
+   },
+   {
+    "w": 864,
+    "h": 1152,
+    "path": "img/opt/promotional-products/feather-flag-864.webp",
+    "kb": 87
+   }
+  ]
+ },
+ "img/Promotional Products/Medal.png": {
+  "base": "img/opt/promotional-products/medal",
+  "width": 1086,
+  "height": 1449,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/promotional-products/medal-800.webp",
+    "kb": 87
+   },
+   {
+    "w": 1086,
+    "h": 1449,
+    "path": "img/opt/promotional-products/medal-1086.webp",
+    "kb": 139
+   }
+  ]
+ },
+ "img/Promotional Products/Promotional product 1.jpeg": {
+  "base": "img/opt/promotional-products/promotional-product-1",
+  "width": 960,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/promotional-products/promotional-product-1-800.webp",
+    "kb": 46
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "path": "img/opt/promotional-products/promotional-product-1-960.webp",
+    "kb": 60
+   }
+  ]
+ },
+ "img/Promotional Products/Standee/Cut Out Standee (3).jpg": {
+  "base": "img/opt/promotional-products/standee/cut-out-standee-3",
+  "width": 1024,
+  "height": 768,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/promotional-products/standee/cut-out-standee-3-800.webp",
+    "kb": 40
+   },
+   {
+    "w": 1024,
+    "h": 768,
+    "path": "img/opt/promotional-products/standee/cut-out-standee-3-1024.webp",
+    "kb": 61
+   }
+  ]
+ },
+ "img/Promotional Products/Standee/Cut out standee.JPG": {
+  "base": "img/opt/promotional-products/standee/cut-out-standee",
+  "width": 960,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/promotional-products/standee/cut-out-standee-800.webp",
+    "kb": 51
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "path": "img/opt/promotional-products/standee/cut-out-standee-960.webp",
+    "kb": 64
+   }
+  ]
+ },
+ "img/Promotional Products/Standee/Fabric Standee.jpg": {
+  "base": "img/opt/promotional-products/standee/fabric-standee",
+  "width": 1002,
+  "height": 1600,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1277,
+    "path": "img/opt/promotional-products/standee/fabric-standee-800.webp",
+    "kb": 42
+   },
+   {
+    "w": 1002,
+    "h": 1600,
+    "path": "img/opt/promotional-products/standee/fabric-standee-1002.webp",
+    "kb": 57
+   }
+  ]
+ },
+ "img/Promotional Products/Standee/Heavy base standee.jpeg": {
+  "base": "img/opt/promotional-products/standee/heavy-base-standee",
+  "width": 1086,
+  "height": 1448,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/promotional-products/standee/heavy-base-standee-800.webp",
+    "kb": 59
+   },
+   {
+    "w": 1086,
+    "h": 1448,
+    "path": "img/opt/promotional-products/standee/heavy-base-standee-1086.webp",
+    "kb": 92
+   }
+  ]
+ },
+ "img/Promotional Products/Standee/Light weight MS standee for indoor.jpg": {
+  "base": "img/opt/promotional-products/standee/light-weight-ms-standee-for-indoor",
+  "width": 963,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1063,
+    "path": "img/opt/promotional-products/standee/light-weight-ms-standee-for-indoor-800.webp",
+    "kb": 168
+   },
+   {
+    "w": 963,
+    "h": 1280,
+    "path": "img/opt/promotional-products/standee/light-weight-ms-standee-for-indoor-963.webp",
+    "kb": 237
+   }
+  ]
+ },
+ "img/Promotional Products/Standee/MS Display Standee.jpg": {
+  "base": "img/opt/promotional-products/standee/ms-display-standee",
+  "width": 1086,
+  "height": 1448,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/promotional-products/standee/ms-display-standee-800.webp",
+    "kb": 115
+   },
+   {
+    "w": 1086,
+    "h": 1448,
+    "path": "img/opt/promotional-products/standee/ms-display-standee-1086.webp",
+    "kb": 187
+   }
+  ]
+ },
+ "img/Promotional Products/Standee/MS Standee.jpg": {
+  "base": "img/opt/promotional-products/standee/ms-standee",
+  "width": 450,
+  "height": 1000,
+  "variants": [
+   {
+    "w": 450,
+    "h": 1000,
+    "path": "img/opt/promotional-products/standee/ms-standee-450.webp",
+    "kb": 54
+   }
+  ]
+ },
+ "img/Promotional Products/Standee/Roll up Standee with PVC Film.jpg": {
+  "base": "img/opt/promotional-products/standee/roll-up-standee-with-pvc-film",
+  "width": 768,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 768,
+    "h": 1024,
+    "path": "img/opt/promotional-products/standee/roll-up-standee-with-pvc-film-768.webp",
+    "kb": 79
+   }
+  ]
+ },
+ "img/Promotional Products/Standee/Roll up Standee with star flex (1).jpg": {
+  "base": "img/opt/promotional-products/standee/roll-up-standee-with-star-flex-1",
+  "width": 1448,
+  "height": 1086,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/promotional-products/standee/roll-up-standee-with-star-flex-1-800.webp",
+    "kb": 68
+   },
+   {
+    "w": 1448,
+    "h": 1086,
+    "path": "img/opt/promotional-products/standee/roll-up-standee-with-star-flex-1-1448.webp",
+    "kb": 168
+   }
+  ]
+ },
+ "img/Promotional Products/Standee/rollup standee.jpeg": {
+  "base": "img/opt/promotional-products/standee/rollup-standee",
+  "width": 1200,
+  "height": 1599,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1066,
+    "path": "img/opt/promotional-products/standee/rollup-standee-800.webp",
+    "kb": 58
+   },
+   {
+    "w": 1200,
+    "h": 1599,
+    "path": "img/opt/promotional-products/standee/rollup-standee-1200.webp",
+    "kb": 101
+   }
+  ]
+ },
+ "img/Promotional Products/Sunpack sheet.jpg": {
+  "base": "img/opt/promotional-products/sunpack-sheet",
+  "width": 577,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 577,
+    "h": 1024,
+    "path": "img/opt/promotional-products/sunpack-sheet-577.webp",
+    "kb": 99
+   }
+  ]
+ },
+ "img/Promotional Products/Table Flag.JPG": {
+  "base": "img/opt/promotional-products/table-flag",
+  "width": 2160,
+  "height": 3840,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1422,
+    "path": "img/opt/promotional-products/table-flag-800.webp",
+    "kb": 273
+   },
+   {
+    "w": 1600,
+    "h": 2844,
+    "path": "img/opt/promotional-products/table-flag-1600.webp",
+    "kb": 672
+   }
+  ]
+ },
+ "img/Promotional Products/Vinyl on Barricade.JPG": {
+  "base": "img/opt/promotional-products/vinyl-on-barricade",
+  "width": 4032,
+  "height": 3024,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/promotional-products/vinyl-on-barricade-800.webp",
+    "kb": 95
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/promotional-products/vinyl-on-barricade-1600.webp",
+    "kb": 324
+   }
+  ]
+ },
+ "img/Router Cut ACP Signage/1.jpg": {
+  "base": "img/opt/router-cut-acp-signage/1",
+  "width": 1280,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/router-cut-acp-signage/1-800.webp",
+    "kb": 16
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "path": "img/opt/router-cut-acp-signage/1-1280.webp",
+    "kb": 30
+   }
+  ]
+ },
+ "img/SS Lip Letter Signage/1.jpg": {
+  "base": "img/opt/ss-lip-letter-signage/1",
+  "width": 1036,
+  "height": 492,
+  "variants": [
+   {
+    "w": 800,
+    "h": 380,
+    "path": "img/opt/ss-lip-letter-signage/1-800.webp",
+    "kb": 22
+   },
+   {
+    "w": 1036,
+    "h": 492,
+    "path": "img/opt/ss-lip-letter-signage/1-1036.webp",
+    "kb": 32
+   }
+  ]
+ },
+ "img/Signages/ACP Cladding/ACP Cladding for Bakery.jpeg": {
+  "base": "img/opt/signages/acp-cladding/acp-cladding-for-bakery",
+  "width": 941,
+  "height": 1672,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1421,
+    "path": "img/opt/signages/acp-cladding/acp-cladding-for-bakery-800.webp",
+    "kb": 135
+   },
+   {
+    "w": 941,
+    "h": 1672,
+    "path": "img/opt/signages/acp-cladding/acp-cladding-for-bakery-941.webp",
+    "kb": 178
+   }
+  ]
+ },
+ "img/Signages/ACP Cladding/ACP Cladding with sign board.jpeg": {
+  "base": "img/opt/signages/acp-cladding/acp-cladding-with-sign-board",
+  "width": 1280,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/acp-cladding/acp-cladding-with-sign-board-800.webp",
+    "kb": 29
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "path": "img/opt/signages/acp-cladding/acp-cladding-with-sign-board-1280.webp",
+    "kb": 49
+   }
+  ]
+ },
+ "img/Signages/ACP Cladding/ACP Cladding.jpeg": {
+  "base": "img/opt/signages/acp-cladding/acp-cladding",
+  "width": 603,
+  "height": 869,
+  "variants": [
+   {
+    "w": 603,
+    "h": 869,
+    "path": "img/opt/signages/acp-cladding/acp-cladding-603.webp",
+    "kb": 55
+   }
+  ]
+ },
+ "img/Signages/ACP Cladding/ACP Cladding.jpg": {
+  "base": "img/opt/signages/acp-cladding/acp-cladding-2",
+  "width": 856,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 800,
+    "h": 957,
+    "path": "img/opt/signages/acp-cladding/acp-cladding-2-800.webp",
+    "kb": 49
+   },
+   {
+    "w": 856,
+    "h": 1024,
+    "path": "img/opt/signages/acp-cladding/acp-cladding-2-856.webp",
+    "kb": 54
+   }
+  ]
+ },
+ "img/Signages/Acrylic Signage/10mm Acrylic with cut letter and Backlit.jpeg": {
+  "base": "img/opt/signages/acrylic-signage/10mm-acrylic-with-cut-letter-and-backlit",
+  "width": 1031,
+  "height": 760,
+  "variants": [
+   {
+    "w": 800,
+    "h": 590,
+    "path": "img/opt/signages/acrylic-signage/10mm-acrylic-with-cut-letter-and-backlit-800.webp",
+    "kb": 25
+   },
+   {
+    "w": 1031,
+    "h": 760,
+    "path": "img/opt/signages/acrylic-signage/10mm-acrylic-with-cut-letter-and-backlit-1031.webp",
+    "kb": 36
+   }
+  ]
+ },
+ "img/Signages/Acrylic Signage/Acrylic Cup letter with lighting 2.jpg": {
+  "base": "img/opt/signages/acrylic-signage/acrylic-cup-letter-with-lighting-2",
+  "width": 1196,
+  "height": 896,
+  "variants": [
+   {
+    "w": 800,
+    "h": 599,
+    "path": "img/opt/signages/acrylic-signage/acrylic-cup-letter-with-lighting-2-800.webp",
+    "kb": 73
+   },
+   {
+    "w": 1196,
+    "h": 896,
+    "path": "img/opt/signages/acrylic-signage/acrylic-cup-letter-with-lighting-2-1196.webp",
+    "kb": 144
+   }
+  ]
+ },
+ "img/Signages/Acrylic Signage/Acrylic Cup letter with lighting.jpg": {
+  "base": "img/opt/signages/acrylic-signage/acrylic-cup-letter-with-lighting",
+  "width": 3119,
+  "height": 4160,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/signages/acrylic-signage/acrylic-cup-letter-with-lighting-800.webp",
+    "kb": 34
+   },
+   {
+    "w": 1600,
+    "h": 2134,
+    "path": "img/opt/signages/acrylic-signage/acrylic-cup-letter-with-lighting-1600.webp",
+    "kb": 101
+   }
+  ]
+ },
+ "img/Signages/Acrylic Signage/Acrylic Cup letter with logo.jpg": {
+  "base": "img/opt/signages/acrylic-signage/acrylic-cup-letter-with-logo",
+  "width": 1086,
+  "height": 1448,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/signages/acrylic-signage/acrylic-cup-letter-with-logo-800.webp",
+    "kb": 87
+   },
+   {
+    "w": 1086,
+    "h": 1448,
+    "path": "img/opt/signages/acrylic-signage/acrylic-cup-letter-with-logo-1086.webp",
+    "kb": 133
+   }
+  ]
+ },
+ "img/Signages/Acrylic Signage/Acrylic Display Board.jpg": {
+  "base": "img/opt/signages/acrylic-signage/acrylic-display-board",
+  "width": 768,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 768,
+    "h": 1024,
+    "path": "img/opt/signages/acrylic-signage/acrylic-display-board-768.webp",
+    "kb": 48
+   }
+  ]
+ },
+ "img/Signages/Acrylic Signage/Acrylic Floor Directory for hospital.jpeg": {
+  "base": "img/opt/signages/acrylic-signage/acrylic-floor-directory-for-hospital",
+  "width": 963,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1063,
+    "path": "img/opt/signages/acrylic-signage/acrylic-floor-directory-for-hospital-800.webp",
+    "kb": 46
+   },
+   {
+    "w": 963,
+    "h": 1280,
+    "path": "img/opt/signages/acrylic-signage/acrylic-floor-directory-for-hospital-963.webp",
+    "kb": 56
+   }
+  ]
+ },
+ "img/Signages/Acrylic Signage/Acrylic Printing QR Code.jpg": {
+  "base": "img/opt/signages/acrylic-signage/acrylic-printing-qr-code",
+  "width": 770,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 770,
+    "h": 1024,
+    "path": "img/opt/signages/acrylic-signage/acrylic-printing-qr-code-770.webp",
+    "kb": 46
+   }
+  ]
+ },
+ "img/Signages/Acrylic Signage/Acrylic Push Signage.jpg": {
+  "base": "img/opt/signages/acrylic-signage/acrylic-push-signage",
+  "width": 770,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 770,
+    "h": 1024,
+    "path": "img/opt/signages/acrylic-signage/acrylic-push-signage-770.webp",
+    "kb": 16
+   }
+  ]
+ },
+ "img/Signages/Acrylic Signage/Acrylic display.jpeg": {
+  "base": "img/opt/signages/acrylic-signage/acrylic-display",
+  "width": 1024,
+  "height": 768,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/acrylic-signage/acrylic-display-800.webp",
+    "kb": 14
+   },
+   {
+    "w": 1024,
+    "h": 768,
+    "path": "img/opt/signages/acrylic-signage/acrylic-display-1024.webp",
+    "kb": 21
+   }
+  ]
+ },
+ "img/Signages/Acrylic Signage/Acrylic signage (2).jpg": {
+  "base": "img/opt/signages/acrylic-signage/acrylic-signage-2",
+  "width": 1024,
+  "height": 576,
+  "variants": [
+   {
+    "w": 800,
+    "h": 450,
+    "path": "img/opt/signages/acrylic-signage/acrylic-signage-2-800.webp",
+    "kb": 31
+   },
+   {
+    "w": 1024,
+    "h": 576,
+    "path": "img/opt/signages/acrylic-signage/acrylic-signage-2-1024.webp",
+    "kb": 45
+   }
+  ]
+ },
+ "img/Signages/Acrylic Signage/Acrylic signage 1 copy.jpg": {
+  "base": "img/opt/signages/acrylic-signage/acrylic-signage-1-copy",
+  "width": 1024,
+  "height": 576,
+  "variants": [
+   {
+    "w": 800,
+    "h": 450,
+    "path": "img/opt/signages/acrylic-signage/acrylic-signage-1-copy-800.webp",
+    "kb": 34
+   },
+   {
+    "w": 1024,
+    "h": 576,
+    "path": "img/opt/signages/acrylic-signage/acrylic-signage-1-copy-1024.webp",
+    "kb": 50
+   }
+  ]
+ },
+ "img/Signages/Acrylic Signage/Acrylic sinages Printing 1.jpg": {
+  "base": "img/opt/signages/acrylic-signage/acrylic-sinages-printing-1",
+  "width": 767,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 767,
+    "h": 1024,
+    "path": "img/opt/signages/acrylic-signage/acrylic-sinages-printing-1-767.webp",
+    "kb": 30
+   }
+  ]
+ },
+ "img/Signages/Acrylic Signage/Acrylic sinages Printing 2 copy.jpg": {
+  "base": "img/opt/signages/acrylic-signage/acrylic-sinages-printing-2-copy",
+  "width": 1024,
+  "height": 767,
+  "variants": [
+   {
+    "w": 800,
+    "h": 599,
+    "path": "img/opt/signages/acrylic-signage/acrylic-sinages-printing-2-copy-800.webp",
+    "kb": 27
+   },
+   {
+    "w": 1024,
+    "h": 767,
+    "path": "img/opt/signages/acrylic-signage/acrylic-sinages-printing-2-copy-1024.webp",
+    "kb": 40
+   }
+  ]
+ },
+ "img/Signages/Acrylic Signage/Acrylic sinages Printing.jpg": {
+  "base": "img/opt/signages/acrylic-signage/acrylic-sinages-printing",
+  "width": 3119,
+  "height": 4160,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/signages/acrylic-signage/acrylic-sinages-printing-800.webp",
+    "kb": 18
+   },
+   {
+    "w": 1600,
+    "h": 2134,
+    "path": "img/opt/signages/acrylic-signage/acrylic-sinages-printing-1600.webp",
+    "kb": 45
+   }
+  ]
+ },
+ "img/Signages/Acrylic Signage/Wooden ACP with Acrylic cut letter.jpeg": {
+  "base": "img/opt/signages/acrylic-signage/wooden-acp-with-acrylic-cut-letter",
+  "width": 1600,
+  "height": 720,
+  "variants": [
+   {
+    "w": 800,
+    "h": 360,
+    "path": "img/opt/signages/acrylic-signage/wooden-acp-with-acrylic-cut-letter-800.webp",
+    "kb": 23
+   },
+   {
+    "w": 1600,
+    "h": 720,
+    "path": "img/opt/signages/acrylic-signage/wooden-acp-with-acrylic-cut-letter-1600.webp",
+    "kb": 62
+   }
+  ]
+ },
+ "img/Signages/Acrylic Signage/acrylic singage 1.jpg": {
+  "base": "img/opt/signages/acrylic-signage/acrylic-singage-1",
+  "width": 4160,
+  "height": 3119,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/acrylic-signage/acrylic-singage-1-800.webp",
+    "kb": 15
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/signages/acrylic-signage/acrylic-singage-1-1600.webp",
+    "kb": 41
+   }
+  ]
+ },
+ "img/Signages/Acrylic Signage/acrylic singage.jpg": {
+  "base": "img/opt/signages/acrylic-signage/acrylic-singage",
+  "width": 3119,
+  "height": 4160,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/signages/acrylic-signage/acrylic-singage-800.webp",
+    "kb": 23
+   },
+   {
+    "w": 1600,
+    "h": 2134,
+    "path": "img/opt/signages/acrylic-signage/acrylic-singage-1600.webp",
+    "kb": 63
+   }
+  ]
+ },
+ "img/Signages/Acrylic Signage/acrylic with acp name board.jpg": {
+  "base": "img/opt/signages/acrylic-signage/acrylic-with-acp-name-board",
+  "width": 1024,
+  "height": 768,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/acrylic-signage/acrylic-with-acp-name-board-800.webp",
+    "kb": 77
+   },
+   {
+    "w": 1024,
+    "h": 768,
+    "path": "img/opt/signages/acrylic-signage/acrylic-with-acp-name-board-1024.webp",
+    "kb": 113
+   }
+  ]
+ },
+ "img/Signages/Brass name borad/Brass name borad with etching.jpg": {
+  "base": "img/opt/signages/brass-name-borad/brass-name-borad-with-etching",
+  "width": 1152,
+  "height": 864,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/brass-name-borad/brass-name-borad-with-etching-800.webp",
+    "kb": 16
+   },
+   {
+    "w": 1152,
+    "h": 864,
+    "path": "img/opt/signages/brass-name-borad/brass-name-borad-with-etching-1152.webp",
+    "kb": 26
+   }
+  ]
+ },
+ "img/Signages/Brass name borad/brass name board.jpeg": {
+  "base": "img/opt/signages/brass-name-borad/brass-name-board",
+  "width": 1200,
+  "height": 1599,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1066,
+    "path": "img/opt/signages/brass-name-borad/brass-name-board-800.webp",
+    "kb": 23
+   },
+   {
+    "w": 1200,
+    "h": 1599,
+    "path": "img/opt/signages/brass-name-borad/brass-name-board-1200.webp",
+    "kb": 38
+   }
+  ]
+ },
+ "img/Signages/Fabric signs/Fabric Sign double side.jpg": {
+  "base": "img/opt/signages/fabric-signs/fabric-sign-double-side",
+  "width": 4000,
+  "height": 1848,
+  "variants": [
+   {
+    "w": 800,
+    "h": 370,
+    "path": "img/opt/signages/fabric-signs/fabric-sign-double-side-800.webp",
+    "kb": 48
+   },
+   {
+    "w": 1600,
+    "h": 739,
+    "path": "img/opt/signages/fabric-signs/fabric-sign-double-side-1600.webp",
+    "kb": 150
+   }
+  ]
+ },
+ "img/Signages/Fabric signs/Fabric Signage for Jewellery.jpg": {
+  "base": "img/opt/signages/fabric-signs/fabric-signage-for-jewellery",
+  "width": 461,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 461,
+    "h": 1024,
+    "path": "img/opt/signages/fabric-signs/fabric-signage-for-jewellery-461.webp",
+    "kb": 62
+   }
+  ]
+ },
+ "img/Signages/Fabric signs/Fabric box.jpg": {
+  "base": "img/opt/signages/fabric-signs/fabric-box",
+  "width": 1280,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/fabric-signs/fabric-box-800.webp",
+    "kb": 26
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "path": "img/opt/signages/fabric-signs/fabric-box-1280.webp",
+    "kb": 47
+   }
+  ]
+ },
+ "img/Signages/Fabric signs/Fabric light box for school (2).JPG": {
+  "base": "img/opt/signages/fabric-signs/fabric-light-box-for-school-2",
+  "width": 1040,
+  "height": 488,
+  "variants": [
+   {
+    "w": 800,
+    "h": 375,
+    "path": "img/opt/signages/fabric-signs/fabric-light-box-for-school-2-800.webp",
+    "kb": 35
+   },
+   {
+    "w": 1040,
+    "h": 488,
+    "path": "img/opt/signages/fabric-signs/fabric-light-box-for-school-2-1040.webp",
+    "kb": 51
+   }
+  ]
+ },
+ "img/Signages/Fabric signs/Fabric light box for school.JPG": {
+  "base": "img/opt/signages/fabric-signs/fabric-light-box-for-school",
+  "width": 1040,
+  "height": 488,
+  "variants": [
+   {
+    "w": 800,
+    "h": 375,
+    "path": "img/opt/signages/fabric-signs/fabric-light-box-for-school-800.webp",
+    "kb": 77
+   },
+   {
+    "w": 1040,
+    "h": 488,
+    "path": "img/opt/signages/fabric-signs/fabric-light-box-for-school-1040.webp",
+    "kb": 120
+   }
+  ]
+ },
+ "img/Signages/Fabric signs/Mini Fabric box for Saloon.jpeg": {
+  "base": "img/opt/signages/fabric-signs/mini-fabric-box-for-saloon",
+  "width": 1040,
+  "height": 488,
+  "variants": [
+   {
+    "w": 800,
+    "h": 375,
+    "path": "img/opt/signages/fabric-signs/mini-fabric-box-for-saloon-800.webp",
+    "kb": 19
+   },
+   {
+    "w": 1040,
+    "h": 488,
+    "path": "img/opt/signages/fabric-signs/mini-fabric-box-for-saloon-1040.webp",
+    "kb": 28
+   }
+  ]
+ },
+ "img/Signages/Fabric signs/Tall fabric light box.jpg": {
+  "base": "img/opt/signages/fabric-signs/tall-fabric-light-box",
+  "width": 1254,
+  "height": 1254,
+  "variants": [
+   {
+    "w": 800,
+    "h": 800,
+    "path": "img/opt/signages/fabric-signs/tall-fabric-light-box-800.webp",
+    "kb": 50
+   },
+   {
+    "w": 1254,
+    "h": 1254,
+    "path": "img/opt/signages/fabric-signs/tall-fabric-light-box-1254.webp",
+    "kb": 94
+   }
+  ]
+ },
+ "img/Signages/Fabric signs/fabric signage 1.jpg": {
+  "base": "img/opt/signages/fabric-signs/fabric-signage-1",
+  "width": 1600,
+  "height": 1200,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/fabric-signs/fabric-signage-1-800.webp",
+    "kb": 28
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/signages/fabric-signs/fabric-signage-1-1600.webp",
+    "kb": 57
+   }
+  ]
+ },
+ "img/Signages/Fabric signs/slim Fabric Light Box for cafe.jpg": {
+  "base": "img/opt/signages/fabric-signs/slim-fabric-light-box-for-cafe",
+  "width": 1024,
+  "height": 768,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/fabric-signs/slim-fabric-light-box-for-cafe-800.webp",
+    "kb": 60
+   },
+   {
+    "w": 1024,
+    "h": 768,
+    "path": "img/opt/signages/fabric-signs/slim-fabric-light-box-for-cafe-1024.webp",
+    "kb": 86
+   }
+  ]
+ },
+ "img/Signages/Glow Sign Board/Corporate Glow sign Board.jpg": {
+  "base": "img/opt/signages/glow-sign-board/corporate-glow-sign-board",
+  "width": 1086,
+  "height": 1448,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/signages/glow-sign-board/corporate-glow-sign-board-800.webp",
+    "kb": 170
+   },
+   {
+    "w": 1086,
+    "h": 1448,
+    "path": "img/opt/signages/glow-sign-board/corporate-glow-sign-board-1086.webp",
+    "kb": 277
+   }
+  ]
+ },
+ "img/Signages/Glow Sign Board/Double side flange GSB.jpg": {
+  "base": "img/opt/signages/glow-sign-board/double-side-flange-gsb",
+  "width": 1402,
+  "height": 1122,
+  "variants": [
+   {
+    "w": 800,
+    "h": 640,
+    "path": "img/opt/signages/glow-sign-board/double-side-flange-gsb-800.webp",
+    "kb": 47
+   },
+   {
+    "w": 1402,
+    "h": 1122,
+    "path": "img/opt/signages/glow-sign-board/double-side-flange-gsb-1402.webp",
+    "kb": 98
+   }
+  ]
+ },
+ "img/Signages/Glow Sign Board/Edgelit glow sign board.jpg": {
+  "base": "img/opt/signages/glow-sign-board/edgelit-glow-sign-board",
+  "width": 1086,
+  "height": 1448,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/signages/glow-sign-board/edgelit-glow-sign-board-800.webp",
+    "kb": 24
+   },
+   {
+    "w": 1086,
+    "h": 1448,
+    "path": "img/opt/signages/glow-sign-board/edgelit-glow-sign-board-1086.webp",
+    "kb": 35
+   }
+  ]
+ },
+ "img/Signages/Glow Sign Board/Flag type Glow-Sign-Board.jpeg": {
+  "base": "img/opt/signages/glow-sign-board/flag-type-glow-sign-board",
+  "width": 941,
+  "height": 1672,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1421,
+    "path": "img/opt/signages/glow-sign-board/flag-type-glow-sign-board-800.webp",
+    "kb": 152
+   },
+   {
+    "w": 941,
+    "h": 1672,
+    "path": "img/opt/signages/glow-sign-board/flag-type-glow-sign-board-941.webp",
+    "kb": 193
+   }
+  ]
+ },
+ "img/Signages/Glow Sign Board/GSB for dealers.jpg": {
+  "base": "img/opt/signages/glow-sign-board/gsb-for-dealers",
+  "width": 1448,
+  "height": 1086,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/glow-sign-board/gsb-for-dealers-800.webp",
+    "kb": 94
+   },
+   {
+    "w": 1448,
+    "h": 1086,
+    "path": "img/opt/signages/glow-sign-board/gsb-for-dealers-1448.webp",
+    "kb": 247
+   }
+  ]
+ },
+ "img/Signages/Glow Sign Board/Glow sign Board.jpg": {
+  "base": "img/opt/signages/glow-sign-board/glow-sign-board",
+  "width": 1024,
+  "height": 768,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/glow-sign-board/glow-sign-board-800.webp",
+    "kb": 34
+   },
+   {
+    "w": 1024,
+    "h": 768,
+    "path": "img/opt/signages/glow-sign-board/glow-sign-board-1024.webp",
+    "kb": 49
+   }
+  ]
+ },
+ "img/Signages/Glow Sign Board/Lollipop Board Lollipop Board 1.jpg": {
+  "base": "img/opt/signages/glow-sign-board/lollipop-board-lollipop-board-1",
+  "width": 1600,
+  "height": 1200,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/glow-sign-board/lollipop-board-lollipop-board-1-800.webp",
+    "kb": 59
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/signages/glow-sign-board/lollipop-board-lollipop-board-1-1600.webp",
+    "kb": 181
+   }
+  ]
+ },
+ "img/Signages/Glow Sign Board/Lollipop Board glow sign board.jpg": {
+  "base": "img/opt/signages/glow-sign-board/lollipop-board-glow-sign-board",
+  "width": 500,
+  "height": 623,
+  "variants": [
+   {
+    "w": 500,
+    "h": 623,
+    "path": "img/opt/signages/glow-sign-board/lollipop-board-glow-sign-board-500.webp",
+    "kb": 51
+   }
+  ]
+ },
+ "img/Signages/Glow Sign Board/Lollipop sign with Acrylic box.jpeg": {
+  "base": "img/opt/signages/glow-sign-board/lollipop-sign-with-acrylic-box",
+  "width": 1086,
+  "height": 1448,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/signages/glow-sign-board/lollipop-sign-with-acrylic-box-800.webp",
+    "kb": 56
+   },
+   {
+    "w": 1086,
+    "h": 1448,
+    "path": "img/opt/signages/glow-sign-board/lollipop-sign-with-acrylic-box-1086.webp",
+    "kb": 86
+   }
+  ]
+ },
+ "img/Signages/Glow Sign Board/Lollipop signage with focus light.jpeg": {
+  "base": "img/opt/signages/glow-sign-board/lollipop-signage-with-focus-light",
+  "width": 780,
+  "height": 1040,
+  "variants": [
+   {
+    "w": 780,
+    "h": 1040,
+    "path": "img/opt/signages/glow-sign-board/lollipop-signage-with-focus-light-780.webp",
+    "kb": 82
+   }
+  ]
+ },
+ "img/Signages/Glow Sign Board/Lollypop signage.jpeg": {
+  "base": "img/opt/signages/glow-sign-board/lollypop-signage",
+  "width": 576,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 576,
+    "h": 1280,
+    "path": "img/opt/signages/glow-sign-board/lollypop-signage-576.webp",
+    "kb": 64
+   }
+  ]
+ },
+ "img/Signages/Glow Sign Board/Premium Glow sign Board.jpeg": {
+  "base": "img/opt/signages/glow-sign-board/premium-glow-sign-board",
+  "width": 1036,
+  "height": 492,
+  "variants": [
+   {
+    "w": 800,
+    "h": 380,
+    "path": "img/opt/signages/glow-sign-board/premium-glow-sign-board-800.webp",
+    "kb": 41
+   },
+   {
+    "w": 1036,
+    "h": 492,
+    "path": "img/opt/signages/glow-sign-board/premium-glow-sign-board-1036.webp",
+    "kb": 60
+   }
+  ]
+ },
+ "img/Signages/LED Signage/ACP Box With LED Sign for showroom.jpg": {
+  "base": "img/opt/signages/led-signage/acp-box-with-led-sign-for-showroom",
+  "width": 1448,
+  "height": 1086,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/led-signage/acp-box-with-led-sign-for-showroom-800.webp",
+    "kb": 51
+   },
+   {
+    "w": 1448,
+    "h": 1086,
+    "path": "img/opt/signages/led-signage/acp-box-with-led-sign-for-showroom-1448.webp",
+    "kb": 111
+   }
+  ]
+ },
+ "img/Signages/LED Signage/ACP stencil cut board.jpeg": {
+  "base": "img/opt/signages/led-signage/acp-stencil-cut-board",
+  "width": 1448,
+  "height": 1086,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/led-signage/acp-stencil-cut-board-800.webp",
+    "kb": 44
+   },
+   {
+    "w": 1448,
+    "h": 1086,
+    "path": "img/opt/signages/led-signage/acp-stencil-cut-board-1448.webp",
+    "kb": 102
+   }
+  ]
+ },
+ "img/Signages/LED Signage/ACP stencil cut sign with 2mm acrylic on top.jpg": {
+  "base": "img/opt/signages/led-signage/acp-stencil-cut-sign-with-2mm-acrylic-on-top",
+  "width": 1024,
+  "height": 768,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/led-signage/acp-stencil-cut-sign-with-2mm-acrylic-on-top-800.webp",
+    "kb": 47
+   },
+   {
+    "w": 1024,
+    "h": 768,
+    "path": "img/opt/signages/led-signage/acp-stencil-cut-sign-with-2mm-acrylic-on-top-1024.webp",
+    "kb": 66
+   }
+  ]
+ },
+ "img/Signages/LED Signage/ACP stencil cut sign with wood finish ACP.jpg": {
+  "base": "img/opt/signages/led-signage/acp-stencil-cut-sign-with-wood-finish-acp",
+  "width": 1599,
+  "height": 727,
+  "variants": [
+   {
+    "w": 800,
+    "h": 364,
+    "path": "img/opt/signages/led-signage/acp-stencil-cut-sign-with-wood-finish-acp-800.webp",
+    "kb": 41
+   },
+   {
+    "w": 1599,
+    "h": 727,
+    "path": "img/opt/signages/led-signage/acp-stencil-cut-sign-with-wood-finish-acp-1599.webp",
+    "kb": 106
+   }
+  ]
+ },
+ "img/Signages/LED Signage/ACP with LED Board.jpg": {
+  "base": "img/opt/signages/led-signage/acp-with-led-board",
+  "width": 1024,
+  "height": 768,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/led-signage/acp-with-led-board-800.webp",
+    "kb": 29
+   },
+   {
+    "w": 1024,
+    "h": 768,
+    "path": "img/opt/signages/led-signage/acp-with-led-board-1024.webp",
+    "kb": 40
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Aluminium Profile LED signage.jpg": {
+  "base": "img/opt/signages/led-signage/aluminium-profile-led-signage",
+  "width": 1427,
+  "height": 1102,
+  "variants": [
+   {
+    "w": 800,
+    "h": 618,
+    "path": "img/opt/signages/led-signage/aluminium-profile-led-signage-800.webp",
+    "kb": 60
+   },
+   {
+    "w": 1427,
+    "h": 1102,
+    "path": "img/opt/signages/led-signage/aluminium-profile-led-signage-1427.webp",
+    "kb": 130
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Aluminium Profile signage.jpg": {
+  "base": "img/opt/signages/led-signage/aluminium-profile-signage",
+  "width": 1448,
+  "height": 1086,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/led-signage/aluminium-profile-signage-800.webp",
+    "kb": 63
+   },
+   {
+    "w": 1448,
+    "h": 1086,
+    "path": "img/opt/signages/led-signage/aluminium-profile-signage-1448.webp",
+    "kb": 158
+   }
+  ]
+ },
+ "img/Signages/LED Signage/American Trimcap LED letter.jpg": {
+  "base": "img/opt/signages/led-signage/american-trimcap-led-letter",
+  "width": 500,
+  "height": 375,
+  "variants": [
+   {
+    "w": 500,
+    "h": 375,
+    "path": "img/opt/signages/led-signage/american-trimcap-led-letter-500.webp",
+    "kb": 23
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Channel Letter in 10 feet Height.jpg": {
+  "base": "img/opt/signages/led-signage/channel-letter-in-10-feet-height",
+  "width": 472,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 472,
+    "h": 1024,
+    "path": "img/opt/signages/led-signage/channel-letter-in-10-feet-height-472.webp",
+    "kb": 72
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Channel Letter in custom shape.jpeg": {
+  "base": "img/opt/signages/led-signage/channel-letter-in-custom-shape",
+  "width": 755,
+  "height": 1176,
+  "variants": [
+   {
+    "w": 755,
+    "h": 1176,
+    "path": "img/opt/signages/led-signage/channel-letter-in-custom-shape-755.webp",
+    "kb": 40
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Channel Letter sign.jpg": {
+  "base": "img/opt/signages/led-signage/channel-letter-sign",
+  "width": 1280,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/led-signage/channel-letter-sign-800.webp",
+    "kb": 60
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "path": "img/opt/signages/led-signage/channel-letter-sign-1280.webp",
+    "kb": 141
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Channel Letter signage for Bakery.jpeg": {
+  "base": "img/opt/signages/led-signage/channel-letter-signage-for-bakery",
+  "width": 941,
+  "height": 1672,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1421,
+    "path": "img/opt/signages/led-signage/channel-letter-signage-for-bakery-800.webp",
+    "kb": 113
+   },
+   {
+    "w": 941,
+    "h": 1672,
+    "path": "img/opt/signages/led-signage/channel-letter-signage-for-bakery-941.webp",
+    "kb": 144
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Channel Letter with wooden ACP.jpg": {
+  "base": "img/opt/signages/led-signage/channel-letter-with-wooden-acp",
+  "width": 316,
+  "height": 320,
+  "variants": [
+   {
+    "w": 316,
+    "h": 320,
+    "path": "img/opt/signages/led-signage/channel-letter-with-wooden-acp-316.webp",
+    "kb": 12
+   }
+  ]
+ },
+ "img/Signages/LED Signage/LED  Spiritual Board.jpg": {
+  "base": "img/opt/signages/led-signage/led-spiritual-board",
+  "width": 1024,
+  "height": 576,
+  "variants": [
+   {
+    "w": 800,
+    "h": 450,
+    "path": "img/opt/signages/led-signage/led-spiritual-board-800.webp",
+    "kb": 35
+   },
+   {
+    "w": 1024,
+    "h": 576,
+    "path": "img/opt/signages/led-signage/led-spiritual-board-1024.webp",
+    "kb": 52
+   }
+  ]
+ },
+ "img/Signages/LED Signage/LED Dealer Signage.jpeg": {
+  "base": "img/opt/signages/led-signage/led-dealer-signage",
+  "width": 1040,
+  "height": 780,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/led-signage/led-dealer-signage-800.webp",
+    "kb": 27
+   },
+   {
+    "w": 1040,
+    "h": 780,
+    "path": "img/opt/signages/led-signage/led-dealer-signage-1040.webp",
+    "kb": 37
+   }
+  ]
+ },
+ "img/Signages/LED Signage/LED Dealer signboard.jpg": {
+  "base": "img/opt/signages/led-signage/led-dealer-signboard",
+  "width": 1195,
+  "height": 896,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/led-signage/led-dealer-signboard-800.webp",
+    "kb": 75
+   },
+   {
+    "w": 1195,
+    "h": 896,
+    "path": "img/opt/signages/led-signage/led-dealer-signboard-1195.webp",
+    "kb": 136
+   }
+  ]
+ },
+ "img/Signages/LED Signage/LED Signage with customised printed ACP and magic sticker for text.jpg": {
+  "base": "img/opt/signages/led-signage/led-signage-with-customised-printed-acp-and-magic-sticker-for-text",
+  "width": 1024,
+  "height": 423,
+  "variants": [
+   {
+    "w": 800,
+    "h": 330,
+    "path": "img/opt/signages/led-signage/led-signage-with-customised-printed-acp-and-magic-sticker-for-text-800.webp",
+    "kb": 43
+   },
+   {
+    "w": 1024,
+    "h": 423,
+    "path": "img/opt/signages/led-signage/led-signage-with-customised-printed-acp-and-magic-sticker-for-text-1024.webp",
+    "kb": 62
+   }
+  ]
+ },
+ "img/Signages/LED Signage/LED channel letter with MS support on rear side.jpg": {
+  "base": "img/opt/signages/led-signage/led-channel-letter-with-ms-support-on-rear-side",
+  "width": 768,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 768,
+    "h": 1024,
+    "path": "img/opt/signages/led-signage/led-channel-letter-with-ms-support-on-rear-side-768.webp",
+    "kb": 77
+   }
+  ]
+ },
+ "img/Signages/LED Signage/LED channel letters.jpeg": {
+  "base": "img/opt/signages/led-signage/led-channel-letters",
+  "width": 1536,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 800,
+    "h": 533,
+    "path": "img/opt/signages/led-signage/led-channel-letters-800.webp",
+    "kb": 35
+   },
+   {
+    "w": 1536,
+    "h": 1024,
+    "path": "img/opt/signages/led-signage/led-channel-letters-1536.webp",
+    "kb": 95
+   }
+  ]
+ },
+ "img/Signages/LED Signage/LED sign board for super market.jpg": {
+  "base": "img/opt/signages/led-signage/led-sign-board-for-super-market",
+  "width": 1600,
+  "height": 1200,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/led-signage/led-sign-board-for-super-market-800.webp",
+    "kb": 56
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/signages/led-signage/led-sign-board-for-super-market-1600.webp",
+    "kb": 163
+   }
+  ]
+ },
+ "img/Signages/LED Signage/LED sign board with printed vinyl in custom shape.jpg": {
+  "base": "img/opt/signages/led-signage/led-sign-board-with-printed-vinyl-in-custom-shape",
+  "width": 1024,
+  "height": 481,
+  "variants": [
+   {
+    "w": 800,
+    "h": 376,
+    "path": "img/opt/signages/led-signage/led-sign-board-with-printed-vinyl-in-custom-shape-800.webp",
+    "kb": 33
+   },
+   {
+    "w": 1024,
+    "h": 481,
+    "path": "img/opt/signages/led-signage/led-sign-board-with-printed-vinyl-in-custom-shape-1024.webp",
+    "kb": 50
+   }
+  ]
+ },
+ "img/Signages/LED Signage/LED sign board with warm white LED.jpg": {
+  "base": "img/opt/signages/led-signage/led-sign-board-with-warm-white-led",
+  "width": 1361,
+  "height": 784,
+  "variants": [
+   {
+    "w": 800,
+    "h": 461,
+    "path": "img/opt/signages/led-signage/led-sign-board-with-warm-white-led-800.webp",
+    "kb": 40
+   },
+   {
+    "w": 1361,
+    "h": 784,
+    "path": "img/opt/signages/led-signage/led-sign-board-with-warm-white-led-1361.webp",
+    "kb": 86
+   }
+  ]
+ },
+ "img/Signages/LED Signage/LED sign board.JPG": {
+  "base": "img/opt/signages/led-signage/led-sign-board",
+  "width": 431,
+  "height": 533,
+  "variants": [
+   {
+    "w": 431,
+    "h": 533,
+    "path": "img/opt/signages/led-signage/led-sign-board-431.webp",
+    "kb": 13
+   }
+  ]
+ },
+ "img/Signages/LED Signage/LED-Signage.jpg": {
+  "base": "img/opt/signages/led-signage/led-signage",
+  "width": 1024,
+  "height": 768,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/led-signage/led-signage-800.webp",
+    "kb": 69
+   },
+   {
+    "w": 1024,
+    "h": 768,
+    "path": "img/opt/signages/led-signage/led-signage-1024.webp",
+    "kb": 103
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Liquid acrylic letter.jpeg": {
+  "base": "img/opt/signages/led-signage/liquid-acrylic-letter",
+  "width": 1280,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 800,
+    "h": 800,
+    "path": "img/opt/signages/led-signage/liquid-acrylic-letter-800.webp",
+    "kb": 57
+   },
+   {
+    "w": 1280,
+    "h": 1280,
+    "path": "img/opt/signages/led-signage/liquid-acrylic-letter-1280.webp",
+    "kb": 111
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Premium ACP Box with LED Channel letters.jpg": {
+  "base": "img/opt/signages/led-signage/premium-acp-box-with-led-channel-letters",
+  "width": 1600,
+  "height": 910,
+  "variants": [
+   {
+    "w": 800,
+    "h": 455,
+    "path": "img/opt/signages/led-signage/premium-acp-box-with-led-channel-letters-800.webp",
+    "kb": 54
+   },
+   {
+    "w": 1600,
+    "h": 910,
+    "path": "img/opt/signages/led-signage/premium-acp-box-with-led-channel-letters-1600.webp",
+    "kb": 140
+   }
+  ]
+ },
+ "img/Signages/LED Signage/SS Lip Letter logo.jpeg": {
+  "base": "img/opt/signages/led-signage/ss-lip-letter-logo",
+  "width": 1865,
+  "height": 2004,
+  "variants": [
+   {
+    "w": 800,
+    "h": 860,
+    "path": "img/opt/signages/led-signage/ss-lip-letter-logo-800.webp",
+    "kb": 123
+   },
+   {
+    "w": 1600,
+    "h": 1719,
+    "path": "img/opt/signages/led-signage/ss-lip-letter-logo-1600.webp",
+    "kb": 330
+   }
+  ]
+ },
+ "img/Signages/LED Signage/SS Lip letter in blue acrylic.jpg": {
+  "base": "img/opt/signages/led-signage/ss-lip-letter-in-blue-acrylic",
+  "width": 1456,
+  "height": 3264,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1793,
+    "path": "img/opt/signages/led-signage/ss-lip-letter-in-blue-acrylic-800.webp",
+    "kb": 60
+   },
+   {
+    "w": 1456,
+    "h": 3264,
+    "path": "img/opt/signages/led-signage/ss-lip-letter-in-blue-acrylic-1456.webp",
+    "kb": 135
+   }
+  ]
+ },
+ "img/Signages/LED Signage/SS silver Lip Letter.jpg": {
+  "base": "img/opt/signages/led-signage/ss-silver-lip-letter",
+  "width": 1448,
+  "height": 1086,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/led-signage/ss-silver-lip-letter-800.webp",
+    "kb": 47
+   },
+   {
+    "w": 1448,
+    "h": 1086,
+    "path": "img/opt/signages/led-signage/ss-silver-lip-letter-1448.webp",
+    "kb": 112
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Trimcap Channel Letter Box Type (Night view).JPG": {
+  "base": "img/opt/signages/led-signage/trimcap-channel-letter-box-type-night-view",
+  "width": 1024,
+  "height": 461,
+  "variants": [
+   {
+    "w": 800,
+    "h": 360,
+    "path": "img/opt/signages/led-signage/trimcap-channel-letter-box-type-night-view-800.webp",
+    "kb": 21
+   },
+   {
+    "w": 1024,
+    "h": 461,
+    "path": "img/opt/signages/led-signage/trimcap-channel-letter-box-type-night-view-1024.webp",
+    "kb": 28
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Trimcap Channel Letter Box Type.JPG": {
+  "base": "img/opt/signages/led-signage/trimcap-channel-letter-box-type",
+  "width": 1024,
+  "height": 381,
+  "variants": [
+   {
+    "w": 800,
+    "h": 298,
+    "path": "img/opt/signages/led-signage/trimcap-channel-letter-box-type-800.webp",
+    "kb": 29
+   },
+   {
+    "w": 1024,
+    "h": 381,
+    "path": "img/opt/signages/led-signage/trimcap-channel-letter-box-type-1024.webp",
+    "kb": 41
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Trimcap LED Sign with dimmer.jpeg": {
+  "base": "img/opt/signages/led-signage/trimcap-led-sign-with-dimmer",
+  "width": 1280,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/led-signage/trimcap-led-sign-with-dimmer-800.webp",
+    "kb": 47
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "path": "img/opt/signages/led-signage/trimcap-led-sign-with-dimmer-1280.webp",
+    "kb": 85
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Trimcap channel letter LED Sign.JPG": {
+  "base": "img/opt/signages/led-signage/trimcap-channel-letter-led-sign",
+  "width": 960,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/signages/led-signage/trimcap-channel-letter-led-sign-800.webp",
+    "kb": 67
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "path": "img/opt/signages/led-signage/trimcap-channel-letter-led-sign-960.webp",
+    "kb": 87
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Trimcap channel letter LED Signage  15.JPG": {
+  "base": "img/opt/signages/led-signage/trimcap-channel-letter-led-signage-15",
+  "width": 1280,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/led-signage/trimcap-channel-letter-led-signage-15-800.webp",
+    "kb": 10
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "path": "img/opt/signages/led-signage/trimcap-channel-letter-led-signage-15-1280.webp",
+    "kb": 18
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Trimcap channel letter LED Signage 35.jpeg": {
+  "base": "img/opt/signages/led-signage/trimcap-channel-letter-led-signage-35",
+  "width": 1280,
+  "height": 720,
+  "variants": [
+   {
+    "w": 800,
+    "h": 450,
+    "path": "img/opt/signages/led-signage/trimcap-channel-letter-led-signage-35-800.webp",
+    "kb": 34
+   },
+   {
+    "w": 1280,
+    "h": 720,
+    "path": "img/opt/signages/led-signage/trimcap-channel-letter-led-signage-35-1280.webp",
+    "kb": 64
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Trimcap channel letter LED Signage 4.JPG": {
+  "base": "img/opt/signages/led-signage/trimcap-channel-letter-led-signage-4",
+  "width": 4000,
+  "height": 3000,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/led-signage/trimcap-channel-letter-led-signage-4-800.webp",
+    "kb": 18
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/signages/led-signage/trimcap-channel-letter-led-signage-4-1600.webp",
+    "kb": 57
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Trimcap channel letter suspended in MS Angle.jpeg": {
+  "base": "img/opt/signages/led-signage/trimcap-channel-letter-suspended-in-ms-angle",
+  "width": 1280,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/led-signage/trimcap-channel-letter-suspended-in-ms-angle-800.webp",
+    "kb": 33
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "path": "img/opt/signages/led-signage/trimcap-channel-letter-suspended-in-ms-angle-1280.webp",
+    "kb": 62
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Trimcap channel letter with Maroon ACP Box.jpeg": {
+  "base": "img/opt/signages/led-signage/trimcap-channel-letter-with-maroon-acp-box",
+  "width": 1152,
+  "height": 864,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/led-signage/trimcap-channel-letter-with-maroon-acp-box-800.webp",
+    "kb": 56
+   },
+   {
+    "w": 1152,
+    "h": 864,
+    "path": "img/opt/signages/led-signage/trimcap-channel-letter-with-maroon-acp-box-1152.webp",
+    "kb": 88
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Trimcap letter for Mall.JPG": {
+  "base": "img/opt/signages/led-signage/trimcap-letter-for-mall",
+  "width": 1040,
+  "height": 488,
+  "variants": [
+   {
+    "w": 800,
+    "h": 375,
+    "path": "img/opt/signages/led-signage/trimcap-letter-for-mall-800.webp",
+    "kb": 30
+   },
+   {
+    "w": 1040,
+    "h": 488,
+    "path": "img/opt/signages/led-signage/trimcap-letter-for-mall-1040.webp",
+    "kb": 41
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Trimcap letter with 3M sticker.jpg": {
+  "base": "img/opt/signages/led-signage/trimcap-letter-with-3m-sticker",
+  "width": 878,
+  "height": 555,
+  "variants": [
+   {
+    "w": 800,
+    "h": 506,
+    "path": "img/opt/signages/led-signage/trimcap-letter-with-3m-sticker-800.webp",
+    "kb": 52
+   },
+   {
+    "w": 878,
+    "h": 555,
+    "path": "img/opt/signages/led-signage/trimcap-letter-with-3m-sticker-878.webp",
+    "kb": 63
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Trimcap letter with ACP box with printed vinyl.JPG": {
+  "base": "img/opt/signages/led-signage/trimcap-letter-with-acp-box-with-printed-vinyl",
+  "width": 1280,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/led-signage/trimcap-letter-with-acp-box-with-printed-vinyl-800.webp",
+    "kb": 35
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "path": "img/opt/signages/led-signage/trimcap-letter-with-acp-box-with-printed-vinyl-1280.webp",
+    "kb": 68
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Trimcap letter with wooden ACP Box.jpg": {
+  "base": "img/opt/signages/led-signage/trimcap-letter-with-wooden-acp-box",
+  "width": 500,
+  "height": 375,
+  "variants": [
+   {
+    "w": 500,
+    "h": 375,
+    "path": "img/opt/signages/led-signage/trimcap-letter-with-wooden-acp-box-500.webp",
+    "kb": 12
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Trimcap-channel-letter-LED-Signage-14.jpg": {
+  "base": "img/opt/signages/led-signage/trimcap-channel-letter-led-signage-14",
+  "width": 1024,
+  "height": 768,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/led-signage/trimcap-channel-letter-led-signage-14-800.webp",
+    "kb": 106
+   },
+   {
+    "w": 1024,
+    "h": 768,
+    "path": "img/opt/signages/led-signage/trimcap-channel-letter-led-signage-14-1024.webp",
+    "kb": 158
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Trimcap-channel-letter-LED-Signage.jpeg": {
+  "base": "img/opt/signages/led-signage/trimcap-channel-letter-led-signage",
+  "width": 1024,
+  "height": 533,
+  "variants": [
+   {
+    "w": 800,
+    "h": 416,
+    "path": "img/opt/signages/led-signage/trimcap-channel-letter-led-signage-800.webp",
+    "kb": 39
+   },
+   {
+    "w": 1024,
+    "h": 533,
+    "path": "img/opt/signages/led-signage/trimcap-channel-letter-led-signage-1024.webp",
+    "kb": 58
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Trimcap-channel-letter-LED-Signage.jpg": {
+  "base": "img/opt/signages/led-signage/trimcap-channel-letter-led-signage-2",
+  "width": 1024,
+  "height": 576,
+  "variants": [
+   {
+    "w": 800,
+    "h": 450,
+    "path": "img/opt/signages/led-signage/trimcap-channel-letter-led-signage-2-800.webp",
+    "kb": 44
+   },
+   {
+    "w": 1024,
+    "h": 576,
+    "path": "img/opt/signages/led-signage/trimcap-channel-letter-led-signage-2-1024.webp",
+    "kb": 64
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Trimless LED letter.jpg": {
+  "base": "img/opt/signages/led-signage/trimless-led-letter",
+  "width": 802,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 958,
+    "path": "img/opt/signages/led-signage/trimless-led-letter-800.webp",
+    "kb": 20
+   },
+   {
+    "w": 802,
+    "h": 960,
+    "path": "img/opt/signages/led-signage/trimless-led-letter-802.webp",
+    "kb": 20
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Trimless letter with LED.jpeg": {
+  "base": "img/opt/signages/led-signage/trimless-letter-with-led",
+  "width": 1280,
+  "height": 622,
+  "variants": [
+   {
+    "w": 800,
+    "h": 389,
+    "path": "img/opt/signages/led-signage/trimless-letter-with-led-800.webp",
+    "kb": 43
+   },
+   {
+    "w": 1280,
+    "h": 622,
+    "path": "img/opt/signages/led-signage/trimless-letter-with-led-1280.webp",
+    "kb": 80
+   }
+  ]
+ },
+ "img/Signages/LED Signage/Trimless profile with custom vinyl.jpg": {
+  "base": "img/opt/signages/led-signage/trimless-profile-with-custom-vinyl",
+  "width": 859,
+  "height": 561,
+  "variants": [
+   {
+    "w": 800,
+    "h": 522,
+    "path": "img/opt/signages/led-signage/trimless-profile-with-custom-vinyl-800.webp",
+    "kb": 33
+   },
+   {
+    "w": 859,
+    "h": 561,
+    "path": "img/opt/signages/led-signage/trimless-profile-with-custom-vinyl-859.webp",
+    "kb": 37
+   }
+  ]
+ },
+ "img/Signages/LED Signage/led name board 1.jpeg": {
+  "base": "img/opt/signages/led-signage/led-name-board-1",
+  "width": 1280,
+  "height": 597,
+  "variants": [
+   {
+    "w": 800,
+    "h": 373,
+    "path": "img/opt/signages/led-signage/led-name-board-1-800.webp",
+    "kb": 47
+   },
+   {
+    "w": 1280,
+    "h": 597,
+    "path": "img/opt/signages/led-signage/led-name-board-1-1280.webp",
+    "kb": 99
+   }
+  ]
+ },
+ "img/Signages/LED Signage/led name board 4.jpeg": {
+  "base": "img/opt/signages/led-signage/led-name-board-4",
+  "width": 1600,
+  "height": 1200,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/led-signage/led-name-board-4-800.webp",
+    "kb": 69
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/signages/led-signage/led-name-board-4-1600.webp",
+    "kb": 223
+   }
+  ]
+ },
+ "img/Signages/LED Signage/led signages.jpg": {
+  "base": "img/opt/signages/led-signage/led-signages",
+  "width": 1024,
+  "height": 768,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/led-signage/led-signages-800.webp",
+    "kb": 52
+   },
+   {
+    "w": 1024,
+    "h": 768,
+    "path": "img/opt/signages/led-signage/led-signages-1024.webp",
+    "kb": 77
+   }
+  ]
+ },
+ "img/Signages/Metal Letter Signs/IMG_4879.JPG": {
+  "base": "img/opt/signages/metal-letter-signs/img-4879",
+  "width": 1040,
+  "height": 780,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/metal-letter-signs/img-4879-800.webp",
+    "kb": 22
+   },
+   {
+    "w": 1040,
+    "h": 780,
+    "path": "img/opt/signages/metal-letter-signs/img-4879-1040.webp",
+    "kb": 30
+   }
+  ]
+ },
+ "img/Signages/Metal Letter Signs/Machine name Tag in SS.jpg": {
+  "base": "img/opt/signages/metal-letter-signs/machine-name-tag-in-ss",
+  "width": 1600,
+  "height": 1204,
+  "variants": [
+   {
+    "w": 800,
+    "h": 602,
+    "path": "img/opt/signages/metal-letter-signs/machine-name-tag-in-ss-800.webp",
+    "kb": 30
+   },
+   {
+    "w": 1600,
+    "h": 1204,
+    "path": "img/opt/signages/metal-letter-signs/machine-name-tag-in-ss-1600.webp",
+    "kb": 67
+   }
+  ]
+ },
+ "img/Signages/Metal Letter Signs/SS Gold Letter with acrylic.jpg": {
+  "base": "img/opt/signages/metal-letter-signs/ss-gold-letter-with-acrylic",
+  "width": 1200,
+  "height": 1600,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/signages/metal-letter-signs/ss-gold-letter-with-acrylic-800.webp",
+    "kb": 50
+   },
+   {
+    "w": 1200,
+    "h": 1600,
+    "path": "img/opt/signages/metal-letter-signs/ss-gold-letter-with-acrylic-1200.webp",
+    "kb": 84
+   }
+  ]
+ },
+ "img/Signages/Metal Letter Signs/SS Letter with poweder coating.jpg": {
+  "base": "img/opt/signages/metal-letter-signs/ss-letter-with-poweder-coating",
+  "width": 1024,
+  "height": 768,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/metal-letter-signs/ss-letter-with-poweder-coating-800.webp",
+    "kb": 46
+   },
+   {
+    "w": 1024,
+    "h": 768,
+    "path": "img/opt/signages/metal-letter-signs/ss-letter-with-poweder-coating-1024.webp",
+    "kb": 69
+   }
+  ]
+ },
+ "img/Signages/Metal Letter Signs/SS Rose gold letter  with warm white LED.jpeg": {
+  "base": "img/opt/signages/metal-letter-signs/ss-rose-gold-letter-with-warm-white-led",
+  "width": 1085,
+  "height": 1450,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1069,
+    "path": "img/opt/signages/metal-letter-signs/ss-rose-gold-letter-with-warm-white-led-800.webp",
+    "kb": 119
+   },
+   {
+    "w": 1085,
+    "h": 1450,
+    "path": "img/opt/signages/metal-letter-signs/ss-rose-gold-letter-with-warm-white-led-1085.webp",
+    "kb": 180
+   }
+  ]
+ },
+ "img/Signages/Metal Letter Signs/SS Rose gold letter with 12mm solid acrylic fixed on rear side (day view).png": {
+  "base": "img/opt/signages/metal-letter-signs/ss-rose-gold-letter-with-12mm-solid-acrylic-fixed-on-rear-side-day-view",
+  "width": 1448,
+  "height": 1086,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/metal-letter-signs/ss-rose-gold-letter-with-12mm-solid-acrylic-fixed-on-rear-side-day-view-800.webp",
+    "kb": 66
+   },
+   {
+    "w": 1448,
+    "h": 1086,
+    "path": "img/opt/signages/metal-letter-signs/ss-rose-gold-letter-with-12mm-solid-acrylic-fixed-on-rear-side-day-view-1448.webp",
+    "kb": 190
+   }
+  ]
+ },
+ "img/Signages/Metal Letter Signs/SS Rose gold letter with 12mm solid acrylic fixed on rear side with LED.jpeg": {
+  "base": "img/opt/signages/metal-letter-signs/ss-rose-gold-letter-with-12mm-solid-acrylic-fixed-on-rear-side-with-led",
+  "width": 1280,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/metal-letter-signs/ss-rose-gold-letter-with-12mm-solid-acrylic-fixed-on-rear-side-with-led-800.webp",
+    "kb": 70
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "path": "img/opt/signages/metal-letter-signs/ss-rose-gold-letter-with-12mm-solid-acrylic-fixed-on-rear-side-with-led-1280.webp",
+    "kb": 164
+   }
+  ]
+ },
+ "img/Signages/Metal Letter Signs/SS Rose gold letter with 12mm solid acrylic fixed on rear side with LED.png": {
+  "base": "img/opt/signages/metal-letter-signs/ss-rose-gold-letter-with-12mm-solid-acrylic-fixed-on-rear-side-with-led-2",
+  "width": 1448,
+  "height": 1086,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/metal-letter-signs/ss-rose-gold-letter-with-12mm-solid-acrylic-fixed-on-rear-side-with-led-2-800.webp",
+    "kb": 75
+   },
+   {
+    "w": 1448,
+    "h": 1086,
+    "path": "img/opt/signages/metal-letter-signs/ss-rose-gold-letter-with-12mm-solid-acrylic-fixed-on-rear-side-with-led-2-1448.webp",
+    "kb": 229
+   }
+  ]
+ },
+ "img/Signages/Metal Letter Signs/SS Rose gold with warm white backlit.jpg": {
+  "base": "img/opt/signages/metal-letter-signs/ss-rose-gold-with-warm-white-backlit",
+  "width": 1024,
+  "height": 461,
+  "variants": [
+   {
+    "w": 800,
+    "h": 360,
+    "path": "img/opt/signages/metal-letter-signs/ss-rose-gold-with-warm-white-backlit-800.webp",
+    "kb": 13
+   },
+   {
+    "w": 1024,
+    "h": 461,
+    "path": "img/opt/signages/metal-letter-signs/ss-rose-gold-with-warm-white-backlit-1024.webp",
+    "kb": 19
+   }
+  ]
+ },
+ "img/Signages/Metal Letter Signs/SS Rosegold letter with backlit.jpeg": {
+  "base": "img/opt/signages/metal-letter-signs/ss-rosegold-letter-with-backlit",
+  "width": 622,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 622,
+    "h": 1280,
+    "path": "img/opt/signages/metal-letter-signs/ss-rosegold-letter-with-backlit-622.webp",
+    "kb": 19
+   }
+  ]
+ },
+ "img/Signages/Metal Letter Signs/SS Rosegold letter.jpg": {
+  "base": "img/opt/signages/metal-letter-signs/ss-rosegold-letter",
+  "width": 1152,
+  "height": 864,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/metal-letter-signs/ss-rosegold-letter-800.webp",
+    "kb": 20
+   },
+   {
+    "w": 1152,
+    "h": 864,
+    "path": "img/opt/signages/metal-letter-signs/ss-rosegold-letter-1152.webp",
+    "kb": 32
+   }
+  ]
+ },
+ "img/Signages/Metal Letter Signs/SS Silver letter with yellow paint.jpeg": {
+  "base": "img/opt/signages/metal-letter-signs/ss-silver-letter-with-yellow-paint",
+  "width": 960,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/signages/metal-letter-signs/ss-silver-letter-with-yellow-paint-800.webp",
+    "kb": 134
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "path": "img/opt/signages/metal-letter-signs/ss-silver-letter-with-yellow-paint-960.webp",
+    "kb": 187
+   }
+  ]
+ },
+ "img/Signages/Metal Letter Signs/SS Titanium Letter.jpg": {
+  "base": "img/opt/signages/metal-letter-signs/ss-titanium-letter",
+  "width": 919,
+  "height": 676,
+  "variants": [
+   {
+    "w": 800,
+    "h": 588,
+    "path": "img/opt/signages/metal-letter-signs/ss-titanium-letter-800.webp",
+    "kb": 14
+   },
+   {
+    "w": 919,
+    "h": 676,
+    "path": "img/opt/signages/metal-letter-signs/ss-titanium-letter-919.webp",
+    "kb": 17
+   }
+  ]
+ },
+ "img/Signages/Metal Letter Signs/THIRUVALLUR ARIVALAYAM.jpg": {
+  "base": "img/opt/signages/metal-letter-signs/thiruvallur-arivalayam",
+  "width": 1280,
+  "height": 720,
+  "variants": [
+   {
+    "w": 800,
+    "h": 450,
+    "path": "img/opt/signages/metal-letter-signs/thiruvallur-arivalayam-800.webp",
+    "kb": 27
+   },
+   {
+    "w": 1280,
+    "h": 720,
+    "path": "img/opt/signages/metal-letter-signs/thiruvallur-arivalayam-1280.webp",
+    "kb": 52
+   }
+  ]
+ },
+ "img/Signages/Metal Letter Signs/Titanium letter.jpg": {
+  "base": "img/opt/signages/metal-letter-signs/titanium-letter",
+  "width": 1024,
+  "height": 768,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/metal-letter-signs/titanium-letter-800.webp",
+    "kb": 38
+   },
+   {
+    "w": 1024,
+    "h": 768,
+    "path": "img/opt/signages/metal-letter-signs/titanium-letter-1024.webp",
+    "kb": 56
+   }
+  ]
+ },
+ "img/Signages/Metal Letter Signs/titanium letter 1.JPG": {
+  "base": "img/opt/signages/metal-letter-signs/titanium-letter-1",
+  "width": 1217,
+  "height": 886,
+  "variants": [
+   {
+    "w": 800,
+    "h": 582,
+    "path": "img/opt/signages/metal-letter-signs/titanium-letter-1-800.webp",
+    "kb": 102
+   },
+   {
+    "w": 1217,
+    "h": 886,
+    "path": "img/opt/signages/metal-letter-signs/titanium-letter-1-1217.webp",
+    "kb": 181
+   }
+  ]
+ },
+ "img/Signages/Modular Aluminum signs/Curved Flange in Modular aluminum.jpeg": {
+  "base": "img/opt/signages/modular-aluminum-signs/curved-flange-in-modular-aluminum",
+  "width": 2304,
+  "height": 4096,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1422,
+    "path": "img/opt/signages/modular-aluminum-signs/curved-flange-in-modular-aluminum-800.webp",
+    "kb": 24
+   },
+   {
+    "w": 1600,
+    "h": 2844,
+    "path": "img/opt/signages/modular-aluminum-signs/curved-flange-in-modular-aluminum-1600.webp",
+    "kb": 55
+   }
+  ]
+ },
+ "img/Signages/Modular Aluminum signs/Door mount Flat name board with place holder.jpg": {
+  "base": "img/opt/signages/modular-aluminum-signs/door-mount-flat-name-board-with-place-holder",
+  "width": 1152,
+  "height": 864,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/modular-aluminum-signs/door-mount-flat-name-board-with-place-holder-800.webp",
+    "kb": 30
+   },
+   {
+    "w": 1152,
+    "h": 864,
+    "path": "img/opt/signages/modular-aluminum-signs/door-mount-flat-name-board-with-place-holder-1152.webp",
+    "kb": 51
+   }
+  ]
+ },
+ "img/Signages/Modular Aluminum signs/Flange sign.jpg": {
+  "base": "img/opt/signages/modular-aluminum-signs/flange-sign",
+  "width": 864,
+  "height": 1152,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/signages/modular-aluminum-signs/flange-sign-800.webp",
+    "kb": 23
+   },
+   {
+    "w": 864,
+    "h": 1152,
+    "path": "img/opt/signages/modular-aluminum-signs/flange-sign-864.webp",
+    "kb": 26
+   }
+  ]
+ },
+ "img/Signages/Modular Aluminum signs/Floor Directory in Modular Aluminum sign.jpg": {
+  "base": "img/opt/signages/modular-aluminum-signs/floor-directory-in-modular-aluminum-sign",
+  "width": 767,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 767,
+    "h": 1024,
+    "path": "img/opt/signages/modular-aluminum-signs/floor-directory-in-modular-aluminum-sign-767.webp",
+    "kb": 70
+   }
+  ]
+ },
+ "img/Signages/Modular Aluminum signs/Modular floor directory for hospital.jpg": {
+  "base": "img/opt/signages/modular-aluminum-signs/modular-floor-directory-for-hospital",
+  "width": 1024,
+  "height": 456,
+  "variants": [
+   {
+    "w": 800,
+    "h": 356,
+    "path": "img/opt/signages/modular-aluminum-signs/modular-floor-directory-for-hospital-800.webp",
+    "kb": 33
+   },
+   {
+    "w": 1024,
+    "h": 456,
+    "path": "img/opt/signages/modular-aluminum-signs/modular-floor-directory-for-hospital-1024.webp",
+    "kb": 53
+   }
+  ]
+ },
+ "img/Signages/Modular Aluminum signs/Multi layer suspended modular sign.jpg": {
+  "base": "img/opt/signages/modular-aluminum-signs/multi-layer-suspended-modular-sign",
+  "width": 1086,
+  "height": 1448,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/signages/modular-aluminum-signs/multi-layer-suspended-modular-sign-800.webp",
+    "kb": 57
+   },
+   {
+    "w": 1086,
+    "h": 1448,
+    "path": "img/opt/signages/modular-aluminum-signs/multi-layer-suspended-modular-sign-1086.webp",
+    "kb": 80
+   }
+  ]
+ },
+ "img/Signages/Modular Aluminum signs/Suspended Modular Aluminum with rosegold coating.jpeg": {
+  "base": "img/opt/signages/modular-aluminum-signs/suspended-modular-aluminum-with-rosegold-coating",
+  "width": 1600,
+  "height": 1200,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/modular-aluminum-signs/suspended-modular-aluminum-with-rosegold-coating-800.webp",
+    "kb": 22
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/signages/modular-aluminum-signs/suspended-modular-aluminum-with-rosegold-coating-1600.webp",
+    "kb": 55
+   }
+  ]
+ },
+ "img/Signages/Modular Aluminum signs/Suspended Modular sign.jpg": {
+  "base": "img/opt/signages/modular-aluminum-signs/suspended-modular-sign",
+  "width": 1152,
+  "height": 864,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/modular-aluminum-signs/suspended-modular-sign-800.webp",
+    "kb": 24
+   },
+   {
+    "w": 1152,
+    "h": 864,
+    "path": "img/opt/signages/modular-aluminum-signs/suspended-modular-sign-1152.webp",
+    "kb": 39
+   }
+  ]
+ },
+ "img/Signages/Modular Aluminum signs/Suspended modular flat sign.jpeg": {
+  "base": "img/opt/signages/modular-aluminum-signs/suspended-modular-flat-sign",
+  "width": 1280,
+  "height": 792,
+  "variants": [
+   {
+    "w": 800,
+    "h": 495,
+    "path": "img/opt/signages/modular-aluminum-signs/suspended-modular-flat-sign-800.webp",
+    "kb": 5
+   },
+   {
+    "w": 1280,
+    "h": 792,
+    "path": "img/opt/signages/modular-aluminum-signs/suspended-modular-flat-sign-1280.webp",
+    "kb": 10
+   }
+  ]
+ },
+ "img/Signages/Modular Aluminum signs/Suspended sign from roof.jpg": {
+  "base": "img/opt/signages/modular-aluminum-signs/suspended-sign-from-roof",
+  "width": 768,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 768,
+    "h": 1024,
+    "path": "img/opt/signages/modular-aluminum-signs/suspended-sign-from-roof-768.webp",
+    "kb": 20
+   }
+  ]
+ },
+ "img/Signages/Reflective signs/Reflective Lollipop sign for Highway.jpg": {
+  "base": "img/opt/signages/reflective-signs/reflective-lollipop-sign-for-highway",
+  "width": 1040,
+  "height": 780,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/reflective-signs/reflective-lollipop-sign-for-highway-800.webp",
+    "kb": 32
+   },
+   {
+    "w": 1040,
+    "h": 780,
+    "path": "img/opt/signages/reflective-signs/reflective-lollipop-sign-for-highway-1040.webp",
+    "kb": 50
+   }
+  ]
+ },
+ "img/Signages/Reflective signs/Reflective sign (night view).jpg": {
+  "base": "img/opt/signages/reflective-signs/reflective-sign-night-view",
+  "width": 1200,
+  "height": 1600,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/signages/reflective-signs/reflective-sign-night-view-800.webp",
+    "kb": 18
+   },
+   {
+    "w": 1200,
+    "h": 1600,
+    "path": "img/opt/signages/reflective-signs/reflective-sign-night-view-1200.webp",
+    "kb": 30
+   }
+  ]
+ },
+ "img/Signages/Reflective signs/reflective signage.jpg": {
+  "base": "img/opt/signages/reflective-signs/reflective-signage",
+  "width": 538,
+  "height": 762,
+  "variants": [
+   {
+    "w": 538,
+    "h": 762,
+    "path": "img/opt/signages/reflective-signs/reflective-signage-538.webp",
+    "kb": 30
+   }
+  ]
+ },
+ "img/Signages/Totem Pylon Signs/33779be6-ecc9-4b8f-8f3c-c727637190e2.jpg": {
+  "base": "img/opt/signages/totem-pylon-signs/33779be6-ecc9-4b8f-8f3c-c727637190e2",
+  "width": 3120,
+  "height": 4160,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/signages/totem-pylon-signs/33779be6-ecc9-4b8f-8f3c-c727637190e2-800.webp",
+    "kb": 66
+   },
+   {
+    "w": 1600,
+    "h": 2133,
+    "path": "img/opt/signages/totem-pylon-signs/33779be6-ecc9-4b8f-8f3c-c727637190e2-1600.webp",
+    "kb": 204
+   }
+  ]
+ },
+ "img/Signages/Totem Pylon Signs/Pylon sign for Hospital.jpg": {
+  "base": "img/opt/signages/totem-pylon-signs/pylon-sign-for-hospital",
+  "width": 461,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 461,
+    "h": 1024,
+    "path": "img/opt/signages/totem-pylon-signs/pylon-sign-for-hospital-461.webp",
+    "kb": 48
+   }
+  ]
+ },
+ "img/Signages/Totem Pylon Signs/Pylon with trimcap letter in Pixel LED.JPG": {
+  "base": "img/opt/signages/totem-pylon-signs/pylon-with-trimcap-letter-in-pixel-led",
+  "width": 622,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 622,
+    "h": 1280,
+    "path": "img/opt/signages/totem-pylon-signs/pylon-with-trimcap-letter-in-pixel-led-622.webp",
+    "kb": 11
+   }
+  ]
+ },
+ "img/Signages/Totem Pylon Signs/Slim ACP Pylon.jpg": {
+  "base": "img/opt/signages/totem-pylon-signs/slim-acp-pylon",
+  "width": 1125,
+  "height": 1500,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/signages/totem-pylon-signs/slim-acp-pylon-800.webp",
+    "kb": 128
+   },
+   {
+    "w": 1125,
+    "h": 1500,
+    "path": "img/opt/signages/totem-pylon-signs/slim-acp-pylon-1125.webp",
+    "kb": 225
+   }
+  ]
+ },
+ "img/Signages/Totem Pylon Signs/Totem Pylon 5.jpg": {
+  "base": "img/opt/signages/totem-pylon-signs/totem-pylon-5",
+  "width": 3024,
+  "height": 4032,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/signages/totem-pylon-signs/totem-pylon-5-800.webp",
+    "kb": 42
+   },
+   {
+    "w": 1600,
+    "h": 2133,
+    "path": "img/opt/signages/totem-pylon-signs/totem-pylon-5-1600.webp",
+    "kb": 125
+   }
+  ]
+ },
+ "img/Signages/Totem Pylon Signs/Totem Pylon 8.jpeg": {
+  "base": "img/opt/signages/totem-pylon-signs/totem-pylon-8",
+  "width": 492,
+  "height": 1036,
+  "variants": [
+   {
+    "w": 492,
+    "h": 1036,
+    "path": "img/opt/signages/totem-pylon-signs/totem-pylon-8-492.webp",
+    "kb": 20
+   }
+  ]
+ },
+ "img/Signages/Totem Pylon Signs/Totem Pylon for Hospital.jpg": {
+  "base": "img/opt/signages/totem-pylon-signs/totem-pylon-for-hospital",
+  "width": 960,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/signages/totem-pylon-signs/totem-pylon-for-hospital-800.webp",
+    "kb": 118
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "path": "img/opt/signages/totem-pylon-signs/totem-pylon-for-hospital-960.webp",
+    "kb": 165
+   }
+  ]
+ },
+ "img/Signages/Totem Pylon Signs/Totem Pylon for Restaurant.jpg": {
+  "base": "img/opt/signages/totem-pylon-signs/totem-pylon-for-restaurant",
+  "width": 1200,
+  "height": 1599,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1066,
+    "path": "img/opt/signages/totem-pylon-signs/totem-pylon-for-restaurant-800.webp",
+    "kb": 61
+   },
+   {
+    "w": 1200,
+    "h": 1599,
+    "path": "img/opt/signages/totem-pylon-signs/totem-pylon-for-restaurant-1200.webp",
+    "kb": 107
+   }
+  ]
+ },
+ "img/Signages/Totem Pylon Signs/Totem Pylon for cafe.jpeg": {
+  "base": "img/opt/signages/totem-pylon-signs/totem-pylon-for-cafe",
+  "width": 900,
+  "height": 1600,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1422,
+    "path": "img/opt/signages/totem-pylon-signs/totem-pylon-for-cafe-800.webp",
+    "kb": 115
+   },
+   {
+    "w": 900,
+    "h": 1600,
+    "path": "img/opt/signages/totem-pylon-signs/totem-pylon-for-cafe-900.webp",
+    "kb": 143
+   }
+  ]
+ },
+ "img/Signages/Totem Pylon Signs/Totem Pylon.JPG": {
+  "base": "img/opt/signages/totem-pylon-signs/totem-pylon",
+  "width": 2429,
+  "height": 2862,
+  "variants": [
+   {
+    "w": 800,
+    "h": 943,
+    "path": "img/opt/signages/totem-pylon-signs/totem-pylon-800.webp",
+    "kb": 90
+   },
+   {
+    "w": 1600,
+    "h": 1885,
+    "path": "img/opt/signages/totem-pylon-signs/totem-pylon-1600.webp",
+    "kb": 304
+   }
+  ]
+ },
+ "img/Signages/Totem Pylon Signs/Totem-Pylon.jpg": {
+  "base": "img/opt/signages/totem-pylon-signs/totem-pylon-2",
+  "width": 512,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 512,
+    "h": 1024,
+    "path": "img/opt/signages/totem-pylon-signs/totem-pylon-2-512.webp",
+    "kb": 58
+   }
+  ]
+ },
+ "img/Signages/indoor  Signage/Gold Acrylic cut letter.jpg": {
+  "base": "img/opt/signages/indoor-signage/gold-acrylic-cut-letter",
+  "width": 772,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 772,
+    "h": 1024,
+    "path": "img/opt/signages/indoor-signage/gold-acrylic-cut-letter-772.webp",
+    "kb": 49
+   }
+  ]
+ },
+ "img/Signages/indoor  Signage/Gold Etching Name Board.jpeg": {
+  "base": "img/opt/signages/indoor-signage/gold-etching-name-board",
+  "width": 1280,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/indoor-signage/gold-etching-name-board-800.webp",
+    "kb": 24
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "path": "img/opt/signages/indoor-signage/gold-etching-name-board-1280.webp",
+    "kb": 47
+   }
+  ]
+ },
+ "img/Signages/indoor  Signage/Golden Acrylic cut letter pasted in ACP with stud.jpg": {
+  "base": "img/opt/signages/indoor-signage/golden-acrylic-cut-letter-pasted-in-acp-with-stud",
+  "width": 1840,
+  "height": 3264,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1419,
+    "path": "img/opt/signages/indoor-signage/golden-acrylic-cut-letter-pasted-in-acp-with-stud-800.webp",
+    "kb": 79
+   },
+   {
+    "w": 1600,
+    "h": 2838,
+    "path": "img/opt/signages/indoor-signage/golden-acrylic-cut-letter-pasted-in-acp-with-stud-1600.webp",
+    "kb": 220
+   }
+  ]
+ },
+ "img/Signages/indoor  Signage/Indoor SS Signage 1 copy.jpg": {
+  "base": "img/opt/signages/indoor-signage/indoor-ss-signage-1-copy",
+  "width": 1024,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 800,
+    "h": 800,
+    "path": "img/opt/signages/indoor-signage/indoor-ss-signage-1-copy-800.webp",
+    "kb": 45
+   },
+   {
+    "w": 1024,
+    "h": 1024,
+    "path": "img/opt/signages/indoor-signage/indoor-ss-signage-1-copy-1024.webp",
+    "kb": 64
+   }
+  ]
+ },
+ "img/Signages/indoor  Signage/Indoor SS Signage copy.jpg": {
+  "base": "img/opt/signages/indoor-signage/indoor-ss-signage-copy",
+  "width": 1024,
+  "height": 576,
+  "variants": [
+   {
+    "w": 800,
+    "h": 450,
+    "path": "img/opt/signages/indoor-signage/indoor-ss-signage-copy-800.webp",
+    "kb": 33
+   },
+   {
+    "w": 1024,
+    "h": 576,
+    "path": "img/opt/signages/indoor-signage/indoor-ss-signage-copy-1024.webp",
+    "kb": 48
+   }
+  ]
+ },
+ "img/Signages/indoor  Signage/Room number sign.jpg": {
+  "base": "img/opt/signages/indoor-signage/room-number-sign",
+  "width": 1040,
+  "height": 561,
+  "variants": [
+   {
+    "w": 800,
+    "h": 432,
+    "path": "img/opt/signages/indoor-signage/room-number-sign-800.webp",
+    "kb": 34
+   },
+   {
+    "w": 1040,
+    "h": 561,
+    "path": "img/opt/signages/indoor-signage/room-number-sign-1040.webp",
+    "kb": 50
+   }
+  ]
+ },
+ "img/Signages/indoor  Signage/SS PVD Rose gold coating way finding sign.png": {
+  "base": "img/opt/signages/indoor-signage/ss-pvd-rose-gold-coating-way-finding-sign",
+  "width": 1086,
+  "height": 1448,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/signages/indoor-signage/ss-pvd-rose-gold-coating-way-finding-sign-800.webp",
+    "kb": 54
+   },
+   {
+    "w": 1086,
+    "h": 1448,
+    "path": "img/opt/signages/indoor-signage/ss-pvd-rose-gold-coating-way-finding-sign-1086.webp",
+    "kb": 86
+   }
+  ]
+ },
+ "img/Signages/indoor  Signage/SS titanium sheet cut letter.jpg": {
+  "base": "img/opt/signages/indoor-signage/ss-titanium-sheet-cut-letter",
+  "width": 1600,
+  "height": 1200,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signages/indoor-signage/ss-titanium-sheet-cut-letter-800.webp",
+    "kb": 23
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/signages/indoor-signage/ss-titanium-sheet-cut-letter-1600.webp",
+    "kb": 71
+   }
+  ]
+ },
+ "img/Signages/indoor  Signage/Silver ACP with etching.png": {
+  "base": "img/opt/signages/indoor-signage/silver-acp-with-etching",
+  "width": 1086,
+  "height": 1448,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/signages/indoor-signage/silver-acp-with-etching-800.webp",
+    "kb": 41
+   },
+   {
+    "w": 1086,
+    "h": 1448,
+    "path": "img/opt/signages/indoor-signage/silver-acp-with-etching-1086.webp",
+    "kb": 69
+   }
+  ]
+ },
+ "img/Signages/indoor  Signage/sliver etching copy.jpg": {
+  "base": "img/opt/signages/indoor-signage/sliver-etching-copy",
+  "width": 1024,
+  "height": 559,
+  "variants": [
+   {
+    "w": 800,
+    "h": 437,
+    "path": "img/opt/signages/indoor-signage/sliver-etching-copy-800.webp",
+    "kb": 25
+   },
+   {
+    "w": 1024,
+    "h": 559,
+    "path": "img/opt/signages/indoor-signage/sliver-etching-copy-1024.webp",
+    "kb": 39
+   }
+  ]
+ },
+ "img/Standee.jpeg": {
+  "base": "img/opt/standee",
+  "width": 900,
+  "height": 750,
+  "variants": [
+   {
+    "w": 800,
+    "h": 667,
+    "path": "img/opt/standee-800.webp",
+    "kb": 11
+   },
+   {
+    "w": 900,
+    "h": 750,
+    "path": "img/opt/standee-900.webp",
+    "kb": 13
+   }
+  ]
+ },
+ "img/Titanium Signage/1.jpg": {
+  "base": "img/opt/titanium-signage/1",
+  "width": 1028,
+  "height": 771,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/titanium-signage/1-800.webp",
+    "kb": 107
+   },
+   {
+    "w": 1028,
+    "h": 771,
+    "path": "img/opt/titanium-signage/1-1028.webp",
+    "kb": 163
+   }
+  ]
+ },
+ "img/Titanium Signage/2.jpg": {
+  "base": "img/opt/titanium-signage/2",
+  "width": 1028,
+  "height": 579,
+  "variants": [
+   {
+    "w": 800,
+    "h": 451,
+    "path": "img/opt/titanium-signage/2-800.webp",
+    "kb": 48
+   },
+   {
+    "w": 1028,
+    "h": 579,
+    "path": "img/opt/titanium-signage/2-1028.webp",
+    "kb": 72
+   }
+  ]
+ },
+ "img/Titanium Signage/3.jpg": {
+  "base": "img/opt/titanium-signage/3",
+  "width": 1028,
+  "height": 771,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/titanium-signage/3-800.webp",
+    "kb": 23
+   },
+   {
+    "w": 1028,
+    "h": 771,
+    "path": "img/opt/titanium-signage/3-1028.webp",
+    "kb": 32
+   }
+  ]
+ },
+ "img/Titanium Signage/4.jpg": {
+  "base": "img/opt/titanium-signage/4",
+  "width": 1028,
+  "height": 771,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/titanium-signage/4-800.webp",
+    "kb": 42
+   },
+   {
+    "w": 1028,
+    "h": 771,
+    "path": "img/opt/titanium-signage/4-1028.webp",
+    "kb": 64
+   }
+  ]
+ },
+ "img/Titanium Signage/5.jpg": {
+  "base": "img/opt/titanium-signage/5",
+  "width": 1028,
+  "height": 978,
+  "variants": [
+   {
+    "w": 800,
+    "h": 761,
+    "path": "img/opt/titanium-signage/5-800.webp",
+    "kb": 11
+   },
+   {
+    "w": 1028,
+    "h": 978,
+    "path": "img/opt/titanium-signage/5-1028.webp",
+    "kb": 16
+   }
+  ]
+ },
+ "img/Totem Pylon/1.jpg": {
+  "base": "img/opt/totem-pylon/1",
+  "width": 640,
+  "height": 853,
+  "variants": [
+   {
+    "w": 640,
+    "h": 853,
+    "path": "img/opt/totem-pylon/1-640.webp",
+    "kb": 102
+   }
+  ]
+ },
+ "img/Totem Pylon/2.jpg": {
+  "base": "img/opt/totem-pylon/2",
+  "width": 640,
+  "height": 850,
+  "variants": [
+   {
+    "w": 640,
+    "h": 850,
+    "path": "img/opt/totem-pylon/2-640.webp",
+    "kb": 38
+   }
+  ]
+ },
+ "img/Totem Pylon/3.jpg": {
+  "base": "img/opt/totem-pylon/3",
+  "width": 640,
+  "height": 754,
+  "variants": [
+   {
+    "w": 640,
+    "h": 754,
+    "path": "img/opt/totem-pylon/3-640.webp",
+    "kb": 76
+   }
+  ]
+ },
+ "img/Totem Pylon/4.jpg": {
+  "base": "img/opt/totem-pylon/4",
+  "width": 640,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 640,
+    "h": 1280,
+    "path": "img/opt/totem-pylon/4-640.webp",
+    "kb": 56
+   }
+  ]
+ },
+ "img/Totem Pylon/5.jpg": {
+  "base": "img/opt/totem-pylon/5",
+  "width": 640,
+  "height": 758,
+  "variants": [
+   {
+    "w": 640,
+    "h": 758,
+    "path": "img/opt/totem-pylon/5-640.webp",
+    "kb": 30
+   }
+  ]
+ },
+ "img/Totem Pylon/6.jpg": {
+  "base": "img/opt/totem-pylon/6",
+  "width": 640,
+  "height": 930,
+  "variants": [
+   {
+    "w": 640,
+    "h": 930,
+    "path": "img/opt/totem-pylon/6-640.webp",
+    "kb": 22
+   }
+  ]
+ },
+ "img/Totem Pylon/7.jpg": {
+  "base": "img/opt/totem-pylon/7",
+  "width": 640,
+  "height": 756,
+  "variants": [
+   {
+    "w": 640,
+    "h": 756,
+    "path": "img/opt/totem-pylon/7-640.webp",
+    "kb": 11
+   }
+  ]
+ },
+ "img/UV.jpeg": {
+  "base": "img/opt/uv",
+  "width": 900,
+  "height": 750,
+  "variants": [
+   {
+    "w": 800,
+    "h": 667,
+    "path": "img/opt/uv-800.webp",
+    "kb": 14
+   },
+   {
+    "w": 900,
+    "h": 750,
+    "path": "img/opt/uv-900.webp",
+    "kb": 16
+   }
+  ]
+ },
+ "img/banner/03.webp": {
+  "base": "img/opt/banner/03",
+  "width": 1693,
+  "height": 929,
+  "variants": [
+   {
+    "w": 800,
+    "h": 439,
+    "path": "img/opt/banner/03-800.webp",
+    "kb": 45
+   },
+   {
+    "w": 1600,
+    "h": 878,
+    "path": "img/opt/banner/03-1600.webp",
+    "kb": 115
+   }
+  ]
+ },
+ "img/brand/1.jpeg": {
+  "base": "img/opt/brand/1",
+  "width": 1280,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/brand/1-800.webp",
+    "kb": 17
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "path": "img/opt/brand/1-1280.webp",
+    "kb": 29
+   }
+  ]
+ },
+ "img/brand/10.jpeg": {
+  "base": "img/opt/brand/10",
+  "width": 767,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 767,
+    "h": 1024,
+    "path": "img/opt/brand/10-767.webp",
+    "kb": 67
+   }
+  ]
+ },
+ "img/brand/2.png": {
+  "base": "img/opt/brand/2",
+  "width": 1448,
+  "height": 1086,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/brand/2-800.webp",
+    "kb": 48
+   },
+   {
+    "w": 1448,
+    "h": 1086,
+    "path": "img/opt/brand/2-1448.webp",
+    "kb": 128
+   }
+  ]
+ },
+ "img/brand/3.jpeg": {
+  "base": "img/opt/brand/3",
+  "width": 1448,
+  "height": 1086,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/brand/3-800.webp",
+    "kb": 28
+   },
+   {
+    "w": 1448,
+    "h": 1086,
+    "path": "img/opt/brand/3-1448.webp",
+    "kb": 66
+   }
+  ]
+ },
+ "img/brand/4.jpeg": {
+  "base": "img/opt/brand/4",
+  "width": 1085,
+  "height": 1450,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1069,
+    "path": "img/opt/brand/4-800.webp",
+    "kb": 27
+   },
+   {
+    "w": 1085,
+    "h": 1450,
+    "path": "img/opt/brand/4-1085.webp",
+    "kb": 42
+   }
+  ]
+ },
+ "img/brand/5.jpeg": {
+  "base": "img/opt/brand/5",
+  "width": 1040,
+  "height": 1513,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1164,
+    "path": "img/opt/brand/5-800.webp",
+    "kb": 39
+   },
+   {
+    "w": 1040,
+    "h": 1513,
+    "path": "img/opt/brand/5-1040.webp",
+    "kb": 60
+   }
+  ]
+ },
+ "img/brand/6.jpeg": {
+  "base": "img/opt/brand/6",
+  "width": 1600,
+  "height": 1199,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/brand/6-800.webp",
+    "kb": 23
+   },
+   {
+    "w": 1600,
+    "h": 1199,
+    "path": "img/opt/brand/6-1600.webp",
+    "kb": 60
+   }
+  ]
+ },
+ "img/brand/7.jpeg": {
+  "base": "img/opt/brand/7",
+  "width": 706,
+  "height": 496,
+  "variants": [
+   {
+    "w": 706,
+    "h": 496,
+    "path": "img/opt/brand/7-706.webp",
+    "kb": 33
+   }
+  ]
+ },
+ "img/brand/8.jpeg": {
+  "base": "img/opt/brand/8",
+  "width": 1085,
+  "height": 1450,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1069,
+    "path": "img/opt/brand/8-800.webp",
+    "kb": 15
+   },
+   {
+    "w": 1085,
+    "h": 1450,
+    "path": "img/opt/brand/8-1085.webp",
+    "kb": 25
+   }
+  ]
+ },
+ "img/brand/9.jpeg": {
+  "base": "img/opt/brand/9",
+  "width": 1448,
+  "height": 1086,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/brand/9-800.webp",
+    "kb": 59
+   },
+   {
+    "w": 1448,
+    "h": 1086,
+    "path": "img/opt/brand/9-1448.webp",
+    "kb": 150
+   }
+  ]
+ },
+ "img/brand/brand.png": {
+  "base": "img/opt/brand/brand",
+  "width": 1080,
+  "height": 1080,
+  "variants": [
+   {
+    "w": 800,
+    "h": 800,
+    "path": "img/opt/brand/brand-800.webp",
+    "kb": 35
+   },
+   {
+    "w": 1080,
+    "h": 1080,
+    "path": "img/opt/brand/brand-1080.webp",
+    "kb": 57
+   }
+  ]
+ },
+ "img/corprate.png": {
+  "base": "img/opt/corprate",
+  "width": 1080,
+  "height": 1080,
+  "variants": [
+   {
+    "w": 800,
+    "h": 800,
+    "path": "img/opt/corprate-800.webp",
+    "kb": 90
+   },
+   {
+    "w": 1080,
+    "h": 1080,
+    "path": "img/opt/corprate-1080.webp",
+    "kb": 143
+   }
+  ]
+ },
+ "img/corprate/1.jpg": {
+  "base": "img/opt/corprate/1",
+  "width": 1024,
+  "height": 770,
+  "variants": [
+   {
+    "w": 800,
+    "h": 602,
+    "path": "img/opt/corprate/1-800.webp",
+    "kb": 62
+   },
+   {
+    "w": 1024,
+    "h": 770,
+    "path": "img/opt/corprate/1-1024.webp",
+    "kb": 95
+   }
+  ]
+ },
+ "img/corprate/2.jpeg": {
+  "base": "img/opt/corprate/2",
+  "width": 1086,
+  "height": 1448,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/corprate/2-800.webp",
+    "kb": 120
+   },
+   {
+    "w": 1086,
+    "h": 1448,
+    "path": "img/opt/corprate/2-1086.webp",
+    "kb": 197
+   }
+  ]
+ },
+ "img/corprate/3.jpeg": {
+  "base": "img/opt/corprate/3",
+  "width": 1024,
+  "height": 559,
+  "variants": [
+   {
+    "w": 800,
+    "h": 437,
+    "path": "img/opt/corprate/3-800.webp",
+    "kb": 19
+   },
+   {
+    "w": 1024,
+    "h": 559,
+    "path": "img/opt/corprate/3-1024.webp",
+    "kb": 30
+   }
+  ]
+ },
+ "img/corprate/photo-collage.png (6).png": {
+  "base": "img/opt/corprate/photo-collage-png-6",
+  "width": 1080,
+  "height": 1080,
+  "variants": [
+   {
+    "w": 800,
+    "h": 800,
+    "path": "img/opt/corprate/photo-collage-png-6-800.webp",
+    "kb": 112
+   },
+   {
+    "w": 1080,
+    "h": 1080,
+    "path": "img/opt/corprate/photo-collage-png-6-1080.webp",
+    "kb": 182
+   }
+  ]
+ },
+ "img/digi/1.jpeg": {
+  "base": "img/opt/digi/1",
+  "width": 512,
+  "height": 727,
+  "variants": [
+   {
+    "w": 512,
+    "h": 727,
+    "path": "img/opt/digi/1-512.webp",
+    "kb": 60
+   }
+  ]
+ },
+ "img/digi/2.jpeg": {
+  "base": "img/opt/digi/2",
+  "width": 891,
+  "height": 592,
+  "variants": [
+   {
+    "w": 800,
+    "h": 532,
+    "path": "img/opt/digi/2-800.webp",
+    "kb": 80
+   },
+   {
+    "w": 891,
+    "h": 592,
+    "path": "img/opt/digi/2-891.webp",
+    "kb": 102
+   }
+  ]
+ },
+ "img/digi/3.jpeg": {
+  "base": "img/opt/digi/3",
+  "width": 635,
+  "height": 913,
+  "variants": [
+   {
+    "w": 635,
+    "h": 913,
+    "path": "img/opt/digi/3-635.webp",
+    "kb": 74
+   }
+  ]
+ },
+ "img/digi/4.jpeg": {
+  "base": "img/opt/digi/4",
+  "width": 885,
+  "height": 606,
+  "variants": [
+   {
+    "w": 800,
+    "h": 548,
+    "path": "img/opt/digi/4-800.webp",
+    "kb": 93
+   },
+   {
+    "w": 885,
+    "h": 606,
+    "path": "img/opt/digi/4-885.webp",
+    "kb": 118
+   }
+  ]
+ },
+ "img/digi/5.jpeg": {
+  "base": "img/opt/digi/5",
+  "width": 1024,
+  "height": 847,
+  "variants": [
+   {
+    "w": 800,
+    "h": 662,
+    "path": "img/opt/digi/5-800.webp",
+    "kb": 40
+   },
+   {
+    "w": 1024,
+    "h": 847,
+    "path": "img/opt/digi/5-1024.webp",
+    "kb": 57
+   }
+  ]
+ },
+ "img/digi/6.jpeg": {
+  "base": "img/opt/digi/6",
+  "width": 1086,
+  "height": 1448,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/digi/6-800.webp",
+    "kb": 72
+   },
+   {
+    "w": 1086,
+    "h": 1448,
+    "path": "img/opt/digi/6-1086.webp",
+    "kb": 113
+   }
+  ]
+ },
+ "img/digi/7.jpeg": {
+  "base": "img/opt/digi/7",
+  "width": 1086,
+  "height": 1448,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/digi/7-800.webp",
+    "kb": 59
+   },
+   {
+    "w": 1086,
+    "h": 1448,
+    "path": "img/opt/digi/7-1086.webp",
+    "kb": 91
+   }
+  ]
+ },
+ "img/digi/8.jpeg": {
+  "base": "img/opt/digi/8",
+  "width": 1024,
+  "height": 850,
+  "variants": [
+   {
+    "w": 800,
+    "h": 664,
+    "path": "img/opt/digi/8-800.webp",
+    "kb": 49
+   },
+   {
+    "w": 1024,
+    "h": 850,
+    "path": "img/opt/digi/8-1024.webp",
+    "kb": 71
+   }
+  ]
+ },
+ "img/digi/9.jpeg": {
+  "base": "img/opt/digi/9",
+  "width": 1024,
+  "height": 661,
+  "variants": [
+   {
+    "w": 800,
+    "h": 516,
+    "path": "img/opt/digi/9-800.webp",
+    "kb": 14
+   },
+   {
+    "w": 1024,
+    "h": 661,
+    "path": "img/opt/digi/9-1024.webp",
+    "kb": 20
+   }
+  ]
+ },
+ "img/digi/digi.png": {
+  "base": "img/opt/digi/digi",
+  "width": 1080,
+  "height": 1080,
+  "variants": [
+   {
+    "w": 800,
+    "h": 800,
+    "path": "img/opt/digi/digi-800.webp",
+    "kb": 68
+   },
+   {
+    "w": 1080,
+    "h": 1080,
+    "path": "img/opt/digi/digi-1080.webp",
+    "kb": 109
+   }
+  ]
+ },
+ "img/fancybox_overlay.png": {
+  "base": "img/opt/fancybox-overlay",
+  "width": 10,
+  "height": 10,
+  "variants": [
+   {
+    "w": 10,
+    "h": 10,
+    "path": "img/opt/fancybox-overlay-10.webp",
+    "kb": 0
+   }
+  ]
+ },
+ "img/fancybox_sprite.png": {
+  "base": "img/opt/fancybox-sprite",
+  "width": 44,
+  "height": 152,
+  "variants": [
+   {
+    "w": 44,
+    "h": 152,
+    "path": "img/opt/fancybox-sprite-44.webp",
+    "kb": 2
+   }
+  ]
+ },
+ "img/fancybox_sprite@2x.png": {
+  "base": "img/opt/fancybox-sprite-2x",
+  "width": 88,
+  "height": 304,
+  "variants": [
+   {
+    "w": 88,
+    "h": 304,
+    "path": "img/opt/fancybox-sprite-2x-88.webp",
+    "kb": 7
+   }
+  ]
+ },
+ "img/fav.png": {
+  "base": "img/opt/fav",
+  "width": 200,
+  "height": 130,
+  "variants": [
+   {
+    "w": 200,
+    "h": 130,
+    "path": "img/opt/fav-200.webp",
+    "kb": 5
+   }
+  ]
+ },
+ "img/flat/1.jpeg": {
+  "base": "img/opt/flat/1",
+  "width": 1086,
+  "height": 1448,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/flat/1-800.webp",
+    "kb": 83
+   },
+   {
+    "w": 1086,
+    "h": 1448,
+    "path": "img/opt/flat/1-1086.webp",
+    "kb": 133
+   }
+  ]
+ },
+ "img/flat/2.jpg": {
+  "base": "img/opt/flat/2",
+  "width": 1024,
+  "height": 770,
+  "variants": [
+   {
+    "w": 800,
+    "h": 602,
+    "path": "img/opt/flat/2-800.webp",
+    "kb": 42
+   },
+   {
+    "w": 1024,
+    "h": 770,
+    "path": "img/opt/flat/2-1024.webp",
+    "kb": 62
+   }
+  ]
+ },
+ "img/flat/3.jpeg": {
+  "base": "img/opt/flat/3",
+  "width": 576,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 576,
+    "h": 1024,
+    "path": "img/opt/flat/3-576.webp",
+    "kb": 57
+   }
+  ]
+ },
+ "img/flat/4.png": {
+  "base": "img/opt/flat/4",
+  "width": 1536,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 800,
+    "h": 533,
+    "path": "img/opt/flat/4-800.webp",
+    "kb": 56
+   },
+   {
+    "w": 1536,
+    "h": 1024,
+    "path": "img/opt/flat/4-1536.webp",
+    "kb": 198
+   }
+  ]
+ },
+ "img/flat/5.png": {
+  "base": "img/opt/flat/5",
+  "width": 1536,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 800,
+    "h": 533,
+    "path": "img/opt/flat/5-800.webp",
+    "kb": 42
+   },
+   {
+    "w": 1536,
+    "h": 1024,
+    "path": "img/opt/flat/5-1536.webp",
+    "kb": 141
+   }
+  ]
+ },
+ "img/flat/6.png": {
+  "base": "img/opt/flat/6",
+  "width": 841,
+  "height": 1870,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1779,
+    "path": "img/opt/flat/6-800.webp",
+    "kb": 52
+   },
+   {
+    "w": 841,
+    "h": 1870,
+    "path": "img/opt/flat/6-841.webp",
+    "kb": 57
+   }
+  ]
+ },
+ "img/flat/fla.png": {
+  "base": "img/opt/flat/fla",
+  "width": 1080,
+  "height": 1080,
+  "variants": [
+   {
+    "w": 800,
+    "h": 800,
+    "path": "img/opt/flat/fla-800.webp",
+    "kb": 87
+   },
+   {
+    "w": 1080,
+    "h": 1080,
+    "path": "img/opt/flat/fla-1080.webp",
+    "kb": 130
+   }
+  ]
+ },
+ "img/home/amman logo.png": {
+  "base": "img/opt/home/amman-logo",
+  "width": 150,
+  "height": 150,
+  "variants": [
+   {
+    "w": 150,
+    "h": 150,
+    "path": "img/opt/home/amman-logo-150.webp",
+    "kb": 3
+   }
+  ]
+ },
+ "img/home/atm.png": {
+  "base": "img/opt/home/atm",
+  "width": 150,
+  "height": 150,
+  "variants": [
+   {
+    "w": 150,
+    "h": 150,
+    "path": "img/opt/home/atm-150.webp",
+    "kb": 4
+   }
+  ]
+ },
+ "img/home/bh logo.png": {
+  "base": "img/opt/home/bh-logo",
+  "width": 150,
+  "height": 150,
+  "variants": [
+   {
+    "w": 150,
+    "h": 150,
+    "path": "img/opt/home/bh-logo-150.webp",
+    "kb": 4
+   }
+  ]
+ },
+ "img/home/finolex logo.png": {
+  "base": "img/opt/home/finolex-logo",
+  "width": 150,
+  "height": 150,
+  "variants": [
+   {
+    "w": 150,
+    "h": 150,
+    "path": "img/opt/home/finolex-logo-150.webp",
+    "kb": 3
+   }
+  ]
+ },
+ "img/home/godrej logo.png": {
+  "base": "img/opt/home/godrej-logo",
+  "width": 150,
+  "height": 150,
+  "variants": [
+   {
+    "w": 150,
+    "h": 150,
+    "path": "img/opt/home/godrej-logo-150.webp",
+    "kb": 4
+   }
+  ]
+ },
+ "img/home/hap.png": {
+  "base": "img/opt/home/hap",
+  "width": 150,
+  "height": 150,
+  "variants": [
+   {
+    "w": 150,
+    "h": 150,
+    "path": "img/opt/home/hap-150.webp",
+    "kb": 2
+   }
+  ]
+ },
+ "img/home/havells logo.png": {
+  "base": "img/opt/home/havells-logo",
+  "width": 150,
+  "height": 150,
+  "variants": [
+   {
+    "w": 150,
+    "h": 150,
+    "path": "img/opt/home/havells-logo-150.webp",
+    "kb": 2
+   }
+  ]
+ },
+ "img/home/hp logo.png": {
+  "base": "img/opt/home/hp-logo",
+  "width": 150,
+  "height": 150,
+  "variants": [
+   {
+    "w": 150,
+    "h": 150,
+    "path": "img/opt/home/hp-logo-150.webp",
+    "kb": 5
+   }
+  ]
+ },
+ "img/home/hutsan logo.png": {
+  "base": "img/opt/home/hutsan-logo",
+  "width": 150,
+  "height": 150,
+  "variants": [
+   {
+    "w": 150,
+    "h": 150,
+    "path": "img/opt/home/hutsan-logo-150.webp",
+    "kb": 2
+   }
+  ]
+ },
+ "img/home/indian oil.png": {
+  "base": "img/opt/home/indian-oil",
+  "width": 150,
+  "height": 150,
+  "variants": [
+   {
+    "w": 150,
+    "h": 150,
+    "path": "img/opt/home/indian-oil-150.webp",
+    "kb": 6
+   }
+  ]
+ },
+ "img/home/itc logo.png": {
+  "base": "img/opt/home/itc-logo",
+  "width": 150,
+  "height": 150,
+  "variants": [
+   {
+    "w": 150,
+    "h": 150,
+    "path": "img/opt/home/itc-logo-150.webp",
+    "kb": 4
+   }
+  ]
+ },
+ "img/home/jn tile logo.png": {
+  "base": "img/opt/home/jn-tile-logo",
+  "width": 150,
+  "height": 150,
+  "variants": [
+   {
+    "w": 150,
+    "h": 150,
+    "path": "img/opt/home/jn-tile-logo-150.webp",
+    "kb": 1
+   }
+  ]
+ },
+ "img/home/jon7jon logo.png": {
+  "base": "img/opt/home/jon7jon-logo",
+  "width": 150,
+  "height": 150,
+  "variants": [
+   {
+    "w": 150,
+    "h": 150,
+    "path": "img/opt/home/jon7jon-logo-150.webp",
+    "kb": 2
+   }
+  ]
+ },
+ "img/home/lead.png": {
+  "base": "img/opt/home/lead",
+  "width": 150,
+  "height": 150,
+  "variants": [
+   {
+    "w": 150,
+    "h": 150,
+    "path": "img/opt/home/lead-150.webp",
+    "kb": 3
+   }
+  ]
+ },
+ "img/home/led.png": {
+  "base": "img/opt/home/led",
+  "width": 1360,
+  "height": 768,
+  "variants": [
+   {
+    "w": 800,
+    "h": 452,
+    "path": "img/opt/home/led-800.webp",
+    "kb": 61
+   },
+   {
+    "w": 1360,
+    "h": 768,
+    "path": "img/opt/home/led-1360.webp",
+    "kb": 130
+   }
+  ]
+ },
+ "img/home/oppo.png": {
+  "base": "img/opt/home/oppo",
+  "width": 150,
+  "height": 150,
+  "variants": [
+   {
+    "w": 150,
+    "h": 150,
+    "path": "img/opt/home/oppo-150.webp",
+    "kb": 2
+   }
+  ]
+ },
+ "img/home/prodec1.jpg": {
+  "base": "img/opt/home/prodec1",
+  "width": 1280,
+  "height": 610,
+  "variants": [
+   {
+    "w": 800,
+    "h": 381,
+    "path": "img/opt/home/prodec1-800.webp",
+    "kb": 27
+   },
+   {
+    "w": 1280,
+    "h": 610,
+    "path": "img/opt/home/prodec1-1280.webp",
+    "kb": 47
+   }
+  ]
+ },
+ "img/home/product1.jpg": {
+  "base": "img/opt/home/product1",
+  "width": 640,
+  "height": 450,
+  "variants": [
+   {
+    "w": 640,
+    "h": 450,
+    "path": "img/opt/home/product1-640.webp",
+    "kb": 19
+   }
+  ]
+ },
+ "img/home/sahara.jpg": {
+  "base": "img/opt/home/sahara",
+  "width": 640,
+  "height": 450,
+  "variants": [
+   {
+    "w": 640,
+    "h": 450,
+    "path": "img/opt/home/sahara-640.webp",
+    "kb": 66
+   }
+  ]
+ },
+ "img/home/tonnyt.png": {
+  "base": "img/opt/home/tonnyt",
+  "width": 150,
+  "height": 150,
+  "variants": [
+   {
+    "w": 150,
+    "h": 150,
+    "path": "img/opt/home/tonnyt-150.webp",
+    "kb": 2
+   }
+  ]
+ },
+ "img/home/vivo logo.png": {
+  "base": "img/opt/home/vivo-logo",
+  "width": 150,
+  "height": 150,
+  "variants": [
+   {
+    "w": 150,
+    "h": 150,
+    "path": "img/opt/home/vivo-logo-150.webp",
+    "kb": 2
+   }
+  ]
+ },
+ "img/logo.PNG": {
+  "base": "img/opt/logo",
+  "width": 210,
+  "height": 205,
+  "variants": [
+   {
+    "w": 210,
+    "h": 205,
+    "path": "img/opt/logo-210.webp",
+    "kb": 2
+   }
+  ]
+ },
+ "img/logo.webp": {
+  "base": "img/opt/logo-2",
+  "width": 313,
+  "height": 215,
+  "variants": [
+   {
+    "w": 313,
+    "h": 215,
+    "path": "img/opt/logo-2-313.webp",
+    "kb": 8
+   }
+  ]
+ },
+ "img/portfolio/Acrylic Sandwich-1.jpg": {
+  "base": "img/opt/portfolio/acrylic-sandwich-1",
+  "width": 960,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/portfolio/acrylic-sandwich-1-800.webp",
+    "kb": 23
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "path": "img/opt/portfolio/acrylic-sandwich-1-960.webp",
+    "kb": 28
+   }
+  ]
+ },
+ "img/portfolio/Acrylic Sandwich-2.jpg": {
+  "base": "img/opt/portfolio/acrylic-sandwich-2",
+  "width": 960,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/portfolio/acrylic-sandwich-2-800.webp",
+    "kb": 20
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "path": "img/opt/portfolio/acrylic-sandwich-2-960.webp",
+    "kb": 27
+   }
+  ]
+ },
+ "img/portfolio/Acrylic Sandwich-3.jpg": {
+  "base": "img/opt/portfolio/acrylic-sandwich-3",
+  "width": 960,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/portfolio/acrylic-sandwich-3-800.webp",
+    "kb": 19
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "path": "img/opt/portfolio/acrylic-sandwich-3-960.webp",
+    "kb": 24
+   }
+  ]
+ },
+ "img/portfolio/Acrylic Sandwich-4.jpg": {
+  "base": "img/opt/portfolio/acrylic-sandwich-4",
+  "width": 960,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/portfolio/acrylic-sandwich-4-800.webp",
+    "kb": 22
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "path": "img/opt/portfolio/acrylic-sandwich-4-960.webp",
+    "kb": 28
+   }
+  ]
+ },
+ "img/portfolio/Acrylic Sandwich-5.jpg": {
+  "base": "img/opt/portfolio/acrylic-sandwich-5",
+  "width": 960,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/portfolio/acrylic-sandwich-5-800.webp",
+    "kb": 13
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "path": "img/opt/portfolio/acrylic-sandwich-5-960.webp",
+    "kb": 17
+   }
+  ]
+ },
+ "img/portfolio/Acrylic Sandwich-6.jpg": {
+  "base": "img/opt/portfolio/acrylic-sandwich-6",
+  "width": 640,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 640,
+    "h": 1280,
+    "path": "img/opt/portfolio/acrylic-sandwich-6-640.webp",
+    "kb": 17
+   }
+  ]
+ },
+ "img/portfolio/Acrylic Sandwich-7.jpg": {
+  "base": "img/opt/portfolio/acrylic-sandwich-7",
+  "width": 640,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 640,
+    "h": 1280,
+    "path": "img/opt/portfolio/acrylic-sandwich-7-640.webp",
+    "kb": 14
+   }
+  ]
+ },
+ "img/portfolio/Acrylic Sandwich-8.jpg": {
+  "base": "img/opt/portfolio/acrylic-sandwich-8",
+  "width": 640,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 640,
+    "h": 1280,
+    "path": "img/opt/portfolio/acrylic-sandwich-8-640.webp",
+    "kb": 18
+   }
+  ]
+ },
+ "img/portfolio/Acrylic Signage-1.jpg": {
+  "base": "img/opt/portfolio/acrylic-signage-1",
+  "width": 1280,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/acrylic-signage-1-800.webp",
+    "kb": 40
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "path": "img/opt/portfolio/acrylic-signage-1-1280.webp",
+    "kb": 72
+   }
+  ]
+ },
+ "img/portfolio/Acrylic Signage-2.jpg": {
+  "base": "img/opt/portfolio/acrylic-signage-2",
+  "width": 960,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/portfolio/acrylic-signage-2-800.webp",
+    "kb": 67
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "path": "img/opt/portfolio/acrylic-signage-2-960.webp",
+    "kb": 86
+   }
+  ]
+ },
+ "img/portfolio/Branding-1.jpg": {
+  "base": "img/opt/portfolio/branding-1",
+  "width": 1280,
+  "height": 640,
+  "variants": [
+   {
+    "w": 800,
+    "h": 400,
+    "path": "img/opt/portfolio/branding-1-800.webp",
+    "kb": 24
+   },
+   {
+    "w": 1280,
+    "h": 640,
+    "path": "img/opt/portfolio/branding-1-1280.webp",
+    "kb": 45
+   }
+  ]
+ },
+ "img/portfolio/Branding-10.jpg": {
+  "base": "img/opt/portfolio/branding-10",
+  "width": 1040,
+  "height": 780,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/branding-10-800.webp",
+    "kb": 39
+   },
+   {
+    "w": 1040,
+    "h": 780,
+    "path": "img/opt/portfolio/branding-10-1040.webp",
+    "kb": 55
+   }
+  ]
+ },
+ "img/portfolio/Branding-11.jpg": {
+  "base": "img/opt/portfolio/branding-11",
+  "width": 960,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/portfolio/branding-11-800.webp",
+    "kb": 50
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "path": "img/opt/portfolio/branding-11-960.webp",
+    "kb": 65
+   }
+  ]
+ },
+ "img/portfolio/Branding-12.jpg": {
+  "base": "img/opt/portfolio/branding-12",
+  "width": 960,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/portfolio/branding-12-800.webp",
+    "kb": 46
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "path": "img/opt/portfolio/branding-12-960.webp",
+    "kb": 61
+   }
+  ]
+ },
+ "img/portfolio/Branding-13.jpg": {
+  "base": "img/opt/portfolio/branding-13",
+  "width": 1040,
+  "height": 780,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/branding-13-800.webp",
+    "kb": 54
+   },
+   {
+    "w": 1040,
+    "h": 780,
+    "path": "img/opt/portfolio/branding-13-1040.webp",
+    "kb": 84
+   }
+  ]
+ },
+ "img/portfolio/Branding-14.jpg": {
+  "base": "img/opt/portfolio/branding-14",
+  "width": 960,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/portfolio/branding-14-800.webp",
+    "kb": 43
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "path": "img/opt/portfolio/branding-14-960.webp",
+    "kb": 57
+   }
+  ]
+ },
+ "img/portfolio/Branding-16.jpg": {
+  "base": "img/opt/portfolio/branding-16",
+  "width": 870,
+  "height": 1160,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/portfolio/branding-16-800.webp",
+    "kb": 70
+   },
+   {
+    "w": 870,
+    "h": 1160,
+    "path": "img/opt/portfolio/branding-16-870.webp",
+    "kb": 88
+   }
+  ]
+ },
+ "img/portfolio/Branding-17.jpg": {
+  "base": "img/opt/portfolio/branding-17",
+  "width": 1040,
+  "height": 780,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/branding-17-800.webp",
+    "kb": 39
+   },
+   {
+    "w": 1040,
+    "h": 780,
+    "path": "img/opt/portfolio/branding-17-1040.webp",
+    "kb": 61
+   }
+  ]
+ },
+ "img/portfolio/Branding-18.png": {
+  "base": "img/opt/portfolio/branding-18",
+  "width": 1600,
+  "height": 776,
+  "variants": [
+   {
+    "w": 800,
+    "h": 388,
+    "path": "img/opt/portfolio/branding-18-800.webp",
+    "kb": 41
+   },
+   {
+    "w": 1600,
+    "h": 776,
+    "path": "img/opt/portfolio/branding-18-1600.webp",
+    "kb": 105
+   }
+  ]
+ },
+ "img/portfolio/Branding-19.png": {
+  "base": "img/opt/portfolio/branding-19",
+  "width": 778,
+  "height": 666,
+  "variants": [
+   {
+    "w": 778,
+    "h": 666,
+    "path": "img/opt/portfolio/branding-19-778.webp",
+    "kb": 49
+   }
+  ]
+ },
+ "img/portfolio/Branding-2.jpg": {
+  "base": "img/opt/portfolio/branding-2",
+  "width": 1040,
+  "height": 780,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/branding-2-800.webp",
+    "kb": 50
+   },
+   {
+    "w": 1040,
+    "h": 780,
+    "path": "img/opt/portfolio/branding-2-1040.webp",
+    "kb": 73
+   }
+  ]
+ },
+ "img/portfolio/Branding-20.png": {
+  "base": "img/opt/portfolio/branding-20",
+  "width": 524,
+  "height": 695,
+  "variants": [
+   {
+    "w": 524,
+    "h": 695,
+    "path": "img/opt/portfolio/branding-20-524.webp",
+    "kb": 33
+   }
+  ]
+ },
+ "img/portfolio/Branding-3.jpg": {
+  "base": "img/opt/portfolio/branding-3",
+  "width": 809,
+  "height": 1080,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1068,
+    "path": "img/opt/portfolio/branding-3-800.webp",
+    "kb": 27
+   },
+   {
+    "w": 809,
+    "h": 1080,
+    "path": "img/opt/portfolio/branding-3-809.webp",
+    "kb": 29
+   }
+  ]
+ },
+ "img/portfolio/Branding-4.jpg": {
+  "base": "img/opt/portfolio/branding-4",
+  "width": 1280,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/branding-4-800.webp",
+    "kb": 42
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "path": "img/opt/portfolio/branding-4-1280.webp",
+    "kb": 77
+   }
+  ]
+ },
+ "img/portfolio/Branding-5.jpg": {
+  "base": "img/opt/portfolio/branding-5",
+  "width": 720,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 720,
+    "h": 1280,
+    "path": "img/opt/portfolio/branding-5-720.webp",
+    "kb": 49
+   }
+  ]
+ },
+ "img/portfolio/Branding-6.jpg": {
+  "base": "img/opt/portfolio/branding-6",
+  "width": 1280,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/branding-6-800.webp",
+    "kb": 46
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "path": "img/opt/portfolio/branding-6-1280.webp",
+    "kb": 105
+   }
+  ]
+ },
+ "img/portfolio/Branding-7.jpg": {
+  "base": "img/opt/portfolio/branding-7",
+  "width": 1040,
+  "height": 585,
+  "variants": [
+   {
+    "w": 800,
+    "h": 450,
+    "path": "img/opt/portfolio/branding-7-800.webp",
+    "kb": 35
+   },
+   {
+    "w": 1040,
+    "h": 585,
+    "path": "img/opt/portfolio/branding-7-1040.webp",
+    "kb": 55
+   }
+  ]
+ },
+ "img/portfolio/Branding-8.jpg": {
+  "base": "img/opt/portfolio/branding-8",
+  "width": 585,
+  "height": 1040,
+  "variants": [
+   {
+    "w": 585,
+    "h": 1040,
+    "path": "img/opt/portfolio/branding-8-585.webp",
+    "kb": 62
+   }
+  ]
+ },
+ "img/portfolio/Branding-9.jpg": {
+  "base": "img/opt/portfolio/branding-9",
+  "width": 1040,
+  "height": 585,
+  "variants": [
+   {
+    "w": 800,
+    "h": 450,
+    "path": "img/opt/portfolio/branding-9-800.webp",
+    "kb": 46
+   },
+   {
+    "w": 1040,
+    "h": 585,
+    "path": "img/opt/portfolio/branding-9-1040.webp",
+    "kb": 67
+   }
+  ]
+ },
+ "img/portfolio/Branding15.jpg": {
+  "base": "img/opt/portfolio/branding15",
+  "width": 1169,
+  "height": 732,
+  "variants": [
+   {
+    "w": 800,
+    "h": 501,
+    "path": "img/opt/portfolio/branding15-800.webp",
+    "kb": 42
+   },
+   {
+    "w": 1169,
+    "h": 732,
+    "path": "img/opt/portfolio/branding15-1169.webp",
+    "kb": 77
+   }
+  ]
+ },
+ "img/portfolio/CNC-1.jpg": {
+  "base": "img/opt/portfolio/cnc-1",
+  "width": 721,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 721,
+    "h": 1280,
+    "path": "img/opt/portfolio/cnc-1-721.webp",
+    "kb": 34
+   }
+  ]
+ },
+ "img/portfolio/CNC-2.jpg": {
+  "base": "img/opt/portfolio/cnc-2",
+  "width": 1280,
+  "height": 721,
+  "variants": [
+   {
+    "w": 800,
+    "h": 451,
+    "path": "img/opt/portfolio/cnc-2-800.webp",
+    "kb": 16
+   },
+   {
+    "w": 1280,
+    "h": 721,
+    "path": "img/opt/portfolio/cnc-2-1280.webp",
+    "kb": 28
+   }
+  ]
+ },
+ "img/portfolio/CNC-3.jpg": {
+  "base": "img/opt/portfolio/cnc-3",
+  "width": 720,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 720,
+    "h": 1280,
+    "path": "img/opt/portfolio/cnc-3-720.webp",
+    "kb": 73
+   }
+  ]
+ },
+ "img/portfolio/CNC-4.jpg": {
+  "base": "img/opt/portfolio/cnc-4",
+  "width": 720,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 720,
+    "h": 1280,
+    "path": "img/opt/portfolio/cnc-4-720.webp",
+    "kb": 42
+   }
+  ]
+ },
+ "img/portfolio/CNC-5.png": {
+  "base": "img/opt/portfolio/cnc-5",
+  "width": 1600,
+  "height": 1200,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/cnc-5-800.webp",
+    "kb": 15
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/portfolio/cnc-5-1600.webp",
+    "kb": 37
+   }
+  ]
+ },
+ "img/portfolio/Fabric-1.jpg": {
+  "base": "img/opt/portfolio/fabric-1",
+  "width": 1280,
+  "height": 720,
+  "variants": [
+   {
+    "w": 800,
+    "h": 450,
+    "path": "img/opt/portfolio/fabric-1-800.webp",
+    "kb": 46
+   },
+   {
+    "w": 1280,
+    "h": 720,
+    "path": "img/opt/portfolio/fabric-1-1280.webp",
+    "kb": 98
+   }
+  ]
+ },
+ "img/portfolio/Fabric-2.jpg": {
+  "base": "img/opt/portfolio/fabric-2",
+  "width": 1600,
+  "height": 2142,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1071,
+    "path": "img/opt/portfolio/fabric-2-800.webp",
+    "kb": 38
+   },
+   {
+    "w": 1600,
+    "h": 2142,
+    "path": "img/opt/portfolio/fabric-2-1600.webp",
+    "kb": 111
+   }
+  ]
+ },
+ "img/portfolio/Fabric-3.jpg": {
+  "base": "img/opt/portfolio/fabric-3",
+  "width": 1024,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 800,
+    "h": 800,
+    "path": "img/opt/portfolio/fabric-3-800.webp",
+    "kb": 28
+   },
+   {
+    "w": 1024,
+    "h": 1024,
+    "path": "img/opt/portfolio/fabric-3-1024.webp",
+    "kb": 40
+   }
+  ]
+ },
+ "img/portfolio/Fabric-4.jpg": {
+  "base": "img/opt/portfolio/fabric-4",
+  "width": 473,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 473,
+    "h": 1024,
+    "path": "img/opt/portfolio/fabric-4-473.webp",
+    "kb": 36
+   }
+  ]
+ },
+ "img/portfolio/GSB-1.jpg": {
+  "base": "img/opt/portfolio/gsb-1",
+  "width": 720,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 720,
+    "h": 1280,
+    "path": "img/opt/portfolio/gsb-1-720.webp",
+    "kb": 78
+   }
+  ]
+ },
+ "img/portfolio/GSB-2.jpg": {
+  "base": "img/opt/portfolio/gsb-2",
+  "width": 1600,
+  "height": 1068,
+  "variants": [
+   {
+    "w": 800,
+    "h": 534,
+    "path": "img/opt/portfolio/gsb-2-800.webp",
+    "kb": 39
+   },
+   {
+    "w": 1600,
+    "h": 1068,
+    "path": "img/opt/portfolio/gsb-2-1600.webp",
+    "kb": 89
+   }
+  ]
+ },
+ "img/portfolio/GSB-3.jpg": {
+  "base": "img/opt/portfolio/gsb-3",
+  "width": 1280,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/gsb-3-800.webp",
+    "kb": 44
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "path": "img/opt/portfolio/gsb-3-1280.webp",
+    "kb": 96
+   }
+  ]
+ },
+ "img/portfolio/GSB-4.jpg": {
+  "base": "img/opt/portfolio/gsb-4",
+  "width": 1280,
+  "height": 721,
+  "variants": [
+   {
+    "w": 800,
+    "h": 451,
+    "path": "img/opt/portfolio/gsb-4-800.webp",
+    "kb": 28
+   },
+   {
+    "w": 1280,
+    "h": 721,
+    "path": "img/opt/portfolio/gsb-4-1280.webp",
+    "kb": 54
+   }
+  ]
+ },
+ "img/portfolio/GSB-5.jpg": {
+  "base": "img/opt/portfolio/gsb-5",
+  "width": 500,
+  "height": 375,
+  "variants": [
+   {
+    "w": 500,
+    "h": 375,
+    "path": "img/opt/portfolio/gsb-5-500.webp",
+    "kb": 28
+   }
+  ]
+ },
+ "img/portfolio/GSB-6.jpg": {
+  "base": "img/opt/portfolio/gsb-6",
+  "width": 1280,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/gsb-6-800.webp",
+    "kb": 59
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "path": "img/opt/portfolio/gsb-6-1280.webp",
+    "kb": 122
+   }
+  ]
+ },
+ "img/portfolio/GSB-7.jpg": {
+  "base": "img/opt/portfolio/gsb-7",
+  "width": 1280,
+  "height": 720,
+  "variants": [
+   {
+    "w": 800,
+    "h": 450,
+    "path": "img/opt/portfolio/gsb-7-800.webp",
+    "kb": 10
+   },
+   {
+    "w": 1280,
+    "h": 720,
+    "path": "img/opt/portfolio/gsb-7-1280.webp",
+    "kb": 18
+   }
+  ]
+ },
+ "img/portfolio/GSB-8.jpg": {
+  "base": "img/opt/portfolio/gsb-8",
+  "width": 1032,
+  "height": 774,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/gsb-8-800.webp",
+    "kb": 52
+   },
+   {
+    "w": 1032,
+    "h": 774,
+    "path": "img/opt/portfolio/gsb-8-1032.webp",
+    "kb": 77
+   }
+  ]
+ },
+ "img/portfolio/GSB-9.png": {
+  "base": "img/opt/portfolio/gsb-9",
+  "width": 1040,
+  "height": 480,
+  "variants": [
+   {
+    "w": 800,
+    "h": 369,
+    "path": "img/opt/portfolio/gsb-9-800.webp",
+    "kb": 38
+   },
+   {
+    "w": 1040,
+    "h": 480,
+    "path": "img/opt/portfolio/gsb-9-1040.webp",
+    "kb": 63
+   }
+  ]
+ },
+ "img/portfolio/Inshop Branding-1.jpg": {
+  "base": "img/opt/portfolio/inshop-branding-1",
+  "width": 1600,
+  "height": 1200,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/inshop-branding-1-800.webp",
+    "kb": 51
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/portfolio/inshop-branding-1-1600.webp",
+    "kb": 130
+   }
+  ]
+ },
+ "img/portfolio/Inshop Branding-10.jpg": {
+  "base": "img/opt/portfolio/inshop-branding-10",
+  "width": 960,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/portfolio/inshop-branding-10-800.webp",
+    "kb": 47
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "path": "img/opt/portfolio/inshop-branding-10-960.webp",
+    "kb": 63
+   }
+  ]
+ },
+ "img/portfolio/Inshop Branding-11.jpg": {
+  "base": "img/opt/portfolio/inshop-branding-11",
+  "width": 1280,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/inshop-branding-11-800.webp",
+    "kb": 43
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "path": "img/opt/portfolio/inshop-branding-11-1280.webp",
+    "kb": 84
+   }
+  ]
+ },
+ "img/portfolio/Inshop Branding-12.jpg": {
+  "base": "img/opt/portfolio/inshop-branding-12",
+  "width": 1280,
+  "height": 640,
+  "variants": [
+   {
+    "w": 800,
+    "h": 400,
+    "path": "img/opt/portfolio/inshop-branding-12-800.webp",
+    "kb": 39
+   },
+   {
+    "w": 1280,
+    "h": 640,
+    "path": "img/opt/portfolio/inshop-branding-12-1280.webp",
+    "kb": 76
+   }
+  ]
+ },
+ "img/portfolio/Inshop Branding-13.jpg": {
+  "base": "img/opt/portfolio/inshop-branding-13",
+  "width": 960,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/portfolio/inshop-branding-13-800.webp",
+    "kb": 72
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "path": "img/opt/portfolio/inshop-branding-13-960.webp",
+    "kb": 96
+   }
+  ]
+ },
+ "img/portfolio/Inshop Branding-2.jpg": {
+  "base": "img/opt/portfolio/inshop-branding-2",
+  "width": 1600,
+  "height": 1200,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/inshop-branding-2-800.webp",
+    "kb": 46
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/portfolio/inshop-branding-2-1600.webp",
+    "kb": 118
+   }
+  ]
+ },
+ "img/portfolio/Inshop Branding-3.jpg": {
+  "base": "img/opt/portfolio/inshop-branding-3",
+  "width": 1280,
+  "height": 610,
+  "variants": [
+   {
+    "w": 800,
+    "h": 381,
+    "path": "img/opt/portfolio/inshop-branding-3-800.webp",
+    "kb": 28
+   },
+   {
+    "w": 1280,
+    "h": 610,
+    "path": "img/opt/portfolio/inshop-branding-3-1280.webp",
+    "kb": 48
+   }
+  ]
+ },
+ "img/portfolio/Inshop Branding-4.jpg": {
+  "base": "img/opt/portfolio/inshop-branding-4",
+  "width": 1280,
+  "height": 610,
+  "variants": [
+   {
+    "w": 800,
+    "h": 381,
+    "path": "img/opt/portfolio/inshop-branding-4-800.webp",
+    "kb": 27
+   },
+   {
+    "w": 1280,
+    "h": 610,
+    "path": "img/opt/portfolio/inshop-branding-4-1280.webp",
+    "kb": 46
+   }
+  ]
+ },
+ "img/portfolio/Inshop Branding-5.jpg": {
+  "base": "img/opt/portfolio/inshop-branding-5",
+  "width": 1600,
+  "height": 1200,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/inshop-branding-5-800.webp",
+    "kb": 45
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/portfolio/inshop-branding-5-1600.webp",
+    "kb": 112
+   }
+  ]
+ },
+ "img/portfolio/Inshop Branding-6.jpg": {
+  "base": "img/opt/portfolio/inshop-branding-6",
+  "width": 1280,
+  "height": 640,
+  "variants": [
+   {
+    "w": 800,
+    "h": 400,
+    "path": "img/opt/portfolio/inshop-branding-6-800.webp",
+    "kb": 46
+   },
+   {
+    "w": 1280,
+    "h": 640,
+    "path": "img/opt/portfolio/inshop-branding-6-1280.webp",
+    "kb": 92
+   }
+  ]
+ },
+ "img/portfolio/Inshop Branding-7.jpg": {
+  "base": "img/opt/portfolio/inshop-branding-7",
+  "width": 1280,
+  "height": 640,
+  "variants": [
+   {
+    "w": 800,
+    "h": 400,
+    "path": "img/opt/portfolio/inshop-branding-7-800.webp",
+    "kb": 41
+   },
+   {
+    "w": 1280,
+    "h": 640,
+    "path": "img/opt/portfolio/inshop-branding-7-1280.webp",
+    "kb": 79
+   }
+  ]
+ },
+ "img/portfolio/Inshop Branding-8.jpg": {
+  "base": "img/opt/portfolio/inshop-branding-8",
+  "width": 1280,
+  "height": 640,
+  "variants": [
+   {
+    "w": 800,
+    "h": 400,
+    "path": "img/opt/portfolio/inshop-branding-8-800.webp",
+    "kb": 27
+   },
+   {
+    "w": 1280,
+    "h": 640,
+    "path": "img/opt/portfolio/inshop-branding-8-1280.webp",
+    "kb": 51
+   }
+  ]
+ },
+ "img/portfolio/Inshop Branding-9.jpg": {
+  "base": "img/opt/portfolio/inshop-branding-9",
+  "width": 1280,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/inshop-branding-9-800.webp",
+    "kb": 44
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "path": "img/opt/portfolio/inshop-branding-9-1280.webp",
+    "kb": 100
+   }
+  ]
+ },
+ "img/portfolio/LED-1.jpg": {
+  "base": "img/opt/portfolio/led-1",
+  "width": 1040,
+  "height": 780,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/led-1-800.webp",
+    "kb": 33
+   },
+   {
+    "w": 1040,
+    "h": 780,
+    "path": "img/opt/portfolio/led-1-1040.webp",
+    "kb": 47
+   }
+  ]
+ },
+ "img/portfolio/LED-10.jpg": {
+  "base": "img/opt/portfolio/led-10",
+  "width": 1280,
+  "height": 640,
+  "variants": [
+   {
+    "w": 800,
+    "h": 400,
+    "path": "img/opt/portfolio/led-10-800.webp",
+    "kb": 28
+   },
+   {
+    "w": 1280,
+    "h": 640,
+    "path": "img/opt/portfolio/led-10-1280.webp",
+    "kb": 51
+   }
+  ]
+ },
+ "img/portfolio/LED-11.jpg": {
+  "base": "img/opt/portfolio/led-11",
+  "width": 1280,
+  "height": 621,
+  "variants": [
+   {
+    "w": 800,
+    "h": 388,
+    "path": "img/opt/portfolio/led-11-800.webp",
+    "kb": 9
+   },
+   {
+    "w": 1280,
+    "h": 621,
+    "path": "img/opt/portfolio/led-11-1280.webp",
+    "kb": 16
+   }
+  ]
+ },
+ "img/portfolio/LED-12.jpg": {
+  "base": "img/opt/portfolio/led-12",
+  "width": 1040,
+  "height": 585,
+  "variants": [
+   {
+    "w": 800,
+    "h": 450,
+    "path": "img/opt/portfolio/led-12-800.webp",
+    "kb": 35
+   },
+   {
+    "w": 1040,
+    "h": 585,
+    "path": "img/opt/portfolio/led-12-1040.webp",
+    "kb": 53
+   }
+  ]
+ },
+ "img/portfolio/LED-13.jpg": {
+  "base": "img/opt/portfolio/led-13",
+  "width": 1024,
+  "height": 768,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/led-13-800.webp",
+    "kb": 8
+   },
+   {
+    "w": 1024,
+    "h": 768,
+    "path": "img/opt/portfolio/led-13-1024.webp",
+    "kb": 11
+   }
+  ]
+ },
+ "img/portfolio/LED-14.jpg": {
+  "base": "img/opt/portfolio/led-14",
+  "width": 1280,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/led-14-800.webp",
+    "kb": 21
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "path": "img/opt/portfolio/led-14-1280.webp",
+    "kb": 44
+   }
+  ]
+ },
+ "img/portfolio/LED-15.jpg": {
+  "base": "img/opt/portfolio/led-15",
+  "width": 960,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/portfolio/led-15-800.webp",
+    "kb": 46
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "path": "img/opt/portfolio/led-15-960.webp",
+    "kb": 59
+   }
+  ]
+ },
+ "img/portfolio/LED-16.jpg": {
+  "base": "img/opt/portfolio/led-16",
+  "width": 1280,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/led-16-800.webp",
+    "kb": 32
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "path": "img/opt/portfolio/led-16-1280.webp",
+    "kb": 56
+   }
+  ]
+ },
+ "img/portfolio/LED-17.jpg": {
+  "base": "img/opt/portfolio/led-17",
+  "width": 1280,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/led-17-800.webp",
+    "kb": 23
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "path": "img/opt/portfolio/led-17-1280.webp",
+    "kb": 40
+   }
+  ]
+ },
+ "img/portfolio/LED-18.jpg": {
+  "base": "img/opt/portfolio/led-18",
+  "width": 1600,
+  "height": 1200,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/led-18-800.webp",
+    "kb": 29
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/portfolio/led-18-1600.webp",
+    "kb": 79
+   }
+  ]
+ },
+ "img/portfolio/LED-19.jpg": {
+  "base": "img/opt/portfolio/led-19",
+  "width": 1280,
+  "height": 978,
+  "variants": [
+   {
+    "w": 800,
+    "h": 611,
+    "path": "img/opt/portfolio/led-19-800.webp",
+    "kb": 43
+   },
+   {
+    "w": 1280,
+    "h": 978,
+    "path": "img/opt/portfolio/led-19-1280.webp",
+    "kb": 81
+   }
+  ]
+ },
+ "img/portfolio/LED-2.jpg": {
+  "base": "img/opt/portfolio/led-2",
+  "width": 1152,
+  "height": 864,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/led-2-800.webp",
+    "kb": 55
+   },
+   {
+    "w": 1152,
+    "h": 864,
+    "path": "img/opt/portfolio/led-2-1152.webp",
+    "kb": 88
+   }
+  ]
+ },
+ "img/portfolio/LED-20.png": {
+  "base": "img/opt/portfolio/led-20",
+  "width": 1460,
+  "height": 2369,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1298,
+    "path": "img/opt/portfolio/led-20-800.webp",
+    "kb": 54
+   },
+   {
+    "w": 1460,
+    "h": 2369,
+    "path": "img/opt/portfolio/led-20-1460.webp",
+    "kb": 142
+   }
+  ]
+ },
+ "img/portfolio/LED-21.png": {
+  "base": "img/opt/portfolio/led-21",
+  "width": 1074,
+  "height": 824,
+  "variants": [
+   {
+    "w": 800,
+    "h": 614,
+    "path": "img/opt/portfolio/led-21-800.webp",
+    "kb": 29
+   },
+   {
+    "w": 1074,
+    "h": 824,
+    "path": "img/opt/portfolio/led-21-1074.webp",
+    "kb": 45
+   }
+  ]
+ },
+ "img/portfolio/LED-22.jpg": {
+  "base": "img/opt/portfolio/led-22",
+  "width": 699,
+  "height": 614,
+  "variants": [
+   {
+    "w": 699,
+    "h": 614,
+    "path": "img/opt/portfolio/led-22-699.webp",
+    "kb": 65
+   }
+  ]
+ },
+ "img/portfolio/LED-3.jpg": {
+  "base": "img/opt/portfolio/led-3",
+  "width": 600,
+  "height": 800,
+  "variants": [
+   {
+    "w": 600,
+    "h": 800,
+    "path": "img/opt/portfolio/led-3-600.webp",
+    "kb": 36
+   }
+  ]
+ },
+ "img/portfolio/LED-4.png": {
+  "base": "img/opt/portfolio/led-4",
+  "width": 1222,
+  "height": 815,
+  "variants": [
+   {
+    "w": 800,
+    "h": 534,
+    "path": "img/opt/portfolio/led-4-800.webp",
+    "kb": 18
+   },
+   {
+    "w": 1222,
+    "h": 815,
+    "path": "img/opt/portfolio/led-4-1222.webp",
+    "kb": 29
+   }
+  ]
+ },
+ "img/portfolio/LED-5.jpg": {
+  "base": "img/opt/portfolio/led-5",
+  "width": 960,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/portfolio/led-5-800.webp",
+    "kb": 65
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "path": "img/opt/portfolio/led-5-960.webp",
+    "kb": 86
+   }
+  ]
+ },
+ "img/portfolio/LED-6.jpg": {
+  "base": "img/opt/portfolio/led-6",
+  "width": 1040,
+  "height": 780,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/led-6-800.webp",
+    "kb": 42
+   },
+   {
+    "w": 1040,
+    "h": 780,
+    "path": "img/opt/portfolio/led-6-1040.webp",
+    "kb": 63
+   }
+  ]
+ },
+ "img/portfolio/LED-7.jpg": {
+  "base": "img/opt/portfolio/led-7",
+  "width": 1280,
+  "height": 960,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/led-7-800.webp",
+    "kb": 21
+   },
+   {
+    "w": 1280,
+    "h": 960,
+    "path": "img/opt/portfolio/led-7-1280.webp",
+    "kb": 37
+   }
+  ]
+ },
+ "img/portfolio/LED-8.jpg": {
+  "base": "img/opt/portfolio/led-8",
+  "width": 1600,
+  "height": 1200,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/led-8-800.webp",
+    "kb": 45
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/portfolio/led-8-1600.webp",
+    "kb": 116
+   }
+  ]
+ },
+ "img/portfolio/LED-9.jpg": {
+  "base": "img/opt/portfolio/led-9",
+  "width": 1600,
+  "height": 1200,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/led-9-800.webp",
+    "kb": 18
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/portfolio/led-9-1600.webp",
+    "kb": 44
+   }
+  ]
+ },
+ "img/portfolio/Standies-1.jpg": {
+  "base": "img/opt/portfolio/standies-1",
+  "width": 1040,
+  "height": 780,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/standies-1-800.webp",
+    "kb": 47
+   },
+   {
+    "w": 1040,
+    "h": 780,
+    "path": "img/opt/portfolio/standies-1-1040.webp",
+    "kb": 72
+   }
+  ]
+ },
+ "img/portfolio/Standies-2.jpg": {
+  "base": "img/opt/portfolio/standies-2",
+  "width": 1600,
+  "height": 2133,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1066,
+    "path": "img/opt/portfolio/standies-2-800.webp",
+    "kb": 38
+   },
+   {
+    "w": 1600,
+    "h": 2133,
+    "path": "img/opt/portfolio/standies-2-1600.webp",
+    "kb": 91
+   }
+  ]
+ },
+ "img/portfolio/Standies-3.jpg": {
+  "base": "img/opt/portfolio/standies-3",
+  "width": 1600,
+  "height": 1200,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/standies-3-800.webp",
+    "kb": 36
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/portfolio/standies-3-1600.webp",
+    "kb": 87
+   }
+  ]
+ },
+ "img/portfolio/Standies-4.jpg": {
+  "base": "img/opt/portfolio/standies-4",
+  "width": 1040,
+  "height": 780,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/standies-4-800.webp",
+    "kb": 47
+   },
+   {
+    "w": 1040,
+    "h": 780,
+    "path": "img/opt/portfolio/standies-4-1040.webp",
+    "kb": 73
+   }
+  ]
+ },
+ "img/portfolio/Standies-5.jpg": {
+  "base": "img/opt/portfolio/standies-5",
+  "width": 780,
+  "height": 1040,
+  "variants": [
+   {
+    "w": 780,
+    "h": 1040,
+    "path": "img/opt/portfolio/standies-5-780.webp",
+    "kb": 58
+   }
+  ]
+ },
+ "img/portfolio/Standies-6.jpg": {
+  "base": "img/opt/portfolio/standies-6",
+  "width": 640,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 640,
+    "h": 1280,
+    "path": "img/opt/portfolio/standies-6-640.webp",
+    "kb": 51
+   }
+  ]
+ },
+ "img/portfolio/Standies-7.png": {
+  "base": "img/opt/portfolio/standies-7",
+  "width": 600,
+  "height": 600,
+  "variants": [
+   {
+    "w": 600,
+    "h": 600,
+    "path": "img/opt/portfolio/standies-7-600.webp",
+    "kb": 11
+   }
+  ]
+ },
+ "img/portfolio/Wallpaper-1.jpg": {
+  "base": "img/opt/portfolio/wallpaper-1",
+  "width": 1600,
+  "height": 1200,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/wallpaper-1-800.webp",
+    "kb": 66
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/portfolio/wallpaper-1-1600.webp",
+    "kb": 175
+   }
+  ]
+ },
+ "img/portfolio/Wallpaper-2.jpg": {
+  "base": "img/opt/portfolio/wallpaper-2",
+  "width": 1600,
+  "height": 1200,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/wallpaper-2-800.webp",
+    "kb": 54
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/portfolio/wallpaper-2-1600.webp",
+    "kb": 141
+   }
+  ]
+ },
+ "img/portfolio/Wallpaper-3.jpg": {
+  "base": "img/opt/portfolio/wallpaper-3",
+  "width": 1600,
+  "height": 1200,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/wallpaper-3-800.webp",
+    "kb": 66
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/portfolio/wallpaper-3-1600.webp",
+    "kb": 168
+   }
+  ]
+ },
+ "img/portfolio/Wallpaper-4.jpg": {
+  "base": "img/opt/portfolio/wallpaper-4",
+  "width": 1600,
+  "height": 1200,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/wallpaper-4-800.webp",
+    "kb": 62
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/portfolio/wallpaper-4-1600.webp",
+    "kb": 169
+   }
+  ]
+ },
+ "img/portfolio/Wallpaper-5.jpg": {
+  "base": "img/opt/portfolio/wallpaper-5",
+  "width": 1600,
+  "height": 1200,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/wallpaper-5-800.webp",
+    "kb": 62
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/portfolio/wallpaper-5-1600.webp",
+    "kb": 149
+   }
+  ]
+ },
+ "img/portfolio/Wallpaper-6.jpg": {
+  "base": "img/opt/portfolio/wallpaper-6",
+  "width": 1600,
+  "height": 1200,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/wallpaper-6-800.webp",
+    "kb": 58
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/portfolio/wallpaper-6-1600.webp",
+    "kb": 162
+   }
+  ]
+ },
+ "img/portfolio/Wallpaper-7.jpg": {
+  "base": "img/opt/portfolio/wallpaper-7",
+  "width": 1600,
+  "height": 1200,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/portfolio/wallpaper-7-800.webp",
+    "kb": 55
+   },
+   {
+    "w": 1600,
+    "h": 1200,
+    "path": "img/opt/portfolio/wallpaper-7-1600.webp",
+    "kb": 152
+   }
+  ]
+ },
+ "img/promo/1.jpeg": {
+  "base": "img/opt/promo/1",
+  "width": 1448,
+  "height": 1086,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/promo/1-800.webp",
+    "kb": 73
+   },
+   {
+    "w": 1448,
+    "h": 1086,
+    "path": "img/opt/promo/1-1448.webp",
+    "kb": 190
+   }
+  ]
+ },
+ "img/promo/2.jpeg": {
+  "base": "img/opt/promo/2",
+  "width": 1086,
+  "height": 1448,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/promo/2-800.webp",
+    "kb": 115
+   },
+   {
+    "w": 1086,
+    "h": 1448,
+    "path": "img/opt/promo/2-1086.webp",
+    "kb": 187
+   }
+  ]
+ },
+ "img/promo/3.jpeg": {
+  "base": "img/opt/promo/3",
+  "width": 963,
+  "height": 1280,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1063,
+    "path": "img/opt/promo/3-800.webp",
+    "kb": 168
+   },
+   {
+    "w": 963,
+    "h": 1280,
+    "path": "img/opt/promo/3-963.webp",
+    "kb": 237
+   }
+  ]
+ },
+ "img/promo/4.jpeg": {
+  "base": "img/opt/promo/4",
+  "width": 1086,
+  "height": 1448,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/promo/4-800.webp",
+    "kb": 108
+   },
+   {
+    "w": 1086,
+    "h": 1448,
+    "path": "img/opt/promo/4-1086.webp",
+    "kb": 166
+   }
+  ]
+ },
+ "img/promo/5.jpg": {
+  "base": "img/opt/promo/5",
+  "width": 768,
+  "height": 1024,
+  "variants": [
+   {
+    "w": 768,
+    "h": 1024,
+    "path": "img/opt/promo/5-768.webp",
+    "kb": 79
+   }
+  ]
+ },
+ "img/promo/6.jpeg": {
+  "base": "img/opt/promo/6",
+  "width": 1448,
+  "height": 1086,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/promo/6-800.webp",
+    "kb": 68
+   },
+   {
+    "w": 1448,
+    "h": 1086,
+    "path": "img/opt/promo/6-1448.webp",
+    "kb": 168
+   }
+  ]
+ },
+ "img/promo/promi.png": {
+  "base": "img/opt/promo/promi",
+  "width": 1080,
+  "height": 1080,
+  "variants": [
+   {
+    "w": 800,
+    "h": 800,
+    "path": "img/opt/promo/promi-800.webp",
+    "kb": 103
+   },
+   {
+    "w": 1080,
+    "h": 1080,
+    "path": "img/opt/promo/promi-1080.webp",
+    "kb": 166
+   }
+  ]
+ },
+ "img/signage/1.png": {
+  "base": "img/opt/signage/1",
+  "width": 1869,
+  "height": 842,
+  "variants": [
+   {
+    "w": 800,
+    "h": 360,
+    "path": "img/opt/signage/1-800.webp",
+    "kb": 21
+   },
+   {
+    "w": 1600,
+    "h": 721,
+    "path": "img/opt/signage/1-1600.webp",
+    "kb": 48
+   }
+  ]
+ },
+ "img/signage/10.jpeg": {
+  "base": "img/opt/signage/10",
+  "width": 1448,
+  "height": 1086,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signage/10-800.webp",
+    "kb": 44
+   },
+   {
+    "w": 1448,
+    "h": 1086,
+    "path": "img/opt/signage/10-1448.webp",
+    "kb": 100
+   }
+  ]
+ },
+ "img/signage/11.jpg": {
+  "base": "img/opt/signage/11",
+  "width": 1024,
+  "height": 768,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signage/11-800.webp",
+    "kb": 52
+   },
+   {
+    "w": 1024,
+    "h": 768,
+    "path": "img/opt/signage/11-1024.webp",
+    "kb": 77
+   }
+  ]
+ },
+ "img/signage/12.jpeg": {
+  "base": "img/opt/signage/12",
+  "width": 1086,
+  "height": 1448,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/signage/12-800.webp",
+    "kb": 57
+   },
+   {
+    "w": 1086,
+    "h": 1448,
+    "path": "img/opt/signage/12-1086.webp",
+    "kb": 80
+   }
+  ]
+ },
+ "img/signage/13.jpeg": {
+  "base": "img/opt/signage/13",
+  "width": 1448,
+  "height": 1086,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signage/13-800.webp",
+    "kb": 40
+   },
+   {
+    "w": 1448,
+    "h": 1086,
+    "path": "img/opt/signage/13-1448.webp",
+    "kb": 92
+   }
+  ]
+ },
+ "img/signage/14.jpeg": {
+  "base": "img/opt/signage/14",
+  "width": 1448,
+  "height": 1086,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signage/14-800.webp",
+    "kb": 95
+   },
+   {
+    "w": 1448,
+    "h": 1086,
+    "path": "img/opt/signage/14-1448.webp",
+    "kb": 275
+   }
+  ]
+ },
+ "img/signage/15.jpeg": {
+  "base": "img/opt/signage/15",
+  "width": 1448,
+  "height": 1086,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signage/15-800.webp",
+    "kb": 32
+   },
+   {
+    "w": 1448,
+    "h": 1086,
+    "path": "img/opt/signage/15-1448.webp",
+    "kb": 83
+   }
+  ]
+ },
+ "img/signage/16.jpeg": {
+  "base": "img/opt/signage/16",
+  "width": 1086,
+  "height": 1448,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/signage/16-800.webp",
+    "kb": 91
+   },
+   {
+    "w": 1086,
+    "h": 1448,
+    "path": "img/opt/signage/16-1086.webp",
+    "kb": 147
+   }
+  ]
+ },
+ "img/signage/2.jpeg": {
+  "base": "img/opt/signage/2",
+  "width": 1086,
+  "height": 1448,
+  "variants": [
+   {
+    "w": 800,
+    "h": 1067,
+    "path": "img/opt/signage/2-800.webp",
+    "kb": 24
+   },
+   {
+    "w": 1086,
+    "h": 1448,
+    "path": "img/opt/signage/2-1086.webp",
+    "kb": 35
+   }
+  ]
+ },
+ "img/signage/3.jpeg": {
+  "base": "img/opt/signage/3",
+  "width": 1600,
+  "height": 910,
+  "variants": [
+   {
+    "w": 800,
+    "h": 455,
+    "path": "img/opt/signage/3-800.webp",
+    "kb": 54
+   },
+   {
+    "w": 1600,
+    "h": 910,
+    "path": "img/opt/signage/3-1600.webp",
+    "kb": 140
+   }
+  ]
+ },
+ "img/signage/4.jpg": {
+  "base": "img/opt/signage/4",
+  "width": 1024,
+  "height": 576,
+  "variants": [
+   {
+    "w": 800,
+    "h": 450,
+    "path": "img/opt/signage/4-800.webp",
+    "kb": 59
+   },
+   {
+    "w": 1024,
+    "h": 576,
+    "path": "img/opt/signage/4-1024.webp",
+    "kb": 85
+   }
+  ]
+ },
+ "img/signage/5.jpg": {
+  "base": "img/opt/signage/5",
+  "width": 1024,
+  "height": 456,
+  "variants": [
+   {
+    "w": 800,
+    "h": 356,
+    "path": "img/opt/signage/5-800.webp",
+    "kb": 33
+   },
+   {
+    "w": 1024,
+    "h": 456,
+    "path": "img/opt/signage/5-1024.webp",
+    "kb": 53
+   }
+  ]
+ },
+ "img/signage/6.jpg": {
+  "base": "img/opt/signage/6",
+  "width": 555,
+  "height": 490,
+  "variants": [
+   {
+    "w": 555,
+    "h": 490,
+    "path": "img/opt/signage/6-555.webp",
+    "kb": 31
+   }
+  ]
+ },
+ "img/signage/7.jpeg": {
+  "base": "img/opt/signage/7",
+  "width": 1390,
+  "height": 808,
+  "variants": [
+   {
+    "w": 800,
+    "h": 465,
+    "path": "img/opt/signage/7-800.webp",
+    "kb": 33
+   },
+   {
+    "w": 1390,
+    "h": 808,
+    "path": "img/opt/signage/7-1390.webp",
+    "kb": 59
+   }
+  ]
+ },
+ "img/signage/8.jpg": {
+  "base": "img/opt/signage/8",
+  "width": 1024,
+  "height": 768,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signage/8-800.webp",
+    "kb": 51
+   },
+   {
+    "w": 1024,
+    "h": 768,
+    "path": "img/opt/signage/8-1024.webp",
+    "kb": 76
+   }
+  ]
+ },
+ "img/signage/9.jpeg": {
+  "base": "img/opt/signage/9",
+  "width": 1448,
+  "height": 1086,
+  "variants": [
+   {
+    "w": 800,
+    "h": 600,
+    "path": "img/opt/signage/9-800.webp",
+    "kb": 51
+   },
+   {
+    "w": 1448,
+    "h": 1086,
+    "path": "img/opt/signage/9-1448.webp",
+    "kb": 132
+   }
+  ]
+ },
+ "img/signage/sign.png": {
+  "base": "img/opt/signage/sign",
+  "width": 1080,
+  "height": 1080,
+  "variants": [
+   {
+    "w": 800,
+    "h": 800,
+    "path": "img/opt/signage/sign-800.webp",
+    "kb": 80
+   },
+   {
+    "w": 1080,
+    "h": 1080,
+    "path": "img/opt/signage/sign-1080.webp",
+    "kb": 120
+   }
+  ]
+ },
+ "img/splash-1.png": {
+  "base": "img/opt/splash-1",
+  "width": 911,
+  "height": 537,
+  "variants": [
+   {
+    "w": 800,
+    "h": 472,
+    "path": "img/opt/splash-1-800.webp",
+    "kb": 25
+   },
+   {
+    "w": 911,
+    "h": 537,
+    "path": "img/opt/splash-1-911.webp",
+    "kb": 23
+   }
+  ]
+ },
+ "img/splash-2.png": {
+  "base": "img/opt/splash-2",
+  "width": 552,
+  "height": 216,
+  "variants": [
+   {
+    "w": 552,
+    "h": 216,
+    "path": "img/opt/splash-2-552.webp",
+    "kb": 13
+   }
+  ]
+ },
+ "img/splash-3.png": {
+  "base": "img/opt/splash-3",
+  "width": 881,
+  "height": 570,
+  "variants": [
+   {
+    "w": 800,
+    "h": 518,
+    "path": "img/opt/splash-3-800.webp",
+    "kb": 26
+   },
+   {
+    "w": 881,
+    "h": 570,
+    "path": "img/opt/splash-3-881.webp",
+    "kb": 23
+   }
+  ]
+ },
+ "img/splash-5.png": {
+  "base": "img/opt/splash-5",
+  "width": 347,
+  "height": 201,
+  "variants": [
+   {
+    "w": 347,
+    "h": 201,
+    "path": "img/opt/splash-5-347.webp",
+    "kb": 8
+   }
+  ]
+ },
+ "img/splash-6.png": {
+  "base": "img/opt/splash-6",
+  "width": 1953,
+  "height": 1136,
+  "variants": [
+   {
+    "w": 800,
+    "h": 465,
+    "path": "img/opt/splash-6-800.webp",
+    "kb": 16
+   },
+   {
+    "w": 1600,
+    "h": 931,
+    "path": "img/opt/splash-6-1600.webp",
+    "kb": 37
+   }
+  ]
+ },
+ "img/splash.png": {
+  "base": "img/opt/splash",
+  "width": 312,
+  "height": 66,
+  "variants": [
+   {
+    "w": 312,
+    "h": 66,
+    "path": "img/opt/splash-312.webp",
+    "kb": 5
+   }
+  ]
+ }
+}

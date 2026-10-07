@@ -6,3 +6,13 @@
 .vscode/**
 .ftpquota
 *.log
+
+# Not part of the public website
+.claude
+.claude/**
+tools
+tools/**
+node_modules
+node_modules/**
+*.md
+google-apps-script.js
